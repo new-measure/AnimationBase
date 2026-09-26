@@ -4,12 +4,17 @@ A Next.js product UI for the animation engine in the parent directory. Someone t
 
 1. **Brief.** Claude reads what they said. Anything they didn't say (length, format, theme, amount of text, cursor)
    is filled in from the What Ships catalog, which covers 2,221 real launch films. Each field is marked
-   *you said*, *guessed* or *from catalog*, with a one-line reason.
+   *you said*, *guessed* or *from catalog*, with a one-line reason. If the prompt names a real product, Claude first
+   searches the web (the product's own site first) for what it does, its key features and its brand colours. The
+   brief shows what it found and where.
 2. **Storyboard.** Opus writes a shot list from the brief. It uses the genre recipe (`docs/genres/`), the measured
-   pacing and craft notes (`refs/whatships/`), and similar catalog films. The user edits it, revises it by chat, then
+   pacing and craft notes (`refs/whatships/`), and similar catalog films. It can also search the web so the product's
+   features and look are right. The user edits it, revises it by chat, then
    approves it.
 3. **Arena.** Two models build the same storyboard side by side, each in its own copy of the engine. The films are
-   shown blind as A and B, with live previews and the contact sheets each agent checked. The user votes, and only then
+   shown blind as A and B, with live previews. While a film builds, a progress bar shows the agent's phase (reading
+   the brief, building, checking its work, polishing) and how many times it has checked a contact sheet. Near the end
+   an agent may score a check copy against the top tier (`scripts/whatships_craft.py`, `scripts/eval_scorecard.py`). The user votes, and only then
    sees which model made which. Votes feed `/leaderboard`.
 4. **Studio.** Revise the chosen film by chat or by pinning a comment to a moment. Every finished change is a
    version you can restore. Export renders the MP4.
@@ -42,8 +47,11 @@ You also need what the engine needs: Node, Google Chrome and ffmpeg.
 | `src/app/` | Pages (`/`, `/p/[id]`, `/projects`, `/leaderboard`) and API routes |
 | `src/app/ws/[runId]/[...path]` | Serves a workspace: the preview (`studio.html` plus a postMessage bridge), contact sheets, MP4s |
 | `src/components/` | `BriefReview`, `StoryboardStep`, `Arena`, `Studio`, `Player` (the sandboxed live preview), `AgentFeed` |
-| `src/server/plan.ts` | Brief extraction and storyboard writing (Messages API, structured outputs) |
-| `src/server/agent.ts` | Agent SDK runs inside a workspace; every step becomes an event |
+| `src/server/plan.ts` | Brief extraction and storyboard writing (Messages API, structured outputs, web search) |
+| `src/server/workspace.ts` | Copies the engine, refs, project template and scoring scripts into a run's workspace |
+| `src/lib/progress.ts` | Turns the raw agent event stream into a phase, a check count and the conversation |
+| `src/lib/models.ts` | The models the arena can use, and which model writes the brief and the storyboard |
+| `src/server/agent.ts` | Agent SDK runs inside a workspace. Every step is stored as an event for debugging; the UI shows only the summary |
 | `src/server/catalog.ts` | Genre stats, brief defaults, similar-film retrieval from `data/catalog.json` |
 | `src/server/db.ts` | SQLite (`node:sqlite`, WAL): projects, runs, events, jobs, renders, votes |
 | `worker/index.ts` | The job worker: arena builds and revisions (up to 4 at once) and renders (one at a time) |
