@@ -1,0 +1,17 @@
+{
+ "slug": "ultramock-mobile-update",
+ "beats": [
+  {"start": 0, "end": 3.7, "kind": "demo", "what": "Tilted phone mockup, toolbar and preset grid"},
+  {"start": 3.7, "end": 4.7, "kind": "feature", "what": "Background swapped, effects list opens"},
+  {"start": 4.7, "end": 9.5, "kind": "feature", "what": "Sharpen slider adjusted on phone editor"},
+  {"start": 9.5, "end": 14.1, "kind": "feature", "what": "Settings: left-handed toolbar layout toggle"}
+ ],
+ "first_text_s": null,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["tilt_3d", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Tight 14s clip of tilted, shallow-focus phone close-ups; no titles or end card; small UI text only, first_text judged null."
+}

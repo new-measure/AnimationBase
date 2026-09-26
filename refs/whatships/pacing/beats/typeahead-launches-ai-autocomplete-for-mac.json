@@ -1,0 +1,24 @@
+{
+ "slug": "typeahead-launches-ai-autocomplete-for-mac",
+ "beats": [
+  {"start": 0, "end": 9.1, "kind": "hook", "what": "Hands typing across eras: typewriters, keyboards, laptop"},
+  {"start": 9.1, "end": 20.6, "kind": "problem", "what": "Slow typing, ticking clock, frustrated man at keyboard"},
+  {"start": 20.6, "end": 23.1, "kind": "hook", "what": "Text: 'You think faster than you type.'"},
+  {"start": 23.1, "end": 26.2, "kind": "intro", "what": "Finger taps Tab key, Typeahead wordmark appears"},
+  {"start": 26.2, "end": 32, "kind": "demo", "what": "Woman types, giant text autocompletes email"},
+  {"start": 32, "end": 35, "kind": "montage", "what": "Grid of apps with ghost-text completions"},
+  {"start": 35, "end": 38, "kind": "feature", "what": "'Autocomplete that works everywhere you type' with app icons"},
+  {"start": 38, "end": 44, "kind": "feature", "what": "Completions in Telegram, LinkedIn, Discord"},
+  {"start": 44, "end": 46, "kind": "feature", "what": "Text: 'Runs on your Mac'"},
+  {"start": 46, "end": 52, "kind": "demo", "what": "Woman typing; Notes 'Why I Love Typeahead' list"},
+  {"start": 52, "end": 60.05, "kind": "end_card", "what": "App icon, Typeahead, 'Write at speed of thought', URL"}
+ ],
+ "first_text_s": 21,
+ "first_product_s": 25,
+ "end_card": {"start": 52, "logo": true, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Cinematic stock-style problem setup for 20s with no text; product revealed a third in. Text cards use typed ghost-autocomplete styling."
+}

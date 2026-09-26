@@ -1,0 +1,23 @@
+{
+ "slug": "interact-ai",
+ "beats": [
+  {"start": 0, "end": 9.25, "kind": "hook", "what": "Retro green terminal configuring a sports car"},
+  {"start": 9.25, "end": 24.42, "kind": "montage", "what": "Modern car configurator screens, wheels, engine, red Ferrari details"},
+  {"start": 24.42, "end": 46.33, "kind": "story", "what": "Man speaks in garage, intercut with Ferrari driving"},
+  {"start": 46.33, "end": 49.25, "kind": "montage", "what": "Grid of many people's faces on video tiles"},
+  {"start": 49.25, "end": 53.17, "kind": "intro", "what": "'Introducing InteractAI: conversation is the next interface'"},
+  {"start": 53.17, "end": 76.83, "kind": "demo", "what": "AI agent Maya talks, guides user through website dashboard"},
+  {"start": 76.83, "end": 80.33, "kind": "feature", "what": "Connect the tools your team already uses: integrations"},
+  {"start": 80.33, "end": 87.83, "kind": "demo", "what": "Agent books a demo, calendar time picked"},
+  {"start": 87.83, "end": 94, "kind": "feature", "what": "Visitor analytics table: intent, demos booked"},
+  {"start": 94, "end": 97.34, "kind": "end_card", "what": "Interact AI logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 50,
+ "end_card": {"start": 94, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["push_in", "pan", "tilt_3d", "handheld"],
+ "pace": "medium",
+ "notes": "Cinematic half-film preamble about interfaces before product appears at ~50 s; second half is tilted-3D UI demo. First text = terminal screen text."
+}

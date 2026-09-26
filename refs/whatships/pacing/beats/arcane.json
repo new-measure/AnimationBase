@@ -1,0 +1,12 @@
+{"slug":"arcane","beats":[
+{"start":0,"end":6.2,"kind":"hook","what":"Glowing coin surrounded by multiplying red eyes"},
+{"start":6.2,"end":9.2,"kind":"problem","what":"Your wallet tells everyone everything"},
+{"start":9.2,"end":12,"kind":"hook","what":"Black card: What if it didn't?"},
+{"start":12,"end":24,"kind":"story","what":"Wizard enters library, reads book, brews coin in cauldron"},
+{"start":24,"end":25.2,"kind":"problem","what":"Red eyes return in darkness"},
+{"start":25.2,"end":34.9,"kind":"feature","what":"Coin enters cauldron; Privacy Potion explodes into particles"},
+{"start":34.9,"end":41.8,"kind":"feature","what":"Eyes, wizard portal, sparkle vanish: no link between wallets"},
+{"start":41.8,"end":52.27,"kind":"end_card","what":"Spiral logo, Just Math, and a bit of magic"}],
+"first_text_s":6,"first_product_s":0,"end_card":{"start":42,"logo":true,"cta":false},
+"text_cards":4,"transitions":["cut","fade_dissolve","push_zoom"],"camera":["static","push_in","pan"],
+"pace":"medium","notes":"Cinematic CG fantasy metaphor for a privacy wallet; product is the glowing coin/logo, never UI. Long 10s end card."}

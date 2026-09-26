@@ -1,0 +1,22 @@
+{
+ "slug": "altitude",
+ "beats": [
+  {"start": 0, "end": 1.75, "kind": "hook", "what": "Skier before avalanche, tiny 'wait for it' caption"},
+  {"start": 1.75, "end": 7, "kind": "problem", "what": "Bill Gates banking quote, archival banking machines"},
+  {"start": 7, "end": 24.5, "kind": "montage", "what": "Stablecoin hype: news clips, tokenization, archival footage collage"},
+  {"start": 24.5, "end": 26.58, "kind": "other", "what": "Binocular framing: 'We're not in that race'"},
+  {"start": 26.58, "end": 31, "kind": "montage", "what": "Circular vignettes beside giant 'S' letterform"},
+  {"start": 31, "end": 33, "kind": "feature", "what": "Value words ACCESS and CONTROL beside imagery"},
+  {"start": 33, "end": 40.17, "kind": "story", "what": "Climbers summit: 'Built for what comes next'"},
+  {"start": 40.17, "end": 42.92, "kind": "other", "what": "'Higher' over Earth-from-stratosphere strip"},
+  {"start": 42.92, "end": 47.25, "kind": "end_card", "what": "Altitude logo mark, wordmark, altitude.xyz"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 43,
+ "end_card": {"start": 42.92, "logo": true, "cta": true},
+ "text_cards": 8,
+ "transitions": ["cut", "pan_slide", "wipe_mask"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Manifesto collage, no product UI; ~52 cuts/min of archival footage with kinetic type; product only as logo at end. Access/Control labelled feature loosely."
+}

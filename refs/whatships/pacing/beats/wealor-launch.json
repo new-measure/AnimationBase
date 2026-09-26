@@ -1,0 +1,22 @@
+{
+ "slug": "wealor-launch",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Counter rising to $90 trillion over founders"},
+  {"start": 3, "end": 8.1, "kind": "story", "what": "Industry built on trust, relationships: handshake stock footage"},
+  {"start": 8.1, "end": 38, "kind": "problem", "what": "Broken infrastructure: disconnected systems, manual re-entry, complexity"},
+  {"start": 38, "end": 46, "kind": "intro", "what": "Wealor logo; AI-native platform for wealth managers"},
+  {"start": 46, "end": 58, "kind": "feature", "what": "Browser-automation agents inside legacy tools; institutional brain"},
+  {"start": 58, "end": 82.3, "kind": "feature", "what": "Understands clients, entities, compliance; hours into minutes"},
+  {"start": 82.3, "end": 93.2, "kind": "feature", "what": "Kinetic words: operations, compliance, execution, expertise"},
+  {"start": 93.2, "end": 101.7, "kind": "story", "what": "Founders: firms will operate with whole institution behind"},
+  {"start": 101.7, "end": 105, "kind": "end_card", "what": "Wealor logo on light background"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 38,
+ "end_card": {"start": 101.7, "logo": true, "cta": false},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "handheld", "pan"],
+ "pace": "slow",
+ "notes": "Founder voiceover with subtitles over stock footage and holographic overlays; long 30s problem section, product UI only glimpsed briefly at 46-50s."
+}

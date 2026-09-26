@@ -1,0 +1,16 @@
+{
+ "slug": "grok-imagine-video-1-5",
+ "beats": [
+  {"start": 0, "end": 2.7, "kind": "hook", "what": "POV riding dragon between sea cliffs"},
+  {"start": 2.7, "end": 7.4, "kind": "demo", "what": "Dragon flight continues toward sea stack, sunlit ocean"},
+  {"start": 7.4, "end": 11.18, "kind": "demo", "what": "Dragon banks along cliff face over surf"}
+ ],
+ "first_text_s": null,
+ "first_product_s": null,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["handheld", "pan"],
+ "pace": "medium",
+ "notes": "Raw generated-video sample: one POV dragon ride, no text, UI or logo. Detected cuts look like near-continuous shot joins; 'demo' = model output."
+}

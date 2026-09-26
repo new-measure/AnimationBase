@@ -1,0 +1,17 @@
+{
+ "slug": "osmo-studio-launch",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "camera_move", "style": ["zoom_through", "rotate"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Live action overhead push-in and slow rotate over desk"},
+  {"k": 1, "element": "character", "action": "transform", "style": ["slide"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Handheld close-ups of hands flipping paper, quick cuts"},
+  {"k": 2, "element": "ui_panel", "action": "enter", "style": ["stagger_list"], "frames_to_settle": 13, "fast_start": true, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Error dialogs pile up in hard cuts after typing shot"},
+  {"k": 3, "element": "image", "action": "replace", "style": ["slide"], "frames_to_settle": 8, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Fast montage: eye, scrolling layer list, timeline, drawing"},
+  {"k": 4, "element": "image", "action": "transform", "style": ["wipe", "color_change"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Hand under sweeping projector light stripes, looping flicker"},
+  {"k": 5, "element": "image", "action": "transform", "style": ["rotate", "wipe"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Face in slowly rotating light-beam stripes"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 25, "body_px": 25, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 36, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 1, "density": "sparse", "notes": "Small lowercase line, last word orange, on grainy black"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 0, "density": "medium", "notes": "Live action: child finger-painting on floor, low light"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Shallow-focus profile close-up of smiling woman"},
+  {"k": 3, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 0, "density": "dense", "notes": "Cinematic moody shot of woman at cluttered desk"}
+ ]
+}

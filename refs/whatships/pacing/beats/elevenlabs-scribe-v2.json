@@ -1,0 +1,22 @@
+{
+ "slug": "elevenlabs-scribe-v2",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Gradient tiles assemble from blank grid"},
+  {"start": 5, "end": 7.33, "kind": "intro", "what": "Tiles morph into blob with 'V2' badge"},
+  {"start": 7.33, "end": 12, "kind": "proof", "what": "Accuracy bars vs GPT-4o, Gemini; Scribe 95.7%"},
+  {"start": 12, "end": 16, "kind": "feature", "what": "Multilingual detection across 90+ languages, cycling scripts"},
+  {"start": 16, "end": 21, "kind": "feature", "what": "Timestamp ruler and speaker diarization transcript"},
+  {"start": 21, "end": 29, "kind": "feature", "what": "Custom keyterm prompting: names and terms corrected"},
+  {"start": 29, "end": 35, "kind": "feature", "what": "Word by word, syllable timing; 'Unmatched Accuracy'"},
+  {"start": 35, "end": 44, "kind": "feature", "what": "Entity detection table, highlighted card numbers in transcript"},
+  {"start": 44, "end": 51.35, "kind": "end_card", "what": "'Scribe v2' morphs to ElevenLabs wordmark, URL"}
+ ],
+ "first_text_s": 5,
+ "first_product_s": 5,
+ "end_card": {"start": 44, "logo": true, "cta": true},
+ "text_cards": 7,
+ "transitions": ["morph_match", "wipe_mask", "fade_dissolve", "pan_slide"],
+ "camera": ["static", "pan", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Almost one continuous take; abstract motion graphics, features as captioned vignettes chained by morphs; benchmark proof placed early."
+}

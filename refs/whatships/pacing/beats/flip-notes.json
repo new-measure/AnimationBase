@@ -1,0 +1,18 @@
+{
+ "slug": "flip-notes",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "demo", "what": "Tilted desktop; cursor opens menu bar dropdown"},
+  {"start": 6, "end": 16.1, "kind": "demo", "what": "Window flips to reveal note typed behind it"},
+  {"start": 16.1, "end": 21, "kind": "feature", "what": "'Write notes. Just behind your windows.' menu list"},
+  {"start": 21, "end": 35, "kind": "feature", "what": "All notes view and settings panel walkthrough"},
+  {"start": 35, "end": 38, "kind": "end_card", "what": "Zoomed settings footer: Flip v0.2.0, Follow on X"}
+ ],
+ "first_text_s": 16,
+ "first_product_s": 0,
+ "end_card": {"start": 35, "logo": true, "cta": true},
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["tilt_3d", "pan", "push_in"],
+ "pace": "slow",
+ "notes": "Whole film is a tilted 3D screen recording with slow drifting camera; tagline is written in-scene, not a card. End card is app footer, uncertain."
+}

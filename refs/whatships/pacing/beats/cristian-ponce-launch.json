@@ -1,0 +1,22 @@
+{
+ "slug": "cristian-ponce-launch",
+ "beats": [
+  {"start": 0, "end": 7.8, "kind": "hook", "what": "Kinetic text: hard part of biology was never the ideas"},
+  {"start": 7.8, "end": 14.2, "kind": "problem", "what": "Founders seated; captions: every AI bet needs lab testing"},
+  {"start": 14.2, "end": 15.4, "kind": "other", "what": "Macro shots of lab plasticware"},
+  {"start": 15.4, "end": 25.2, "kind": "intro", "what": "Tetsuwan building automated lab, built on its compiler"},
+  {"start": 25.2, "end": 33.3, "kind": "demo", "what": "Platform UI: procedure PDF becomes automated workflow in minutes"},
+  {"start": 33.3, "end": 41.3, "kind": "feature", "what": "Cloud lab going live: test ideas from your couch"},
+  {"start": 41.3, "end": 51, "kind": "story", "what": "Lab robots and liquid handlers running experiments"},
+  {"start": 51, "end": 55, "kind": "end_card", "what": "Tetsuwan Scientific logo on dark"},
+  {"start": 55, "end": 60.01, "kind": "other", "what": "Typed note: protein validation services coming later this year"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 22,
+ "end_card": {"start": 51, "logo": true, "cta": false},
+ "text_cards": 5,
+ "transitions": ["cut", "whip_blur", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "handheld", "pan"],
+ "pace": "fast",
+ "notes": "Founder talking-head carried by bold kinetic captions and glitchy inserts; very frequent cuts; announcement line after logo."
+}

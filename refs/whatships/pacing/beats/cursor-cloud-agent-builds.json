@@ -1,0 +1,19 @@
+{
+ "slug": "cursor-cloud-agent-builds",
+ "beats": [
+  {"start": 0, "end": 2.75, "kind": "hook", "what": "Typed headline 'Cloud agents now start 3x faster'"},
+  {"start": 2.75, "end": 6.33, "kind": "feature", "what": "Before/after build cards with timing bars"},
+  {"start": 6.33, "end": 8.5, "kind": "feature", "what": "Headline card 'Resilient and easy to debug'"},
+  {"start": 8.5, "end": 14, "kind": "demo", "what": "Build failure alert, click 'Debug with Agent'"},
+  {"start": 14, "end": 17, "kind": "other", "what": "Summary line 'Tackle ambitious tasks with fast, resilient cloud agents'"},
+  {"start": 17, "end": 19.9, "kind": "end_card", "what": "Cursor logo mark on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 17, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Alternates typed headline cards with UI proof shots; minimal white layout; short 20 s changelog-style update."
+}

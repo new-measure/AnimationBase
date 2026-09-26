@@ -1,0 +1,17 @@
+{
+ "slug": "achx-recent",
+ "moves": [
+  {"k": 0, "element": "ui_panel", "action": "camera_move", "style": ["slide"], "frames_to_settle": 20, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Phone screen scrolls up revealing recipient cards; cursor slides in after"},
+  {"k": 1, "element": "ui_panel", "action": "camera_move", "style": ["slide"], "frames_to_settle": 21, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Feed of memory cards scrolls up, eases into rest"},
+  {"k": 2, "element": "ui_panel", "action": "camera_move", "style": ["slide"], "frames_to_settle": 19, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Card feed scroll up with ease-out, video card lands centre"},
+  {"k": 3, "element": "mixed", "action": "enter", "style": ["rise", "scale_pop"], "frames_to_settle": 16, "fast_start": true, "overshoot": "slight", "stagger_frames": 6, "motion_blur": false, "notes": "Phone rises in, then tooltip bubble pops from tab and settles"},
+  {"k": 4, "element": "camera", "action": "replace", "style": ["zoom_through", "mask_reveal", "color_change"], "frames_to_settle": 18, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Zoom into bubble, black circle expands to full frame, word tints blue"},
+  {"k": 5, "element": "mixed", "action": "replace", "style": ["scale_down", "fade", "rise", "wipe"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Notification shrinks, flickers out; phone rises; white wipe clears photo"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 100, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 17, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Two centred lines of large regular sans on off-white, tiny handle"},
+  {"k": 1, "headline_px": 80, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 2, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Left text, line-art character, red heartbeat line accent"},
+  {"k": 2, "headline_px": 38, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 15, "radius_px": 60, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Outlined app icon end card with URL below"},
+  {"k": 3, "headline_px": 110, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 16, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Large text split by full-width red line with dot"}
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "edgerun",
+ "beats": [
+  {"start": 0, "end": 4.9, "kind": "hook", "what": "Text: The modern soldier must..."},
+  {"start": 4.9, "end": 10.2, "kind": "problem", "what": "Every system upgraded except humans; war footage"},
+  {"start": 10.2, "end": 22.2, "kind": "problem", "what": "Archival aircraft; load increased, area expanded, taking a toll"},
+  {"start": 22.2, "end": 29.4, "kind": "proof", "what": "$9.3B yearly injuries; 1 in 3 soldiers injured"},
+  {"start": 29.4, "end": 34.2, "kind": "intro", "what": "Edgerun upgrades the warfighter title card"},
+  {"start": 34.2, "end": 41.5, "kind": "feature", "what": "Purpose built physical augmentation; CAD and hardware shots"},
+  {"start": 41.5, "end": 46.2, "kind": "feature", "what": "Greater tactical mobility, soldier with exoskeleton"},
+  {"start": 46.2, "end": 53.5, "kind": "feature", "what": "For increased payload, helicopters and forest patrol"},
+  {"start": 53.5, "end": 58.2, "kind": "feature", "what": "And extended range, running footage"},
+  {"start": 58.2, "end": 72.7, "kind": "montage", "what": "Push harder, last longer, go farther with field shots"},
+  {"start": 72.7, "end": 79.9, "kind": "end_card", "what": "Edgerun Industries, Operating at the edge logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 29.4,
+ "end_card": {"start": 72.7, "logo": true, "cta": false},
+ "text_cards": 8,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["handheld", "static", "pan"],
+ "pace": "medium",
+ "notes": "Trailer-style: long problem setup with archival footage and stats, product name at 30s, rhythmic slogan cards on black."
+}

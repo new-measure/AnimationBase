@@ -1,0 +1,21 @@
+{
+ "slug": "indent",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Gradient orbs and exploding 3D cubes on black"},
+  {"start": 12, "end": 26, "kind": "other", "what": "Orbs bounce over dark grid, leaving light trails"},
+  {"start": 26, "end": 48, "kind": "other", "what": "White cube stacks rise into towers, then collapse to square"},
+  {"start": 48, "end": 54, "kind": "intro", "what": "Named cursors gather into Indent logo wordmark"},
+  {"start": 54, "end": 60, "kind": "feature", "what": "Team cursors around logo; integration app icons row"},
+  {"start": 60, "end": 78, "kind": "demo", "what": "Notion access, @indent comment, prompt, code and report outputs"},
+  {"start": 78, "end": 84, "kind": "transition", "what": "Stepped pyramid with orb; cursors regroup"},
+  {"start": 84, "end": 86.05, "kind": "end_card", "what": "Indent logo on light grey"}
+ ],
+ "first_text_s": 48,
+ "first_product_s": 50,
+ "end_card": {"start": 84, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["morph_match", "cut", "push_zoom"],
+ "camera": ["static", "zoom_out_reveal", "tilt_3d"],
+ "pace": "slow",
+ "notes": "Over half the film is abstract 3D shape animation before any text; product UI crammed into last 25s. Abstract beats classified as other."
+}

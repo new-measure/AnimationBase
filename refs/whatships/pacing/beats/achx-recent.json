@@ -1,0 +1,20 @@
+{
+ "slug": "achx-recent",
+ "beats": [
+  {"start": 0, "end": 8.2, "kind": "hook", "what": "Timer, 'Protect', man walking in meadow 'when you can't'"},
+  {"start": 8.2, "end": 26, "kind": "feature", "what": "Adding people and choosing trusted key holders in app"},
+  {"start": 26, "end": 42, "kind": "feature", "what": "Share what matters; Misk delivers it when time comes"},
+  {"start": 42, "end": 52, "kind": "feature", "what": "Shared secret lock, end-to-end encryption, not even Misk"},
+  {"start": 52, "end": 70, "kind": "feature", "what": "Misk checks well-being, reaches out; respond notification"},
+  {"start": 70, "end": 76, "kind": "demo", "what": "Recipient receives left-behind items in app"},
+  {"start": 76, "end": 81.9, "kind": "end_card", "what": "Misk logo, 'Learn more at misk.now'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 10,
+ "end_card": {"start": 76, "logo": true, "cta": true},
+ "text_cards": 12,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Alternates kinetic text cards with UI close-ups; a red heartbeat line motif threads feature sections together. Brand logo withheld until end."
+}

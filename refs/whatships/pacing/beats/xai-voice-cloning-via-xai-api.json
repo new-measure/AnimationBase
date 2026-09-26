@@ -1,0 +1,19 @@
+{
+ "slug": "xai-voice-cloning-via-xai-api",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Clone your voice with Grok API headline"},
+  {"start": 2, "end": 4, "kind": "transition", "what": "Red 3D orb rises and moves off"},
+  {"start": 4, "end": 23, "kind": "demo", "what": "Original vs cloned audio players with live transcripts"},
+  {"start": 23, "end": 26, "kind": "feature", "what": "Or use our catalog of over 80 voices"},
+  {"start": 26, "end": 29, "kind": "end_card", "what": "Available now x.ai/news/grok-custom-voices"},
+  {"start": 29, "end": 32, "kind": "end_card", "what": "Grok logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {"start": 26, "logo": true, "cta": true},
+ "text_cards": 3,
+ "transitions": ["morph_match", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "No hard cuts; minimal UI alternating original/cloned playback carries most of film, audio-led demo."
+}

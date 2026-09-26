@@ -1,0 +1,22 @@
+{
+ "slug": "pops",
+ "beats": [
+  {"start": 0, "end": 3.4, "kind": "hook", "what": "Retro Windows/Mac UI: the internet used to be fun"},
+  {"start": 3.4, "end": 31.3, "kind": "montage", "what": "Found footage eras: writer, photographer, storyteller superpowers"},
+  {"start": 31.3, "end": 35.5, "kind": "other", "what": "Clock hits 2026: anyone can make software"},
+  {"start": 35.5, "end": 39.8, "kind": "problem", "what": "AI builders all same, keynote 'AI AI AI'"},
+  {"start": 39.8, "end": 43.8, "kind": "intro", "what": "'We're pops', SHORT FORM SOFTWARE title"},
+  {"start": 43.8, "end": 48.5, "kind": "demo", "what": "Phone feed of playable mini-apps on green"},
+  {"start": 48.5, "end": 54, "kind": "feature", "what": "CREATE by describing, PLAY with friends, SHARE"},
+  {"start": 54, "end": 57, "kind": "montage", "what": "Grid of infinite feed of apps"},
+  {"start": 57, "end": 61.59, "kind": "end_card", "what": "pops.fyi URL over blurred grid then black"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 42,
+ "end_card": {"start": 57, "logo": false, "cta": true},
+ "text_cards": 7,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "handheld", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Nostalgic 28s archival montage with subtitle narration before any product; ~45 cuts; bold green brand reveal late."
+}

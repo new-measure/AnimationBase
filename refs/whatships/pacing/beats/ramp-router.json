@@ -1,0 +1,17 @@
+{
+ "slug": "ramp-router",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "Ramp Router dot mark: right model for every request"},
+  {"start": 3, "end": 7, "kind": "demo", "what": "Prompt card routed through dots to chosen model card"},
+  {"start": 7, "end": 10, "kind": "hook", "what": "Cut your AI bill. Not your quality. Request access"},
+  {"start": 10, "end": 12.05, "kind": "end_card", "what": "ramp wordmark on smoky grey"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 10, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["fade_dissolve", "morph_match"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Single continuous shot over smoke backdrop; dot logo becomes routing node; value line and CTA arrive late (tagline labelled hook, uncertain)."
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "eachlabs-mcp",
+ "beats": [
+  {"start": 0, "end": 3.17, "kind": "hook", "what": "Father and daughter photo; headline Edit your moments"},
+  {"start": 3.17, "end": 7.33, "kind": "intro", "what": "each::labs MCP logo, connects to Claude icon"},
+  {"start": 7.33, "end": 23.75, "kind": "demo", "what": "Prompt typed over photo; scanning models, video generated"},
+  {"start": 23.75, "end": 29.83, "kind": "story", "what": "Generated POV video of father and daughter with cookies"},
+  {"start": 29.83, "end": 41, "kind": "feature", "what": "Video API: reframe vertical, subtitle, speed control operations"},
+  {"start": 41, "end": 45, "kind": "proof", "what": "You made this; 35+ tools, 40+ tools, hundreds of models"},
+  {"start": 45, "end": 47, "kind": "other", "what": "Now on card with animated badge"},
+  {"start": 47, "end": 49.39, "kind": "end_card", "what": "MCP / Video API with each::labs logo on black"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 3,
+ "end_card": {"start": 47, "logo": true, "cta": false},
+ "text_cards": 7,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Prompt-bar UI overlaid on lifestyle photo; two parallel demo loops (generate, then reframe) with serif status text cards between."
+}

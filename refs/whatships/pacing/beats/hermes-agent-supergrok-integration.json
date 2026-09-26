@@ -1,0 +1,17 @@
+{
+ "slug": "hermes-agent-supergrok-integration",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "demo", "what": "Chat app: user sends prompt to agent, waits"},
+  {"start": 6, "end": 8.3, "kind": "demo", "what": "Agent returns long structured response with links"},
+  {"start": 8.3, "end": 17.1, "kind": "demo", "what": "Zoomed scroll through response sections and search links"},
+  {"start": 17.1, "end": 17.9, "kind": "demo", "what": "Zoom back out to full chat window"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "slow",
+ "notes": "Plain screen recording with zoom-in crops to read output; no titles, branding or end card."
+}

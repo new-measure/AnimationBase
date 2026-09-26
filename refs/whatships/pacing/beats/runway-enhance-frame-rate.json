@@ -1,0 +1,23 @@
+{
+ "slug": "runway-enhance-frame-rate",
+ "beats": [
+  {"start": 0, "end": 5.2, "kind": "hook", "what": "Rooftop jumper; man drags fps slider, clones multiply"},
+  {"start": 5.2, "end": 11.2, "kind": "intro", "what": "'Enhance Frame Rate' title over before/after split"},
+  {"start": 11.2, "end": 17.6, "kind": "feature", "what": "'Any video', 'Any model' slow-motion examples"},
+  {"start": 17.6, "end": 19, "kind": "demo", "what": "Frame Settings menu selecting 120 fps"},
+  {"start": 19, "end": 23, "kind": "feature", "what": "Snowboarder split screen, 'Any frame rate'"},
+  {"start": 23, "end": 27.9, "kind": "feature", "what": "Before/after: dart pops water balloon in slow motion"},
+  {"start": 27.9, "end": 32.1, "kind": "feature", "what": "Library scene, 'Re-time anything you generate'"},
+  {"start": 32.1, "end": 33.8, "kind": "intro", "what": "'Now on Runway' over rooftop figure"},
+  {"start": 33.8, "end": 35.7, "kind": "end_card", "what": "'get started app.runway.com' on white"},
+  {"start": 35.7, "end": 38.06, "kind": "end_card", "what": "runway wordmark on black"}
+ ],
+ "first_text_s": 5,
+ "first_product_s": 1,
+ "end_card": {"start": 33.8, "logo": true, "cta": true},
+ "text_cards": 0,
+ "transitions": ["cut", "wipe_mask", "morph_match"],
+ "camera": ["handheld", "push_in", "pan", "static"],
+ "pace": "fast",
+ "notes": "Output-as-demo: cinematic AI footage with split-screen before/after; captions overlaid on footage, only one brief UI shot."
+}

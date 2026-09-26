@@ -1,0 +1,20 @@
+{
+ "slug": "linear-391850",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Branching lines of issue IDs flowing like a river delta"},
+  {"start": 5, "end": 9, "kind": "feature", "what": "Tilted release board: issue branches converge to release"},
+  {"start": 9, "end": 11, "kind": "intro", "what": "Mono text card 'Plan and track releases'"},
+  {"start": 11, "end": 16, "kind": "feature", "what": "Stacked 3D release boards: mobile, SDK, production"},
+  {"start": 16, "end": 21.8, "kind": "feature", "what": "Close-up branch lines flowing into production release"},
+  {"start": 21.8, "end": 26, "kind": "other", "what": "Typed 'Releases', then 'Available now'"},
+  {"start": 26, "end": 30.06, "kind": "end_card", "what": "Linear logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 5,
+ "end_card": {"start": 26, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["tilt_3d", "pan", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "notes": "Monochrome abstract data-flow visuals; stylised 3D UI rather than literal demo; terminal-cursor text cards; minimal cuts."
+}

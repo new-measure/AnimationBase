@@ -1,0 +1,16 @@
+{
+ "slug": "codex-1796",
+ "beats": [
+  {"start": 0, "end": 2.6, "kind": "demo", "what": "Command palette open in Codex app window"},
+  {"start": 2.6, "end": 9, "kind": "feature", "what": "Settings: keyboard shortcuts page, user assigns new keybinding"},
+  {"start": 9, "end": 9.6, "kind": "other", "what": "Zoom out to full app window"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Tiny single-feature clip (custom keybindings); pure UI, zooms in to the shortcut row then back out. No branding or text cards."
+}

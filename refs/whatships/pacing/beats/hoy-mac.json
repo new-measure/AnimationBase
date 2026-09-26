@@ -1,0 +1,21 @@
+{
+ "slug": "hoy-mac",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "demo", "what": "Click friend avatar in Mac menu bar, note panel opens"},
+  {"start": 2, "end": 8.2, "kind": "feature", "what": "Typing text notes in chat, no sign-up, iCloud"},
+  {"start": 8.2, "end": 16.2, "kind": "feature", "what": "Recording and sending a voice note"},
+  {"start": 16.2, "end": 24.4, "kind": "feature", "what": "Dragging image files into the note"},
+  {"start": 24.4, "end": 30.1, "kind": "demo", "what": "Chat continues, 'cool, didn't expect this'"},
+  {"start": 30.1, "end": 35.7, "kind": "feature", "what": "Screen recording with face camera bubble"},
+  {"start": 35.7, "end": 42.6, "kind": "demo", "what": "Recorded video plays in chat, 'ok stop, I love it'"},
+  {"start": 42.6, "end": 43.72, "kind": "other", "what": "Back to clean desktop"}
+ ],
+ "first_text_s": null,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom", "morph_match"],
+ "camera": ["push_in", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Pure screen demo, no overlay text or end card; chat messages inside UI act as narration. Loops back to start."
+}

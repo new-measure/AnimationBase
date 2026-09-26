@@ -1,0 +1,74 @@
+{
+ "slug": "polymarket-perps",
+ "beats": [
+  {
+   "start": 0,
+   "end": 3,
+   "kind": "hook",
+   "what": "'The market never closes' kinetic type"
+  },
+  {
+   "start": 3,
+   "end": 9,
+   "kind": "intro",
+   "what": "Nav tabs slide to Perps; 'Introducing Perps'"
+  },
+  {
+   "start": 9,
+   "end": 13,
+   "kind": "demo",
+   "what": "Tilted Polymarket Perps page, NVDA-USD long/short card"
+  },
+  {
+   "start": 13,
+   "end": 18.3,
+   "kind": "feature",
+   "what": "Order ticket: $1,000 amount, leverage slider, TP/SL"
+  },
+  {
+   "start": 18.3,
+   "end": 21.1,
+   "kind": "feature",
+   "what": "Place order, pixel dissolve, 'Track your position live'"
+  },
+  {
+   "start": 21.1,
+   "end": 25.9,
+   "kind": "feature",
+   "what": "Live chart and positions table, close position"
+  },
+  {
+   "start": 25.9,
+   "end": 28.2,
+   "kind": "montage",
+   "what": "'Trade' NVDA-USD, HOOD-USD market cards"
+  },
+  {
+   "start": 28.2,
+   "end": 37.18,
+   "kind": "end_card",
+   "what": "'Trade Perps on polymarket.com/perps' then Polymarket logo"
+  }
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {
+  "start": 28.2,
+  "logo": true,
+  "cta": true
+ },
+ "text_cards": 5,
+ "transitions": [
+  "cut",
+  "fade_dissolve",
+  "pan_slide",
+  "wipe_mask"
+ ],
+ "camera": [
+  "tilt_3d",
+  "push_in",
+  "pan"
+ ],
+ "pace": "medium",
+ "notes": "Dark kinetic-type opener, then tilted 3D UI close-ups walking one order flow; URL card precedes logo end card."
+}

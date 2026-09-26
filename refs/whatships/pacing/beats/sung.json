@@ -1,0 +1,20 @@
+{
+ "slug": "sung",
+ "beats": [
+  {"start": 0, "end": 11, "kind": "demo", "what": "Music app: artist song list, playback, synced lyrics panel"},
+  {"start": 11, "end": 14.42, "kind": "feature", "what": "Listen home page with playlist cover grid"},
+  {"start": 14.42, "end": 26, "kind": "demo", "what": "Country Summer playlist loads, track played, lyrics scroll"},
+  {"start": 26, "end": 36, "kind": "feature", "what": "Liked songs and playlists library tabs"},
+  {"start": 36, "end": 41, "kind": "feature", "what": "Local files: add music folders"},
+  {"start": 41, "end": 55, "kind": "feature", "what": "Settings: theme toggles, playback and cache options"},
+  {"start": 55, "end": 61.29, "kind": "demo", "what": "Artist page with song and album artwork grid"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Raw silent full-screen app recording with one cut; no titles, captions, or end card; tour of every screen."
+}

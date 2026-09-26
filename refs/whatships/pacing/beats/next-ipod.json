@@ -1,0 +1,10 @@
+{"slug":"next-ipod","beats":[
+{"start":0,"end":0.7,"kind":"hook","what":"Hand holding iPod playing Cowboy Bebop track"},
+{"start":0.7,"end":8.6,"kind":"montage","what":"Patent blueprint, X-ray and thermal scans of iPod internals"},
+{"start":8.6,"end":12.8,"kind":"feature","what":"Blueprint click wheel, song list, exploded diagram"},
+{"start":12.8,"end":14,"kind":"story","what":"Hand holding iPod under blanket"},
+{"start":14,"end":15,"kind":"other","what":"Patent sheet with signature"},
+{"start":15,"end":17.19,"kind":"end_card","what":"Blueprint wordmark on blue"}],
+"first_text_s":0,"first_product_s":0,"end_card":{"start":15,"logo":true,"cta":false},
+"text_cards":0,"transitions":["cut","morph_match"],"camera":["push_in","pan","static"],
+"pace":"fast","notes":"Teaser: rapid ~0.6s cuts through patent/X-ray imagery of an iPod; brand revealed only at end. Uncertain what product Blueprint is."}

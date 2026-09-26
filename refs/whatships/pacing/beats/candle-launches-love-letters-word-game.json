@@ -1,0 +1,16 @@
+{
+ "slug": "candle-launches-love-letters-word-game",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "demo", "what": "Phone game board: letter tile dragged and placed"},
+  {"start": 6, "end": 12, "kind": "demo", "what": "More tiles placed, word forms, score updates"},
+  {"start": 12, "end": 13.14, "kind": "other", "what": "Menu opens with how-to-play and leaderboard options"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Raw silent vertical screen recording of gameplay; no titles, no end card, product visible from frame one."
+}

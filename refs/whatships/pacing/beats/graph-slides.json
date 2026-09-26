@@ -1,0 +1,19 @@
+{
+ "slug": "graph-slides",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Zoomed-out graph canvas, camera frame hops between node clusters"},
+  {"start": 8, "end": 12, "kind": "intro", "what": "Zooms into title node: Graphs are awesome"},
+  {"start": 12, "end": 20, "kind": "demo", "what": "Slides as graph nodes: order vs chaos, everything is a graph"},
+  {"start": 20, "end": 29, "kind": "demo", "what": "Nodes: the job before and after, pick your graph"},
+  {"start": 29, "end": 34, "kind": "demo", "what": "Loop diagram and (you)-[builds]->(graphs) slide"},
+  {"start": 34, "end": 42, "kind": "other", "what": "Zooms back out; frame tours canvas overview again"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 2,
+ "transitions": ["push_zoom", "pan_slide"],
+ "camera": ["zoom_out_reveal", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Single continuous take on an infinite canvas; every slide change is a camera zoom/pan between graph nodes, no cuts."
+}

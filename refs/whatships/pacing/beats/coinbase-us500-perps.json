@@ -1,0 +1,8 @@
+{"slug":"coinbase-us500-perps","beats":[
+{"start":0,"end":1,"kind":"intro","what":"US 500 in blue striped type"},
+{"start":1,"end":2,"kind":"transition","what":"Striped title glitches into ticker grid"},
+{"start":2,"end":9,"kind":"montage","what":"Grid of stock ticker pills cycling, collapsing to dots"},
+{"start":9,"end":11.32,"kind":"end_card","what":"Stripes reassemble into US 500 title"}],
+"first_text_s":0,"first_product_s":0,"end_card":{"start":10,"logo":true,"cta":false},
+"text_cards":2,"transitions":["morph_match"],"camera":["static"],
+"pace":"fast","notes":"Loop structure: title morphs to ticker grids and back; pure typographic motion, no UI. Product logo is the US 500 wordmark."}

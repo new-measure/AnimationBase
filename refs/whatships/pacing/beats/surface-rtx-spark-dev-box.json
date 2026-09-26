@@ -1,0 +1,24 @@
+{
+ "slug": "surface-rtx-spark-dev-box",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Light edge traces dark box silhouette out of black"},
+  {"start": 8, "end": 13, "kind": "feature", "what": "Macro fly-over of grid vent top surface"},
+  {"start": 13, "end": 17, "kind": "feature", "what": "Terminal spec text: 1 petaflop, 128GB unified memory"},
+  {"start": 17, "end": 19.8, "kind": "transition", "what": "Glitch into internal board and fan"},
+  {"start": 19.8, "end": 22.1, "kind": "feature", "what": "Data streams racing through circuitry"},
+  {"start": 22.1, "end": 26, "kind": "feature", "what": "Thermal-map view of chip and heat pipes"},
+  {"start": 26, "end": 33.6, "kind": "intro", "what": "Full device reveal on desk under dual monitors"},
+  {"start": 33.6, "end": 44.3, "kind": "demo", "what": "Local coding agent in terminal builds and fixes project"},
+  {"start": 44.3, "end": 47, "kind": "demo", "what": "Built racing game runs on monitor"},
+  {"start": 47, "end": 53, "kind": "other", "what": "Device hero: accelerated by Nvidia RTX Spark, built for more"},
+  {"start": 53, "end": 58.05, "kind": "end_card", "what": "Windows logo, learn more at microsoft.com/devbox"}
+ ],
+ "first_text_s": 14,
+ "first_product_s": 1,
+ "end_card": {"start": 53, "logo": true, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "whip_blur", "morph_match", "push_zoom"],
+ "camera": ["push_in", "pan", "tilt_3d", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Slow teasing hardware reveal (full device only at 26s); monospace terminal typography; demo late; glitch transitions."
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "minimax-h3-public",
+ "beats": [
+  {"start": 0, "end": 3.33, "kind": "hook", "what": "Noir poster art: Created by MiniMax H3, A World Built From Clues"},
+  {"start": 3.33, "end": 9.5, "kind": "montage", "what": "Detective posters: Read the Clue, H3 typography scenes"},
+  {"start": 9.5, "end": 14.33, "kind": "feature", "what": "Megaphone emits Text Image Video Sound; illustrated styles"},
+  {"start": 14.33, "end": 23.33, "kind": "feature", "what": "Generated websites: Images Made of Language, See Further"},
+  {"start": 23.33, "end": 30.83, "kind": "story", "what": "Binocular POV chase through station to building"},
+  {"start": 30.83, "end": 38.75, "kind": "story", "what": "Detective in office: What You've Heard, Seen, Felt"},
+  {"start": 38.75, "end": 41.56, "kind": "end_card", "what": "MiniMax H3 Open Weight title over smoke"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 1,
+ "end_card": {"start": 38.75, "logo": true, "cta": false},
+ "text_cards": 6,
+ "transitions": ["cut", "morph_match", "whip_blur", "wipe_mask"],
+ "camera": ["push_in", "pan", "static", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Detective noir motif threads every medium the model outputs; big condensed poster type throughout; ~42 cuts/min. Product = generated outputs, uncertain."
+}

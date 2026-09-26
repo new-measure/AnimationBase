@@ -1,0 +1,23 @@
+{
+ "slug": "minimax-speech-2-8",
+ "beats": [
+  {"start": 0, "end": 1.2, "kind": "hook", "what": "Title card: Hearing Openclaw Out, TTS pipeline"},
+  {"start": 1.2, "end": 6, "kind": "demo", "what": "Chat asks Openclaw to set up MiniMax Speech 2.8 skill"},
+  {"start": 6, "end": 8.2, "kind": "transition", "what": "Blurred screen with progress bar, time skip"},
+  {"start": 8.2, "end": 15.2, "kind": "demo", "what": "Agent replies with skill plan and setup steps"},
+  {"start": 15.2, "end": 26.7, "kind": "demo", "what": "User finds MiniMax platform, creates API key"},
+  {"start": 26.7, "end": 29, "kind": "transition", "what": "Blurred progress bar: complete"},
+  {"start": 29, "end": 39.8, "kind": "demo", "what": "Agent lists available voices and generation details"},
+  {"start": 39.8, "end": 41.7, "kind": "feature", "what": "Zoom on sample voices list and generated mp3"},
+  {"start": 41.7, "end": 69.2, "kind": "demo", "what": "Agent introduces itself with generated speech audio messages"},
+  {"start": 69.2, "end": 70.7, "kind": "end_card", "what": "MiniMax logo, Intelligence with Everyone"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 1.2,
+ "end_card": {"start": 69.2, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Raw screen recording of an agent chat; blurred progress-bar skips compress waiting; long static final section likely carried by audio."
+}

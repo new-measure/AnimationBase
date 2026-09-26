@@ -1,0 +1,17 @@
+{
+ "slug": "interaction-moves-to-sf",
+ "beats": [
+  {"start": 0, "end": 3.6, "kind": "hook", "what": "Poke app icon; message bubble: cognition sent onboarding docs"},
+  {"start": 3.6, "end": 4.7, "kind": "demo", "what": "iPhone Messages list showing Poke thread"},
+  {"start": 4.7, "end": 11.2, "kind": "story", "what": "Chat reveals joke: team joined Cognition, new Poke chapter"},
+  {"start": 11.2, "end": 13.87, "kind": "end_card", "what": "Poke.com then palm-tree logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 11.2, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "fast",
+ "notes": "Announcement told entirely as a chat conversation in the product; punchline-driven, not a feature demo. Story kind for chat narrative is a judgment call."
+}

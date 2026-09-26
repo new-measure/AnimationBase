@@ -1,0 +1,14 @@
+{"slug":"hydra-0","beats":[
+{"start":0,"end":4,"kind":"intro","what":"NVIDIA Hydra-0 title: action flow for world modeling"},
+{"start":4,"end":12,"kind":"feature","what":"Predict what a command will do: prediction vs ground truth"},
+{"start":12,"end":16,"kind":"proof","what":"90.4% and 60.2% lower motion error stats"},
+{"start":16,"end":26,"kind":"feature","what":"Score a policy without hardware: replay comparisons"},
+{"start":26,"end":60,"kind":"feature","what":"Human demonstration turned into robot actions, object flow"},
+{"start":60,"end":68,"kind":"feature","what":"How it works: action flow interface explained"},
+{"start":68,"end":78,"kind":"feature","what":"Training: recovered from video, tracks and masks"},
+{"start":78,"end":88,"kind":"feature","what":"Real-world deployment pipeline panels"},
+{"start":88,"end":100,"kind":"feature","what":"Learn from multi-embodiment datasets grid"},
+{"start":100,"end":111.77,"kind":"end_card","what":"Diagram: Hydra-0 to three downstream applications"}],
+"first_text_s":0,"first_product_s":0,"end_card":{"start":102,"logo":true,"cta":false},
+"text_cards":1,"transitions":["fade_dissolve","cut"],"camera":["static"],
+"pace":"slow","notes":"Research explainer like slides: titled sections fading through black, long holds; closing summary diagram serves as end card (uncertain)."}

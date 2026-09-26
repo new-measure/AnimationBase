@@ -1,0 +1,18 @@
+{
+ "slug": "stylexui",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Landing hero: 'Craft AI-Ready Web Apps With StyleX UI'"},
+  {"start": 2, "end": 7.4, "kind": "demo", "what": "Docs pages: accordion and alert components interacted"},
+  {"start": 7.4, "end": 8.5, "kind": "feature", "what": "Alert dialog modal opened"},
+  {"start": 8.5, "end": 29, "kind": "montage", "what": "Clicking alphabetically through component docs pages"},
+  {"start": 29, "end": 29.67, "kind": "other", "what": "Blank white final frame"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Unedited docs-site screen recording paging through components about one per second; no branding outro."
+}

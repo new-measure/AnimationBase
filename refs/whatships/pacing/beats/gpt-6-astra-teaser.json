@@ -1,0 +1,16 @@
+{
+ "slug": "gpt-6-astra-teaser",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Starfield; particles begin gathering in centre"},
+  {"start": 3, "end": 10, "kind": "other", "what": "Particles swirl into spiral galaxy"},
+  {"start": 10, "end": 15.27, "kind": "other", "what": "Galaxy disperses back into empty starfield"}
+ ],
+ "first_text_s": null,
+ "first_product_s": null,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Single uncut abstract teaser: galaxy forms and dissolves; no text, logo, or product; pure mood piece."
+}

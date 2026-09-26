@@ -1,0 +1,19 @@
+{
+ "slug": "linear-loops-update",
+ "beats": [
+  {"start": 0, "end": 6.83, "kind": "feature", "what": "Dial of loop triggers cycling: issue assigned, status changes"},
+  {"start": 6.83, "end": 12.33, "kind": "feature", "what": "Arc sweeps to actions: find related issues, read Slack"},
+  {"start": 12.33, "end": 19, "kind": "feature", "what": "More actions: Slack DM, inbox message, PRD update"},
+  {"start": 19, "end": 20, "kind": "transition", "what": "Dial fades to black"},
+  {"start": 20, "end": 25, "kind": "intro", "what": "Loops logo, 'Automate product work with new triggers and actions'"},
+  {"start": 25, "end": 28.5, "kind": "end_card", "what": "Linear logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 20,
+ "end_card": {"start": 25, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["fade_dissolve", "cut", "whip_blur"],
+ "camera": ["tilt_3d", "pan", "push_in"],
+ "pace": "medium",
+ "notes": "Abstract rotating-dial metaphor; name reveal held until 20 s; no UI shown. Opening typographic trigger words act as hook/feature."
+}

@@ -1,0 +1,12 @@
+{
+ "slug": "hermes-choose-your-own",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "camera_move", "style": ["zoom_through", "morph"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Constant forward drive through branching glowing roads; caption stays static"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["rotate", "zoom_through"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Camera tilts from oblique to top-down over circuit-like road grid, steady"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 45, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 14.6, "radius_px": null, "shadow": "glow", "bg_style": "texture", "accent_count": 0, "density": "medium", "notes": "Monochrome CRT-dithered 3D car render, chromatic-aberration caption at bottom"},
+  {"k": 1, "headline_px": 39, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 22.9, "radius_px": null, "shadow": "glow", "bg_style": "texture", "accent_count": 1, "density": "dense", "notes": "Glowing blue-white road maze filling frame, caption low centre"},
+  {"k": 2, "headline_px": 169, "body_px": null, "typefaces": 1, "type_style": ["serif", "display"], "weights": ["regular"], "align": "center", "margin_pct": 29.0, "radius_px": 17, "shadow": "glow", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Outlined serif wordmark badge with line-art portrait, glowing on black"}
+ ]
+}

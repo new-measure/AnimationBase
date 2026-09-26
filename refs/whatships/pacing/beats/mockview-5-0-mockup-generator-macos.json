@@ -1,0 +1,20 @@
+{
+ "slug": "mockview-5-0-mockup-generator-macos",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "MacBook showing Mockview app with empty phone mockup"},
+  {"start": 2, "end": 10.5, "kind": "demo", "what": "Screenshot drops into iPhone frame; rotates landscape and back"},
+  {"start": 10.5, "end": 17.1, "kind": "feature", "what": "Background swaps: gradient, yellow, white"},
+  {"start": 17.1, "end": 28.2, "kind": "feature", "what": "Animation timeline: keyframed zoom and position on mockup"},
+  {"start": 28.2, "end": 48.1, "kind": "feature", "what": "Preview of animated mockup: zooms, pans, scrolls"},
+  {"start": 48.1, "end": 57.9, "kind": "feature", "what": "More keyframe edits and playback of camera moves"},
+  {"start": 57.9, "end": 60.2, "kind": "other", "what": "Pull back to MacBook showing app"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "slow",
+ "notes": "Plain screen recording framed in MacBook, bookended by device shot; no titles, voice cards or logo end card. Long repetitive middle."
+}

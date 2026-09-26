@@ -1,0 +1,22 @@
+{
+ "slug": "hermes-profile-builder",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "White light streak slashes across black"},
+  {"start": 3, "end": 8, "kind": "intro", "what": "Profile Builder card: hooded figure, 5 steps"},
+  {"start": 8, "end": 12, "kind": "feature", "what": "Step card IDENTITY: name, description, profile slug"},
+  {"start": 12, "end": 17, "kind": "feature", "what": "Step card MODEL: provider, intelligence, config file"},
+  {"start": 17, "end": 23, "kind": "feature", "what": "Step card SKILLS: built-in, optional, hub install"},
+  {"start": 23, "end": 27, "kind": "feature", "what": "Step card MCPS: servers, tools, connections"},
+  {"start": 27, "end": 33, "kind": "feature", "what": "Step card REVIEW: audit, confirm, create"},
+  {"start": 33, "end": 39, "kind": "feature", "what": "AGENT CREATED card with stars, bursts apart"},
+  {"start": 39, "end": 47.42, "kind": "end_card", "what": "Chrome NOUS logo card fades to black"}
+ ],
+ "first_text_s": 3,
+ "first_product_s": 3,
+ "end_card": {"start": 39, "logo": true, "cta": false},
+ "text_cards": 7,
+ "transitions": ["wipe_mask", "cut", "fade_dissolve"],
+ "camera": ["static", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Step-by-step card sequence; each chapter card revealed by a light-streak wipe; no UI shown, only illustrated chrome title cards."
+}

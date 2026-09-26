@@ -1,0 +1,17 @@
+{
+ "slug": "achx-2",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["scale_pop"], "frames_to_settle": 21, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Rapid-fire montage: new card/scene cut in almost every frame, growing sizes"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["zoom_through", "fade"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Cut to launch button close-up, tilt down to black, 'what about' fades in"},
+  {"k": 2, "element": "mixed", "action": "replace", "style": ["slide", "wipe", "particles"], "frames_to_settle": 24, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Chat bubbles scroll up, dark wipe with pixel-particle swirl, cut to collage"},
+  {"k": 3, "element": "mixed", "action": "camera_move", "style": ["rotate"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Card collage orbits continuously around fixed central 'Launch Videos' label"},
+  {"k": 4, "element": "text", "action": "transform", "style": ["slide", "color_change"], "frames_to_settle": 27, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Large headline pans left, decelerating; words grey to black, edge blur"},
+  {"k": 5, "element": "shape", "action": "transform", "style": ["scale_down", "morph", "rotate", "color_change"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Pills shrink, fill white, stretch into rotating bars, merge to logo card"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 120, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 9, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Bold white CTA over pixelated rocket launch image"},
+  {"k": 1, "headline_px": 88, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 30, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Single black condensed-ish sans line centred on white"},
+  {"k": 2, "headline_px": 100, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 32, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "White sans line centred on black"},
+  {"k": 3, "headline_px": 90, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 22, "radius_px": null, "shadow": "glow", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Blurred grey text with logo dot trail and thin curve line"}
+ ]
+}

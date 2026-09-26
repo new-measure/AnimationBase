@@ -1,0 +1,26 @@
+{
+ "slug": "edra-ai-enterprise-ai-agents-series-a",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "NYC street shots with Edra logo overlay"},
+  {"start": 3, "end": 11.1, "kind": "proof", "what": "Founders seated; $30M+ funding, Series A led by Sequoia"},
+  {"start": 11.1, "end": 13.2, "kind": "other", "what": "City lamp and building b-roll"},
+  {"start": 13.2, "end": 30.8, "kind": "story", "what": "Co-founders interview with name supers"},
+  {"start": 30.8, "end": 35, "kind": "other", "what": "NYC skyline b-roll"},
+  {"start": 35, "end": 38.5, "kind": "story", "what": "Founders continue talking"},
+  {"start": 38.5, "end": 65.6, "kind": "feature", "what": "Floating UI cards: knowledge library, laptop-loss ticket, protocol"},
+  {"start": 65.6, "end": 71.2, "kind": "story", "what": "Founders walking out of subway station"},
+  {"start": 71.2, "end": 77, "kind": "proof", "what": "Customer logos HubSpot, ASOS, Cushman, Ivanti"},
+  {"start": 77, "end": 81.5, "kind": "story", "what": "Founders interview continues"},
+  {"start": 81.5, "end": 83.1, "kind": "story", "what": "Founders walking down city street"},
+  {"start": 83.1, "end": 94.4, "kind": "story", "what": "Founders closing remarks"},
+  {"start": 94.4, "end": 98.03, "kind": "end_card", "what": "Edra logo, learn more at edra.ai"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 94.4, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld", "push_in"],
+ "pace": "slow",
+ "notes": "Funding announcement interview; product only as floating UI overlays on talking heads; funding proof in first four seconds."
+}

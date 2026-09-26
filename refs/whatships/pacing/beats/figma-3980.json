@@ -1,0 +1,16 @@
+{
+ "slug": "figma-3980",
+ "beats": [
+  {"start": 0, "end": 2.9, "kind": "hook", "what": "Liquid glass droplet over 'Liquid' lettering"},
+  {"start": 2.9, "end": 35, "kind": "montage", "what": "Rapid community designs intercut with 'Made in @figma' tweets"},
+  {"start": 35, "end": 38.4, "kind": "end_card", "what": "Figma logo on black"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 3,
+ "end_card": {"start": 35, "logo": true, "cta": false},
+ "text_cards": 8,
+ "transitions": ["cut", "pan_slide", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Pure community showcase: ~0.6s cuts alternating artwork and tweet quotes as social proof; product only as '@figma' mentions and final logo."
+}

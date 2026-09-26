@@ -1,0 +1,16 @@
+{
+ "slug": "hermes-agent-3333",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Particle beam rises from chip platform into cloud"},
+  {"start": 6, "end": 14, "kind": "intro", "what": "Glitch text 'Hermes Agent is now in the cloud'"},
+  {"start": 14, "end": 20.6, "kind": "other", "what": "Text glitches away, particles rain down, fade to black"}
+ ],
+ "first_text_s": 6,
+ "first_product_s": 6,
+ "end_card": null,
+ "text_cards": 1,
+ "transitions": ["none_visible", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Single continuous abstract particle animation, no cuts; one announcement line is the only information. No product UI or CTA."
+}

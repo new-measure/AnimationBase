@@ -1,0 +1,21 @@
+{
+ "slug": "seedance-in-between-feature",
+ "beats": [
+  {"start": 0, "end": 11.2, "kind": "story", "what": "Soldiers in snow approach base; first/last frames shown above"},
+  {"start": 11.2, "end": 24.1, "kind": "story", "what": "Infiltrate bunker door, keypad, crates"},
+  {"start": 24.1, "end": 40.2, "kind": "story", "what": "Inside facility: corridors, soldiers sneaking"},
+  {"start": 40.2, "end": 46.4, "kind": "story", "what": "Hacking console, explosives armed 10:00"},
+  {"start": 46.4, "end": 58.6, "kind": "story", "what": "Soldiers escape through doors into snow"},
+  {"start": 58.6, "end": 70.6, "kind": "story", "what": "Running to helicopter, lift off"},
+  {"start": 70.6, "end": 77.2, "kind": "story", "what": "Timer hits 00:00, base explodes"},
+  {"start": 77.2, "end": 79.3, "kind": "end_card", "what": "Cartoon Hero logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 77.2, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["pan", "push_in", "static", "handheld"],
+ "pace": "medium",
+ "notes": "Pure generated anime narrative; persistent first/last frame keyframe strip on top shows the in-between feature. Beat splits by story act."
+}

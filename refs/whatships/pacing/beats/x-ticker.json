@@ -1,0 +1,20 @@
+{
+ "slug": "x-ticker",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "intro", "what": "Introducing Cashtag Partners orbited by broker logos"},
+  {"start": 5, "end": 8, "kind": "feature", "what": "Phone search: Search for a Cashtag"},
+  {"start": 8, "end": 16, "kind": "demo", "what": "TSLA chart scrubbed, price updates with posts below"},
+  {"start": 16, "end": 22, "kind": "feature", "what": "Tap to trade: brokerage partner picker"},
+  {"start": 22, "end": 31.5, "kind": "feature", "what": "Find Cashtags in timeline: BTC post to trade sheet"},
+  {"start": 31.5, "end": 37, "kind": "proof", "what": "From ticker to trade; partner logos multiply around"},
+  {"start": 37, "end": 40.34, "kind": "end_card", "what": "X logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 5,
+ "end_card": {"start": 37, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["push_zoom", "morph_match", "fade_dissolve", "cut"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "notes": "Continuous camera glides between floating phone and caption lines; logo orbit bookends open and close; only four hard cuts."
+}

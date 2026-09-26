@@ -1,0 +1,12 @@
+{
+ "slug": "launch-video-10s",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["blur_in", "fade", "scale_down"], "frames_to_settle": 6, "fast_start": true, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Camera pulls back from chip; big word blurs in letter-wise, then pans"},
+  {"k": 1, "element": "ui_panel", "action": "exit", "style": ["fade", "scale_down"], "frames_to_settle": 10, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Page content fades to blank, frame shrinks to small logo tile"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 40, "body_px": 19, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 0, "radius_px": 14, "shadow": "soft", "bg_style": "texture", "accent_count": 1, "density": "medium", "notes": "Macro crop of app dashboard with tabs over paper texture"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 43, "radius_px": 0, "shadow": "none", "bg_style": "texture", "accent_count": 0, "density": "sparse", "notes": "Logo in selected frame on grid lines, paper background"},
+  {"k": 2, "headline_px": 81, "body_px": 8, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "mixed", "margin_pct": 0, "radius_px": 4, "shadow": "soft", "bg_style": "texture", "accent_count": 2, "density": "medium", "notes": "Word typing above gradient icon pill, editor with landing page"}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "benji-motion-launch-reel",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "montage", "what": "Grid of multiple 'Introducing...' launch snippets typing on"},
+  {"start": 2, "end": 7, "kind": "montage", "what": "Grid: Grok 4.5 prompts, agent builder, device, model picker"},
+  {"start": 7, "end": 11, "kind": "montage", "what": "Grid: Faster, Better, Stronger words with app mockups"},
+  {"start": 11, "end": 18, "kind": "montage", "what": "Grid: phone apps, support agent prompt, voice orbs"},
+  {"start": 18, "end": 23, "kind": "montage", "what": "Grid: build/deploy/share, voice cloning, built for Android"},
+  {"start": 23, "end": 25.77, "kind": "end_card", "what": "Grid closes with phone numbers, clouds, 'Now live'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 2,
+ "end_card": {"start": 25, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "wipe_mask", "pan_slide"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Portfolio reel: 2x4 split-screen grid of simultaneous launch-video clips throughout; no single narrative; end card uncertain ('Now live' cell)."
+}

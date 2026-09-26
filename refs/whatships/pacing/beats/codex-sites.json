@@ -1,0 +1,24 @@
+{
+ "slug": "codex-sites",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Kinetic text: With Codex now you can build and share web apps"},
+  {"start": 6, "end": 11.7, "kind": "demo", "what": "Prompt @Sites builds event microsite, agent working"},
+  {"start": 11.7, "end": 15, "kind": "other", "what": "Text card: Go from [idea] to (deployment)"},
+  {"start": 15, "end": 22, "kind": "demo", "what": "Prompt variations, revenue dashboard generated"},
+  {"start": 22, "end": 25, "kind": "other", "what": "Text card: Control who can access what"},
+  {"start": 25, "end": 29, "kind": "feature", "what": "Share dialog: access permissions set"},
+  {"start": 29, "end": 33, "kind": "other", "what": "Text card: Build anything. Share with anyone."},
+  {"start": 33, "end": 35, "kind": "demo", "what": "Launch tracker built and shared"},
+  {"start": 35, "end": 38.9, "kind": "montage", "what": "Collage of many generated sites"},
+  {"start": 38.9, "end": 43, "kind": "intro", "what": "[Sites] Now in (Codex), preview availability"},
+  {"start": 43, "end": 46.53, "kind": "end_card", "what": "Codex logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 43, "logo": true, "cta": false},
+ "text_cards": 5,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Alternates bracket-styled typed text cards with UI demos; very few hard cuts, mostly in-frame animated changes."
+}

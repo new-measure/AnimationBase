@@ -1,0 +1,17 @@
+{
+ "slug": "figma-3980",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["draw_on", "zoom_through", "fade"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Rapid-cut pen-tool build of liquid donut; 'Liquid' text appears behind"},
+  {"k": 1, "element": "mixed", "action": "replace", "style": ["draw_on", "scale_down", "zoom_through"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Tweet shrinks away; spaceship wireframe built via quick cuts and zooms"},
+  {"k": 2, "element": "camera", "action": "camera_move", "style": ["slide"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Slow-in slow-out horizontal pan across tweet text, blur mid-pan"},
+  {"k": 3, "element": "image", "action": "transform", "style": ["wipe", "color_change"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Circular wipes recolour clock orange-black-white; then pixel icons recolour"},
+  {"k": 4, "element": "image", "action": "camera_move", "style": ["zoom_through", "scale_pop"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": 6, "motion_blur": false, "notes": "Infinite zoom: each poster grows from inside previous poster"},
+  {"k": 5, "element": "image", "action": "camera_move", "style": ["zoom_through", "slide"], "frames_to_settle": 30, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": true, "notes": "Poster zoom chain, then tweet card whips in with blur"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 45, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 5, "density": "sparse", "notes": "Figma logo centered on black, small scale"},
+  {"k": 1, "headline_px": 68, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 23, "radius_px": 80, "shadow": "glow", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Glass purple button with glowing edge, cursor"},
+  {"k": 2, "headline_px": 72, "body_px": 12, "typefaces": 2, "type_style": ["sans", "display"], "weights": ["light", "regular"], "align": "center", "margin_pct": 39, "radius_px": 44, "shadow": "soft", "bg_style": "texture", "accent_count": 1, "density": "medium", "notes": "Skeuomorphic phone keypad UI on grey noise background"},
+  {"k": 3, "headline_px": 40, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": 60, "shadow": "soft", "bg_style": "flat", "accent_count": 0, "density": "medium", "notes": "Tilted dark device close-up with motion blur"}
+ ]
+}

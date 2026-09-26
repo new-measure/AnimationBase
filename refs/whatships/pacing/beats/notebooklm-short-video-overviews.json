@@ -1,0 +1,22 @@
+{
+ "slug": "notebooklm-short-video-overviews",
+ "beats": [
+  {"start": 0, "end": 1.8, "kind": "intro", "what": "'Introducing Short Video Overviews' text card"},
+  {"start": 1.8, "end": 3.5, "kind": "demo", "what": "Phone app Studio menu, Video Overview selected"},
+  {"start": 3.5, "end": 6, "kind": "hook", "what": "'A new way to fit big insights' text"},
+  {"start": 6, "end": 9, "kind": "feature", "what": "Customize screen: choose Short format"},
+  {"start": 9, "end": 11, "kind": "hook", "what": "'Into bite-size videos' text card"},
+  {"start": 11, "end": 17.3, "kind": "demo", "what": "Generated short video: Emu War illustrated captions"},
+  {"start": 17.3, "end": 18.8, "kind": "other", "what": "'For learning that goes everywhere you do' text"},
+  {"start": 18.8, "end": 26.4, "kind": "montage", "what": "Carousel of short videos: Alexander, biology, flowers"},
+  {"start": 26.4, "end": 30.49, "kind": "end_card", "what": "Google NotebookLM logo and URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 1.8,
+ "end_card": {"start": 26.4, "logo": true, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "pan_slide"],
+ "camera": ["static", "pan"],
+ "pace": "fast",
+ "notes": "Vertical format; alternates a split headline sentence across text cards with UI/output shots. Mid-film text beats labeled hook/other loosely."
+}

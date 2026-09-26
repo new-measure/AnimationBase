@@ -1,2 +1,15 @@
 node_modules
 out/
+refs/whatships/raw/
+refs/whatships/posters/
+refs/whatships/grids/
+refs/whatships/tags/
+refs/whatships/genre_grids/
+refs/whatships/pacing/sheets/
+refs/whatships/craft/strips/
+refs/whatships/craft/stills/
+projects/*/assets/*.mp4
+projects/*/assets/*.wav
+refs/eval/craft/strips/
+refs/eval/craft/stills/
+refs/eval/sheets/

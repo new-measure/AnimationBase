@@ -1,6 +1,8 @@
 // core.js: constants, helpers, paper, paint wrapper, compositing and render hooks.
 // Length and rhythm come from PROJECT in config.js.
-const W = 1920, H = 1080;
+// Canvas size from PROJECT.size ([w, h]); 1920 × 1080 by default. Presets: SIZES.landscape / square / portrait.
+const SIZES = { landscape: [1920, 1080], square: [1080, 1080], portrait: [1080, 1920] };
+const [W, H] = Array.isArray(PROJECT.size) ? PROJECT.size : SIZES[PROJECT.size || 'landscape'];
 const BPM = PROJECT.bpm, BEAT = 60 / BPM, OFF = PROJECT.offset || 0, BOIL = 12, DUR = PROJECT.duration;
 const TAU = Math.PI * 2;
 const PAL = {
@@ -17,13 +19,22 @@ const backOut = x => { x = clamp(x); const s = 1.9; return 1 + (s + 1) * Math.po
 const hash = i => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
 const bpOf = t => (t - OFF) / BEAT;
 // Seeded by the boil frame, so linework "boils" at BOIL fps like hand-drawn animation.
-const jit = a => (random() * 2 - 1) * a;
+// PROJECT.style 'clean': crisp vector look (flat fills, even outlines, no boil, no paper). Default: hand-painted.
+const CLEAN = PROJECT.style === 'clean';
+const jit = a => CLEAN ? 0 : (random() * 2 - 1) * a;
 // Each boil drawing holds for several frames, so whatever isn't moving must draw the same until the next one. But a moving
 // thing uses a different amount of randomness each frame, which shifts the stream for everything drawn after it and makes
 // that re-boil every frame (jitter). boilSeed(key) restarts the stream from the boil frame and a key (any string or
 // number) that's the same every frame: call it before each separate element. clawd() does this for itself and its parts.
 let BOILN = 0, CLAWD_N = 0;
 const boilSeed = key => { let h = 2166136261; for (const c of key + '|' + BOILN) h = Math.imul(h ^ c.charCodeAt(0), 16777619); randomSeed(h >>> 0); };
+
+// ---------- characters ----------
+// Character kits (clawd.js, jolly.js, ...) each keep their API in a namespace (Clawd, Jolly) with one shared interface:
+// draw(x, y, u, o), feel(name, t), emotions(t, keys), move(style, t), turn(...), spinView(a) and EMO. The first kit
+// loaded also gets its names as plain globals (clawd(), feel(), EMO, ...), so a one-character scene reads as before;
+// with two kits loaded, call the others through their namespace (Jolly.draw(...), Jolly.feel(...)).
+function character(kit) { for (const k in kit) if (!(k in window)) window[k] = kit[k]; return kit; }
 
 // ---------- timing helpers (everything is a pure function of t; no state survives between frames) ----------
 const seg = (t, a, b) => clamp((t - a) / (b - a));                 // 0..1 progress of t through [a, b]
@@ -86,7 +97,7 @@ function stroll(t, t0, t1, x0, x1, u) {
 // ---------- camera ----------
 // camBegin(cx, cy, zoom, rot): world point (cx, cy) lands at screen centre. Letters queued while a camera is
 // active are placed through it automatically (pass {screen:true} to opt out). One level only: always pair with camEnd().
-// LAST_CAM stays set after camEnd(), until the next frame: renderSheet's crops that follow a world point use it.
+// LAST_CAM stays set after camEnd(), until the next frame: --crop-at (window.cropAt) uses it. D.cam sets it too.
 let CAM = null, LAST_CAM = null;
 function camBegin(cx = W / 2, cy = H / 2, zoom = 1, rot = 0) { push(); translate(W / 2, H / 2); rotate(rot); scale(zoom); translate(-cx, -cy); CAM = LAST_CAM = { cx, cy, zoom, rot }; }
 function camEnd() { pop(); CAM = null; }
@@ -183,7 +194,32 @@ function centred(pts, draw) {
   push(); translate(cx, cy); draw(pts.map(([x, y]) => [x - cx, y - cy])); pop();
 }
 function paint(pts, o = {}) { centred(pts, (P) => paintAt(P, o)); }
+// Clean mode: a closed Catmull-Rom through the points, for smooth vector outlines.
+function smoothClosed(P, n = 5) {
+  const m = P.length, out = [];
+  if (m < 3) return P.slice();
+  for (let i = 0; i < m; i++) {
+    const p0 = P[(i - 1 + m) % m], p1 = P[i], p2 = P[(i + 1) % m], p3 = P[(i + 2) % m];
+    for (let k = 0; k < n; k++) {
+      const u = k / n, u2 = u * u, u3 = u2 * u;
+      out.push([0, 1].map(d => .5 * (2 * p1[d] + (p2[d] - p0[d]) * u + (2 * p0[d] - 5 * p1[d] + 4 * p2[d] - p3[d]) * u2 + (3 * p1[d] - p0[d] - 3 * p2[d] + p3[d]) * u3)));
+    }
+  }
+  return out;
+}
+const CLEAN_SW = 3.2;   // clean outline px per unit of `sw`
+function cleanShape(pts, o) {
+  const P = o.curv ? smoothClosed(pts) : pts;
+  const poly = () => { beginShape(); for (const p of P) vertex(p[0], p[1]); endShape(CLOSE); };
+  noStroke();
+  if (o.wash) { const c = color(o.wash); c.setAlpha(o.washOp ?? 255); fill(c); poly(); }
+  if (o.fill) { const c = color(o.fill); c.setAlpha((o.fillOp ?? 170) * (o.wash ? .35 : .75)); fill(c); poly(); }
+  if (o.ink !== null && (o.sw ?? 1) > 0) {
+    noFill(); stroke(o.ink || PAL.ink); strokeWeight((o.sw ?? 1) * CLEAN_SW); strokeJoin(ROUND); poly();
+  }
+}
 function paintAt(pts, o) {
+  if (CLEAN) return cleanShape(pts, o);
   if (o.wash || o.fill || o.hatch) {
     if (o.wash) brush.wash(o.wash, o.washOp ?? 255); else brush.noWash();
     if (o.fill) { brush.fill(o.fill, o.fillOp ?? 170); brush.fillBleed(o.bleed ?? .1); brush.fillTexture(o.tex ?? .4, o.border ?? .35); } else brush.noFill();
@@ -199,6 +235,13 @@ function paintAt(pts, o) {
   }
 }
 function inkLine(pts, sw = 1, col = PAL.ink, br = 'ink', curv = .5) {
+  if (CLEAN) {
+    if (sw <= 0) return;
+    const P = curv > 0 && pts.length > 2 ? through(pts) : pts;
+    push(); noFill(); stroke(col); strokeWeight(sw * CLEAN_SW * (br === 'inkfine' ? .6 : 1)); strokeCap(ROUND); strokeJoin(ROUND);
+    beginShape(); for (const p of P) vertex(p[0], p[1]); endShape(); pop();
+    return;
+  }
   centred(pts, (P) => { brush.noFill(); brush.noWash(); brush.noHatch(); brush.set(br, col, sw); brush.spline(P, curv); });
 }
 
@@ -229,6 +272,7 @@ function drawLetters(c) {
 // p5.brush defers washes and strokes into a mask layer; a (tiny, off-screen) watercolor fill forces it to composite
 // now, so everything painted before this call really lands under whatever p5 draws next (letters, glow).
 function flushBrush() {
+  if (CLEAN) return;
   push(); resetMatrix(); translate(-W / 2, -H / 2);
   brush.noStroke(); brush.noHatch(); brush.noWash(); brush.fill('#000000', 1); brush.fillBleed(0); brush.fillTexture(0, 0);
   brush.polygon([[-50, -50], [-40, -50], [-40, -40]]); brush.noFill(); pop();
@@ -240,7 +284,7 @@ function flushLetters() {
   letG.clear(); drawLetters(letG.drawingContext); LETTERS = [];
   flushBrush();
   // Letters are already in screen space, so composite them with the base transform even inside camBegin().
-  push(); resetMatrix(); translate(-W / 2, -H / 2); image(letG, 0, 0); pop();
+  push(); resetMatrix(); if (!CLEAN) translate(-W / 2, -H / 2); image(letG, 0, 0); pop();
 }
 
 // ---------- paper ----------
@@ -273,54 +317,67 @@ function defineBrushes() {
 
 // ---------- frame ----------
 async function setup() {
-  createCanvas(W, H, WEBGL); pixelDensity(1); noLoop();
-  brush.scaleBrushes(5); defineBrushes();
+  createCanvas(W, H, CLEAN ? P2D : WEBGL); pixelDensity(1); noLoop();
+  if (!CLEAN) { brush.scaleBrushes(5); defineBrushes(); }
   paperG = makePaper(); grainC = makeGrain(); glowTex = makeGlowTex(); letG = createGraphics(W, H); letG.pixelDensity(1);
   outC = document.getElementById('out'); outX = outC.getContext('2d');
-  await document.fonts.load('100px "Permanent Marker"');
+  const stage = document.getElementById('stage'); D.init(stage); stage.style.background = PROJECT.canvasBg || PAL.paper;
+  // every weight of every PROJECT.fonts family, so no frame is captured with a fallback font
+  const fonts = ['100px "Permanent Marker"', ...(PROJECT.localFonts || []).map(f => `${f.style || 'normal'} ${f.weight || 400} 100px "${f.family}"`), ...(PROJECT.fonts || []).flatMap(f => {
+    const [fam, spec] = f.split(':'), ws = (spec || '').match(/wght@([\d;.]+)/)?.[1].split(';') || ['400'];
+    return ws.map(w => `${w} 100px "${fam.replace(/\+/g, ' ')}"`);
+  })];
+  await Promise.all(fonts.map(f => document.fonts.load(f)));
   window.ready = true;
   if (!location.search.includes('render')) devUI();
 }
+// canvasBg null: a transparent painting (no paper, no grain), for layering over DOM (see D.canvas in dom.js)
+const CLEAR_BG = PROJECT.canvasBg === null;
 function draw() {
   if (!window.ready) return;
   LETTERS = []; CAM = LAST_CAM = null;
-  push(); translate(-W / 2, -H / 2);
+  push(); if (!CLEAN) translate(-W / 2, -H / 2);
   BOILN = Math.floor(T * BOIL); CLAWD_N = 0; boilSeed('frame'); noiseSeed(77);
-  image(paperG, 0, 0);
-  drawWorld(T);
+  if (CLEAR_BG) clear(); else if (CLEAN) background(PROJECT.canvasBg || PAL.paper); else image(paperG, 0, 0);
+  D.begin(); drawWorld(T); D.end();
   pop();
 }
 function composite(t) {
   const c = outX;
   c.globalCompositeOperation = 'source-over'; c.globalAlpha = 1;
+  if (CLEAR_BG) c.clearRect(0, 0, W, H);
   c.drawImage(drawingContext.canvas, 0, 0, W, H);
   drawLetters(c);
-  c.globalCompositeOperation = 'multiply'; c.drawImage(grainC, 0, 0);
+  if (!CLEAN && !CLEAR_BG) { c.globalCompositeOperation = 'multiply'; c.drawImage(grainC, 0, 0); }
   c.globalCompositeOperation = 'source-over';
 }
-window.renderAt = async (t, type = 'image/png', q = .92) => { T = t; await redraw(); composite(t); return outC.toDataURL(type, q); };
-// Contact sheet of several times, for visual checks: returns { url, ms[] }. crop = [x, y, w, h] fills each cell with just
-// that region of the frame, at full resolution (for checking faces, hands and contacts up close). at = [x, y, w, h]
-// instead crops w × h around the WORLD point (x, y), wherever each frame's camera put it (a foot, a splash, a prop on
-// a moving shot); x and y may be expressions evaluated in the page.
-window.renderSheet = async (times, cols = 3, w = 640, crop = null, at = null) => {
-  if (at) at = at.map((v) => typeof v === 'string' ? (0, eval)(v) : v);
-  const [, , cw, ch] = at || crop || [0, 0, W, H], h = Math.round(w * ch / cw), rows = Math.ceil(times.length / cols), sc = document.createElement('canvas');
-  sc.width = cols * w; sc.height = rows * h; const c = sc.getContext('2d'), ms = [];
-  for (let i = 0; i < times.length; i++) {
-    const t0 = performance.now(); T = times[i]; await redraw(); composite(times[i]); ms.push(Math.round(performance.now() - t0));
-    const x = (i % cols) * w, y = Math.floor(i / cols) * h;
-    const [cx, cy] = at ? toScreen(at[0], at[1], LAST_CAM).map((v, j) => v - (j ? ch : cw) / 2) : crop || [0, 0];
-    c.drawImage(outC, cx, cy, cw, ch, x, y, w, h); c.fillStyle = 'rgba(0,0,0,.65)'; c.fillRect(x, y, 84, 24); c.fillStyle = '#fff'; c.font = '15px sans-serif'; c.fillText(times[i].toFixed(2) + 's', x + 6, y + 17);
-  }
-  return { url: sc.toDataURL('image/jpeg', .9), ms };
+// seek(t): render the frame at t (p5 painting and DOM) and wait until it's ready to capture. Returns true when the frame
+// has DOM, which only a screenshot can capture (render.mjs does that); otherwise the canvas #out holds the whole frame.
+window.seek = async t => { T = t; await redraw(); composite(t); if (D.live) await D.ready(); return D.live; };
+// renderAt(t): the frame as a data URL, or null when it has DOM (then render.mjs takes a screenshot of the stage).
+window.renderAt = async (t, type = 'image/png', q = .92) => (await window.seek(t)) ? null : outC.toDataURL(type, q);
+// For --crop-at: the top-left of a w × h crop centred on WORLD point (x, y), through the frame's last camera (camBegin
+// or D.cam); x and y may be expressions evaluated in the page. Call after seek().
+window.cropAt = ([x, y, w, h]) => {
+  [x, y] = [x, y].map(v => typeof v === 'string' ? (0, eval)(v) : v);
+  const [sx, sy] = toScreen(x, y, LAST_CAM); return [sx - w / 2, sy - h / 2, w, h];
 };
-window.gpuInfo = () => { const gl = drawingContext, e = gl.getExtension('WEBGL_debug_renderer_info'); return e ? gl.getParameter(e.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER); };
+window.gpuInfo = () => { if (CLEAN) return 'Canvas 2D (clean style)'; const gl = drawingContext, e = gl.getExtension('WEBGL_debug_renderer_info'); return e ? gl.getParameter(e.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER); };
 
 function devUI() {
-  const s = document.getElementById('scrub'), lab = document.getElementById('tt'); s.max = window.LOOP ? window.LOOP.len : DUR;
-  let busy = false, want = null;
-  const go = async () => { if (busy) return; busy = true; while (want != null) { const t = want; want = null; const t0 = performance.now(); await window.renderAt(t); lab.textContent = `${t.toFixed(2)}s  ·  ${Math.round(performance.now() - t0)} ms/frame`; } busy = false; };
-  s.addEventListener('input', () => { want = +s.value; go(); });
-  want = +(new URLSearchParams(location.search).get('t') || 0); s.value = want; go();
+  const s = document.getElementById('scrub'), lab = document.getElementById('tt'), play = document.getElementById('play'), len = window.LOOP ? window.LOOP.len : DUR;
+  s.max = len;
+  // Preview only: scale the W × H stage to fit the view (render mode captures it unscaled).
+  const view = document.getElementById('view'), stage = document.getElementById('stage');
+  new ResizeObserver(() => { stage.style.transform = `scale(${view.clientWidth / W})`; }).observe(view);
+  let busy = false, want = null, playing = false, p0 = 0, t0 = 0;
+  const go = async () => { if (busy) return; busy = true; while (want != null) { const t = want; want = null; const m = performance.now(); await window.seek(t); lab.textContent = `${t.toFixed(2)}s / ${len}s  ·  ${Math.round(performance.now() - m)} ms/frame`; } busy = false; };
+  const at = t => { want = t; s.value = t; go(); };
+  // play in real time, dropping frames the renderer can't keep up with
+  const tick = () => { if (!playing) return; at((t0 + (performance.now() - p0) / 1000) % len); requestAnimationFrame(tick); };
+  const toggle = () => { playing = !playing; play.textContent = playing ? 'pause' : 'play'; if (playing) { p0 = performance.now(); t0 = +s.value; tick(); } };
+  play.addEventListener('click', toggle);
+  addEventListener('keydown', e => { if (e.code === 'Space' && e.target.tagName !== 'SELECT') { e.preventDefault(); toggle(); } });
+  s.addEventListener('input', () => { if (playing) toggle(); at(+s.value); });
+  at(+(new URLSearchParams(location.search).get('t') || 0));
 }

@@ -1,0 +1,17 @@
+{
+ "slug": "archer",
+ "beats": [
+  {"start": 0, "end": 24, "kind": "montage", "what": "Rapid news/market footage: Fed, crypto, oil, NVIDIA, trading floors"},
+  {"start": 24, "end": 30, "kind": "demo", "what": "Connect Wallet button, Archer trading chart UI"},
+  {"start": 30, "end": 34, "kind": "intro", "what": "Text: Trade, Trade Stocks, One Platform"},
+  {"start": 34, "end": 35.4, "kind": "end_card", "what": "Archer logo"}
+ ],
+ "first_text_s": 8,
+ "first_product_s": 25,
+ "end_card": {"start": 34, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "notes": "Two-thirds is found-footage news montage cut every ~0.6s as hook/context; product only appears in last 10 seconds."
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "granola",
+ "beats": [
+  {"start": 0, "end": 2.3, "kind": "intro", "what": "HeyGen and Granola logos side by side"},
+  {"start": 2.3, "end": 5.3, "kind": "demo", "what": "Prompt in HeyGen using Granola meeting notes"},
+  {"start": 5.3, "end": 19.7, "kind": "demo", "what": "Generated avatar video plays in HeyGen editor"},
+  {"start": 19.7, "end": 22.3, "kind": "feature", "what": "Headline: build with Granola notes in HeyGen"},
+  {"start": 22.3, "end": 24.2, "kind": "other", "what": "Handwritten 'Granola now with MCP'"},
+  {"start": 24.2, "end": 24.8, "kind": "other", "what": "Flash: 'Speak it into existence' graphic"},
+  {"start": 24.8, "end": 26.15, "kind": "end_card", "what": "Granola logo 'the notes.' on lime"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 0,
+ "end_card": {"start": 24.8, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Partner integration clip: one long held demo then rapid sub-second collage-style cards at the end."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "not-a-single-prompt",
+ "moves": [
+  {"k": 0, "element": "icon", "action": "enter", "style": ["slide"], "frames_to_settle": 6, "fast_start": true, "overshoot": "none", "stagger_frames": 16, "motion_blur": false, "notes": "Text pill glides left; app icons slide in from right one after another"},
+  {"k": 1, "element": "mixed", "action": "transform", "style": ["stagger_list", "blur_in", "particles", "typing"], "frames_to_settle": 32, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": true, "notes": "Text smears away; Connect App buttons multiply with blur trails; next word types"},
+  {"k": 2, "element": "ui_panel", "action": "enter", "style": ["draw_on", "stagger_list", "fade"], "frames_to_settle": 8, "fast_start": true, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Tree line draws down, rows fade in staggered; later camera zooms, rows fade out"},
+  {"k": 3, "element": "text", "action": "enter", "style": ["fade", "rise", "stagger_list", "color_change"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": 12, "motion_blur": false, "notes": "Log rows fade in one per ~12 frames while view scrolls up slowly"},
+  {"k": 4, "element": "shape", "action": "transform", "style": ["mask_reveal", "scale_pop", "draw_on"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Dark circle grows from cursor, accelerating, to fill frame; cyan line draws on"},
+  {"k": 5, "element": "mixed", "action": "enter", "style": ["typing", "rise", "slide"], "frames_to_settle": 27, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Word types in, gap closes, line two rises; laptop rises eased in-out"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 30, "body_px": 30, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "mixed", "margin_pct": 9.3, "radius_px": 28, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Chat exchange on white: grey right bubble, reply with teal highlighted phrase"},
+  {"k": 1, "headline_px": 28, "body_px": 26, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 10.6, "radius_px": 12, "shadow": "glow", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Benchmark bar chart on charcoal, winning bar glowing cyan"},
+  {"k": 2, "headline_px": 90, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "left", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Large line cropped at left edge, teal-to-grey gradient text between rules"},
+  {"k": 3, "headline_px": 84, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "left", "margin_pct": 12.8, "radius_px": 80, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Four-line bold headline with gradient fade, logo, ghosted app window behind"}
+ ]
+}

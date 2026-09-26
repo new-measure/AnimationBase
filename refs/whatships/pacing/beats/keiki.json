@@ -1,0 +1,15 @@
+{"slug":"keiki","beats":[
+{"start":0,"end":4,"kind":"intro","what":"Dot expands: Introducing Keiki, Build Agents"},
+{"start":4,"end":9,"kind":"demo","what":"Prompt: build me an agent that finds leads on X"},
+{"start":9,"end":14,"kind":"demo","what":"Agent instructions, model and Slack connection configured, launched"},
+{"start":14,"end":17.2,"kind":"feature","what":"Lead posts arrive in Slack, multiplying"},
+{"start":17.2,"end":18,"kind":"transition","what":"Blurry flame-over-sea flash"},
+{"start":18,"end":24,"kind":"feature","what":"Agents dashboard listing active agents"},
+{"start":24,"end":33.8,"kind":"feature","what":"Refunds email agent reads KB, finds Stripe, replies"},
+{"start":33.8,"end":41,"kind":"feature","what":"WhatsApp dental booking agent conversation on phone"},
+{"start":41,"end":46,"kind":"montage","what":"Every conversation, every platform: channel icons scroll"},
+{"start":46,"end":54,"kind":"montage","what":"Rolling list: for support, research, sales, appointments"},
+{"start":54,"end":57.11,"kind":"end_card","what":"Keiki logo on white"}],
+"first_text_s":1,"first_product_s":1,"end_card":{"start":54,"logo":true,"cta":false},
+"text_cards":4,"transitions":["cut","push_zoom","morph_match","whip_blur"],"camera":["static","push_in","tilt_3d"],
+"pace":"medium","notes":"Opens with intro instead of hook; three use-case vignettes then slot-machine word roll of use cases before logo."}

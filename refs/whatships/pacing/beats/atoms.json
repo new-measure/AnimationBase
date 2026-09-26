@@ -1,0 +1,22 @@
+{
+ "slug": "atoms",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Black particles swirl, coalesce into dark disc"},
+  {"start": 12, "end": 16, "kind": "hook", "what": "Typed line: digitizing the physical world"},
+  {"start": 16, "end": 48, "kind": "story", "what": "Archival Kalanick talks, Uber IPO, maps: bits era"},
+  {"start": 48, "end": 50, "kind": "other", "what": "White card: it's magic."},
+  {"start": 50, "end": 70, "kind": "story", "what": "CRT news and headlines: Kalanick resigns from Uber"},
+  {"start": 70, "end": 76, "kind": "transition", "what": "Dark glints and solarized dissolves into new chapter"},
+  {"start": 76, "end": 98, "kind": "montage", "what": "Cube, factory, historic industry, mining footage with word captions"},
+  {"start": 98, "end": 106, "kind": "intro", "what": "Particles form Atoms square-ring logo mark"},
+  {"start": 106, "end": 114.79, "kind": "end_card", "what": "ATOMS wordmark on black"}
+ ],
+ "first_text_s": 14,
+ "first_product_s": 98,
+ "end_card": {"start": 106, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "medium",
+ "notes": "Founder-biography documentary built from archival clips; one-word subtitles pace speech; product only appears as logo at very end."
+}

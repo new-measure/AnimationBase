@@ -1,0 +1,20 @@
+{
+ "slug": "figmatrace",
+ "beats": [
+  {"start": 0, "end": 1, "kind": "other", "what": "Dark empty frame"},
+  {"start": 1, "end": 4, "kind": "intro", "what": "Typed 'Introducing FigmaTrace', screen recording dataset for computer use"},
+  {"start": 4, "end": 6, "kind": "proof", "what": "200+ hours of real work stat"},
+  {"start": 6, "end": 10.8, "kind": "feature", "what": "Real Figma Work: collage of Figma recordings, workflow list"},
+  {"start": 10.8, "end": 15, "kind": "feature", "what": "Real Figma Skills: skill categories scroll by"},
+  {"start": 15, "end": 16, "kind": "transition", "what": "Blank dark frame"},
+  {"start": 16, "end": 19.05, "kind": "end_card", "what": "Patronus AI logo"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 1,
+ "end_card": {"start": 16, "logo": true, "cta": false},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "pan_slide"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "notes": "Typography-led dataset announcement; product is a dataset so shown only via recording collage; typewriter text builds each card."
+}

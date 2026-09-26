@@ -1,0 +1,16 @@
+{
+ "slug": "claude-code-setup",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "demo", "what": "Terminal: typing /plugin install claude-code-setup command"},
+  {"start": 2, "end": 9, "kind": "demo", "what": "Plugin details screen, choosing install scope"},
+  {"start": 9, "end": 11.05, "kind": "end_card", "what": "Confirmation: plugin installed, reload to apply"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Single-take terminal screen recording, no cuts or titles; last beat is install confirmation, labeled end_card loosely (uncertain)."
+}

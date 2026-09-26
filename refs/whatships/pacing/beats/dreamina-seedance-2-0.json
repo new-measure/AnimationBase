@@ -1,0 +1,14 @@
+{"slug":"dreamina-seedance-2-0","beats":[
+{"start":0,"end":3,"kind":"hook","what":"Rapid lab shots: glowing hand, scientist closing eyes"},
+{"start":3,"end":7.1,"kind":"intro","what":"Title: Dreamina Seedance 2.0, True 4K Ultra HD"},
+{"start":7.1,"end":12.8,"kind":"feature","what":"Scientist at microscope dials 720p to 4K, 4K in lens"},
+{"start":12.8,"end":19,"kind":"feature","what":"Macro butterfly wing detail shots"},
+{"start":19,"end":21.7,"kind":"other","what":"Text card: See the Unseen"},
+{"start":21.7,"end":36,"kind":"montage","what":"Notes, squid 1080p-to-4K frame, ladybug, frog macros"},
+{"start":36,"end":38,"kind":"other","what":"Text card: Stunning Uncompressed Quality"},
+{"start":38,"end":43,"kind":"montage","what":"4K lab wide shots, jumping spider macro"},
+{"start":43,"end":45,"kind":"intro","what":"Dreamina Seedance 2.0, Now in 4K"},
+{"start":45,"end":47.95,"kind":"end_card","what":"Dreamina AI star logo and wordmark"}],
+"first_text_s":3,"first_product_s":3,"end_card":{"start":45,"logo":true,"cta":false},
+"text_cards":4,"transitions":["cut","fade_dissolve","push_zoom"],"camera":["push_in","static","pan"],
+"pace":"fast","notes":"All footage is model output; film is a showreel. Quiet serif text cards punctuate macro montages. Text cards labelled other."}

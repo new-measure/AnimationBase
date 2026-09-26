@@ -1,0 +1,23 @@
+{
+ "slug": "hop-aero",
+ "beats": [
+  {"start": 0, "end": 6.3, "kind": "intro", "what": "hop aero logo, Backed by YC, over rapid rocket shots"},
+  {"start": 6.3, "end": 12, "kind": "feature", "what": "Launch from shipping containers in jungle, mission timeline"},
+  {"start": 12, "end": 17.2, "kind": "feature", "what": "Hop: suborbital arc across Earth"},
+  {"start": 17.2, "end": 19.2, "kind": "feature", "what": "Re-entry fireball"},
+  {"start": 19.2, "end": 26.8, "kind": "feature", "what": "Propulsive landing, deploys payload in jungle"},
+  {"start": 26.8, "end": 30.2, "kind": "montage", "what": "Multiple rockets landing among palm trees"},
+  {"start": 30.2, "end": 35.8, "kind": "proof", "what": "$1.25 Million contract from U.S. Air Force"},
+  {"start": 35.8, "end": 39, "kind": "story", "what": "Team in field and mission control"},
+  {"start": 39, "end": 49, "kind": "proof", "what": "CAD engine render, hot fire and tethered test footage"},
+  {"start": 49, "end": 52.57, "kind": "end_card", "what": "hop aero logo, Backed by Combinator on navy"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 49, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "pan", "push_in", "handheld"],
+ "pace": "medium",
+ "notes": "CGI concept-of-operations with timeline HUD, then pivots to real test footage as proof. Logo up front over rapid shots."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "agent-opus-song-to-video",
+ "moves": [
+  {"k": 0, "element": "ui_panel", "action": "exit", "style": ["fade"], "frames_to_settle": 9, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Cut to zoomed prompt bar; bar fades out leaving send button and cursor"},
+  {"k": 1, "element": "image", "action": "transform", "style": [], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Video content plays inside static carousel card; camera tilts down to feet"},
+  {"k": 2, "element": "card", "action": "transform", "style": ["slide", "scale_pop", "fade"], "frames_to_settle": 17, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Carousel advances left; next card grows to centre while crossfading"},
+  {"k": 3, "element": "card", "action": "transform", "style": ["slide", "scale_pop", "fade"], "frames_to_settle": 17, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Same carousel advance; outgoing card shrinks left, dims under incoming card"},
+  {"k": 4, "element": "card", "action": "transform", "style": ["slide", "scale_pop", "fade"], "frames_to_settle": 15, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Hold on playing clip, then carousel advance starting f19"},
+  {"k": 5, "element": "logo", "action": "transform", "style": ["scale_down"], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "End logo lockup shrinks smoothly to about 58% size, eased in-out"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 17.7, "radius_px": 20, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Centred rounded video card in carousel, cropped neighbours behind, off-white bg"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 17.7, "radius_px": 20, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Same carousel layout, painterly field landscape frame"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 17.7, "radius_px": 20, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Same carousel, character portrait frame, neighbours shorter strips"},
+  {"k": 3, "headline_px": 20, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 10.6, "radius_px": 44, "shadow": "none", "bg_style": "gradient", "accent_count": 2, "density": "medium", "notes": "Dark pill prompt bar on soft pastel gradient, orange cursor"}
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "uplift",
+ "beats": [
+  {"start": 0, "end": 12.08, "kind": "hook", "what": "Rapid archival montage: 'proven technology… higher standard than any humans'"},
+  {"start": 12.08, "end": 26.33, "kind": "problem", "what": "Fires destroyed 13,000 homes; shelters, lack of housing"},
+  {"start": 26.33, "end": 27.42, "kind": "transition", "what": "Black card 'but to do something'"},
+  {"start": 27.42, "end": 39.5, "kind": "story", "what": "Factory reveal: solar panels, robotic assembly line, welding sparks"},
+  {"start": 39.5, "end": 44.33, "kind": "intro", "what": "Unit rolls out: 'Housing On Demand', Uplift Microhome"},
+  {"start": 44.33, "end": 52.33, "kind": "montage", "what": "Truck delivers homes: disaster relief, remote, global housing"},
+  {"start": 52.33, "end": 57.5, "kind": "feature", "what": "Word cloud of specs: off-grid, forklift-deployable, self-leveling"},
+  {"start": 57.5, "end": 60.33, "kind": "end_card", "what": "Uplift logo on dark background"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 30,
+ "end_card": {"start": 57.5, "logo": true, "cta": false},
+ "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "fade_dissolve", "whip_blur"],
+ "camera": ["push_in", "pan", "handheld", "static"],
+ "pace": "fast",
+ "notes": "Opens with 1-s archival cuts and kinetic serif type, slows into CG factory reveal; features compressed into a final word-cloud."
+}

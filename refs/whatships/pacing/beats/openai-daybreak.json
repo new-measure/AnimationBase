@@ -1,0 +1,16 @@
+{
+ "slug": "openai-daybreak",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Orange sun rises over horizon of falling code"},
+  {"start": 5, "end": 7, "kind": "intro", "what": "Scrambled glyphs decode into 'Daybreak' title"},
+  {"start": 7, "end": 14.85, "kind": "end_card", "what": "Hold: 'Daybreak — Frontier AI for cyber defenders'"}
+ ],
+ "first_text_s": 5,
+ "first_product_s": 6,
+ "end_card": {"start": 7, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["none_visible", "morph_match"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "15 s single-shot teaser: sunrise metaphor, text-scramble name reveal, then long hold; wordmark treated as logo/end card."
+}

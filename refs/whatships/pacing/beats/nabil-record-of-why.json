@@ -1,0 +1,20 @@
+{
+ "slug": "nabil-record-of-why",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Four 3D pebble icons orbit on white"},
+  {"start": 8, "end": 12, "kind": "feature", "what": "Pebbles dock left; Momentum card with dot chart"},
+  {"start": 12, "end": 16, "kind": "feature", "what": "Signals card: linked insights with review button"},
+  {"start": 16, "end": 21, "kind": "feature", "what": "Agent Sessions card: Codex and Claude session log"},
+  {"start": 21, "end": 25, "kind": "feature", "what": "Collections card: onboarding subject with sources"},
+  {"start": 25, "end": 27, "kind": "transition", "what": "Pebbles return to orbit cluster"},
+  {"start": 27, "end": 30.46, "kind": "end_card", "what": "'Sounds interesting? Let's chat :)'"}
+ ],
+ "first_text_s": 9,
+ "first_product_s": 9,
+ "end_card": {"start": 27, "logo": false, "cta": true},
+ "text_cards": 1,
+ "transitions": ["morph_match", "fade_dissolve"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Single continuous shot, no cuts: pebble icons morph into each card's header icon, carrying through four feature cards."
+}

@@ -1,0 +1,17 @@
+{"slug":"f2","beats":[
+{"start":0,"end":7,"kind":"problem","what":"Headlines over city footage: private credit defaults, software pain"},
+{"start":7,"end":11.5,"kind":"transition","what":"Whip-blurred city shots, man walking"},
+{"start":11.5,"end":18,"kind":"story","what":"Founder introduced in city office, speaking"},
+{"start":18,"end":24.2,"kind":"intro","what":"ADAM: the top-bucket deal team agent for private markets"},
+{"start":24.2,"end":40.5,"kind":"feature","what":"Founder talks; UI overlays: prompt, projects, knowledge graph"},
+{"start":40.5,"end":48.8,"kind":"feature","what":"Model-agnostic: Anthropic, OpenAI, Google chips appear"},
+{"start":48.8,"end":60.8,"kind":"story","what":"Founder talking head explaining vision"},
+{"start":60.8,"end":66,"kind":"proof","what":"Overlay stats: 5x faster, 3x more efficient"},
+{"start":66,"end":74,"kind":"demo","what":"Full-screen transaction summary, spreadsheet, EBITDA chart outputs"},
+{"start":74,"end":80,"kind":"feature","what":"Deck, model, memo and recommendation cards over founder"},
+{"start":80,"end":86,"kind":"proof","what":"$24M raised, 10 months, investor logos"},
+{"start":86,"end":96,"kind":"story","what":"Founder closing remarks to camera"},
+{"start":96,"end":101.1,"kind":"end_card","what":"F2.ai then F2 wordmark on black"}],
+"first_text_s":0,"first_product_s":18,"end_card":{"start":96,"logo":true,"cta":true},
+"text_cards":2,"transitions":["cut","whip_blur","fade_dissolve"],"camera":["static","handheld","push_in"],
+"pace":"medium","notes":"Founder interview spine with sparse UI overlays; news-headline problem opener and funding proof late. End card shows URL (counted as CTA)."}

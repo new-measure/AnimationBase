@@ -1,0 +1,25 @@
+{
+ "slug": "ssashy",
+ "beats": [
+  {"start": 0, "end": 1.5, "kind": "hook", "what": "Painted scene: 'Email started as a message.'"},
+  {"start": 1.5, "end": 5.9, "kind": "problem", "what": "'Then it became work': projects, meetings, follow-ups"},
+  {"start": 5.9, "end": 10.2, "kind": "problem", "what": "Gmail/Superhuman/Mail icons, 'never made it easy'"},
+  {"start": 10.2, "end": 12.7, "kind": "intro", "what": "'Introducing slashy' letter pulled from mailbox"},
+  {"start": 12.7, "end": 14.8, "kind": "intro", "what": "'An AI email client that works the way you do'"},
+  {"start": 14.8, "end": 22, "kind": "feature", "what": "Drafts your replies with calendar availability"},
+  {"start": 22, "end": 26.7, "kind": "feature", "what": "Categorizes your emails into inbox columns"},
+  {"start": 26.7, "end": 28.8, "kind": "feature", "what": "Knows your writing style, painted typing hands"},
+  {"start": 28.8, "end": 33.2, "kind": "feature", "what": "Integrates CRM, notetakers, messaging app icons"},
+  {"start": 33.2, "end": 39.4, "kind": "feature", "what": "Email updates texted right to your phone"},
+  {"start": 39.4, "end": 44.8, "kind": "story", "what": "Painted people: cut down work, inbox works for you"},
+  {"start": 44.8, "end": 50.26, "kind": "end_card", "what": "slashy wordmark over mountain painting, slashy.com"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 11,
+ "end_card": {"start": 44.8, "logo": true, "cta": true},
+ "text_cards": 6,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Blue monochrome painted-illustration world bookends minimal white UI features; every beat carries one caption line."
+}

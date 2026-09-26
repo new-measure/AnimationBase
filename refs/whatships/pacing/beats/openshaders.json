@@ -1,0 +1,22 @@
+{
+ "slug": "openshaders",
+ "beats": [
+  {"start": 0, "end": 6.1, "kind": "hook", "what": "Archival computer footage: point, line, shape captions"},
+  {"start": 6.1, "end": 9, "kind": "other", "what": "Teaser 'Introducing' text on dark gradient"},
+  {"start": 9, "end": 13.8, "kind": "story", "what": "Archive: could we teach a machine to paint with light?"},
+  {"start": 13.8, "end": 20.7, "kind": "montage", "what": "Rapid game and CG clips: shaders made that possible"},
+  {"start": 20.7, "end": 23.1, "kind": "other", "what": "'And the canvas kept growing.' text card"},
+  {"start": 23.1, "end": 26, "kind": "intro", "what": "OpenShaders logo on flowing light"},
+  {"start": 26, "end": 29.2, "kind": "feature", "what": "Claim username, reveal one-of-one shader cards"},
+  {"start": 29.2, "end": 32, "kind": "other", "what": "'Shaders belong on the web.' text card"},
+  {"start": 32, "end": 35.06, "kind": "end_card", "what": "openshaders.com URL on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 23,
+ "end_card": {"start": 32, "logo": false, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "History-of-graphics archival narrative, fake-out 'Introducing' early; product shown only as logo and shader cards."
+}

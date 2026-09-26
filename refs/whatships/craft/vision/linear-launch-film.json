@@ -1,0 +1,17 @@
+{
+ "slug": "linear-launch-film",
+ "moves": [
+  {"k": 0, "element": "text", "action": "exit", "style": ["blur_in", "fade", "scale_down"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "'Introducing' blurs and collapses to a point, becomes Linear logo"},
+  {"k": 1, "element": "shape", "action": "transform", "style": ["morph", "rotate", "fade"], "frames_to_settle": 20, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Ribbon arcs swirl into ring; text words fade blur-in"},
+  {"k": 2, "element": "character", "action": "replace", "style": ["fade", "blur_in"], "frames_to_settle": 13, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Flash-to-grey transition, then top-down walkers fade in and move"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["fade", "slide"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Grey flash cut; slow drifting camera over 3D spheres and arrow"},
+  {"k": 4, "element": "shape", "action": "exit", "style": ["slide", "fade"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "3D arrow slides out as dark sphere eclipses frame"},
+  {"k": 5, "element": "mixed", "action": "replace", "style": ["fade", "blur_in"], "frames_to_settle": 11, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Grey flash transition from cubes to dark ribbon scene"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 48, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 40, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 0, "density": "sparse", "notes": "Black logo lockup on light grain background"},
+  {"k": 1, "headline_px": 34, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["light"], "align": "center", "margin_pct": 37, "radius_px": null, "shadow": "glow", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Italic light text, words blur in over glowing ribbon"},
+  {"k": 2, "headline_px": 34, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["light"], "align": "center", "margin_pct": 32, "radius_px": null, "shadow": "soft", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Ring of top-down people around per-word blurred text"},
+  {"k": 3, "headline_px": 76, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 35, "radius_px": null, "shadow": "glow", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Glowing white logo on dark smoky monochrome"}
+ ]
+}

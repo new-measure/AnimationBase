@@ -1,0 +1,11 @@
+{"slug":"totalis","beats":[
+{"start":0,"end":7.2,"kind":"hook","what":"Archival montage: every day the world is telling you something"},
+{"start":7.2,"end":17,"kind":"montage","what":"Before the match, chart, crash, headline, shift: sports, markets, jets"},
+{"start":17,"end":25.4,"kind":"montage","what":"You see it, you know it: rocket, moon flag, brain, Jobs"},
+{"start":25.4,"end":27,"kind":"intro","what":"Footage collapses into four-point star logo: the world, every sign"},
+{"start":27,"end":30,"kind":"other","what":"Black captions: now it's your turn, the dots"},
+{"start":30,"end":36,"kind":"demo","what":"Prediction market cards and parlay slip UI"},
+{"start":36,"end":38.08,"kind":"end_card","what":"Totalis star logo and wordmark"}],
+"first_text_s":1,"first_product_s":19,"end_card":{"start":36,"logo":true,"cta":false},
+"text_cards":0,"transitions":["cut","morph_match","wipe_mask"],"camera":["static","handheld","push_in"],
+"pace":"fast","notes":"Found-footage manifesto with ~0.7s cuts and small subtitle captions; star logo hidden in moon flag, UI only in final 6s."}

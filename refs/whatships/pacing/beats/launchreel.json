@@ -1,0 +1,21 @@
+{
+ "slug": "launchreel",
+ "beats": [
+  {"start": 0, "end": 4.2, "kind": "hook", "what": "Headline types: Your launch video, in 15 minutes"},
+  {"start": 4.2, "end": 12, "kind": "demo", "what": "Landing page scroll, example video, booked a click"},
+  {"start": 12, "end": 26, "kind": "feature", "what": "Choose plan, enter email, review order, payment received"},
+  {"start": 26, "end": 46, "kind": "feature", "what": "Brief auto-filled from site URL, style and sound choices"},
+  {"start": 46, "end": 60, "kind": "demo", "what": "Order dashboard shows video generating, in production"},
+  {"start": 60, "end": 66, "kind": "feature", "what": "Email notification: your video is ready"},
+  {"start": 66, "end": 76, "kind": "feature", "what": "Download versions per language, request a revision"},
+  {"start": 76, "end": 85, "kind": "end_card", "what": "Launchreel logo, headline, Get my video button"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 76, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["none_visible", "push_zoom", "fade_dissolve"],
+ "camera": ["pan", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "notes": "Single continuous animated UI walkthrough of the full purchase funnel with almost no cuts; checkout-to-delivery narrative."
+}

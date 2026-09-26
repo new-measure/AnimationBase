@@ -1,0 +1,17 @@
+{
+ "slug": "relay_demo",
+ "moves": [
+  {"k": 0, "element": "shape", "action": "enter", "style": ["particles", "stagger_list", "fade"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Scattered dots converge into ring around icon; caption words fade in"},
+  {"k": 1, "element": "logo", "action": "replace", "style": ["zoom_through", "blur_in", "fade"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Icon scales toward camera and blurs out, small icon fades in"},
+  {"k": 2, "element": "text", "action": "transform", "style": ["fade"], "frames_to_settle": 11, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Counter ticks 113 to 128 decelerating; nodes drift gently"},
+  {"k": 3, "element": "mixed", "action": "replace", "style": ["fade", "blur_in"], "frames_to_settle": 11, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Node diagram cross-dissolves into centred single word"},
+  {"k": 4, "element": "text", "action": "enter", "style": ["fade"], "frames_to_settle": 8, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Single word fades in place, near linear, no travel"},
+  {"k": 5, "element": "shape", "action": "replace", "style": ["wipe", "scale_pop", "stagger_list"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Diagonal grid of squares scales up to solid, then shrinks revealing logo"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 68, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "center", "margin_pct": 22, "radius_px": 12, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "End card: icon, wordmark, grey tagline, purple CTA on radial glow"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 12.8, "radius_px": 28, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Central app tile with six floating tool icon tiles, one connector line"},
+  {"k": 2, "headline_px": 60, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 23, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 0, "density": "sparse", "notes": "Single word centred on soft lilac mesh gradient"},
+  {"k": 3, "headline_px": 44, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 12.7, "radius_px": 32, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Icon inside particle ring, two-tone tagline below"}
+ ]
+}

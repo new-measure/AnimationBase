@@ -1,0 +1,26 @@
+{
+ "slug": "mirasim",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "intro", "what": "Mirasim logo, 'From Build to Eval, all agents'"},
+  {"start": 4, "end": 10, "kind": "feature", "what": "Diagram: Build, Evaluate, Results loop in one IDE"},
+  {"start": 10, "end": 12, "kind": "other", "what": "Section title 'Build' with highlighter swash"},
+  {"start": 12, "end": 18, "kind": "feature", "what": "Choose your model: Claude, Kimi, GLM chips cycle"},
+  {"start": 18, "end": 22, "kind": "demo", "what": "Tell the agent what to build: prompt typed"},
+  {"start": 22, "end": 32, "kind": "demo", "what": "Sessions run in parallel, agent reviews image"},
+  {"start": 32, "end": 38, "kind": "feature", "what": "Agents read page structure not screenshots, token comparison"},
+  {"start": 38, "end": 40, "kind": "other", "what": "Section title 'Evaluate'"},
+  {"start": 40, "end": 50, "kind": "demo", "what": "Send build to five simulated users"},
+  {"start": 50, "end": 56, "kind": "feature", "what": "Each score links to its evidence transcripts"},
+  {"start": 56, "end": 64, "kind": "proof", "what": "Evaluation report: 5/5 personas completed"},
+  {"start": 64, "end": 68, "kind": "other", "what": "Tagline 'Build it. Meet your users. Ship what wins.'"},
+  {"start": 68, "end": 72.19, "kind": "end_card", "what": "Tagline with Mirasim logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 68, "logo": true, "cta": false},
+ "text_cards": 6,
+ "transitions": ["fade_dissolve", "morph_match", "pan_slide"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "No hard cuts at all; editorial cream palette with left caption labels; chaptered Build/Evaluate structure; 'proof' is in-product report."
+}

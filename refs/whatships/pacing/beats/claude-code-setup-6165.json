@@ -1,0 +1,16 @@
+{
+ "slug": "claude-code-setup-6165",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "demo", "what": "Terminal: /plugin install claude-code-setup command typed"},
+  {"start": 2, "end": 9, "kind": "demo", "what": "Plugin details screen; install scope option selected"},
+  {"start": 9, "end": 11.1, "kind": "demo", "what": "Confirmation: installed claude-code-setup, reload plugins prompt"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Single uncut silent terminal screen capture of a plugin install; no titles, framing, or end card."
+}

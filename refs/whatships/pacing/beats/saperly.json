@@ -1,0 +1,20 @@
+{
+ "slug": "saperly",
+ "beats": [
+  {"start": 0, "end": 2.2, "kind": "hook", "what": "Messy desk with chat bubbles asking 'can u call?'"},
+  {"start": 2.2, "end": 12.9, "kind": "story", "what": "Claude-like mascot: I can write, code, answer anything"},
+  {"start": 12.9, "end": 26.2, "kind": "problem", "what": "Agent can't make phone calls; reservations, flowers need calls"},
+  {"start": 26.2, "end": 28.2, "kind": "proof", "what": "News headlines about billions of AI agents"},
+  {"start": 28.2, "end": 35.2, "kind": "problem", "what": "Archival phone footage: why can't I make a call?"},
+  {"start": 35.2, "end": 42.3, "kind": "intro", "what": "Saperly: first phone carrier built for AI agents, not humans"},
+  {"start": 42.3, "end": 47.3, "kind": "end_card", "what": "3D ear-shaped logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 36,
+ "end_card": {"start": 42.3, "logo": true, "cta": false},
+ "text_cards": 5,
+ "transitions": ["cut", "whip_blur", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Humorous problem-first narrative from an AI agent's point of view; product never shown in use, only named at 36s. Headlines used as context-proof."
+}

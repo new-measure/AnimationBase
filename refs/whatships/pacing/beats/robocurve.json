@@ -1,0 +1,24 @@
+{
+ "slug": "robocurve",
+ "beats": [
+  {"start": 0, "end": 12.08, "kind": "hook", "what": "'We gave Claude robot arms and a toddler's toy' overhead"},
+  {"start": 12.08, "end": 25.17, "kind": "intro", "what": "Founder to camera: ToyBench benchmark tasks panel"},
+  {"start": 25.17, "end": 36, "kind": "problem", "what": "Labs score inconsistently, benchmarks made by robot sellers"},
+  {"start": 36, "end": 39.92, "kind": "proof", "what": "Robocurve scores panel: Opus 5 vs Gemini"},
+  {"start": 39.92, "end": 47.08, "kind": "montage", "what": "Robot arms: Hanoi tower, toaster, pouring, Jenga"},
+  {"start": 47.08, "end": 60.08, "kind": "demo", "what": "LLMs running robots via terminal, block-task chart"},
+  {"start": 60.08, "end": 70, "kind": "proof", "what": "Early 2026 0% to mid-2026 towel task scores"},
+  {"start": 70, "end": 84.58, "kind": "feature", "what": "Public benefit corp; results, methodology, failures open source"},
+  {"start": 84.58, "end": 95.75, "kind": "feature", "what": "Runs any VLA, any LLM, any benchmark, anyone"},
+  {"start": 95.75, "end": 101.17, "kind": "other", "what": "CTA: 'If you're building AI models, reach out'"},
+  {"start": 101.17, "end": 106.6, "kind": "end_card", "what": "Robocurve logo, 'Real-world evaluations of physical AI', YC"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 16,
+ "end_card": {"start": 101.17, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Founder monologue in one set with long holds; kinetic serif captions and floating stat panels carry information; CTA spoken before a text-only logo card."
+}

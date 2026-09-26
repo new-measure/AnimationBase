@@ -1,0 +1,12 @@
+{"slug":"circuitly-pcb-design","beats":[
+{"start":0,"end":7,"kind":"demo","what":"Agent reviews schematic, builds prioritized findings table"},
+{"start":7,"end":13,"kind":"feature","what":"Zoom to component; suggested change applied"},
+{"start":13,"end":19,"kind":"feature","what":"Datasheet evidence popup justifies component change"},
+{"start":19,"end":26,"kind":"feature","what":"Part check card: lifecycle and stock verified"},
+{"start":26,"end":33,"kind":"feature","what":"Sourcing card swaps part for available alternative"},
+{"start":33,"end":39,"kind":"feature","what":"Footprint clearance check on probe connector"},
+{"start":39,"end":51,"kind":"demo","what":"Multi-agent plan: plan, symbol, datasheet, BOM agents run"},
+{"start":51,"end":58.3,"kind":"feature","what":"Native files popup: export to KiCad-style formats"}],
+"first_text_s":0,"first_product_s":0,"end_card":null,
+"text_cards":0,"transitions":["push_zoom","none_visible"],"camera":["static","push_in","zoom_out_reveal"],
+"pace":"slow","notes":"Single continuous screen recording, no hard cuts, no titles or end card; only zooms into UI popups vary it."}

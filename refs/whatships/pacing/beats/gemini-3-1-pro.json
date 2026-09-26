@@ -1,0 +1,19 @@
+{
+ "slug": "gemini-3-1-pro",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Starling murmuration simulation over pastel dusk horizon"},
+  {"start": 3, "end": 16, "kind": "demo", "what": "Generated flocking simulation swirling, camera drifting"},
+  {"start": 16, "end": 26, "kind": "feature", "what": "Webcam inset: hand gestures steer the flock"},
+  {"start": 26, "end": 36, "kind": "feature", "what": "Control panel sliders tweak flock parameters live"},
+  {"start": 36, "end": 41, "kind": "feature", "what": "Environment panel tab, flock thins"},
+  {"start": 41, "end": 47.23, "kind": "other", "what": "Panel gone, flock drifts, image darkens to end"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible", "cut", "fade_dissolve"],
+ "camera": ["static", "pan"],
+ "pace": "slow",
+ "notes": "Single continuous screen capture of a model-built app; no titles or logo; product is the generated output, so first_product uncertain."
+}

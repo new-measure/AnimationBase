@@ -1,0 +1,21 @@
+{
+ "slug": "linear-loops",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "feature", "what": "Orbiting ring traces steps: triage, bug labels, coding session"},
+  {"start": 8, "end": 12, "kind": "feature", "what": "Camera pulls back to show full loop ring"},
+  {"start": 12, "end": 20.8, "kind": "feature", "what": "Second loop: incident labels, review issues, root cause analysis"},
+  {"start": 20.8, "end": 26, "kind": "feature", "what": "Tilted rings: follow-up issues, ready for review, loops stack"},
+  {"start": 26, "end": 31, "kind": "transition", "what": "Rings shrink and morph into Loops icon"},
+  {"start": 31, "end": 34, "kind": "intro", "what": "Loops logo and name"},
+  {"start": 34, "end": 36, "kind": "end_card", "what": "Now available in Linear"},
+  {"start": 36, "end": 40.5, "kind": "end_card", "what": "Linear logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 30,
+ "end_card": {"start": 34, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["morph_match", "fade_dissolve", "cut"],
+ "camera": ["tilt_3d", "push_in", "zoom_out_reveal", "pan"],
+ "pace": "slow",
+ "notes": "Abstract monochrome 3D orbit diagram of an agent loop, one continuous camera move; product named only at 31 s, no UI."
+}

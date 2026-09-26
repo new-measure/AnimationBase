@@ -1,0 +1,20 @@
+{
+ "slug": "framer-f1",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Keyboard rises from dark pedestal into light"},
+  {"start": 3, "end": 9.1, "kind": "feature", "what": "Close-up hero shots of keyboard edge and keys"},
+  {"start": 9.1, "end": 12.2, "kind": "feature", "what": "Macro of Publish keys and live stats display"},
+  {"start": 12.2, "end": 20, "kind": "feature", "what": "Keyboard rotates on pedestal, orbiting hero shots"},
+  {"start": 20, "end": 22, "kind": "intro", "what": "F1 logo reveal"},
+  {"start": 22, "end": 24, "kind": "other", "what": "'Shipping Today' text"},
+  {"start": 24, "end": 25.5, "kind": "end_card", "what": "Framer x Work Louder logos"}
+ ],
+ "first_text_s": 9,
+ "first_product_s": 0,
+ "end_card": {"start": 24, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["push_in", "pan", "tilt_3d"],
+ "pace": "slow",
+ "notes": "Apple-style hardware hero film: slow orbiting product shots on a pedestal, near-silent, name revealed only at the end."
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "gemini-37-flash",
+ "beats": [
+  {"start": 0, "end": 3.3, "kind": "hook", "what": "Quick cuts: bee on flower, 3D leaf cross-section"},
+  {"start": 3.3, "end": 13.8, "kind": "demo", "what": "Prompt typed: build Chrome extension with nano banana, omni flash; Working"},
+  {"start": 13.8, "end": 22.8, "kind": "demo", "what": "Extension in browser; user highlights 'Hibiscus', exploring"},
+  {"start": 22.8, "end": 32.3, "kind": "feature", "what": "Generated illustrated anatomy panels with zooming detail cards"},
+  {"start": 32.3, "end": 46.5, "kind": "feature", "what": "Explore with Gemini on Indus text; cuneiform tablet, View with Omni 3D"},
+  {"start": 46.5, "end": 55.8, "kind": "montage", "what": "Octopus, Hatshepsut beard: more highlight-to-explainer examples"},
+  {"start": 55.8, "end": 68, "kind": "montage", "what": "Goblin shark, brain, megalodon generated explainers"},
+  {"start": 68, "end": 72.64, "kind": "end_card", "what": "Gemini 3.7 Flash wordmark on soft gradient"}
+ ],
+ "first_text_s": 4,
+ "first_product_s": 4,
+ "end_card": {"start": 68, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "pan_slide", "fade_dissolve"],
+ "camera": ["push_in", "pan", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Cold-opens on output imagery, then shows the build prompt, then repeats highlight-explore loop across topics with accelerating cuts."
+}

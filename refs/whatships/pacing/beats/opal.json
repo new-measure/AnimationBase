@@ -1,0 +1,25 @@
+{
+ "slug": "opal",
+ "beats": [
+  {"start": 0, "end": 7.3, "kind": "hook", "what": "Founder at Eiffel Tower holds Opal gem; cosmic cutaway"},
+  {"start": 7.3, "end": 12.8, "kind": "problem", "what": "Collage of AI news clips: superhuman speed"},
+  {"start": 12.8, "end": 15.2, "kind": "story", "what": "Founder: they have time again, or get used by it"},
+  {"start": 15.2, "end": 21.7, "kind": "problem", "what": "Doomscrolling collage: people scrolling, can't put phone down"},
+  {"start": 21.7, "end": 30.3, "kind": "story", "what": "Founder: the difference is attention"},
+  {"start": 30.3, "end": 32.3, "kind": "intro", "what": "Opal seal logo: That's what Opal is for"},
+  {"start": 32.3, "end": 37.2, "kind": "feature", "what": "Score, Rest, Sleep metrics overlaid on lifestyle scenes"},
+  {"start": 37.2, "end": 48.4, "kind": "feature", "what": "Phone taps you on shoulder; protects moments, blocks emails"},
+  {"start": 48.4, "end": 57, "kind": "feature", "what": "Family time, scrolling-in-bed detection, focus zone"},
+  {"start": 57, "end": 67.6, "kind": "feature", "what": "Desktop launch, day structure, screen time stats, gem"},
+  {"start": 67.6, "end": 75.4, "kind": "story", "what": "Founder closes: people who win just paid attention"},
+  {"start": 75.4, "end": 78.3, "kind": "end_card", "what": "Opal wordmark on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 75.4, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld", "push_in"],
+ "pace": "fast",
+ "notes": "Founder monologue with burned-in subtitles intercut with dense collages; product shown as glowing UI overlays on live action."
+}

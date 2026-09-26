@@ -1,0 +1,26 @@
+{
+ "slug": "chatgpt-legal-plugins",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Headline 'Legal tools you love right in ChatGPT'"},
+  {"start": 2, "end": 5, "kind": "feature", "what": "Card: Put your firm's institutional knowledge to work"},
+  {"start": 5, "end": 13, "kind": "demo", "what": "DeepJudge search prompt, risk allocation table generated"},
+  {"start": 13, "end": 16, "kind": "feature", "what": "Cards: Draft negotiation briefings, Save to iManage"},
+  {"start": 16, "end": 22, "kind": "demo", "what": "Drafting briefing memo, saved into iManage window"},
+  {"start": 22, "end": 24, "kind": "feature", "what": "Card: Access Practical Law resources inside ChatGPT"},
+  {"start": 24, "end": 34, "kind": "demo", "what": "Thomson Reuters checklist steps and drafted amendment"},
+  {"start": 34, "end": 36, "kind": "feature", "what": "Card: Spend less time tracking time"},
+  {"start": 36, "end": 49, "kind": "demo", "what": "Intapp time entries suggested and reconciled in table"},
+  {"start": 49, "end": 53, "kind": "proof", "what": "Built with industry partners, orbiting partner logos"},
+  {"start": 53, "end": 55, "kind": "other", "what": "Tagline 'Tools that pass the bar...'"},
+  {"start": 55, "end": 57, "kind": "intro", "what": "With OpenAI for Law, floating collage"},
+  {"start": 57, "end": 60.12, "kind": "end_card", "what": "OpenAI logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 1,
+ "end_card": {"start": 57, "logo": true, "cta": false},
+ "text_cards": 9,
+ "transitions": ["cut", "push_zoom", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Rigid chapter rhythm: typed headline card then partner-specific demo, repeated four times; partner logo corner badge labels each chapter."
+}

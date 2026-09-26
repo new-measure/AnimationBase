@@ -1,0 +1,19 @@
+{
+ "slug": "1x-neo-humanoid-robot",
+ "beats": [
+  {"start": 0, "end": 5.5, "kind": "hook", "what": "Founder stands beside NEO robot in wood-paneled room"},
+  {"start": 5.5, "end": 8.5, "kind": "feature", "what": "Macro close-ups of robot head fabric and ring"},
+  {"start": 8.5, "end": 27, "kind": "montage", "what": "NEO doing household chores: laundry, dishes, doors, tidying"},
+  {"start": 27, "end": 32.4, "kind": "feature", "what": "Hero close-ups of NEO face and head designs"},
+  {"start": 32.4, "end": 36, "kind": "story", "what": "Founder speaks directly to camera"},
+  {"start": 36, "end": 42.3, "kind": "end_card", "what": "Colorway product cards with price, then 1X.TECH/NEO URL"}
+ ],
+ "first_text_s": 36,
+ "first_product_s": 0,
+ "end_card": {"start": 36, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld", "pan", "push_in"],
+ "pace": "medium",
+ "notes": "No text until final 6 s; live-action lifestyle montage bookended by founder address; pricing card doubles as end card CTA."
+}

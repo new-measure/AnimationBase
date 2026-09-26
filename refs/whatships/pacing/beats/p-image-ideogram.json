@@ -1,0 +1,8 @@
+{"slug":"p-image-ideogram","beats":[
+{"start":0,"end":2.3,"kind":"intro","what":"Introducing [image] P-Image-Ideogram, inline image swaps"},
+{"start":2.3,"end":11.2,"kind":"montage","what":"Rapid generated images: portrait, archer, lion, fashion, comic"},
+{"start":11.2,"end":14,"kind":"feature","what":"Text cards: Frontier Quality, Blazing Fast, Pareto Optimal"},
+{"start":14,"end":15.38,"kind":"end_card","what":"Now In The API."}],
+"first_text_s":0,"first_product_s":0,"end_card":{"start":14,"logo":false,"cta":true},
+"text_cards":5,"transitions":["cut"],"camera":["static"],
+"pace":"fast","notes":"Minimal serif text on cream; intro first then ~0.6s image cuts, three claim cards and API CTA, no logo."}

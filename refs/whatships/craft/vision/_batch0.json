@@ -1,0 +1,356 @@
+[
+{
+"slug": "achx-2",
+"strips": [
+{
+"k": 0,
+"file": "achx-2_0.jpg",
+"start": 0.083,
+"dur": 0.958
+},
+{
+"k": 1,
+"file": "achx-2_1.jpg",
+"start": 5.042,
+"dur": 0.833
+},
+{
+"k": 2,
+"file": "achx-2_2.jpg",
+"start": 26.042,
+"dur": 1.0
+},
+{
+"k": 3,
+"file": "achx-2_3.jpg",
+"start": 27.792,
+"dur": 1.583
+},
+{
+"k": 4,
+"file": "achx-2_4.jpg",
+"start": 39.5,
+"dur": 0.875
+},
+{
+"k": 5,
+"file": "achx-2_5.jpg",
+"start": 47.25,
+"dur": 1.542
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "achx-2_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "achx-2_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "achx-2_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "achx-2_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "apple-wonderful-tools",
+"strips": [
+{
+"k": 0,
+"file": "apple-wonderful-tools_0.jpg",
+"start": 2.667,
+"dur": 1.667
+},
+{
+"k": 1,
+"file": "apple-wonderful-tools_1.jpg",
+"start": 20.125,
+"dur": 1.375
+},
+{
+"k": 2,
+"file": "apple-wonderful-tools_2.jpg",
+"start": 38.458,
+"dur": 1.292
+},
+{
+"k": 3,
+"file": "apple-wonderful-tools_3.jpg",
+"start": 76.542,
+"dur": 1.708
+},
+{
+"k": 4,
+"file": "apple-wonderful-tools_4.jpg",
+"start": 78.792,
+"dur": 0.75
+},
+{
+"k": 5,
+"file": "apple-wonderful-tools_5.jpg",
+"start": 85.0,
+"dur": 1.542
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "apple-wonderful-tools_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "apple-wonderful-tools_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "apple-wonderful-tools_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "apple-wonderful-tools_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "claude-opus-5-5",
+"strips": [
+{
+"k": 0,
+"file": "claude-opus-5-5_0.jpg",
+"start": 1.292,
+"dur": 1.0
+},
+{
+"k": 1,
+"file": "claude-opus-5-5_1.jpg",
+"start": 4.042,
+"dur": 0.208
+},
+{
+"k": 2,
+"file": "claude-opus-5-5_2.jpg",
+"start": 6.5,
+"dur": 0.542
+},
+{
+"k": 3,
+"file": "claude-opus-5-5_3.jpg",
+"start": 8.167,
+"dur": 0.583
+},
+{
+"k": 4,
+"file": "claude-opus-5-5_4.jpg",
+"start": 13.042,
+"dur": 0.292
+},
+{
+"k": 5,
+"file": "claude-opus-5-5_5.jpg",
+"start": 18.375,
+"dur": 1.625
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "claude-opus-5-5_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "claude-opus-5-5_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "claude-opus-5-5_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "claude-opus-5-5_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "framer-agent-responsive",
+"strips": [
+{
+"k": 0,
+"file": "framer-agent-responsive_0.jpg",
+"start": 5.0,
+"dur": 0.792
+},
+{
+"k": 1,
+"file": "framer-agent-responsive_1.jpg",
+"start": 23.25,
+"dur": 1.458
+},
+{
+"k": 2,
+"file": "framer-agent-responsive_2.jpg",
+"start": 24.875,
+"dur": 0.5
+},
+{
+"k": 3,
+"file": "framer-agent-responsive_3.jpg",
+"start": 32.25,
+"dur": 1.5
+},
+{
+"k": 4,
+"file": "framer-agent-responsive_4.jpg",
+"start": 39.292,
+"dur": 1.167
+},
+{
+"k": 5,
+"file": "framer-agent-responsive_5.jpg",
+"start": 41.833,
+"dur": 0.542
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "framer-agent-responsive_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "framer-agent-responsive_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "framer-agent-responsive_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "framer-agent-responsive_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "interaction-moves-to-sf",
+"strips": [
+{
+"k": 0,
+"file": "interaction-moves-to-sf_0.jpg",
+"start": 1.25,
+"dur": 0.708
+},
+{
+"k": 1,
+"file": "interaction-moves-to-sf_1.jpg",
+"start": 3.25,
+"dur": 1.0
+},
+{
+"k": 2,
+"file": "interaction-moves-to-sf_2.jpg",
+"start": 6.125,
+"dur": 0.542
+},
+{
+"k": 3,
+"file": "interaction-moves-to-sf_3.jpg",
+"start": 8.458,
+"dur": 1.042
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "interaction-moves-to-sf_0.jpg",
+"h": 720
+},
+{
+"k": 1,
+"file": "interaction-moves-to-sf_1.jpg",
+"h": 720
+},
+{
+"k": 2,
+"file": "interaction-moves-to-sf_2.jpg",
+"h": 720
+},
+{
+"k": 3,
+"file": "interaction-moves-to-sf_3.jpg",
+"h": 720
+}
+]
+},
+{
+"slug": "olexdsgn-animation-sketches",
+"strips": [
+{
+"k": 0,
+"file": "olexdsgn-animation-sketches_0.jpg",
+"start": 2.167,
+"dur": 1.125
+},
+{
+"k": 1,
+"file": "olexdsgn-animation-sketches_1.jpg",
+"start": 5.042,
+"dur": 0.792
+},
+{
+"k": 2,
+"file": "olexdsgn-animation-sketches_2.jpg",
+"start": 9.792,
+"dur": 1.042
+},
+{
+"k": 3,
+"file": "olexdsgn-animation-sketches_3.jpg",
+"start": 13.083,
+"dur": 1.042
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "olexdsgn-animation-sketches_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "olexdsgn-animation-sketches_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "olexdsgn-animation-sketches_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "olexdsgn-animation-sketches_3.jpg",
+"h": 540
+}
+]
+}
+]

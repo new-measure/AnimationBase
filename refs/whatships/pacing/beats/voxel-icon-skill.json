@@ -1,0 +1,7 @@
+{"slug":"voxel-icon-skill","beats":[
+{"start":0,"end":11,"kind":"demo","what":"Voxel icon grid; clicking icons shows animated 3D previews"},
+{"start":11,"end":13,"kind":"feature","what":"voxel-icon info panel describing the skill"},
+{"start":13,"end":17.6,"kind":"demo","what":"More icons previewed: telephone, alarm clock, extinguisher"}],
+"first_text_s":0,"first_product_s":0,"end_card":null,
+"text_cards":0,"transitions":["none_visible"],"camera":["static"],
+"pace":"medium","notes":"Continuous screen recording of an icon gallery page; no cuts, titles or end card, only a brief about panel."}

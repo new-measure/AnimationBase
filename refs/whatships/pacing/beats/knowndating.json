@@ -1,0 +1,20 @@
+{
+ "slug": "knowndating",
+ "beats": [
+  {"start": 0, "end": 4.67, "kind": "hook", "what": "Static San Francisco street toward Golden Gate"},
+  {"start": 4.67, "end": 28.75, "kind": "story", "what": "Paperboy flings magazines; singles wake up across city"},
+  {"start": 28.75, "end": 47.5, "kind": "montage", "what": "Rapid morning routines: running, shower, coffee, known poster"},
+  {"start": 47.5, "end": 59.58, "kind": "story", "what": "Strangers in cafe and at bus stop, near misses"},
+  {"start": 59.58, "end": 84, "kind": "story", "what": "Crowded tram: two readers glance, finally meet"},
+  {"start": 84, "end": 86, "kind": "intro", "what": "known wordmark over tram scene"},
+  {"start": 86, "end": 91.07, "kind": "end_card", "what": "known logo, tagline, Download now on black"}
+ ],
+ "first_text_s": 8,
+ "first_product_s": 34,
+ "end_card": {"start": 86, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["handheld", "static", "pan", "push_in"],
+ "pace": "fast",
+ "notes": "Pure cinematic short film, ~44 cuts/min, no product UI; brand appears only as a poster cameo and closing wordmark."
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "lovable-connectors",
+ "beats": [
+  {"start": 0, "end": 1.6, "kind": "intro", "what": "'Connectors' title typing on gradient"},
+  {"start": 1.6, "end": 9, "kind": "feature", "what": "Connector gallery: Atlassian, Miro, Notion, Linear, enabling Miro"},
+  {"start": 9, "end": 15.2, "kind": "demo", "what": "Prompt: build app finding companies, attaching Miro board"},
+  {"start": 15.2, "end": 28, "kind": "demo", "what": "App builds; Firecrawl connector connected inside chat"},
+  {"start": 28, "end": 36, "kind": "montage", "what": "Generated apps: company finder, dashboard, courses, analytics"},
+  {"start": 36, "end": 39, "kind": "other", "what": "Connector icons and 'now in Lovable' text"},
+  {"start": 39, "end": 40.8, "kind": "end_card", "what": "Lovable logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 2,
+ "end_card": {"start": 39, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "fade_dissolve", "whip_blur"],
+ "camera": ["push_in", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Mostly continuous UI with long unbroken shots (15-32s one take); bookended by title and 'now in Lovable'. Gradient backdrop throughout."
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "xona-tiktok-shop",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Xona icon joined by TikTok icon"},
+  {"start": 2, "end": 5, "kind": "hook", "what": "Headline 'One call. Every TikTok storefront.'"},
+  {"start": 5, "end": 9, "kind": "demo", "what": "Search endpoint: 'wireless earbuds' typed"},
+  {"start": 9, "end": 14, "kind": "demo", "what": "Product result cards populate with prices"},
+  {"start": 14, "end": 20, "kind": "feature", "what": "Search covers 16 storefronts, country chips, local prices"},
+  {"start": 20, "end": 26, "kind": "feature", "what": "Product endpoint: one URL returns full listing data"},
+  {"start": 26, "end": 29.67, "kind": "end_card", "what": "xona-agent.com logo, tagline, endpoints"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 0,
+ "end_card": {"start": 26, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["fade_dissolve", "morph_match"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Minimal white API explainer with no hard cuts; each endpoint gets one fade-in scene; URL end card."
+}

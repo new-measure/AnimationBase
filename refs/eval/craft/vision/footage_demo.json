@@ -1,0 +1,17 @@
+{
+ "slug": "footage_demo",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["fade"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Centered headline opacity fade in place, no travel, roughly linear"},
+  {"k": 1, "element": "text", "action": "enter", "style": ["fade", "blur_in"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Second headline fades in place, faint blur on first frames"},
+  {"k": 2, "element": "mixed", "action": "replace", "style": ["blur_in", "slide", "wipe"], "frames_to_settle": 14, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Text blurs, dark scene slides off left, blurred laptop slides in, focuses"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["stagger_list", "fade"], "frames_to_settle": 9, "fast_start": true, "overshoot": "none", "stagger_frames": 2, "motion_blur": true, "notes": "Quick push-in onto app panel, action items fade in staggered"},
+  {"k": 4, "element": "mixed", "action": "replace", "style": ["fade"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Slow cross-dissolve from UI to gradient, lower-third name fades in"},
+  {"k": 5, "element": "logo", "action": "replace", "style": ["fade", "color_change"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Dip to white, then logo icon and soft glow fade in"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 22, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 6, "radius_px": 24, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Laptop mockup, app UI with checked tasks, cursor click ring"},
+  {"k": 1, "headline_px": 26, "body_px": 18, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "mixed", "margin_pct": 7, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Lower-third with green bar, centered subtitle over diagonal gradient"},
+  {"k": 2, "headline_px": 68, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "center", "margin_pct": 22, "radius_px": 14, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "End card: logo, wordmark, tagline, green pill CTA, radial glow"},
+  {"k": 3, "headline_px": 56, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 19.5, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 0, "density": "sparse", "notes": "Single centered statement on vertical-banded dark gradient"}
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "haha-launch",
+ "beats": [
+  {"start": 0, "end": 2.08, "kind": "intro", "what": "haha app logo and wordmark"},
+  {"start": 2.08, "end": 7.17, "kind": "montage", "what": "Rapid colour-strip meme faces, glitchy '$TOKEN?'"},
+  {"start": 7.17, "end": 15, "kind": "hook", "what": "Glitch type: WEN?! Q4 202x? TICKER?"},
+  {"start": 15, "end": 19, "kind": "intro", "what": "$HAHA token ticker revealed"},
+  {"start": 19, "end": 24, "kind": "feature", "what": "'Only on Monad' with Monad logo"},
+  {"start": 24, "end": 28.3, "kind": "other", "what": "'S3 begins November 24' announcement"},
+  {"start": 28.3, "end": 34.46, "kind": "end_card", "what": "Glitch into '$HAHA 2026' on textured background"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 28.3, "logo": false, "cta": false},
+ "text_cards": 8,
+ "transitions": ["cut", "whip_blur", "wipe_mask", "morph_match"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Pure glitch kinetic-typography teaser; no product UI, token announcement built as question-answer text beats. Kinds approximate."
+}

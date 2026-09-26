@@ -1,0 +1,24 @@
+{
+ "slug": "viktor",
+ "beats": [
+  {"start": 0, "end": 4.3, "kind": "intro", "what": "getviktor.com logo fades in on black"},
+  {"start": 4.3, "end": 10.8, "kind": "intro", "what": "Actor as Viktor: 'Hi I'm Viktor', lives in Slack"},
+  {"start": 10.8, "end": 14.1, "kind": "demo", "what": "Slack mention sets up 9am morning briefing"},
+  {"start": 14.1, "end": 21.9, "kind": "feature", "what": "Own computer, filesystem, terminal, workspace"},
+  {"start": 21.9, "end": 29.9, "kind": "feature", "what": "Sees world as code: tools, APIs as functions overlay"},
+  {"start": 29.9, "end": 33.2, "kind": "other", "what": "'So, what can I do? Almost everything.'"},
+  {"start": 33.2, "end": 38.2, "kind": "feature", "what": "Integration icons swarm, counter to 3,000+ tools"},
+  {"start": 38.2, "end": 49.8, "kind": "demo", "what": "Slack requests: reports, metrics, automations, deployed dashboard"},
+  {"start": 49.8, "end": 56.2, "kind": "feature", "what": "Face-tracking overlay: remembers, learns team, improves"},
+  {"start": 56.2, "end": 62.9, "kind": "other", "what": "'I just write code... I'm Viktor. Let's get to work.'"},
+  {"start": 62.9, "end": 66.71, "kind": "end_card", "what": "getviktor.com logo on black"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 1,
+ "end_card": {"start": 62.9, "logo": true, "cta": true},
+ "text_cards": 0,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["handheld", "static", "push_in"],
+ "pace": "medium",
+ "notes": "Personified AI agent: one actor speaks as the product in first person, intercut with Slack UI; logo bookends."
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "teable",
+ "beats": [
+  {"start": 0, "end": 7, "kind": "demo", "what": "Glass chat box: user voices 'migrate my Airtable data'"},
+  {"start": 7, "end": 13.7, "kind": "demo", "what": "Agent response log, then migrated tables appear"},
+  {"start": 13.7, "end": 15.6, "kind": "feature", "what": "Zoom on imported table with colored tags"},
+  {"start": 15.6, "end": 21.3, "kind": "feature", "what": "Build apps: prompt builds sales data dashboard"},
+  {"start": 21.3, "end": 25.8, "kind": "feature", "what": "Generated sales pipeline dashboard, push in on cards"},
+  {"start": 25.8, "end": 29, "kind": "intro", "what": "Airtable to Teable logos with confetti"},
+  {"start": 29, "end": 30.6, "kind": "end_card", "what": "Teable logo amid competitor logos: Asana, Monday, Excel"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 1,
+ "end_card": {"start": 29, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["push_in", "pan", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Demo-first with product name withheld until 26 s; migration framing (Airtable to Teable) acts as the reveal; glassy iridescent backdrop."
+}

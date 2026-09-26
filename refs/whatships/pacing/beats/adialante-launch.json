@@ -1,0 +1,21 @@
+{
+ "slug": "adialante-launch",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Black card: We're giving everyone MRI access"},
+  {"start": 2, "end": 6, "kind": "problem", "what": "Kinetic type over faces, scans: people die of breast cancer"},
+  {"start": 6, "end": 16, "kind": "story", "what": "Two founders talk: early diagnosis could have saved lives"},
+  {"start": 16, "end": 44, "kind": "problem", "what": "Traditional MRIs cost millions, months to install, mobile trucks costly"},
+  {"start": 44, "end": 60, "kind": "intro", "what": "Founders beside redesigned MRI: new architecture, silent, pay per scan"},
+  {"start": 60, "end": 74, "kind": "feature", "what": "Branded ADIA trucks deploy off-grid; patient scanned inside"},
+  {"start": 74, "end": 90, "kind": "story", "what": "Founders state vision: everyone scanned annually in five years"},
+  {"start": 90, "end": 92.86, "kind": "end_card", "what": "adialante.com on dark navy card"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 48,
+ "end_card": {"start": 90, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Founder interview carried by large kinetic captions overlaid on talking heads; problem section is long (~28s) before product reveal at 44s."
+}

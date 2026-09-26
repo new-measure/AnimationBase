@@ -1,0 +1,10 @@
+{"slug":"giza-world","beats":[
+{"start":0,"end":6,"kind":"hook","what":"Dot becomes chart cards: you've been watching, waiting"},
+{"start":6,"end":16,"kind":"problem","what":"Particle swarms: it moves, shifts, lost in sea of signals"},
+{"start":16,"end":20,"kind":"hook","what":"What if someone watched for you? particles dissolve"},
+{"start":20,"end":26,"kind":"intro","what":"Black dots form constellation: a new world is forming"},
+{"start":26,"end":32,"kind":"other","what":"Welcome to Giza: particle cluster world rotates"},
+{"start":32,"end":36.05,"kind":"end_card","what":"Giza logo and wordmark on white"}],
+"first_text_s":0,"first_product_s":32,"end_card":{"start":32,"logo":true,"cta":false},
+"text_cards":0,"transitions":["cut","morph_match","fade_dissolve"],"camera":["push_in","zoom_out_reveal","tilt_3d"],
+"pace":"medium","notes":"Abstract monochrome particle metaphor with tiny subtitle-style captions; no UI. Uncertain: 26-32 cluster may be product visual."}

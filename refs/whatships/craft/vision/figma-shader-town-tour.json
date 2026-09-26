@@ -1,0 +1,17 @@
+{
+ "slug": "figma-shader-town-tour",
+ "moves": [
+  {"k": 0, "element": "image", "action": "enter", "style": ["fade", "zoom_through"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": 7, "motion_blur": true, "notes": "Posters flash on wall one by one; ends in blurred whip pan to white"},
+  {"k": 1, "element": "image", "action": "replace", "style": ["fade", "color_change"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": 7, "motion_blur": false, "notes": "Billboard content swaps via 2-3 frame white glow flash, repeated rhythmically"},
+  {"k": 2, "element": "image", "action": "replace", "style": ["fade"], "frames_to_settle": 2, "fast_start": true, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Rapid-fire shader visuals cut every 2 frames; posters glow in"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["zoom_through"], "frames_to_settle": 26, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Glitch flashes on billboard, then camera pushes in and tilts toward it"},
+  {"k": 4, "element": "camera", "action": "camera_move", "style": ["slide", "zoom_through"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Blurred whip pan to white flash, then lateral pan past poster wall"},
+  {"k": 5, "element": "image", "action": "replace", "style": ["fade", "zoom_through"], "frames_to_settle": 26, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Mural painting shot, white flash cuts, punch-in to painted artwork"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 28, "body_px": 10, "typefaces": 2, "type_style": ["sans", "serif"], "weights": ["regular", "bold"], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 2, "density": "dense", "notes": "Live-action aerial street, product prompt composited on building billboard"},
+  {"k": 1, "headline_px": 18, "body_px": 18, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": 28, "shadow": "none", "bg_style": "image", "accent_count": 1, "density": "medium", "notes": "Subway screen shows photo grid with mint prompt bubble and cursor"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 45.8, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 5, "density": "sparse", "notes": "Small multicolour logo mark alone on pure black"},
+  {"k": 3, "headline_px": 90, "body_px": 10, "typefaces": 2, "type_style": ["sans", "display"], "weights": ["regular", "bold"], "align": "left", "margin_pct": 1.5, "radius_px": 8, "shadow": "none", "bg_style": "image", "accent_count": 3, "density": "dense", "notes": "Row of subway screens receding in perspective, tagline poster nearest"}
+ ]
+}

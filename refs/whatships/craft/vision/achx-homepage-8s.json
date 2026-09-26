@@ -1,0 +1,17 @@
+{
+ "slug": "achx-homepage-8s",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["slide", "scale_down", "blur_in", "stagger_list"], "frames_to_settle": 21, "fast_start": false, "overshoot": "none", "stagger_frames": 4, "motion_blur": true, "notes": "Cut from UI; blurry headline slides left, shrinks, words appear sequentially"},
+  {"k": 1, "element": "card", "action": "enter", "style": ["rise", "scale_pop", "stagger_list"], "frames_to_settle": 9, "fast_start": true, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Book cards rise from bottom, centre first, then slow drift"},
+  {"k": 2, "element": "card", "action": "replace", "style": ["rise", "fade", "stagger_list"], "frames_to_settle": 21, "fast_start": true, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Old card pushes up out, new card rises, chips fade in sequentially"},
+  {"k": 3, "element": "mixed", "action": "replace", "style": ["fade", "blur_in", "stagger_list"], "frames_to_settle": 13, "fast_start": true, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Cut to tilted UI panel; headline words blur in one by one"},
+  {"k": 4, "element": "text", "action": "enter", "style": ["typing"], "frames_to_settle": 21, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Cut to empty card; paragraph types in at constant rate"},
+  {"k": 5, "element": "mixed", "action": "replace", "style": ["rotate", "fall", "rise", "fade"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Text card tilts and drops away, magnifier icon rises in"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 60, "body_px": 46, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "left", "margin_pct": 5.4, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 2, "density": "sparse", "notes": "Arrow plus two-tone blue headline, typing cursor, faint grid decorations"},
+  {"k": 1, "headline_px": 64, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "left", "margin_pct": 24, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 1, "density": "sparse", "notes": "Single blue gradient word over faint white tile grid"},
+  {"k": 2, "headline_px": 32, "body_px": 32, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 15, "radius_px": 76, "shadow": "glow", "bg_style": "gradient", "accent_count": 2, "density": "sparse", "notes": "Logo above glowing blue pill CTA with cursor"},
+  {"k": 3, "headline_px": 40, "body_px": 32, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "center", "margin_pct": 13, "radius_px": 76, "shadow": "glow", "bg_style": "gradient", "accent_count": 2, "density": "sparse", "notes": "End card: logo, pill CTA, tagline with thin rule accents"}
+ ]
+}

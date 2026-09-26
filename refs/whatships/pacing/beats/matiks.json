@@ -1,0 +1,21 @@
+{
+ "slug": "matiks",
+ "beats": [
+  {"start": 0, "end": 3.5, "kind": "hook", "what": "Bold text 'Funding reduced by 1 crore?'"},
+  {"start": 3.5, "end": 14.25, "kind": "story", "what": "Poker table, smoke, investor introduced, 'the irrational funding'"},
+  {"start": 14.25, "end": 18.25, "kind": "story", "what": "Dark beat, founder smiles, 'also took us by surprise'"},
+  {"start": 18.25, "end": 34.75, "kind": "story", "what": "Founders named in meeting room, pitch banter intercut with poker"},
+  {"start": 34.75, "end": 37.58, "kind": "demo", "what": "Hands on tablet and laptop, product glimpsed (unclear)"},
+  {"start": 37.58, "end": 66.92, "kind": "story", "what": "Negotiation dialogue: subscriptions or ads, chips down, video call"},
+  {"start": 66.92, "end": 80.17, "kind": "story", "what": "'One last request', cards dealt, aces revealed"},
+  {"start": 80.17, "end": 86.98, "kind": "proof", "what": "'Matiks just raised 3.14M USD' morphs to π M, investor logos"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 34,
+ "end_card": {"start": 81.67, "logo": false, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["handheld", "push_in", "static"],
+ "pace": "medium",
+ "notes": "Scripted funding-announcement skit with subtitles; product barely shown (tablet at ~34 s uncertain); closing funding card doubles as proof and end card."
+}

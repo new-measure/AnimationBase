@@ -1,0 +1,17 @@
+{
+ "slug": "chatgpt-legal-plugins",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "camera_move", "style": ["typing", "scale_down"], "frames_to_settle": 29, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Close-up pans with typed prompt, then quick zoom out to full input bar"},
+  {"k": 1, "element": "ui_panel", "action": "transform", "style": ["stagger_list", "fade", "slide"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Streamed table rows fade in one by one while panel scrolls up"},
+  {"k": 2, "element": "text", "action": "transform", "style": ["typing", "slide"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Response text streams in while content scrolls slowly upward"},
+  {"k": 3, "element": "mixed", "action": "enter", "style": ["typing", "stagger_list", "scale_pop"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Headline types; partner logos pop in sequentially around text in a ring"},
+  {"k": 4, "element": "logo", "action": "exit", "style": ["zoom_through", "scale_pop"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Logo ring accelerates outward past frame edges, then hard cut"},
+  {"k": 5, "element": "mixed", "action": "enter", "style": ["typing", "scale_pop", "color_change"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Headline types; icons and UI fragments pop around; 'Law' colour cycles"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 26, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 12, "radius_px": 24, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Task checklist card with orange active star, partner logo top right"},
+  {"k": 1, "headline_px": 28, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "left", "margin_pct": 8, "radius_px": 36, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "dense", "notes": "Comparison table card, blue highlighted row, grey caption bottom left"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 22, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Small black logo centred on white"},
+  {"k": 3, "headline_px": 28, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 6, "radius_px": 20, "shadow": "soft", "bg_style": "flat", "accent_count": 2, "density": "medium", "notes": "Browser window with chat UI centred, partner logo top right"}
+ ]
+}

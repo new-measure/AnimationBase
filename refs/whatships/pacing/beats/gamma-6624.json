@@ -1,0 +1,24 @@
+{
+ "slug": "gamma-6624",
+ "beats": [
+  {"start": 0, "end": 2.4, "kind": "intro", "what": "Introducing AI Image Editing with animation over forest"},
+  {"start": 2.4, "end": 4.2, "kind": "feature", "what": "Text card: Chat directly with our AI"},
+  {"start": 4.2, "end": 18.4, "kind": "demo", "what": "Balloon slide image chat: afternoon scene, more balloons"},
+  {"start": 18.4, "end": 19.7, "kind": "feature", "what": "Text card: Use our quick actions"},
+  {"start": 19.7, "end": 28.7, "kind": "demo", "what": "Quick actions: dramatic lighting, remove background on slides"},
+  {"start": 28.7, "end": 29.9, "kind": "feature", "what": "Text card: and animate anything"},
+  {"start": 29.9, "end": 39.4, "kind": "demo", "what": "Animate action on coral, lions, ocean images"},
+  {"start": 39.4, "end": 40.7, "kind": "other", "what": "Text card: Create. Edit. Animate."},
+  {"start": 40.7, "end": 47.8, "kind": "montage", "what": "Rapid prompts: company name, panda, rocket, animals"},
+  {"start": 47.8, "end": 49.6, "kind": "end_card", "what": "Get your ideas out there tagline"},
+  {"start": 49.6, "end": 51.6, "kind": "end_card", "what": "Gamma wordmark on sky"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4.2,
+ "end_card": {"start": 47.8, "logo": true, "cta": false},
+ "text_cards": 6,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "fast",
+ "notes": "Three chapters each introduced by a blue gradient text card, then zoomed UI demos with ~1s cuts; closing montage."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "gemini-agentic-video",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["slide", "scale_pop"], "frames_to_settle": 24, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "App panel slides off right while keynote video card scales up"},
+  {"k": 1, "element": "ui_panel", "action": "transform", "style": ["scale_down", "slide"], "frames_to_settle": 32, "fast_start": false, "overshoot": "none", "stagger_frames": 8, "motion_blur": false, "notes": "Video card shrinks to corner; app panel slides in from right"},
+  {"k": 2, "element": "camera", "action": "camera_move", "style": ["zoom_through", "typing"], "frames_to_settle": 20, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Camera pushes into prompt field, then prompt typed"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["scale_down"], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Ease-in-out pull-back from button to full two-column app"},
+  {"k": 4, "element": "ui_panel", "action": "transform", "style": ["scale_down", "slide"], "frames_to_settle": 32, "fast_start": false, "overshoot": "none", "stagger_frames": 8, "motion_blur": false, "notes": "Repeat pattern: video shrinks, app panel slides in right"},
+  {"k": 5, "element": "camera", "action": "camera_move", "style": ["scale_down"], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Ease-in-out zoom out from benchmark button to app"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 44, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 13, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Title line with gradient Gemini spark, dark-to-navy gradient"},
+  {"k": 1, "headline_px": 22, "body_px": 14, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium", "bold"], "align": "left", "margin_pct": 21, "radius_px": 32, "shadow": "none", "bg_style": "flat", "accent_count": 2, "density": "medium", "notes": "Zoomed app UI, blue-outlined focused prompt field"},
+  {"k": 2, "headline_px": 22, "body_px": 14, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium", "bold"], "align": "left", "margin_pct": 21, "radius_px": 32, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Zoomed app UI with upload spinner and prompt"},
+  {"k": 3, "headline_px": 38, "body_px": 12, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium", "bold"], "align": "left", "margin_pct": 1, "radius_px": 32, "shadow": "none", "bg_style": "flat", "accent_count": 2, "density": "dense", "notes": "Two-column comparison, green highlighted numbers, blue callout connector"}
+ ]
+}

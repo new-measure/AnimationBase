@@ -1,0 +1,21 @@
+{
+ "slug": "flowscope-launch",
+ "beats": [
+  {"start": 0, "end": 5.4, "kind": "hook", "what": "Serif text over dark office: AI doesn't work until deployed"},
+  {"start": 5.4, "end": 15.8, "kind": "problem", "what": "Empty office captions: no AI team, can't hire, business"},
+  {"start": 15.8, "end": 25, "kind": "problem", "what": "Consultants left a deck and a bill; red money close-ups, wait"},
+  {"start": 25, "end": 30.8, "kind": "story", "what": "'We don't think you should'; burning cash, silhouetted woman"},
+  {"start": 30.8, "end": 36, "kind": "intro", "what": "flowscope is different: first AI-native consulting firm"},
+  {"start": 36, "end": 54, "kind": "feature", "what": "Particle text: agents understand processes, deploy in days"},
+  {"start": 54, "end": 63.2, "kind": "end_card", "what": "Line shapes form flowscope logo, 'AI delivered'"},
+  {"start": 63.2, "end": 64.23, "kind": "other", "what": "Black frame"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 31,
+ "end_card": {"start": 54, "logo": true, "cta": false},
+ "text_cards": 12,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Cinematic stock-footage problem half then minimal cream typographic half; entirely caption-driven, no product UI (a service)."
+}

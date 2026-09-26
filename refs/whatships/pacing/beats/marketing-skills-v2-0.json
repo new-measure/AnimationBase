@@ -1,0 +1,19 @@
+{
+ "slug": "marketing-skills-v2-0",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "intro", "what": "Title card: Marketing Skills for AI Agents v2.0.0"},
+  {"start": 5, "end": 10, "kind": "feature", "what": "Breaking change: Shorter. Sharper. renamed skills list"},
+  {"start": 10, "end": 15, "kind": "feature", "what": "Cleaner names: old to new skill command mapping"},
+  {"start": 15, "end": 20, "kind": "feature", "what": "Consolidated /cro skill description"},
+  {"start": 20, "end": 25, "kind": "proof", "what": "Now shipping stats: 40 skills, 17 renamed"},
+  {"start": 25, "end": 30, "kind": "end_card", "what": "Free. Open source. npx install command"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 25, "logo": false, "cta": true},
+ "text_cards": 6,
+ "transitions": ["fade_dissolve"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Terminal-styled release-notes slideshow: six equal 5 s cards with typed-in text, no footage or cuts."
+}

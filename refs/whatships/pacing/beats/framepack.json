@@ -1,0 +1,5 @@
+{"slug":"framepack","beats":[
+{"start":0,"end":60.03,"kind":"demo","what":"One continuous generated clip: woman in hanfu dancing"}],
+"first_text_s":null,"first_product_s":0,"end_card":null,
+"text_cards":0,"transitions":["none_visible"],"camera":["static"],
+"pace":"slow","notes":"Raw model output sample: single 60s uncut vertical clip proving long-video consistency; no text, logo or structure."}

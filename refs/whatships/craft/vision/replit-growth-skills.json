@@ -1,0 +1,17 @@
+{
+ "slug": "replit-growth-skills",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["fall", "rise", "fade"], "frames_to_settle": 19, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": true, "notes": "Vertical 'Grow Sales' drops out blurred; phone rises in from bottom"},
+  {"k": 1, "element": "ui_panel", "action": "enter", "style": ["slide", "stagger_list", "fade"], "frames_to_settle": 27, "fast_start": true, "overshoot": "none", "stagger_frames": 3, "motion_blur": true, "notes": "Whip pan to new node; glass panel rows fade in sequentially"},
+  {"k": 2, "element": "ui_panel", "action": "enter", "style": ["slide", "stagger_list", "fade"], "frames_to_settle": 26, "fast_start": true, "overshoot": "none", "stagger_frames": 3, "motion_blur": true, "notes": "Blurred camera pan along node graph; pricing rows, image card slide in"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["slide", "fade"], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Image card and panel collapse right; camera pans back along graph"},
+  {"k": 4, "element": "icon", "action": "transform", "style": ["rise", "rotate", "slide"], "frames_to_settle": 34, "fast_start": true, "overshoot": "none", "stagger_frames": 5, "motion_blur": true, "notes": "Phone rises in; logo tiles orbit around it with blur"},
+  {"k": 5, "element": "text", "action": "replace", "style": ["slide", "blur_in", "fade"], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Stats slide/fade out with smear; 'Minimize Worries' blurs in"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 56, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 37, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Single word being typed with red dot cursor on cream"},
+  {"k": 1, "headline_px": 160, "body_px": 10, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["light", "regular", "medium"], "align": "mixed", "margin_pct": 7, "radius_px": 80, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "dense", "notes": "Huge rotated stat numbers around phone, red radial gradient"},
+  {"k": 2, "headline_px": 130, "body_px": 8, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["light", "regular"], "align": "mixed", "margin_pct": 14, "radius_px": 80, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Phone plan screen flanked by giant thin numerals, icon badges"},
+  {"k": 3, "headline_px": 36, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 2, "radius_px": 20, "shadow": "none", "bg_style": "gradient", "accent_count": 2, "density": "dense", "notes": "Glass stat cards around image, node graph, caption pill"}
+ ]
+}

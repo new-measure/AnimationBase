@@ -1,0 +1,23 @@
+{
+ "slug": "hexa-industrial-distribution",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "problem", "what": "Stock footage: industrial distributors move fast, quoting workflows crossed out"},
+  {"start": 5, "end": 8.3, "kind": "intro", "what": "Hexa logo: AI automation for industrial distributors"},
+  {"start": 8.3, "end": 17, "kind": "demo", "what": "Handwritten RFQ email parsed, line items matched, quote sent"},
+  {"start": 17, "end": 25, "kind": "demo", "what": "PO confirmed, matched to quote, pushed to ERP"},
+  {"start": 25, "end": 32.4, "kind": "feature", "what": "RFQ to Quote to PO to ERP; no copying, re-keying"},
+  {"start": 32.4, "end": 34, "kind": "intro", "what": "Logo with Sales, Procurement, Finance, Claims modules"},
+  {"start": 34, "end": 37, "kind": "feature", "what": "Procurement reorders low-stock parts"},
+  {"start": 37, "end": 54, "kind": "feature", "what": "Finance agent follows up overdue invoice via call"},
+  {"start": 54, "end": 57, "kind": "feature", "what": "Claims tracks missed supplier SLAs"},
+  {"start": 57, "end": 64.2, "kind": "end_card", "what": "Logo, From RFQ to Revenue. Automated., Book a demo"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 5,
+ "end_card": {"start": 57, "logo": true, "cta": true},
+ "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "morph_match", "wipe_mask"],
+ "camera": ["push_in", "static", "pan"],
+ "pace": "medium",
+ "notes": "Fast 5s stock-footage problem open, then one continuous animated UI flow with few cuts; finance feature lingers 17s."
+}

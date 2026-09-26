@@ -1,0 +1,20 @@
+{
+ "slug": "jupiter-portfolio-v2",
+ "beats": [
+  {"start": 0, "end": 3.5, "kind": "hook", "what": "Helmeted racer in vintage car, gloved hands on wheel"},
+  {"start": 3.5, "end": 12.4, "kind": "problem", "what": "'Beautiful but frozen': stalled tap, woman at framed window"},
+  {"start": 12.4, "end": 20.8, "kind": "story", "what": "'You just can't': gallery viewer, man at laptop"},
+  {"start": 20.8, "end": 24, "kind": "intro", "what": "'A new level of control', 'Introducing Portfolio V2'"},
+  {"start": 24, "end": 29.9, "kind": "feature", "what": "Faster, cleaner, take action: multiplied man on sofa set"},
+  {"start": 29.9, "end": 37.2, "kind": "feature", "what": "'Multiple tabs. Multiple hours.' then face 'Now it's one'"},
+  {"start": 37.2, "end": 41.3, "kind": "end_card", "what": "Cloth flies off plinth, Jupiter Portfolio logo"}
+ ],
+ "first_text_s": 3,
+ "first_product_s": 38,
+ "end_card": {"start": 37.2, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Surreal art-directed live action on cream sets; never shows product UI, only metaphors and sparse captions before logo."
+}

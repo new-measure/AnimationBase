@@ -1,0 +1,21 @@
+{
+ "slug": "higgsfield-omni-1-1-flash",
+ "beats": [
+  {"start": 0, "end": 3.08, "kind": "intro", "what": "Higgsfield x Gemini Omni 1.1 Flash logo lockup"},
+  {"start": 3.08, "end": 12, "kind": "feature", "what": "Original vs generated edits: wings, fire, storm on rooftop"},
+  {"start": 12, "end": 26.67, "kind": "feature", "what": "'Start & End Frame' title, two frames become street scene"},
+  {"start": 26.67, "end": 51.25, "kind": "feature", "what": "Long video timeline: one character across multiple scenes"},
+  {"start": 51.25, "end": 59.58, "kind": "feature", "what": "Resolution and lower-cost options on jumping-man clips"},
+  {"start": 59.58, "end": 68, "kind": "feature", "what": "'Video Reference' title, motion transferred between dancers"},
+  {"start": 68, "end": 75.33, "kind": "feature", "what": "'Scale Up Resolution' to 4K, reveal of studio set"},
+  {"start": 75.33, "end": 77.25, "kind": "end_card", "what": "'Gemini Omni 1.1 Flash available on Higgsfield.ai'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 75.33, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "morph_match", "wipe_mask", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal", "handheld"],
+ "pace": "fast",
+ "notes": "Feature-list structure: kinetic 3D title word per capability, then generated clips with UI overlays; minimal text-only end card."
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "perplexity-sec-edgar-integration",
+ "beats": [
+  {"start": 0, "end": 5.1, "kind": "hook", "what": "3D money wave; your dedicated marketing, healthcare, financial analyst"},
+  {"start": 5.1, "end": 8, "kind": "intro", "what": "Search through SEC filings with Perplexity Labs"},
+  {"start": 8, "end": 13, "kind": "feature", "what": "Perplexity Pro search, enabling Finance SEC filings source"},
+  {"start": 13, "end": 19, "kind": "demo", "what": "Long prompt on retailer same-store sales correlation typed"},
+  {"start": 19, "end": 24.9, "kind": "demo", "what": "Labs runs Python, generates correlation heatmap"},
+  {"start": 24.9, "end": 28, "kind": "feature", "what": "Cited SEC filing sources listed"},
+  {"start": 28, "end": 30, "kind": "intro", "what": "Search SEC filings with Perplexity Spaces card"},
+  {"start": 30, "end": 35.5, "kind": "demo", "what": "Change Analysis Space: TSLA change summary table"},
+  {"start": 35.5, "end": 39, "kind": "end_card", "what": "Perplexity Finance. For the curious investors."},
+  {"start": 39, "end": 44, "kind": "end_card", "what": "Perplexity logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 8,
+ "end_card": {"start": 35.5, "logo": true, "cta": false},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "notes": "Recurring 3D money-wave interstitial frames two demo chapters (Labs, Spaces); cycling-word headline hook."
+}

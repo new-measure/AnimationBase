@@ -1,0 +1,24 @@
+{
+ "slug": "applied-electrodynamics",
+ "beats": [
+  {"start": 0, "end": 5.7, "kind": "hook", "what": "Retro monitor, text: building camera that sees through walls"},
+  {"start": 5.7, "end": 8.4, "kind": "intro", "what": "Dark device render revealed"},
+  {"start": 8.4, "end": 13, "kind": "story", "what": "CEO introduced, team at Y Combinator sign"},
+  {"start": 13, "end": 21.9, "kind": "proof", "what": "Apple heritage: Power Mac, Jobs, founder's patents"},
+  {"start": 21.9, "end": 26.7, "kind": "story", "what": "Selfie of 'Brian', 'now, we're building' text card"},
+  {"start": 26.7, "end": 46.3, "kind": "feature", "what": "Paper cards explain animal senses, spectrum, RF through walls"},
+  {"start": 46.3, "end": 48.9, "kind": "demo", "what": "Thermal-style RF images of objects behind walls"},
+  {"start": 48.9, "end": 61.3, "kind": "feature", "what": "Founder to camera: 5G SatCom, AI inference, on-device"},
+  {"start": 61.3, "end": 75.2, "kind": "demo", "what": "Device hero, 'real images captured on device' examples"},
+  {"start": 75.2, "end": 83.5, "kind": "end_card", "what": "White cards: left to reserve, ae-dyn.com"},
+  {"start": 83.5, "end": 87.34, "kind": "end_card", "what": "Applied Electrodynamics logo on black"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 6,
+ "end_card": {"start": 75.2, "logo": true, "cta": true},
+ "text_cards": 6,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld", "push_in"],
+ "pace": "medium",
+ "notes": "Founder-led talking head with tactile paper-card explainer; long 20s science section; Apple pedigree used as proof."
+}

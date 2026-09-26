@@ -1,0 +1,18 @@
+{
+ "slug": "designers-machines",
+ "beats": [
+  {"start": 0, "end": 7, "kind": "hook", "what": "Head, ampersand, square shapes linked by draggable red curves"},
+  {"start": 7, "end": 17, "kind": "feature", "what": "Settings panel tweaks colours and curves of the artwork"},
+  {"start": 17, "end": 19.7, "kind": "feature", "what": "Chat panel then people grid appears in phone frame"},
+  {"start": 19.7, "end": 23.3, "kind": "demo", "what": "Zoomed: browse member avatars and posts, like a post"},
+  {"start": 23.3, "end": 27.95, "kind": "demo", "what": "Back to wide view, scroll through member grid"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Single static interactive web-art composition; UI panels layer over it. Only cuts are zoom-in punch-ins late. Kinds uncertain: community site demo."
+}

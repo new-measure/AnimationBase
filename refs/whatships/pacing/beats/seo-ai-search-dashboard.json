@@ -1,0 +1,18 @@
+{
+ "slug": "seo-ai-search-dashboard",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "demo", "what": "Dark SEO dashboard window on teal gradient, charts"},
+  {"start": 2, "end": 5.8, "kind": "feature", "what": "Scrolling ranked query table with bars"},
+  {"start": 5.8, "end": 10, "kind": "feature", "what": "Zoomed date-range picker changing traffic chart"},
+  {"start": 10, "end": 13, "kind": "demo", "what": "Dashboard overview with updated sessions chart and donut"},
+  {"start": 13, "end": 15.02, "kind": "feature", "what": "Query table again"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Silent loop-style UI clip, no text cards or logo; single punch-in cut; tiny UI text only."
+}

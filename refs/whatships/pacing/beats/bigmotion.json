@@ -1,0 +1,20 @@
+{
+ "slug": "bigmotion",
+ "beats": [
+  {"start": 0, "end": 11, "kind": "story", "what": "Pirates spot castaway holding 'GPT Images 2 is live' sign"},
+  {"start": 11, "end": 12.4, "kind": "intro", "what": "BigMotion x GPT Images 2 logo overlay"},
+  {"start": 12.4, "end": 18.6, "kind": "feature", "what": "Ultra-realistic results: noodle-eating scene with cursor"},
+  {"start": 18.6, "end": 26.2, "kind": "feature", "what": "Perfect text rendering: ramen cup labels in many languages"},
+  {"start": 26.2, "end": 33.1, "kind": "feature", "what": "Storyboards and comics with consistent characters"},
+  {"start": 33.1, "end": 39.6, "kind": "feature", "what": "Complex structures: chopstick ad and anatomy infographic"},
+  {"start": 39.6, "end": 44.9, "kind": "end_card", "what": "Lime card: Available now, GPT Images 2 at BigMotion"}
+ ],
+ "first_text_s": 7,
+ "first_product_s": 11,
+ "end_card": {"start": 39.6, "logo": false, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "morph_match"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Narrative skit hook, then feature chapters labeled by bold overlay captions; same noodle subject carries across styles as match cuts."
+}

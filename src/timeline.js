@@ -3,6 +3,9 @@
 // shots([[t0, fn], [t1, fn], ...]) registers shots in time order. Each fn(t, lt, dur) is called with t = video time,
 // lt = time since the shot started, dur = the shot's length. It paints the WHOLE frame, background included, and must be
 // a pure function of t: frames render in parallel and out of order, so nothing may carry over from one frame to the next.
+// A third element gives a shot options: [t, fn, { xfade: .5 }] cross-dissolves into it over its first .5 s. The shot
+// before keeps drawing underneath (its lt runs past its dur) while this one's DOM fades in on top. p5 drawings of the
+// two shots overlap without fading; for p5-only shots use a cover transition (brushWipe, iris) instead.
 
 const SHOTS = [];
 function shots(list) { SHOTS.push(...list); SHOTS.sort((a, b) => a[0] - b[0]); }
@@ -16,16 +19,23 @@ function drawWorld(t) {
   else if (!SHOTS.length) placeholder(t);
   else {
     let i = 0; while (i + 1 < SHOTS.length && t >= SHOTS[i + 1][0]) i++;
-    const t0 = SHOTS[i][0], end = i + 1 < SHOTS.length ? SHOTS[i + 1][0] : DUR;
-    SHOTS[i][1](t, t - t0, end - t0);
+    const t0 = SHOTS[i][0], end = i + 1 < SHOTS.length ? SHOTS[i + 1][0] : DUR, xf = (SHOTS[i][2] || {}).xfade || 0;
+    if (i > 0 && xf && t < t0 + xf) {
+      const p0 = SHOTS[i - 1][0];
+      SHOTS[i - 1][1](t, t - p0, t0 - p0); CAM = null;
+      D.group('xfade', { opacity: EASE_XF(seg(t, t0, t0 + xf)) }, () => SHOTS[i][1](t, t - t0, end - t0));
+    } else SHOTS[i][1](t, t - t0, end - t0);
     CAM = null;
   }
   flushLetters();
 }
 
+const EASE_XF = x => x * x * (3 - 2 * x);
+
 function placeholder(t) {
   paint(ellPts(960, 520, 520, 300, 30, 20), { fill: PAL.sky, fillOp: 90, bleed: .3, ink: null });
-  clawd(960, 820, 20, feel('happy', t));
+  if (typeof jolly === 'function') jolly(960, 820, 20, feel('happy', t));
+  else if (typeof clawd === 'function') clawd(960, 820, 20, feel('happy', t));
 }
 
 // ---------- brush wipe ----------

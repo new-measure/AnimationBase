@@ -1,0 +1,351 @@
+[
+{
+"slug": "agent-opus-song-to-video",
+"strips": [
+{
+"k": 0,
+"file": "agent-opus-song-to-video_0.jpg",
+"start": 11.333,
+"dur": 0.333
+},
+{
+"k": 1,
+"file": "agent-opus-song-to-video_1.jpg",
+"start": 18.083,
+"dur": 1.542
+},
+{
+"k": 2,
+"file": "agent-opus-song-to-video_2.jpg",
+"start": 21.542,
+"dur": 0.75
+},
+{
+"k": 3,
+"file": "agent-opus-song-to-video_3.jpg",
+"start": 31.542,
+"dur": 0.75
+},
+{
+"k": 4,
+"file": "agent-opus-song-to-video_4.jpg",
+"start": 40.833,
+"dur": 1.458
+},
+{
+"k": 5,
+"file": "agent-opus-song-to-video_5.jpg",
+"start": 63.583,
+"dur": 0.792
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "agent-opus-song-to-video_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "agent-opus-song-to-video_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "agent-opus-song-to-video_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "agent-opus-song-to-video_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "claude-code-remotion",
+"strips": [
+{
+"k": 0,
+"file": "claude-code-remotion_0.jpg",
+"start": 7.625,
+"dur": 1.833
+},
+{
+"k": 1,
+"file": "claude-code-remotion_1.jpg",
+"start": 17.417,
+"dur": 1.583
+},
+{
+"k": 2,
+"file": "claude-code-remotion_2.jpg",
+"start": 22.833,
+"dur": 2.333
+},
+{
+"k": 3,
+"file": "claude-code-remotion_3.jpg",
+"start": 40.167,
+"dur": 0.75
+},
+{
+"k": 4,
+"file": "claude-code-remotion_4.jpg",
+"start": 41.833,
+"dur": 0.75
+},
+{
+"k": 5,
+"file": "claude-code-remotion_5.jpg",
+"start": 64.417,
+"dur": 2.375
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "claude-code-remotion_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "claude-code-remotion_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "claude-code-remotion_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "claude-code-remotion_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "figma-shader-town-tour",
+"strips": [
+{
+"k": 0,
+"file": "figma-shader-town-tour_0.jpg",
+"start": 2.542,
+"dur": 1.625
+},
+{
+"k": 1,
+"file": "figma-shader-town-tour_1.jpg",
+"start": 7.75,
+"dur": 2.5
+},
+{
+"k": 2,
+"file": "figma-shader-town-tour_2.jpg",
+"start": 11.125,
+"dur": 1.583
+},
+{
+"k": 3,
+"file": "figma-shader-town-tour_3.jpg",
+"start": 15.208,
+"dur": 2.25
+},
+{
+"k": 4,
+"file": "figma-shader-town-tour_4.jpg",
+"start": 23.958,
+"dur": 2.417
+},
+{
+"k": 5,
+"file": "figma-shader-town-tour_5.jpg",
+"start": 33.292,
+"dur": 0.875
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "figma-shader-town-tour_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "figma-shader-town-tour_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "figma-shader-town-tour_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "figma-shader-town-tour_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "hermes-choose-your-own",
+"strips": [
+{
+"k": 0,
+"file": "hermes-choose-your-own_0.jpg",
+"start": 9.083,
+"dur": 0.75
+},
+{
+"k": 1,
+"file": "hermes-choose-your-own_1.jpg",
+"start": 16.875,
+"dur": 1.5
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "hermes-choose-your-own_0.jpg",
+"h": 960
+},
+{
+"k": 1,
+"file": "hermes-choose-your-own_1.jpg",
+"h": 960
+},
+{
+"k": 2,
+"file": "hermes-choose-your-own_2.jpg",
+"h": 960
+}
+]
+},
+{
+"slug": "not-a-single-prompt",
+"strips": [
+{
+"k": 0,
+"file": "not-a-single-prompt_0.jpg",
+"start": 1.917,
+"dur": 0.875
+},
+{
+"k": 1,
+"file": "not-a-single-prompt_1.jpg",
+"start": 7.917,
+"dur": 1.125
+},
+{
+"k": 2,
+"file": "not-a-single-prompt_2.jpg",
+"start": 45.5,
+"dur": 1.458
+},
+{
+"k": 3,
+"file": "not-a-single-prompt_3.jpg",
+"start": 49.208,
+"dur": 2.417
+},
+{
+"k": 4,
+"file": "not-a-single-prompt_4.jpg",
+"start": 52.958,
+"dur": 0.208
+},
+{
+"k": 5,
+"file": "not-a-single-prompt_5.jpg",
+"start": 70.0,
+"dur": 1.208
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "not-a-single-prompt_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "not-a-single-prompt_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "not-a-single-prompt_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "not-a-single-prompt_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "zingage",
+"strips": [
+{
+"k": 0,
+"file": "zingage_0.jpg",
+"start": 28.167,
+"dur": 2.125
+},
+{
+"k": 1,
+"file": "zingage_1.jpg",
+"start": 30.417,
+"dur": 1.042
+},
+{
+"k": 2,
+"file": "zingage_2.jpg",
+"start": 46.5,
+"dur": 2.5
+},
+{
+"k": 3,
+"file": "zingage_3.jpg",
+"start": 53.25,
+"dur": 1.042
+},
+{
+"k": 4,
+"file": "zingage_4.jpg",
+"start": 77.875,
+"dur": 0.917
+},
+{
+"k": 5,
+"file": "zingage_5.jpg",
+"start": 80.0,
+"dur": 0.792
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "zingage_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "zingage_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "zingage_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "zingage_3.jpg",
+"h": 540
+}
+]
+}
+]

@@ -1,0 +1,19 @@
+{
+ "slug": "fiscal-enterprise-launch",
+ "beats": [
+  {"start": 0, "end": 7.4, "kind": "demo", "what": "Amazon company page: overview, income statement, revenue bar chart"},
+  {"start": 7.4, "end": 9.7, "kind": "feature", "what": "Zoomed income statement table with revenue row"},
+  {"start": 9.7, "end": 13.9, "kind": "feature", "what": "Click opens source filing document beside data"},
+  {"start": 13.9, "end": 17.7, "kind": "demo", "what": "Revenue chart then full statements table"},
+  {"start": 17.7, "end": 23.2, "kind": "feature", "what": "Zoomed toolbar: switching statements, filters"},
+  {"start": 23.2, "end": 30.2, "kind": "feature", "what": "Export table data to spreadsheet"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "notes": "All product UI from first frame, no titles, logo or end card; rhythm comes from zoom-ins on cursor actions."
+}

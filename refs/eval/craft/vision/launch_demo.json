@@ -1,0 +1,16 @@
+{
+ "slug": "launch_demo",
+ "moves": [
+  {"k": 0, "element": "ui_panel", "action": "enter", "style": ["fade", "rise", "stagger_list"], "frames_to_settle": 5, "fast_start": true, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "App window fades up; headline words and sidebar rows fade in staggered"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["stagger_list", "fade"], "frames_to_settle": 10, "fast_start": false, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Ease-in-out push-in to prompt panel; action items fade in one by one"},
+  {"k": 2, "element": "text", "action": "transform", "style": ["fade", "color_change"], "frames_to_settle": 20, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Number counts up 0.5 to 3.5, decelerating; unit word fades in"},
+  {"k": 3, "element": "mixed", "action": "replace", "style": ["fade"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Stat and bar chart fade out, small logo icon fades in"},
+  {"k": 4, "element": "logo", "action": "exit", "style": ["fade"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "End card logo, tagline, button fade out together in place"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 48, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "center", "margin_pct": 8, "radius_px": 24, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Two-tone headline over app window with sidebar meeting list"},
+  {"k": 1, "headline_px": 28, "body_px": 18, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 0, "radius_px": 36, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Zoomed UI crop, window bleeds off left, cursor click ring on checkbox"},
+  {"k": 2, "headline_px": 72, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "center", "margin_pct": 21, "radius_px": 14, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "End card: icon, wordmark, grey tagline, purple CTA button"},
+  {"k": 3, "headline_px": 124, "body_px": 24, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "center", "margin_pct": 19, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Big stat, purple unit, caption, small bar chart below"}
+ ]
+}

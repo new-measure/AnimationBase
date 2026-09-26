@@ -2,37 +2,80 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Clawd studio</title>
+<title>Studio</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=block">
 <style>
   html, body { margin: 0; background: #1b1820; color: #eee; font: 13px system-ui, sans-serif; }
   main { padding: 12px; display: grid; gap: 8px; }
-  #out { width: min(100%, 1280px); aspect-ratio: 16 / 9; height: auto; background: #F3EBDC; }
+  #view { width: min(100%, 1280px, calc(78vh * var(--w) / var(--h))); aspect-ratio: var(--w) / var(--h); overflow: hidden; position: relative; }
+  #stage { position: absolute; left: 0; top: 0; width: calc(var(--w) * 1px); height: calc(var(--h) * 1px); overflow: hidden; transform-origin: 0 0;
+    -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  #out { position: absolute; left: 0; top: 0; width: calc(var(--w) * 1px); height: calc(var(--h) * 1px); }
   .p5Canvas { display: none !important; }
   .bar { display: flex; gap: 10px; align-items: center; max-width: 1280px; }
   #scrub { flex: 1; }
-  #tt { font-variant-numeric: tabular-nums; min-width: 190px; }
+  #tt { font-variant-numeric: tabular-nums; min-width: 220px; }
+  /* render mode: the bare stage at full size, at the page's top-left, for screenshots */
+  body.render main { padding: 0; }
+  body.render #view { width: calc(var(--w) * 1px); }
+  body.render .bar { display: none; }
 </style>
 <script src="node_modules/p5/lib/p5.min.js"></script>
-<script src="node_modules/p5.brush/dist/p5.brush.js"></script>
+<script src="src/config.js"></script>
+<script src="src/scenes/index.js"></script>
+<script>
+  // Pick the scene (?scene=<name>, else PROJECT.scene). A scene with a project folder (dir) loads its project.js first:
+  // project.js calls PROJECT_FILE({ brand, fonts, localFonts, captions, ... }) with paths relative to the folder.
+  const QS = new URLSearchParams(location.search), SCENE_NAME = QS.get('scene') || PROJECT.scene, SCENE = SCENES[SCENE_NAME];
+  if (!SCENE) throw new Error(`no scene named "${SCENE_NAME}" in src/scenes/index.js`);
+  const load = src => document.write(`<script src="${src}"><\/script>`);
+  let PROJECT_DATA = {}; const PROJECT_FILE = o => { PROJECT_DATA = o; };
+  // asset('screen.mp4') → the project's assets/ folder
+  const asset = p => SCENE.dir ? `${SCENE.dir}/assets/${p}` : p;
+  if (SCENE.dir) load(`${SCENE.dir}/project.js`);
+</script>
+<script>
+  // settings: config.js defaults < the project's project.js < the scene's own project settings
+  if (PROJECT_DATA.brand?.logo?.src && !PROJECT_DATA.brand.logo.src.includes('/')) PROJECT_DATA.brand.logo.src = asset(PROJECT_DATA.brand.logo.src);
+  Object.assign(PROJECT, PROJECT_DATA, SCENE.project, { brand: { ...(PROJECT_DATA.brand || {}), ...(SCENE.project?.brand || {}) } });
+  document.title = `${SCENE_NAME} · studio`;
+  // p5.brush paints the hand-painted style; the clean style draws with plain Canvas 2D and must not load it
+  if (PROJECT.style !== 'clean') load('node_modules/p5.brush/dist/p5.brush.js');
+  for (const f of PROJECT.fonts || []) document.write(`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=${f}&display=block">`);
+  // the brand's own font files: { family, src (in assets/), weight, style }
+  if (PROJECT.localFonts) document.write(`<style>${PROJECT.localFonts.map(f => `@font-face { font-family: "${f.family}"; src: url("${asset(f.src)}"); font-weight: ${f.weight || 400}; font-style: ${f.style || 'normal'}; font-display: block; }`).join('\n')}</style>`);
+</script>
 </head>
 <body>
+<script>if (QS.has('render')) document.body.classList.add('render');</script>
 <main>
-  <canvas id="out" width="1920" height="1080"></canvas>
-  <div class="bar"><input id="scrub" type="range" min="0" max="11" step="0.0417" value="0"><span id="tt">loading…</span></div>
+  <div id="view"><div id="stage"><canvas id="out"></canvas></div></div>
+  <div class="bar">
+    <select id="scene"></select>
+    <button id="play">play</button>
+    <input id="scrub" type="range" min="0" max="30" step="0.0417" value="0"><span id="tt">loading…</span>
+  </div>
 </main>
 <!-- engine -->
-<script src="src/config.js"></script>
 <script src="src/core.js"></script>
-<script src="src/clawd.js"></script>
+<script>
+  // the canvas size comes from PROJECT.size (see core.js)
+  document.documentElement.style.setProperty('--w', W); document.documentElement.style.setProperty('--h', H);
+  Object.assign(document.getElementById('out'), { width: W, height: H });
+</script>
+<script src="src/dom.js"></script>
 <script src="src/timeline.js"></script>
-<!-- reference sheets (standalone loops) -->
-<script src="src/sheets.js"></script>
-<!-- your video: add a script per scene file, in order -->
-<script src="src/scenes/demo.js"></script>
+<!-- the scene's libs, then the scene -->
+<script>
+  for (const name of SCENE.libs) { if (!LIBS[name]) throw new Error(`scene "${SCENE_NAME}" needs unknown lib "${name}"`); LIBS[name].forEach(load); }
+  load(SCENE.file);
+</script>
 <script>
   // Open studio.html?loop=emotions (or views) to scrub a standalone loop instead of the video.
-  const q = new URLSearchParams(location.search).get('loop'); if (q && LOOPS[q]) window.LOOP = LOOPS[q];
+  const q = QS.get('loop'); if (q && LOOPS[q]) window.LOOP = LOOPS[q];
+  const pick = document.getElementById('scene');
+  for (const name in SCENES) pick.add(new Option(name, name, false, name === SCENE_NAME));
+  pick.addEventListener('change', () => { location.search = '?scene=' + pick.value; });
 </script>
 </body>
 </html>

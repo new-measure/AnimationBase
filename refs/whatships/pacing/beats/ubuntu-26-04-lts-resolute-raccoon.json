@@ -1,0 +1,24 @@
+{
+ "slug": "ubuntu-26-04-lts-resolute-raccoon",
+ "beats": [
+  {"start": 0, "end": 6.67, "kind": "hook", "what": "Empty white disc; orange laptop desk assembles"},
+  {"start": 6.67, "end": 13, "kind": "feature", "what": "Installer screens: raccoon, install type, hardware encryption"},
+  {"start": 13, "end": 18, "kind": "feature", "what": "App icons grid, laptop desktop with app launcher"},
+  {"start": 18, "end": 28.58, "kind": "feature", "what": "Desk grows into workstation and server racks"},
+  {"start": 28.58, "end": 34, "kind": "demo", "what": "Terminal: snap install gemma3 model"},
+  {"start": 34, "end": 36, "kind": "other", "what": "Floating devices: Harmony with the silicon"},
+  {"start": 36, "end": 48, "kind": "feature", "what": "Disc builds factory with robot arms, medical scanner"},
+  {"start": 48, "end": 52.17, "kind": "demo", "what": "Terminal: pro enable livepatch, status output"},
+  {"start": 52.17, "end": 66, "kind": "feature", "what": "Robot arm to satellite, globe: For everyone"},
+  {"start": 66, "end": 71.58, "kind": "transition", "what": "Zoom back to laptop desk, raccoon wallpaper"},
+  {"start": 71.58, "end": 80.06, "kind": "end_card", "what": "Ubuntu logo, then www.ubuntu.com"}
+ ],
+ "first_text_s": 6,
+ "first_product_s": 2,
+ "end_card": {"start": 71.58, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["morph_match", "push_zoom", "cut"],
+ "camera": ["push_in", "zoom_out_reveal", "tilt_3d", "pan"],
+ "pace": "medium",
+ "notes": "One continuous 3D diorama on a white disc that morphs from desk to data centre to factory to globe; bookended by the same laptop."
+}

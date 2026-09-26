@@ -1,0 +1,20 @@
+{
+ "slug": "locus-parse-bot",
+ "beats": [
+  {"start": 0, "end": 1.8, "kind": "intro", "what": "LOCUS x Parse lockup, 'the API for the entire internet'"},
+  {"start": 1.8, "end": 6.3, "kind": "intro", "what": "Massive icon grid, 'Parse just joined Locus Pro'"},
+  {"start": 6.3, "end": 10.2, "kind": "proof", "what": "API counter climbs 3,778 to 15,964"},
+  {"start": 10.2, "end": 13.8, "kind": "montage", "what": "Category cards: E-commerce, Sports, Real estate, News"},
+  {"start": 13.8, "end": 15.7, "kind": "feature", "what": "'24 categories' over scrolling category text"},
+  {"start": 15.7, "end": 17.4, "kind": "end_card", "what": "White LOCUS x Parse lockup, live now"},
+  {"start": 17.4, "end": 23.82, "kind": "end_card", "what": "Dark card with URLs and contacts, fades out"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 15.7, "logo": true, "cta": true},
+ "text_cards": 7,
+ "transitions": ["cut", "wipe_mask", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Partnership announcement told through scale: icon wall and ticking counter; no UI demo, all typography over logo grids."
+}

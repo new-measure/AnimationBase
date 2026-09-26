@@ -1,0 +1,21 @@
+{
+ "slug": "chatgpt-work-computer-use-feature",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "'Computer use lets ChatGPT use any app' over night lake"},
+  {"start": 3, "end": 10, "kind": "story", "what": "Flame pet mascot floats, cursor flies across lake"},
+  {"start": 10, "end": 21.6, "kind": "demo", "what": "Windows appear; ChatGPT asked to add Keynote slides, works"},
+  {"start": 21.6, "end": 25, "kind": "feature", "what": "Text card: faster with live picture-in-picture"},
+  {"start": 25, "end": 34.2, "kind": "feature", "what": "PiP window with pet while user browses restaurant article"},
+  {"start": 34.2, "end": 37.7, "kind": "feature", "what": "Text card: multitask while pet watches computer use"},
+  {"start": 37.7, "end": 49.4, "kind": "demo", "what": "Pet oversees stacked windows filling spreadsheet, task completes"},
+  {"start": 49.4, "end": 55.51, "kind": "end_card", "what": "Green blur whip, OpenAI wordmark then logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 10,
+ "end_card": {"start": 49.4, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "whip_blur", "morph_match"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "medium",
+ "notes": "Alternates white text cards with 3D-floating UI windows over a lake; mascot pet ties scenes together. Product = ChatGPT UI at 10s."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "chatgpt-linux-desktop",
+ "beats": [
+  {"start": 0, "end": 2.5, "kind": "intro", "what": "Starfield title: ChatGPT Desktop now on Linux, Tux"},
+  {"start": 2.5, "end": 11, "kind": "demo", "what": "Prompt to write hello_chatgpt.cpp; code generated in panel"},
+  {"start": 11, "end": 19, "kind": "demo", "what": "Asks to Slack itself about achievement; agent works"},
+  {"start": 19, "end": 28, "kind": "demo", "what": "Creates Google Doc documenting code"},
+  {"start": 28, "end": 41, "kind": "demo", "what": "Opens doc in Chrome alongside chat window"},
+  {"start": 41, "end": 45.3, "kind": "end_card", "what": "OpenAI wordmark then logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 2.5,
+ "end_card": {"start": 41, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static", "pan"],
+ "pace": "slow",
+ "notes": "Single unbroken screen recording after a 2.5 s title; one continuous task chain with no narration cards."
+}

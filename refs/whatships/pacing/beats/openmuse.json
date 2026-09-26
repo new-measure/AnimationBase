@@ -1,0 +1,23 @@
+{
+ "slug": "openmuse",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "Capybara mascot, OpenMuse name types in"},
+  {"start": 3, "end": 8, "kind": "intro", "what": "Personal assistant remembering ideas, works with any agent harness"},
+  {"start": 8, "end": 14, "kind": "feature", "what": "Available on web and mobile, UI mockups rise"},
+  {"start": 14, "end": 17, "kind": "feature", "what": "Open source. Self-hosted. Enterprise ready."},
+  {"start": 17, "end": 30, "kind": "feature", "what": "Bring your own agent via AG-UI, framework logos flow"},
+  {"start": 30, "end": 37, "kind": "feature", "what": "Connect all your tools: finds school-trip email"},
+  {"start": 37, "end": 45, "kind": "feature", "what": "Every agent has own browser; searches aquarium site"},
+  {"start": 45, "end": 50, "kind": "feature", "what": "Remembers ideas, tracks goals cards"},
+  {"start": 50, "end": 58, "kind": "feature", "what": "Computer-use terminal runs code; take over anytime"},
+  {"start": 58, "end": 66.05, "kind": "end_card", "what": "Try OpenMuse, GitHub link, powered by AG-UI + CopilotKit"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 58, "logo": true, "cta": true},
+ "text_cards": 10,
+ "transitions": ["morph_match", "fade_dissolve"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "notes": "One continuous shot, zero hard cuts: kinetic-typed headlines each paired with a floating UI vignette; mascot carries across scenes."
+}

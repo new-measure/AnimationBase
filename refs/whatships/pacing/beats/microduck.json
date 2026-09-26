@@ -1,0 +1,14 @@
+{"slug":"microduck","beats":[
+{"start":0,"end":4.2,"kind":"hook","what":"Tiny robot walks across bedroom floor, WALK! comic burst"},
+{"start":4.2,"end":7,"kind":"story","what":"Old robot watches from desk"},
+{"start":7,"end":11,"kind":"feature","what":"GET UP! robot rises from fallen pose"},
+{"start":11,"end":15.3,"kind":"feature","what":"TRAIN! person trains robot policy at computer"},
+{"start":15.3,"end":19,"kind":"feature","what":"GRAB! robot grabs sock in bedroom"},
+{"start":19,"end":26,"kind":"feature","what":"Woman customizes robot head with stickers and shells"},
+{"start":26,"end":32.4,"kind":"montage","what":"VS battles, PLAY! and KICK! soccer with friends"},
+{"start":32.4,"end":42,"kind":"montage","what":"Skatepark: robot on wheels, RIDE! with skater"},
+{"start":42,"end":48,"kind":"end_card","what":"MICRODUCK comic logo over robot lineup, URL"},
+{"start":48,"end":51.05,"kind":"end_card","what":"Hugging Face x Pollen Robotics logos"}],
+"first_text_s":0,"first_product_s":0,"end_card":{"start":42,"logo":true,"cta":true},
+"text_cards":0,"transitions":["cut","fade_dissolve"],"camera":["static","handheld","push_in"],
+"pace":"fast","notes":"Live-action product ad organized by comic-book verb bursts (WALK, GET UP, TRAIN, GRAB, KICK, RIDE) each naming a capability."}

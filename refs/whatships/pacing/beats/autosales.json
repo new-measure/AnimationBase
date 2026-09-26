@@ -1,0 +1,16 @@
+{
+ "slug": "autosales",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Prompt typed: sell $12,000 of AutoSales subscriptions tonight"},
+  {"start": 5, "end": 16, "kind": "demo", "what": "Agent profiles audiences, calls Instagram, Pinterest, builds campaigns"},
+  {"start": 16, "end": 23.9, "kind": "proof", "what": "Revenue table by region: 103 subscriptions, $13,360 collected"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Single uncut terminal screen recording; story told purely through typed prompt and agent log output ending on result table."
+}

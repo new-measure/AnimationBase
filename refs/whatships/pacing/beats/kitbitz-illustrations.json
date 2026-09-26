@@ -1,0 +1,21 @@
+{
+ "slug": "kitbitz-illustrations",
+ "beats": [
+  {"start": 0, "end": 5.7, "kind": "intro", "what": "Kitbitz hero: 'Hand-drawn illustrations for your projects' floating assets"},
+  {"start": 5.7, "end": 8.2, "kind": "demo", "what": "Kits dropdown menu opened, back to hero"},
+  {"start": 8.2, "end": 13.5, "kind": "feature", "what": "Carousel of kits: Nature, Cyberpunk, Medieval, Western"},
+  {"start": 13.5, "end": 26.4, "kind": "feature", "what": "Asset grid filtered by colour swatches"},
+  {"start": 26.4, "end": 30, "kind": "demo", "what": "Scrolling full asset library, illustrators list"},
+  {"start": 30, "end": 37.2, "kind": "feature", "what": "Search 'treasure' returns matching assets"},
+  {"start": 37.2, "end": 45.2, "kind": "feature", "what": "Asset detail cards: treasure chest, island, map"},
+  {"start": 45.2, "end": 48.96, "kind": "feature", "what": "Map detail page with tags and similar illustrations"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom", "pan_slide"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "notes": "Website walkthrough screen recording with zoom crops; starts on hero, ends mid-browse with no end card."
+}

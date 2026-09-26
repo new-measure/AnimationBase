@@ -1,0 +1,20 @@
+{
+ "slug": "geometry-nodes-blender",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Final tangled root creature render labelled 'Final'"},
+  {"start": 2, "end": 4, "kind": "feature", "what": "Step: Scatter Points on ground"},
+  {"start": 4, "end": 6, "kind": "feature", "what": "Step: Instance Root curves on points"},
+  {"start": 6, "end": 8, "kind": "feature", "what": "Step: Delete Far Curves"},
+  {"start": 8, "end": 10, "kind": "feature", "what": "Step: Start to Center, curves arch inward"},
+  {"start": 10, "end": 13, "kind": "feature", "what": "Step: Trim Curves"},
+  {"start": 13, "end": 14.63, "kind": "feature", "what": "Step: Displace Curves, back toward final"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["morph_match"],
+ "camera": ["static"],
+ "pace": "fast",
+ "notes": "Single continuous shot, result-first then node-step breakdown with captions; not a launch film, 'product' is the Blender effect itself."
+}

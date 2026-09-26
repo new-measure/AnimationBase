@@ -1,0 +1,19 @@
+{
+ "slug": "abacus",
+ "beats": [
+  {"start": 0, "end": 0.5, "kind": "hook", "what": "Horror webcomic poster thumbnail flash"},
+  {"start": 0.5, "end": 3.83, "kind": "intro", "what": "Abacus Studio: Agentic Generation title card with logo"},
+  {"start": 3.83, "end": 14, "kind": "demo", "what": "Prompt typed, agent chat generates images and plans video"},
+  {"start": 14, "end": 15, "kind": "transition", "what": "Streaky motion-blur transition into generated video"},
+  {"start": 15, "end": 39.5, "kind": "demo", "what": "Generated horror webcomic video plays with captions"},
+  {"start": 39.5, "end": 43.24, "kind": "end_card", "what": "Black beat then Abacus AI Agent logo, tagline, URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 1,
+ "end_card": {"start": 40, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["cut", "whip_blur"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Short UI demo then 25 s of uninterrupted generated output; output section labelled demo (it's the product's result)."
+}

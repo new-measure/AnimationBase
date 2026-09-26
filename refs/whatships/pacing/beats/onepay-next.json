@@ -1,0 +1,21 @@
+{
+ "slug": "onepay-next",
+ "beats": [
+  {"start": 0, "end": 3.2, "kind": "hook", "what": "Person at desk; text: the best financial products"},
+  {"start": 3.2, "end": 6.9, "kind": "story", "what": "Overhead sketching: start with a simple idea"},
+  {"start": 6.9, "end": 9, "kind": "intro", "what": "3D glossy blue OnePay coin logo"},
+  {"start": 9, "end": 15.8, "kind": "hook", "what": "What if finance felt more curious, more intuitive"},
+  {"start": 15.8, "end": 18, "kind": "montage", "what": "More yours, grid of people and code shots"},
+  {"start": 18, "end": 20.5, "kind": "intro", "what": "Introducing OnePay Next"},
+  {"start": 20.5, "end": 25, "kind": "feature", "what": "ASCII art house: home for experimentation, build, explore"},
+  {"start": 25, "end": 31.1, "kind": "end_card", "what": "OnePay Next; ideas move faster now, so do we"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 6.9,
+ "end_card": {"start": 25, "logo": true, "cta": false},
+ "text_cards": 7,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Brand manifesto with no product UI; typed bracketed code-style text over live action then ASCII art; uncertain what the product is."
+}

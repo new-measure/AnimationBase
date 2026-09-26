@@ -1,0 +1,22 @@
+{
+ "slug": "state-machines",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Rapid archival collage: Vitruvian man, workers, cosmos"},
+  {"start": 4, "end": 13.2, "kind": "story", "what": "'We've been making work easier': machines, internet history"},
+  {"start": 13.2, "end": 25.1, "kind": "story", "what": "And now agents: AI leaders on future of infrastructure"},
+  {"start": 25.1, "end": 31.8, "kind": "story", "what": "Rocket launches: we built better ways to test"},
+  {"start": 31.8, "end": 36, "kind": "problem", "what": "Interviewee: software never forgives mistakes; agents are different"},
+  {"start": 36, "end": 44, "kind": "problem", "what": "Text on black: how do you test software that behaves?"},
+  {"start": 44, "end": 58, "kind": "montage", "what": "Enterprise montage: IPOs, offices, tickets, headlines"},
+  {"start": 58, "end": 66, "kind": "intro", "what": "Give agents enterprise APIs; work with Salesforce, ServiceNow, NetSuite"},
+  {"start": 66, "end": 69.5, "kind": "end_card", "what": "'state machines' text and logo mark"}
+ ],
+ "first_text_s": 4,
+ "first_product_s": 66,
+ "end_card": {"start": 66, "logo": true, "cta": false},
+ "text_cards": 6,
+ "transitions": ["cut", "fade_dissolve", "whip_blur"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "notes": "Found-footage history-of-work manifesto with subtitle narration; product never shown, only described in final text cards. Intro beat labelling uncertain."
+}

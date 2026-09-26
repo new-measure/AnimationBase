@@ -1,0 +1,17 @@
+{
+ "slug": "zingage",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "camera_move", "style": ["slide"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Steady upward scroll through landing page, sections and cards pass by"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["slide", "zoom_through"], "frames_to_settle": 30, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Page scroll accelerates, then blurred 3D card swoops in over orange"},
+  {"k": 2, "element": "card", "action": "enter", "style": ["rise", "fade", "stagger_list", "blur_in"], "frames_to_settle": 6, "fast_start": true, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Orange glow clears on tilted phone; notification cards stack in, ~4 frames apart"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["scale_down", "rotate"], "frames_to_settle": 30, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Fast pull-back from dashboard reveals editor UI, then slow 3D rotate"},
+  {"k": 4, "element": "mixed", "action": "replace", "style": ["wipe", "slide", "typing", "fade"], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Diagonal orange-photo parallelogram wipes across; next line types in with fade"},
+  {"k": 5, "element": "logo", "action": "enter", "style": ["slide", "rotate", "mask_reveal"], "frames_to_settle": 17, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Orange panel slides over; Z-masked photo card swings in, rotates straight"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 56, "body_px": 16, "typefaces": 2, "type_style": ["sans", "serif"], "weights": ["regular", "medium"], "align": "center", "margin_pct": 13.1, "radius_px": 16, "shadow": "soft", "bg_style": "flat", "accent_count": 2, "density": "medium", "notes": "Website hero: sans headline with italic serif emphasis, orange CTA"},
+  {"k": 1, "headline_px": 36, "body_px": 32, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "left", "margin_pct": 0, "radius_px": 40, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Motion-blurred extruded 3D card over blurred page on orange"},
+  {"k": 2, "headline_px": 20, "body_px": 10, "typefaces": 2, "type_style": ["serif", "sans"], "weights": ["regular", "bold"], "align": "none", "margin_pct": 14.8, "radius_px": 4, "shadow": "soft", "bg_style": "texture", "accent_count": 2, "density": "dense", "notes": "Corkboard collage of pinned team polaroids and orange brand stickers"},
+  {"k": 3, "headline_px": 140, "body_px": null, "typefaces": 1, "type_style": ["display"], "weights": ["bold"], "align": "center", "margin_pct": 31.7, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Orange lowercase wordmark centred on warm off-white"}
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "mac-mini",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Hand places Mac mini on white seamless, push in"},
+  {"start": 4, "end": 7, "kind": "feature", "what": "M6 chip dropped in; lightning cracks across lid"},
+  {"start": 7, "end": 14.58, "kind": "feature", "what": "Clay muscle arms: Mac mini does push-ups, flexes"},
+  {"start": 14.58, "end": 19, "kind": "feature", "what": "Becomes drag racer with exhaust pipes, burnout"},
+  {"start": 19, "end": 27, "kind": "feature", "what": "Brain robot with many arms juggling creative tools"},
+  {"start": 27, "end": 33, "kind": "feature", "what": "Rocket boosters launch it through clay clouds"},
+  {"start": 33, "end": 36, "kind": "intro", "what": "Title: The Mighty Mac mini with M6"},
+  {"start": 36, "end": 37.97, "kind": "end_card", "what": "Apple logo on grey"}
+ ],
+ "first_text_s": 33,
+ "first_product_s": 1,
+ "end_card": {"start": 36, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["morph_match", "cut", "push_zoom"],
+ "camera": ["push_in", "static", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "notes": "Wordless claymation metaphors: the device transforms into strongman, racer, octopus robot, rocket; only text is the closing title."
+}

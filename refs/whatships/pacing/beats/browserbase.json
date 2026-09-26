@@ -1,0 +1,14 @@
+{"slug":"browserbase","beats":[
+{"start":0,"end":4,"kind":"hook","what":"Pixel landscape: what if your agents were as capable as you?"},
+{"start":4,"end":12,"kind":"demo","what":"Agent prompts from Clay, Lovable, Ramp; agent navigates sites"},
+{"start":12,"end":21,"kind":"problem","what":"Kinetic text: most of the web doesn't have an API"},
+{"start":21,"end":27,"kind":"intro","what":"Founder Paul Klein introduces Browserbase Platform diagram"},
+{"start":27,"end":37,"kind":"feature","what":"Founder explains Search API and Fetch API with overlays"},
+{"start":37,"end":47,"kind":"feature","what":"Browser API: agent operating airline site beside founder"},
+{"start":47,"end":53.4,"kind":"demo","what":"Agent downloads all receipts, returns PDF to Ramp prompt"},
+{"start":53.4,"end":60.8,"kind":"story","what":"Founder at desk in office, talking to camera"},
+{"start":60.8,"end":63,"kind":"feature","what":"API endpoint chips: search, fetch, sessions, functions"},
+{"start":63,"end":66.13,"kind":"end_card","what":"Browserbase B logo with customer logos row"}],
+"first_text_s":0,"first_product_s":4,"end_card":{"start":63,"logo":true,"cta":false},
+"text_cards":4,"transitions":["cut","morph_match","push_zoom","pan_slide"],"camera":["static","push_in","zoom_out_reveal"],
+"pace":"medium","notes":"Hybrid: kinetic-type opening, then founder talking head with floating UI overlays. End card doubles as proof via customer logos."}

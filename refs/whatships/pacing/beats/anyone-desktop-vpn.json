@@ -1,0 +1,18 @@
+{
+ "slug": "anyone-desktop-vpn",
+ "beats": [
+  {"start": 0, "end": 2.8, "kind": "hook", "what": "Outline logo mark glows with chromatic shimmer"},
+  {"start": 2.8, "end": 6, "kind": "transition", "what": "Logo shatters into glitch scanline fragments"},
+  {"start": 6, "end": 11, "kind": "intro", "what": "Anyone desktop vpn wordmark with OS icons, glitching"},
+  {"start": 11, "end": 14.9, "kind": "other", "what": "'now live' text holds then glitches away"},
+  {"start": 14.9, "end": 16.98, "kind": "end_card", "what": "Glitched logo mark returns and dissolves"}
+ ],
+ "first_text_s": 6,
+ "first_product_s": 0,
+ "end_card": {"start": 14.9, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "wipe_mask", "morph_match"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Logo-only glitch sting; glitch distortion is the transition device throughout. 'now live' beat classed other (announcement)."
+}

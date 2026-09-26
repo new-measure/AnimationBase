@@ -1,0 +1,15 @@
+{
+ "slug": "conrad-wip-motion",
+ "moves": [
+  {"k": 0, "element": "logo", "action": "enter", "style": ["fade", "color_change", "slide"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": 6, "motion_blur": false, "notes": "Blue glow floods up from bottom, wordmark then subtitle appear"},
+  {"k": 1, "element": "logo", "action": "transform", "style": ["morph", "rotate", "scale_down", "blur_in"], "frames_to_settle": 10, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Blue card folds and spins into asterisk mark, text blurs away"},
+  {"k": 2, "element": "camera", "action": "camera_move", "style": ["zoom_through", "fade"], "frames_to_settle": 8, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Push past app icon; blue backdrop washes to white new-tab page"},
+  {"k": 3, "element": "ui_panel", "action": "transform", "style": ["slide", "scale_down"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Browser window collapses upward as grey surface rises, leaving search bar"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 22, "body_px": 18, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 10.8, "radius_px": 24, "shadow": "soft", "bg_style": "gradient", "accent_count": 3, "density": "sparse", "notes": "Cropped browser window, sidebar tabs, over blue gradient"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 45, "radius_px": 32, "shadow": "soft", "bg_style": "gradient", "accent_count": 0, "density": "sparse", "notes": "Centred app icon tile on blue light-streak gradient"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 41, "radius_px": null, "shadow": "glow", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Metallic asterisk mark with soft glow on black"},
+  {"k": 3, "headline_px": 184, "body_px": 104, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 18.8, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Huge white wordmark lockup on flat blue"}
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "utapp",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "'Utorg is back on App Store', U icon meets App Store icon"},
+  {"start": 3, "end": 6, "kind": "demo", "what": "App Store search types Utapp, Get button"},
+  {"start": 6, "end": 10, "kind": "demo", "what": "Phone rises showing Utapp listing, taps Get"},
+  {"start": 10, "end": 12.18, "kind": "end_card", "what": "'Download Utapp now' with App Store badge"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 10, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["morph_match", "pan_slide"],
+ "camera": ["static", "pan"],
+ "pace": "fast",
+ "notes": "Vertical single-shot App Store return announcement; persistent headline, UI slides in beneath; no cuts."
+}

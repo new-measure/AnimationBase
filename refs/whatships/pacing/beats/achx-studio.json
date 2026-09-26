@@ -1,0 +1,23 @@
+{
+ "slug": "achx-studio",
+ "beats": [
+  {"start": 0, "end": 5.6, "kind": "hook", "what": "Rapid macro eye/lens shots with 'Some products launch' kinetic text"},
+  {"start": 5.6, "end": 11.1, "kind": "hook", "what": "Eye close-ups: 'Some change industries' text"},
+  {"start": 11.1, "end": 17, "kind": "story", "what": "Rocket launch, 'Some become the next UNICORNS'"},
+  {"start": 17, "end": 26, "kind": "story", "what": "Unicorn, astronaut over Earth: 'Before the headlines, funding, users'"},
+  {"start": 26, "end": 30, "kind": "story", "what": "Crowd and faces: 'The moment the world sees them'"},
+  {"start": 30, "end": 41, "kind": "story", "what": "Film-clip actor with big type: 'A launch isn't just an announcement'"},
+  {"start": 41, "end": 50, "kind": "story", "what": "'That's why every frame, every second, every launch matters'"},
+  {"start": 50, "end": 54, "kind": "story", "what": "Astronaut with rainbow prism: 'tomorrow's unicorns deserve more'"},
+  {"start": 54, "end": 64, "kind": "intro", "what": "Square logo over iridescent glass abstract visuals"},
+  {"start": 64, "end": 68.15, "kind": "end_card", "what": "White card tagline then logo on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 54,
+ "end_card": {"start": 64, "logo": true, "cta": false},
+ "text_cards": 9,
+ "transitions": ["cut", "whip_blur", "fade_dissolve", "morph_match"],
+ "camera": ["push_in", "static", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Agency manifesto reel: kinetic serif type over cinematic stock/film clips, glitch-RGB cuts; no product demo, logo only at end."
+}

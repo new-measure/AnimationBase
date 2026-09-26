@@ -1,0 +1,24 @@
+{
+ "slug": "zai-autoclaw",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Glowing orb reveals OpenClaw; cursor clicks install"},
+  {"start": 4, "end": 6, "kind": "problem", "what": "Install explodes into error and warning popups"},
+  {"start": 6, "end": 9, "kind": "transition", "what": "Blue ring forms; AutoClaw logo emerges"},
+  {"start": 9, "end": 12, "kind": "intro", "what": "AutoClaw logo; one-click install completes"},
+  {"start": 12, "end": 16, "kind": "demo", "what": "AutoClaw chat window tilts in: describe your goal"},
+  {"start": 16, "end": 19.7, "kind": "feature", "what": "Connect everything: Slack, Telegram, WhatsApp, Discord hub"},
+  {"start": 19.7, "end": 23, "kind": "feature", "what": "50+ built-in skills grid"},
+  {"start": 23, "end": 26, "kind": "other", "what": "Text: A ready-to-work agent"},
+  {"start": 26, "end": 32, "kind": "feature", "what": "Plug in your AI: model orbit, Gemini/Claude/OpenAI toggles"},
+  {"start": 32, "end": 42.7, "kind": "demo", "what": "Use cases: Python script, cron job, tickets, CRM profile"},
+  {"start": 42.7, "end": 48.6, "kind": "end_card", "what": "AutoClaw brings powerful agents to everyone; app icon"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 8,
+ "end_card": {"start": 42.7, "logo": true, "cta": false},
+ "text_cards": 5,
+ "transitions": ["morph_match", "push_zoom", "fade_dissolve", "cut"],
+ "camera": ["tilt_3d", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Competitor-pain cold open (OpenClaw install errors) then logo reveal; feature chapters announced by short glowing text cards; tilted 3D UI panels."
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "not-a-single-prompt",
+ "beats": [
+  {"start": 0, "end": 4.1, "kind": "hook", "what": "Search bar and AI app icons: 'They promised...'"},
+  {"start": 4.1, "end": 19, "kind": "problem", "what": "AI tools bury you in apps, stop when it gets real"},
+  {"start": 19, "end": 26, "kind": "intro", "what": "Aside title; browser that gets complex work done"},
+  {"start": 26, "end": 53.1, "kind": "demo", "what": "Cancel unused subscriptions: Chase login, statement, refund chat"},
+  {"start": 53.1, "end": 58, "kind": "proof", "what": "Browsing agent benchmark: Aside 99% vs competitors"},
+  {"start": 58, "end": 70, "kind": "feature", "what": "Kinetic text: anything in a browser, presentations, private"},
+  {"start": 70, "end": 80, "kind": "feature", "what": "Runs locally; password handling hidden from AI"},
+  {"start": 80, "end": 86, "kind": "other", "what": "Subscription tagline with logo, 'that does your...'"},
+  {"start": 86, "end": 87.6, "kind": "end_card", "what": "aside.com URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 20,
+ "end_card": {"start": 86, "logo": false, "cta": true},
+ "text_cards": 16,
+ "transitions": ["cut", "morph_match", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "notes": "Heavy kinetic typography with inline icons replacing words; one long end-to-end task demo in the middle, then benchmark proof."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "linear-loops-update",
+ "moves": [
+  {"k": 0, "element": "text", "action": "replace", "style": ["rise", "blur_in", "fade"], "frames_to_settle": 5, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Mono label rolls up and out, new label rolls up from below"},
+  {"k": 1, "element": "text", "action": "replace", "style": ["rise", "blur_in", "fade"], "frames_to_settle": 4, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Quick vertical roll swap of trigger label above glowing dot"},
+  {"k": 2, "element": "shape", "action": "transform", "style": ["draw_on"], "frames_to_settle": 15, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Glowing line shoots along arc from dot, tail retracts, cut away"},
+  {"k": 3, "element": "text", "action": "replace", "style": ["rise", "blur_in", "fade"], "frames_to_settle": 4, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Perspective label rolls to next action during slow camera drift"},
+  {"k": 4, "element": "mixed", "action": "exit", "style": ["draw_on", "fade"], "frames_to_settle": 20, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Bright segment travels up arc, then whole scene fades to black"},
+  {"k": 5, "element": "text", "action": "replace", "style": ["rise", "blur_in", "fade"], "frames_to_settle": 10, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Logo lockup drifts up and blurs out as tagline blurs in"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 76, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 24, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Heavily blurred grey logo lockup on black, mid focus pull"},
+  {"k": 1, "headline_px": 36, "body_px": null, "typefaces": 1, "type_style": ["mono"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": null, "shadow": "glow", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Monochrome 3D dial render, glowing arc, spaced mono label in perspective"},
+  {"k": 2, "headline_px": 104, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 25, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Centred icon plus wordmark, grey-to-white gradient on black"},
+  {"k": 3, "headline_px": 36, "body_px": null, "typefaces": 1, "type_style": ["mono"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": null, "shadow": "glow", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Italic mono label beside glowing ring node on dark 3D dial"}
+ ]
+}

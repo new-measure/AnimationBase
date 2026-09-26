@@ -1,0 +1,16 @@
+{
+ "slug": "freellm",
+ "beats": [
+  {"start": 0, "end": 1.1, "kind": "intro", "what": "Landing hero: 'Find your AI spirit' green mascot"},
+  {"start": 1.1, "end": 9.2, "kind": "demo", "what": "Scrolling and filtering catalog of free model APIs"},
+  {"start": 9.2, "end": 10.96, "kind": "demo", "what": "Model detail page with API connection specs"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "fast",
+ "notes": "Very short raw screen recording starting on hero, then filter demo; no end card or narrative framing."
+}

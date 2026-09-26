@@ -1,0 +1,26 @@
+{
+ "slug": "bitmor",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Satirical banknote with celebrity face, Bitmor branded, pushing in"},
+  {"start": 3, "end": 8.3, "kind": "demo", "what": "'That's right.' then set amount, load wallet, start plan"},
+  {"start": 8.3, "end": 10.3, "kind": "intro", "what": "Bitmor wordmark rises over glowing planet horizon"},
+  {"start": 10.3, "end": 15.8, "kind": "feature", "what": "Zero fee / low fee / ZERO kinetic type cards"},
+  {"start": 15.8, "end": 18.3, "kind": "problem", "what": "Banknote, distractions and s#itcoins slot machine imagery"},
+  {"start": 18.3, "end": 22.2, "kind": "feature", "what": "3D bitcoin glyph then 'stacking' contribution heatmap"},
+  {"start": 22.2, "end": 27.6, "kind": "feature", "what": "'Set a goal.' progress ring fills day 1 to 100"},
+  {"start": 27.6, "end": 31.8, "kind": "feature", "what": "'Whatever you want', milestone unlock badges on phone"},
+  {"start": 31.8, "end": 36, "kind": "feature", "what": "Contribution editor 10 years, $1,000,000 target"},
+  {"start": 36, "end": 39, "kind": "feature", "what": "'Watch your stack grow' rising bar chart"},
+  {"start": 39, "end": 44, "kind": "problem", "what": "'You've been paying someone... not anymore'"},
+  {"start": 44, "end": 48, "kind": "other", "what": "'Buy a Bit More everyday starting at $1/day'"},
+  {"start": 48, "end": 50.42, "kind": "end_card", "what": "'Built on Base.' then 'LINK BELOW'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 48, "logo": false, "cta": true},
+ "text_cards": 16,
+ "transitions": ["cut", "push_zoom", "fade_dissolve", "morph_match"],
+ "camera": ["push_in", "static", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Kinetic-type heavy: short text cards alternate with UI fragments; punchy early cuts then longer animated UI holds. Price line is tagline, classed other."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "astra-for-law",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "replace", "style": ["zoom_through", "fade", "typing"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Warp zoom through starfield, flash to white, next word types on"},
+  {"k": 1, "element": "logo", "action": "enter", "style": ["rise", "fade", "stagger_list", "slide"], "frames_to_settle": 33, "fast_start": true, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Row of firm logo tiles rises under headline, tiles fade in successively"},
+  {"k": 2, "element": "ui_panel", "action": "transform", "style": ["typing", "slide"], "frames_to_settle": 30, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Prompt types in; view scrolls horizontally to follow caret"},
+  {"k": 3, "element": "ui_panel", "action": "transform", "style": ["rise", "typing", "fade"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Chat scrolls up while reply streams in and file card rises"},
+  {"k": 4, "element": "mixed", "action": "replace", "style": ["fade", "typing", "particles"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Headline swaps to ticking counter; tool icons drift outward orbiting"},
+  {"k": 5, "element": "mixed", "action": "enter", "style": ["typing", "color_change", "scale_pop", "stagger_list"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Words appear with colour flicker, icons and charts pop in around"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 72, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 16, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Two-line bold statement, black on white"},
+  {"k": 1, "headline_px": 72, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 16, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Two-line bold statement, black on white"},
+  {"k": 2, "headline_px": 34, "body_px": 12, "typefaces": 2, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "mixed", "margin_pct": 12.6, "radius_px": 16, "shadow": "soft", "bg_style": "gradient", "accent_count": 2, "density": "dense", "notes": "App window with chat sidebar and document on warm gradient"},
+  {"k": 3, "headline_px": 44, "body_px": 28, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 6.4, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Zoomed chat reply text, left aligned, grey status line"}
+ ]
+}

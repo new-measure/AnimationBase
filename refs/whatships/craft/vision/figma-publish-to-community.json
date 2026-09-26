@@ -1,0 +1,17 @@
+{
+ "slug": "figma-publish-to-community",
+ "moves": [
+  {"k": 0, "element": "text", "action": "transform", "style": ["morph", "scale_pop"], "frames_to_settle": 15, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "3D letters inflate and merge as cursor drags slider in panel"},
+  {"k": 1, "element": "image", "action": "transform", "style": ["morph"], "frames_to_settle": 32, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Koi image subtly distorts as slider moves; hard cut to next demo"},
+  {"k": 2, "element": "image", "action": "exit", "style": ["fade"], "frames_to_settle": 9, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Halftone dial image dissolves away via threshold, then hard cut"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["typing", "scale_down"], "frames_to_settle": 24, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Serif text types in; camera zooms out revealing plugin panel"},
+  {"k": 4, "element": "text", "action": "enter", "style": ["stagger_list", "rise", "color_change"], "frames_to_settle": 25, "fast_start": true, "overshoot": "none", "stagger_frames": 6, "motion_blur": false, "notes": "Words appear one by one in cyan, rise slightly, turn white"},
+  {"k": 5, "element": "shape", "action": "transform", "style": ["scale_down", "morph"], "frames_to_settle": 13, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Colourful shape cluster contracts inward into compact icon"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 250, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "center", "margin_pct": 5, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 2, "density": "sparse", "notes": "Shader-filled huge word on purple canvas frame, creator tag bottom left"},
+  {"k": 1, "headline_px": 28, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "mixed", "margin_pct": 4, "radius_px": 28, "shadow": "none", "bg_style": "flat", "accent_count": 3, "density": "medium", "notes": "Fire particle trail on dark canvas beside white plugin settings panel"},
+  {"k": 2, "headline_px": 100, "body_px": 20, "typefaces": 2, "type_style": ["sans", "serif"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": 24, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "dense", "notes": "Zoomed Figma tools sidebar with context menu, serif slide text cropped"},
+  {"k": 3, "headline_px": 110, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 6, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Three-line white headline top-left on charcoal"}
+ ]
+}

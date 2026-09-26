@@ -1,0 +1,17 @@
+{
+ "slug": "superhuman-go-agents",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "demo", "what": "Philosophy text document; user highlights a passage"},
+  {"start": 3, "end": 8, "kind": "feature", "what": "Agent menu pops up: Explain, Cite, Scan for AI"},
+  {"start": 8, "end": 13, "kind": "feature", "what": "Explain agent returns definition of noumena inline"},
+  {"start": 13, "end": 14.8, "kind": "other", "what": "Returns to full document view"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["push_zoom", "cut"],
+ "camera": ["push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "15s single-feature clip, no titles or logo; one continuous zoomed UI interaction on gradient background."
+}

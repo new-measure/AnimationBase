@@ -1,0 +1,23 @@
+{
+ "slug": "achx-2",
+ "beats": [
+  {"start": 0, "end": 5.33, "kind": "hook", "what": "Illustrated character slams giant LAUNCH button"},
+  {"start": 5.33, "end": 12, "kind": "problem", "what": "Kinetic text: what about distribution? That's on us"},
+  {"start": 12, "end": 15, "kind": "intro", "what": "AchX logo, 'the go-to creative' tagline"},
+  {"start": 15, "end": 18, "kind": "other", "what": "Scattered letters assemble into 'Unicorns'"},
+  {"start": 18, "end": 26.17, "kind": "story", "what": "Chat bubbles: founder needs launch video quick, done"},
+  {"start": 26.17, "end": 27, "kind": "transition", "what": "Pixel burst transition to white"},
+  {"start": 27, "end": 29.67, "kind": "montage", "what": "Floating launch video thumbnails collage"},
+  {"start": 29.67, "end": 39.42, "kind": "feature", "what": "3D rooms: product demos, posting strategy, creative direction"},
+  {"start": 39.42, "end": 48.08, "kind": "feature", "what": "Text cards: covered guessing numbers, strategy execution distribution"},
+  {"start": 48.08, "end": 64.43, "kind": "end_card", "what": "Logo, URL, Launch In Motion, rocket 'Grab your spot'"}
+ ],
+ "first_text_s": 6,
+ "first_product_s": 12,
+ "end_card": {"start": 48.08, "logo": true, "cta": true},
+ "text_cards": 9,
+ "transitions": ["cut", "morph_match", "wipe_mask", "whip_blur", "fade_dissolve"],
+ "camera": ["static", "push_in", "tilt_3d", "pan"],
+ "pace": "fast",
+ "notes": "Kinetic-typography driven; product is a service so 'feature' beats are 3D rooms and text; long 16s end card sequence."
+}

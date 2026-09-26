@@ -1,0 +1,18 @@
+{
+ "slug": "gpt-image-2-x-seedance-2-0",
+ "beats": [
+  {"start": 0, "end": 3.7, "kind": "hook", "what": "Storyboard grid above; anime driver clip plays below"},
+  {"start": 3.7, "end": 9.6, "kind": "story", "what": "AE86 headlights in tunnel, driver close-up, rival car"},
+  {"start": 9.6, "end": 17.8, "kind": "story", "what": "Gear shift, drifting cars, smoke, heroine glares"},
+  {"start": 17.8, "end": 23, "kind": "montage", "what": "Rapid race cuts: headlights, blue Skyline, wheel, eyes"},
+  {"start": 23, "end": 24.1, "kind": "end_card", "what": "Tokyo Drift title over street"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 23, "logo": false, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Split layout: static source storyboard stays on top while generated anime clip plays below; output itself is the product."
+}

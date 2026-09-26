@@ -1,0 +1,17 @@
+{
+ "slug": "if-market",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Tight UI fragments: odds slider, place trade, order book"},
+  {"start": 4, "end": 6.2, "kind": "intro", "what": "'Open Beta is live.' then If.market wordmark"},
+  {"start": 6.2, "end": 14.4, "kind": "demo", "what": "Glowing tilted screen: markets grid, trading chart"},
+  {"start": 14.4, "end": 18.01, "kind": "end_card", "what": "beta.if.market URL on blue glow"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 14.4, "logo": false, "cta": true},
+ "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["tilt_3d", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Short teaser: macro UI details first, announcement card mid-film, then 3D-tilted product screens; URL as end card."
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "agent-arcade",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Kinetic line 'Type your strategy just...'"},
+  {"start": 2, "end": 14, "kind": "demo", "what": "Typing trading strategy prompt into chat, sending, strategies generated"},
+  {"start": 14, "end": 18, "kind": "feature", "what": "Prompt turns into live agent chart card"},
+  {"start": 18, "end": 20, "kind": "feature", "what": "No API keys, no setup pills"},
+  {"start": 20, "end": 22, "kind": "transition", "what": "Magenta diagonal wipe"},
+  {"start": 22, "end": 36, "kind": "feature", "what": "Kinetic text: agents trade using analytics, fundamentals, news"},
+  {"start": 36, "end": 48, "kind": "feature", "what": "Agent portfolio list, copy agents from leaderboard, counter trade"},
+  {"start": 48, "end": 54, "kind": "feature", "what": "Share agents and earn when people copy"},
+  {"start": 54, "end": 62, "kind": "feature", "what": "Reinforcement learning radar hexagons, agents evolve autonomously"},
+  {"start": 62, "end": 74, "kind": "feature", "what": "Real capital when ready, leverage controls"},
+  {"start": 74, "end": 78, "kind": "other", "what": "Tagline 'The AI native future starts here'"},
+  {"start": 78, "end": 81.05, "kind": "end_card", "what": "Stripe wipe to Agent Arcade logo, try now URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 2,
+ "end_card": {"start": 78, "logo": true, "cta": true},
+ "text_cards": 8,
+ "transitions": ["cut", "wipe_mask", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Dark UI motion piece alternating kinetic typography with UI fragments; bold colour wipes bracket sections; tagline then logo close."
+}

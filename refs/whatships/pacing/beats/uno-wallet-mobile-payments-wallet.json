@@ -1,0 +1,20 @@
+{
+ "slug": "uno-wallet-mobile-payments-wallet",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Paper map: remember when maps were just maps?"},
+  {"start": 5, "end": 13.2, "kind": "story", "what": "Tech evolved: car nav, film cameras to phone cameras"},
+  {"start": 13.2, "end": 17.5, "kind": "story", "what": "Old web directory to AI chat: now you ask"},
+  {"start": 17.5, "end": 26.4, "kind": "problem", "what": "Wallet still makes you choose card; flying cards, checkout guess"},
+  {"start": 26.4, "end": 30, "kind": "intro", "what": "Phone UI: and now, Uno chooses"},
+  {"start": 30, "end": 37, "kind": "demo", "what": "Uno picks best card at checkout, hold near reader"},
+  {"start": 37, "end": 40.2, "kind": "end_card", "what": "Uno logo, URL, the wallet that chooses for you"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 27,
+ "end_card": {"start": 37, "logo": true, "cta": true},
+ "text_cards": 0,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["handheld", "static", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Long analogy-driven setup (maps, cameras, search) delays product until 67% mark; subtitles narrate throughout, brief demo."
+}

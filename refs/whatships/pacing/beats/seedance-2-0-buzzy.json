@@ -1,0 +1,23 @@
+{
+ "slug": "seedance-2-0-buzzy",
+ "beats": [
+  {"start": 0, "end": 6.25, "kind": "intro", "what": "Chameleon catches butterfly; SEEDANCE 2.0 4K title"},
+  {"start": 6.25, "end": 14.25, "kind": "feature", "what": "Improved Consistency: floral stone warrior helmet"},
+  {"start": 14.25, "end": 21, "kind": "feature", "what": "Next-Level Detail: ornate armored knights, red eyes"},
+  {"start": 21, "end": 28, "kind": "feature", "what": "Cinema Ready: tsunami sweeping through city"},
+  {"start": 28, "end": 35.33, "kind": "feature", "what": "Resolution Headroom: stone giant in smoke"},
+  {"start": 35.33, "end": 40.58, "kind": "feature", "what": "Lossless Cropping: paparazzi, mobster, card player"},
+  {"start": 40.58, "end": 52, "kind": "feature", "what": "4K Stock Ready: mech robot, spaceship, black hole"},
+  {"start": 52, "end": 66, "kind": "feature", "what": "Film-Quality Generation: dramatic creature character scenes"},
+  {"start": 66, "end": 68.25, "kind": "other", "what": "Caption: Seedance 2.0 4K available on buzzy.ai"},
+  {"start": 68.25, "end": 69.59, "kind": "end_card", "what": "Pixel block transition to Buzzy logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 68.25, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "wipe_mask"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "notes": "Showreel of generated clips, each feature a persistent corner caption over multi-shot chapter; product is the output footage itself."
+}

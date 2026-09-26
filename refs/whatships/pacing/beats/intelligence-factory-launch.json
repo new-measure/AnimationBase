@@ -1,0 +1,23 @@
+{
+ "slug": "intelligence-factory-launch",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Word 'this', robot clips, 'rewind' kinetic captions"},
+  {"start": 4, "end": 24, "kind": "story", "what": "Baby footage collage: childhood experiments, breaks, touch"},
+  {"start": 24, "end": 35.3, "kind": "problem", "what": "Robots lack childhood; simulations, Boston Dynamics clips"},
+  {"start": 35.3, "end": 44.7, "kind": "intro", "what": "CTO and CEO interview introduce Intelligence Factory"},
+  {"start": 44.7, "end": 52, "kind": "demo", "what": "Team wearing headcams and glove rigs doing tasks"},
+  {"start": 52, "end": 59.8, "kind": "feature", "what": "Text cards: the hands, touch pressure, together, multimodal"},
+  {"start": 59.8, "end": 70.2, "kind": "demo", "what": "Operator captures manipulation data with sensor gloves"},
+  {"start": 70.2, "end": 88, "kind": "montage", "what": "Deploying: groceries, robot arm, pop-culture robot clips"},
+  {"start": 88, "end": 97.2, "kind": "story", "what": "Founders close on mission statement to camera"},
+  {"start": 97.2, "end": 100.4, "kind": "end_card", "what": "f(i) logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 38,
+ "end_card": {"start": 97.2, "logo": true, "cta": false},
+ "text_cards": 12,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static", "handheld", "push_in"],
+ "pace": "fast",
+ "notes": "Word-by-word kinetic captions over collaged found footage throughout; founder voice drives it. 'Product' is a company/data method, judged uncertain."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "quiver-2",
+ "beats": [
+  {"start": 0, "end": 6.2, "kind": "hook", "what": "Prompt generates labelled hibiscus anatomy illustration"},
+  {"start": 6.2, "end": 8.6, "kind": "intro", "what": "'Quiver Arrow 2.0 now in Paper' title card"},
+  {"start": 8.6, "end": 12.2, "kind": "feature", "what": "Zoom into vector detail of generated illustration"},
+  {"start": 12.2, "end": 19.2, "kind": "feature", "what": "Photos converted to engraved line-art vector boats"},
+  {"start": 19.2, "end": 24, "kind": "feature", "what": "Grid of blue isometric icons generating"},
+  {"start": 24, "end": 28.67, "kind": "end_card", "what": "Logo, 'available today at paper.design'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 24, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Vertical-in-letterbox; demo-first hook before title card, then three prompt-to-vector examples, URL end card."
+}

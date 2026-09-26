@@ -1,0 +1,368 @@
+[
+{
+"slug": "achx-launch-film",
+"strips": [
+{
+"k": 0,
+"file": "achx-launch-film_0.jpg",
+"start": 0.333,
+"dur": 1.125
+},
+{
+"k": 1,
+"file": "achx-launch-film_1.jpg",
+"start": 16.583,
+"dur": 1.625
+},
+{
+"k": 2,
+"file": "achx-launch-film_2.jpg",
+"start": 18.333,
+"dur": 0.708
+},
+{
+"k": 3,
+"file": "achx-launch-film_3.jpg",
+"start": 23.083,
+"dur": 0.25
+},
+{
+"k": 4,
+"file": "achx-launch-film_4.jpg",
+"start": 27.417,
+"dur": 2.042
+},
+{
+"k": 5,
+"file": "achx-launch-film_5.jpg",
+"start": 32.042,
+"dur": 0.25
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "achx-launch-film_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "achx-launch-film_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "achx-launch-film_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "achx-launch-film_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "astra-for-law",
+"strips": [
+{
+"k": 0,
+"file": "astra-for-law_0.jpg",
+"start": 10.417,
+"dur": 0.333
+},
+{
+"k": 1,
+"file": "astra-for-law_1.jpg",
+"start": 14.833,
+"dur": 2.292
+},
+{
+"k": 2,
+"file": "astra-for-law_2.jpg",
+"start": 20.083,
+"dur": 0.917
+},
+{
+"k": 3,
+"file": "astra-for-law_3.jpg",
+"start": 34.708,
+"dur": 0.833
+},
+{
+"k": 4,
+"file": "astra-for-law_4.jpg",
+"start": 49.417,
+"dur": 1.542
+},
+{
+"k": 5,
+"file": "astra-for-law_5.jpg",
+"start": 73.25,
+"dur": 1.708
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "astra-for-law_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "astra-for-law_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "astra-for-law_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "astra-for-law_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "conrad-wip-motion",
+"strips": [
+{
+"k": 0,
+"file": "conrad-wip-motion_0.jpg",
+"start": 1.0,
+"dur": 0.708
+},
+{
+"k": 1,
+"file": "conrad-wip-motion_1.jpg",
+"start": 3.083,
+"dur": 0.458
+},
+{
+"k": 2,
+"file": "conrad-wip-motion_2.jpg",
+"start": 5.417,
+"dur": 0.333
+},
+{
+"k": 3,
+"file": "conrad-wip-motion_3.jpg",
+"start": 7.083,
+"dur": 0.875
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "conrad-wip-motion_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "conrad-wip-motion_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "conrad-wip-motion_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "conrad-wip-motion_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "gemini-3-8-live",
+"strips": [
+{
+"k": 0,
+"file": "gemini-3-8-live_0.jpg",
+"start": 7.083,
+"dur": 0.875
+},
+{
+"k": 1,
+"file": "gemini-3-8-live_1.jpg",
+"start": 9.208,
+"dur": 1.292
+},
+{
+"k": 2,
+"file": "gemini-3-8-live_2.jpg",
+"start": 19.75,
+"dur": 1.292
+},
+{
+"k": 3,
+"file": "gemini-3-8-live_3.jpg",
+"start": 21.333,
+"dur": 1.833
+},
+{
+"k": 4,
+"file": "gemini-3-8-live_4.jpg",
+"start": 25.25,
+"dur": 1.042
+},
+{
+"k": 5,
+"file": "gemini-3-8-live_5.jpg",
+"start": 70.75,
+"dur": 0.875
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "gemini-3-8-live_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "gemini-3-8-live_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "gemini-3-8-live_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "gemini-3-8-live_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "leadbee-launch-video",
+"strips": [
+{
+"k": 0,
+"file": "leadbee-launch-video_0.jpg",
+"start": 0.042,
+"dur": 0.208
+},
+{
+"k": 1,
+"file": "leadbee-launch-video_1.jpg",
+"start": 4.0,
+"dur": 2.292
+},
+{
+"k": 2,
+"file": "leadbee-launch-video_2.jpg",
+"start": 9.417,
+"dur": 0.5
+},
+{
+"k": 3,
+"file": "leadbee-launch-video_3.jpg",
+"start": 17.417,
+"dur": 0.708
+},
+{
+"k": 4,
+"file": "leadbee-launch-video_4.jpg",
+"start": 19.25,
+"dur": 0.708
+},
+{
+"k": 5,
+"file": "leadbee-launch-video_5.jpg",
+"start": 22.208,
+"dur": 0.333
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "leadbee-launch-video_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "leadbee-launch-video_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "leadbee-launch-video_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "leadbee-launch-video_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "perplexity-hybrid-compute",
+"strips": [
+{
+"k": 0,
+"file": "perplexity-hybrid-compute_0.jpg",
+"start": 1.917,
+"dur": 1.375
+},
+{
+"k": 1,
+"file": "perplexity-hybrid-compute_1.jpg",
+"start": 15.542,
+"dur": 0.917
+},
+{
+"k": 2,
+"file": "perplexity-hybrid-compute_2.jpg",
+"start": 20.25,
+"dur": 1.042
+},
+{
+"k": 3,
+"file": "perplexity-hybrid-compute_3.jpg",
+"start": 36.917,
+"dur": 0.708
+},
+{
+"k": 4,
+"file": "perplexity-hybrid-compute_4.jpg",
+"start": 53.542,
+"dur": 2.125
+},
+{
+"k": 5,
+"file": "perplexity-hybrid-compute_5.jpg",
+"start": 64.625,
+"dur": 1.5
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "perplexity-hybrid-compute_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "perplexity-hybrid-compute_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "perplexity-hybrid-compute_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "perplexity-hybrid-compute_3.jpg",
+"h": 540
+}
+]
+}
+]

@@ -1,0 +1,20 @@
+{
+ "slug": "figma-weave-node",
+ "beats": [
+  {"start": 0, "end": 2.9, "kind": "hook", "what": "Headline: connect Figma designs into Weave, run at scale"},
+  {"start": 2.9, "end": 7.4, "kind": "demo", "what": "Poster frame in Figma, copied via context menu"},
+  {"start": 7.4, "end": 11, "kind": "transition", "what": "Swirling 'Figma in Weave' text ribbon over dark canvas"},
+  {"start": 11, "end": 17, "kind": "feature", "what": "Figma node pasted in Weave, inputs connected to placeholders"},
+  {"start": 17, "end": 25.4, "kind": "demo", "what": "Node graph generates poster variants and mockups at scale"},
+  {"start": 25.4, "end": 27.4, "kind": "other", "what": "Text loop: Figma in Weave in Figma in Weave"},
+  {"start": 27.4, "end": 31.4, "kind": "end_card", "what": "Figma and Weave logos connect on purple"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 27.4, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "morph_match"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "fast",
+ "notes": "Opens on headline over the real-world output poster; kinetic recursive typography as transition and sign-off; compact 31s integration launch."
+}

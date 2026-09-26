@@ -1,0 +1,27 @@
+{
+ "slug": "claude-design",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Design button clicked, product name shown"},
+  {"start": 2, "end": 12, "kind": "demo", "what": "Prompt for interactive dark globe graphic, Claude generating"},
+  {"start": 12, "end": 24, "kind": "feature", "what": "Tweaks: ask for sliders, plan steps, controls panel appears"},
+  {"start": 24, "end": 28.8, "kind": "demo", "what": "Globe page with live controls and breakpoints"},
+  {"start": 28.8, "end": 30, "kind": "montage", "what": "Grid of varied generated designs"},
+  {"start": 30, "end": 38, "kind": "demo", "what": "Prototype meditation app from prompt, three screens"},
+  {"start": 38, "end": 46, "kind": "feature", "what": "Comment to request dark mode, app theme updates"},
+  {"start": 46, "end": 48, "kind": "montage", "what": "Canvas of many generated designs"},
+  {"start": 48, "end": 58, "kind": "feature", "what": "Comment, Edit text, Knobs tools on retreat brochure"},
+  {"start": 58, "end": 64, "kind": "feature", "what": "Slide deck edited: bar chart becomes line graph"},
+  {"start": 64, "end": 70, "kind": "feature", "what": "Export menu: PDF, PPTX, Canva, handoff to Claude Code"},
+  {"start": 70, "end": 74, "kind": "montage", "what": "Zoom-out grid of all designs made"},
+  {"start": 74, "end": 76, "kind": "end_card", "what": "Design by Anthropic Labs title"},
+  {"start": 76, "end": 81.6, "kind": "end_card", "what": "Claude logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 74, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "fast",
+ "notes": "Opens straight in product; four use-case demos punctuated by zooms into UI buttons and zoom-out design grids as chapter breaks."
+}

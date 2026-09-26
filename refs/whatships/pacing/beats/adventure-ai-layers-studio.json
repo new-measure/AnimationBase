@@ -1,0 +1,20 @@
+{
+ "slug": "adventure-ai-layers-studio",
+ "beats": [
+  {"start": 0, "end": 7, "kind": "intro", "what": "Fading title cards: Adventure AI presents Layers Studio"},
+  {"start": 7, "end": 10, "kind": "hook", "what": "Close-up of Coral drink bottle with floating fruit image"},
+  {"start": 10, "end": 17, "kind": "demo", "what": "Image splits into editable layers in studio UI"},
+  {"start": 17, "end": 31, "kind": "feature", "what": "Toggling layer visibility removes fruit elements one by one"},
+  {"start": 31, "end": 35, "kind": "feature", "what": "Export menu: Photoshop file or flat image"},
+  {"start": 35, "end": 41, "kind": "feature", "what": "Layered file opened and edited in Photoshop"},
+  {"start": 41, "end": 45.4, "kind": "end_card", "what": "Logo mark then adventuregen.ai URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 41, "logo": true, "cta": true},
+ "text_cards": 3,
+ "transitions": ["fade_dissolve", "push_zoom", "cut"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "slow",
+ "notes": "Seven seconds of soft title cards before visuals; single image demo with long layer-toggling sequence; URL as CTA."
+}

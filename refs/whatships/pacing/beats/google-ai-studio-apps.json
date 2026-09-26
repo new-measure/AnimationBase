@@ -1,0 +1,20 @@
+{
+ "slug": "google-ai-studio-apps",
+ "beats": [
+  {"start": 0, "end": 2.2, "kind": "hook", "what": "'Integrate Google Apps' with app icon row"},
+  {"start": 2.2, "end": 5, "kind": "intro", "what": "AI Studio logo, 'in Google AI Studio'"},
+  {"start": 5, "end": 11.7, "kind": "demo", "what": "Typing prompt: app using Sheets to track expenses"},
+  {"start": 11.7, "end": 20, "kind": "demo", "what": "Agent sets up Sheets integration and Google sign-in"},
+  {"start": 20, "end": 29.2, "kind": "demo", "what": "Generated expense tracker: sign in with Google, dashboard"},
+  {"start": 29.2, "end": 31, "kind": "other", "what": "'Try it today' text"},
+  {"start": 31, "end": 33.1, "kind": "end_card", "what": "URL ai.studio/build"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 31, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["push_in", "tilt_3d", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Single prompt-to-app walkthrough compressed into 24s, with aggressive push-ins on buttons like 'Let's do it'; Google gradient backgrounds."
+}

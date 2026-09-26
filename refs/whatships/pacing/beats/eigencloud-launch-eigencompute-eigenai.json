@@ -1,0 +1,23 @@
+{
+ "slug": "eigencloud-launch-eigencompute-eigenai",
+ "beats": [
+  {"start": 0, "end": 12.8, "kind": "hook", "what": "Meme/movie clip montage of confused, shocked reactions"},
+  {"start": 12.8, "end": 17.8, "kind": "hook", "what": "Kinetic text: JUST JUST JUST... HAPPENED?"},
+  {"start": 17.8, "end": 26.6, "kind": "problem", "what": "Vinod Khosla interview on AI verifiability"},
+  {"start": 26.6, "end": 42.2, "kind": "problem", "what": "Clips: unexplainable AI answer, Karpathy on ownership, trust"},
+  {"start": 42.2, "end": 44.8, "kind": "transition", "what": "Text 'Until' then indigo wipe"},
+  {"start": 44.8, "end": 48, "kind": "intro", "what": "EigenAI logo: verifiable inference and agents"},
+  {"start": 48, "end": 53.8, "kind": "feature", "what": "Pixel icons: eyes, computer, lock for verifiability"},
+  {"start": 53.8, "end": 60.6, "kind": "proof", "what": "Founder Sreeram Kannan speaking at Open Source AI Summit"},
+  {"start": 60.6, "end": 67.3, "kind": "story", "what": "Team scenes with captions: never been better time to trust AI"},
+  {"start": 67.3, "end": 74.3, "kind": "end_card", "what": "EigenAI and EigenCompute logos, verification layer tagline"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 46,
+ "end_card": {"start": 67.3, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "wipe_mask", "fade_dissolve"],
+ "camera": ["static", "handheld", "push_in"],
+ "pace": "fast",
+ "notes": "Meme-clip cold open and long problem section; product logo only appears at 62% mark. No UI shown; problem-heavy, found-footage structure."
+}

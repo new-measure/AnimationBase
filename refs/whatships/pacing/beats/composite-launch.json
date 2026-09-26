@@ -1,0 +1,26 @@
+{
+ "slug": "composite-launch",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Two cofounders introduce themselves to camera, name lower-thirds"},
+  {"start": 2, "end": 11.8, "kind": "intro", "what": "Recap: eight weeks ago launched first browser autopilot"},
+  {"start": 11.8, "end": 23.2, "kind": "proof", "what": "Tweets collage and Google, Uber, Salesforce, Tesla logos"},
+  {"start": 23.2, "end": 30.9, "kind": "story", "what": "Founders: working around clock, today three major updates"},
+  {"start": 30.9, "end": 46, "kind": "problem", "what": "'1. Spotlight' title; pain of side chats, app switching"},
+  {"start": 46, "end": 57.7, "kind": "feature", "what": "Spotlight: Cmd-Shift-Space overlay in browser UI"},
+  {"start": 57.7, "end": 66.2, "kind": "feature", "what": "'2. Personalized Suggestions' title card and explanation"},
+  {"start": 66.2, "end": 76, "kind": "feature", "what": "Suggestion UI floating over founders, single-click work"},
+  {"start": 76, "end": 80, "kind": "feature", "what": "Windows laptop mockup, requests collage: now on Windows"},
+  {"start": 80, "end": 85.4, "kind": "proof", "what": "Glowing world map of professionals"},
+  {"start": 85.4, "end": 103, "kind": "montage", "what": "Use cases: researching, moving data, drafting app windows"},
+  {"start": 103, "end": 110, "kind": "end_card", "what": "Download Composite button CTA over founders"},
+  {"start": 110, "end": 113.75, "kind": "end_card", "what": "Composite logo on orange, download URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {"start": 103, "logo": true, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Founder-to-camera talking head on orange backdrop; UI, logos, titles composited floating above heads. Numbered update structure, burned-in captions."
+}

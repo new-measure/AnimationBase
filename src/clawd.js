@@ -17,6 +17,9 @@
 //   face: where the features go. A front-view x maps to cx + x·fw; sides = which eyes show; mx = mouth x; bx = cheek x.
 //   legs: [x, far] (far legs are darker).  arms: [pivotX, dir, which, layer] ('L' = o.aL / o.armL; layer 0 = behind the
 //   body, 1 = in front of it, 2 = behind and in shadow).  hat / hw: hat offset and width.
+// The kit lives in a namespace with the shared character interface (see character() in core.js); the first kit loaded
+// also gets these names as plain globals.
+const Clawd = character((() => {
 const VIEWS = {
   front: { L: -5, R: 5, face: { cx: 0, fw: 1, sides: [-1, 1], mx: 0, bx: 3.6 }, hat: 0, hw: 1,
            legs: [[-4, 0], [-2, 0], [1, 0], [3, 0]], arms: [[-4.9, -1, 'L', 0], [4.9, 1, 'R', 0]] },
@@ -642,3 +645,6 @@ function move(style, t, seed = 0) {
   return o;
 }
 function dancer(x, y, u, style, t, extra = {}) { clawd(x, y, u, { ...move(style, t, extra.seed || 0), ...extra }); }
+
+return { draw: clawd, clawd, EMO, feel, emotions, move, turn, spinView, dancer, VIEWS, TINT, tintCols, heartPts, emote, hat, eyes, mouth, blush, lunchbox };
+})());

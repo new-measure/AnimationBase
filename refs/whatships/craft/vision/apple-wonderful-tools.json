@@ -1,0 +1,17 @@
+{
+ "slug": "apple-wonderful-tools",
+ "moves": [
+  {"k": 0, "element": "icon", "action": "transform", "style": ["rotate", "draw_on", "color_change", "scale_pop"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Click-wheel ring draws around with orbiting dots, fills grey, grows slightly"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["scale_down"], "frames_to_settle": 30, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Pull back from single hole to reveal whole perforated Mac Pro"},
+  {"k": 2, "element": "shape", "action": "transform", "style": ["morph", "rotate", "scale_down", "fade"], "frames_to_settle": 34, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Colour dots merge into orb while spirograph lattice spins and shrinks"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["scale_down", "slide"], "frames_to_settle": 26, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Pull back from single watch into repeating grid of watch variants"},
+  {"k": 4, "element": "camera", "action": "camera_move", "style": ["zoom_through", "rotate"], "frames_to_settle": 19, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Push into grid; others fly off, centre watch turns edge-on"},
+  {"k": 5, "element": "image", "action": "transform", "style": ["rotate", "stagger_list"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Stacked coloured phones fan out radially, turning edge-on into spinner"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 32, "body_px": 32, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 33, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 0, "density": "sparse", "notes": "Small black SF caption centred on light radial grey"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 50, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Empty white frame, no content"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 8, "radius_px": 40, "shadow": "glow", "bg_style": "gradient", "accent_count": 0, "density": "sparse", "notes": "White glowing line-art AirPods and case on grey vignette"},
+  {"k": 3, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 11, "radius_px": 50, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Flat red illustrated iPhone back centred on grey vignette"}
+ ]
+}

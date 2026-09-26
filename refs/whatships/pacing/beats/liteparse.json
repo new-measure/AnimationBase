@@ -1,0 +1,18 @@
+{
+ "slug": "liteparse",
+ "beats": [
+  {"start": 0, "end": 6.4, "kind": "demo", "what": "NASA PDF beside browser tool; user picks file to upload"},
+  {"start": 6.4, "end": 10.2, "kind": "demo", "what": "Zoom to parsed text output appearing"},
+  {"start": 10.2, "end": 15.5, "kind": "feature", "what": "Zoomed comparison: highlighted source text vs extracted text"},
+  {"start": 15.5, "end": 20.2, "kind": "feature", "what": "npm install liteparse and in-browser output view"},
+  {"start": 20.2, "end": 26.5, "kind": "feature", "what": "Switch output format: JSON with bounding boxes, plain text"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "notes": "Screen-recording demo with editor punch-in zooms instead of cards; no intro, no logo, no end card."
+}

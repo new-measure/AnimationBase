@@ -1,0 +1,25 @@
+{
+ "slug": "elevenlabs-studio-4",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Mountain vista reflected in climber's sunglasses, push to face"},
+  {"start": 3, "end": 6.3, "kind": "intro", "what": "Circle mask reveals ElevenLabs Studio 4.0 lockup"},
+  {"start": 6.3, "end": 9.5, "kind": "montage", "what": "Floating assets: 'Every tool you need in one place'"},
+  {"start": 9.5, "end": 20, "kind": "feature", "what": "Editor, prompt video generation, generated climbing clip"},
+  {"start": 20, "end": 24.9, "kind": "feature", "what": "Reference frames; change climber's outfit variations"},
+  {"start": 24.9, "end": 34, "kind": "feature", "what": "Eleven Music and ambient sound generation over footage"},
+  {"start": 34, "end": 42, "kind": "feature", "what": "Drag headline, animated 'Reach the Summit' title text"},
+  {"start": 42, "end": 49, "kind": "feature", "what": "Chat asks for captions; captions generated on clips"},
+  {"start": 49, "end": 55.1, "kind": "feature", "what": "Comment requests extra scene; catching-hand shot added"},
+  {"start": 55.1, "end": 60.1, "kind": "feature", "what": "Dub to English, Spanish, French, Mongolian"},
+  {"start": 60.1, "end": 62.2, "kind": "montage", "what": "Collage of generated assets"},
+  {"start": 62.2, "end": 65.73, "kind": "end_card", "what": "ElevenLabs Studio 4.0 logo on light pattern"}
+ ],
+ "first_text_s": 3,
+ "first_product_s": 3,
+ "end_card": {"start": 62.2, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "wipe_mask", "push_zoom", "whip_blur", "morph_match"],
+ "camera": ["push_in", "zoom_out_reveal", "pan", "static"],
+ "pace": "fast",
+ "notes": "One climbing story threads every feature; each capability gets 4-8s with UI overlaid on the footage it creates."
+}

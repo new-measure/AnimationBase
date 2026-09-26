@@ -1,0 +1,25 @@
+{
+ "slug": "tempo-health",
+ "beats": [
+  {"start": 0, "end": 6.17, "kind": "hook", "what": "'Here's how we raised $1.5M' to build all-in-one Health Companion"},
+  {"start": 6.17, "end": 13.92, "kind": "story", "what": "Childhood photo 'ME', earlier wellness apps shown"},
+  {"start": 13.92, "end": 19.25, "kind": "story", "what": "Founder on waterfront, 'The Wellness Company' badge"},
+  {"start": 19.25, "end": 23.17, "kind": "story", "what": "Co-founder Dray introduced via childhood photo"},
+  {"start": 23.17, "end": 29.25, "kind": "proof", "what": "App stickers, flurry of five-star reviews"},
+  {"start": 29.25, "end": 33.25, "kind": "problem", "what": "'Everyone's entrypoint into health was different'"},
+  {"start": 33.25, "end": 39.5, "kind": "montage", "what": "Split screens: running, lounging, different health routines"},
+  {"start": 39.5, "end": 44.92, "kind": "story", "what": "Founder talks to camera in park"},
+  {"start": 44.92, "end": 52.67, "kind": "demo", "what": "App screens: healthspan score, bloodwork, goal picker"},
+  {"start": 52.67, "end": 56.5, "kind": "feature", "what": "Texting with Tempo AI coach on phone"},
+  {"start": 56.5, "end": 64, "kind": "other", "what": "Goals list, 'Comment TEMPO' call to action"},
+  {"start": 64, "end": 69.85, "kind": "end_card", "what": "Tempo icon, jointempo.app/hello link"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 45,
+ "end_card": {"start": 64, "logo": true, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "wipe_mask", "fade_dissolve"],
+ "camera": ["handheld", "static", "push_in"],
+ "pace": "fast",
+ "notes": "Social-first founder story; funding in first second; collage cutouts and serif word-by-word captions; product UI only at 45 s."
+}

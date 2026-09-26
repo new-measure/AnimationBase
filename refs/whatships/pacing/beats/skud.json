@@ -1,0 +1,19 @@
+{
+ "slug": "skud",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Sunny home office desk with glowing gradient monitor"},
+  {"start": 2, "end": 4.83, "kind": "intro", "what": "Skud logo animates onto the screen"},
+  {"start": 4.83, "end": 9.42, "kind": "feature", "what": "Push into screen: 'Easy drag & drop, upload everything'"},
+  {"start": 9.42, "end": 14.5, "kind": "feature", "what": "'Drag, send & track in seconds': link pasted into email"},
+  {"start": 14.5, "end": 19.5, "kind": "demo", "what": "Recipient opens link, file download in another office"},
+  {"start": 19.5, "end": 24.09, "kind": "other", "what": "Return to desk wide shot, file icon on screen"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 2,
+ "end_card": null,
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["push_in", "tilt_3d", "static"],
+ "pace": "fast",
+ "notes": "Logo early at 2 s, then camera dives into monitor; bookended by same desk shot with no closing logo or CTA."
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "pancakeswap-perps",
+ "beats": [
+  {"start": 0, "end": 2.7, "kind": "hook", "what": "Bunny mascot by retro computer on alien landscape"},
+  {"start": 2.7, "end": 6.2, "kind": "story", "what": "Giant 'Perps' cake lands, bunny emerges"},
+  {"start": 6.2, "end": 10, "kind": "intro", "what": "Flash then 'PancakeSwap PERPS, it's a piece of cake' with UI"},
+  {"start": 10, "end": 15.5, "kind": "feature", "what": "Simple Mode for one tap trading"},
+  {"start": 15.5, "end": 20, "kind": "feature", "what": "Pro Mode for advanced order types"},
+  {"start": 20, "end": 21.6, "kind": "feature", "what": "Unified Wallet View for spot and perps"},
+  {"start": 21.6, "end": 24, "kind": "feature", "what": "'Now Order Book Powered.' with mascot and cake"},
+  {"start": 24, "end": 26.7, "kind": "end_card", "what": "Now Live, PancakeSwap Perpetuals, powered by Aster"}
+ ],
+ "first_text_s": 7,
+ "first_product_s": 3,
+ "end_card": {"start": 24, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "3D mascot world frames flat UI screenshots; each feature gets a ~4s headline-plus-screenshot slide. 'Perps' cake counted as first product branding."
+}

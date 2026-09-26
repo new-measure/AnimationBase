@@ -1,0 +1,351 @@
+[
+{
+"slug": "achx-homepage-8s",
+"strips": [
+{
+"k": 0,
+"file": "achx-homepage-8s_0.jpg",
+"start": 2.875,
+"dur": 1.417
+},
+{
+"k": 1,
+"file": "achx-homepage-8s_1.jpg",
+"start": 14.583,
+"dur": 0.875
+},
+{
+"k": 2,
+"file": "achx-homepage-8s_2.jpg",
+"start": 19.083,
+"dur": 1.542
+},
+{
+"k": 3,
+"file": "achx-homepage-8s_3.jpg",
+"start": 20.625,
+"dur": 1.167
+},
+{
+"k": 4,
+"file": "achx-homepage-8s_4.jpg",
+"start": 22.208,
+"dur": 1.25
+},
+{
+"k": 5,
+"file": "achx-homepage-8s_5.jpg",
+"start": 25.583,
+"dur": 0.875
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "achx-homepage-8s_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "achx-homepage-8s_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "achx-homepage-8s_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "achx-homepage-8s_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "arjmahesh-character-animator",
+"strips": [
+{
+"k": 0,
+"file": "arjmahesh-character-animator_0.jpg",
+"start": 3.917,
+"dur": 0.333
+},
+{
+"k": 1,
+"file": "arjmahesh-character-animator_1.jpg",
+"start": 5.583,
+"dur": 2.125
+},
+{
+"k": 2,
+"file": "arjmahesh-character-animator_2.jpg",
+"start": 8.292,
+"dur": 0.292
+},
+{
+"k": 3,
+"file": "arjmahesh-character-animator_3.jpg",
+"start": 11.875,
+"dur": 0.292
+},
+{
+"k": 4,
+"file": "arjmahesh-character-animator_4.jpg",
+"start": 16.75,
+"dur": 0.208
+},
+{
+"k": 5,
+"file": "arjmahesh-character-animator_5.jpg",
+"start": 19.167,
+"dur": 0.25
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "arjmahesh-character-animator_0.jpg",
+"h": 481
+},
+{
+"k": 1,
+"file": "arjmahesh-character-animator_1.jpg",
+"h": 481
+},
+{
+"k": 2,
+"file": "arjmahesh-character-animator_2.jpg",
+"h": 481
+},
+{
+"k": 3,
+"file": "arjmahesh-character-animator_3.jpg",
+"h": 481
+}
+]
+},
+{
+"slug": "cole-leaves-shopify",
+"strips": [
+{
+"k": 0,
+"file": "cole-leaves-shopify_0.jpg",
+"start": 1.042,
+"dur": 1.0
+},
+{
+"k": 1,
+"file": "cole-leaves-shopify_1.jpg",
+"start": 12.042,
+"dur": 1.333
+},
+{
+"k": 2,
+"file": "cole-leaves-shopify_2.jpg",
+"start": 22.042,
+"dur": 1.0
+},
+{
+"k": 3,
+"file": "cole-leaves-shopify_3.jpg",
+"start": 24.042,
+"dur": 0.958
+},
+{
+"k": 4,
+"file": "cole-leaves-shopify_4.jpg",
+"start": 29.042,
+"dur": 0.417
+},
+{
+"k": 5,
+"file": "cole-leaves-shopify_5.jpg",
+"start": 31.042,
+"dur": 0.958
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "cole-leaves-shopify_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "cole-leaves-shopify_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "cole-leaves-shopify_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "cole-leaves-shopify_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "framer-skills",
+"strips": [
+{
+"k": 0,
+"file": "framer-skills_0.jpg",
+"start": 3.917,
+"dur": 0.917
+},
+{
+"k": 1,
+"file": "framer-skills_1.jpg",
+"start": 9.208,
+"dur": 1.292
+},
+{
+"k": 2,
+"file": "framer-skills_2.jpg",
+"start": 10.958,
+"dur": 0.583
+},
+{
+"k": 3,
+"file": "framer-skills_3.jpg",
+"start": 15.167,
+"dur": 0.958
+},
+{
+"k": 4,
+"file": "framer-skills_4.jpg",
+"start": 17.167,
+"dur": 1.542
+},
+{
+"k": 5,
+"file": "framer-skills_5.jpg",
+"start": 20.875,
+"dur": 2.333
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "framer-skills_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "framer-skills_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "framer-skills_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "framer-skills_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "launch-video-10s",
+"strips": [
+{
+"k": 0,
+"file": "launch-video-10s_0.jpg",
+"start": 3.667,
+"dur": 1.542
+},
+{
+"k": 1,
+"file": "launch-video-10s_1.jpg",
+"start": 6.75,
+"dur": 0.25
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "launch-video-10s_0.jpg",
+"h": 960
+},
+{
+"k": 1,
+"file": "launch-video-10s_1.jpg",
+"h": 960
+},
+{
+"k": 2,
+"file": "launch-video-10s_2.jpg",
+"h": 960
+}
+]
+},
+{
+"slug": "osmo-studio-launch",
+"strips": [
+{
+"k": 0,
+"file": "osmo-studio-launch_0.jpg",
+"start": 3.0,
+"dur": 1.125
+},
+{
+"k": 1,
+"file": "osmo-studio-launch_1.jpg",
+"start": 4.625,
+"dur": 1.667
+},
+{
+"k": 2,
+"file": "osmo-studio-launch_2.jpg",
+"start": 6.292,
+"dur": 1.167
+},
+{
+"k": 3,
+"file": "osmo-studio-launch_3.jpg",
+"start": 13.958,
+"dur": 1.333
+},
+{
+"k": 4,
+"file": "osmo-studio-launch_4.jpg",
+"start": 54.667,
+"dur": 1.708
+},
+{
+"k": 5,
+"file": "osmo-studio-launch_5.jpg",
+"start": 61.167,
+"dur": 2.333
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "osmo-studio-launch_0.jpg",
+"h": 720
+},
+{
+"k": 1,
+"file": "osmo-studio-launch_1.jpg",
+"h": 720
+},
+{
+"k": 2,
+"file": "osmo-studio-launch_2.jpg",
+"h": 720
+},
+{
+"k": 3,
+"file": "osmo-studio-launch_3.jpg",
+"h": 720
+}
+]
+}
+]

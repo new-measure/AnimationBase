@@ -1,0 +1,271 @@
+[
+{
+"slug": "footage_demo",
+"strips": [
+{
+"k": 0,
+"file": "footage_demo_0.jpg",
+"start": 0.458,
+"dur": 0.292
+},
+{
+"k": 1,
+"file": "footage_demo_1.jpg",
+"start": 3.0,
+"dur": 0.417
+},
+{
+"k": 2,
+"file": "footage_demo_2.jpg",
+"start": 4.708,
+"dur": 1.292
+},
+{
+"k": 3,
+"file": "footage_demo_3.jpg",
+"start": 7.333,
+"dur": 0.667
+},
+{
+"k": 4,
+"file": "footage_demo_4.jpg",
+"start": 11.833,
+"dur": 1.208
+},
+{
+"k": 5,
+"file": "footage_demo_5.jpg",
+"start": 16.625,
+"dur": 0.667
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "footage_demo_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "footage_demo_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "footage_demo_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "footage_demo_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "launch_demo",
+"strips": [
+{
+"k": 0,
+"file": "launch_demo_0.jpg",
+"start": 0.083,
+"dur": 0.667
+},
+{
+"k": 1,
+"file": "launch_demo_1.jpg",
+"start": 7.625,
+"dur": 0.917
+},
+{
+"k": 2,
+"file": "launch_demo_2.jpg",
+"start": 15.333,
+"dur": 0.708
+},
+{
+"k": 3,
+"file": "launch_demo_3.jpg",
+"start": 19.167,
+"dur": 0.375
+},
+{
+"k": 4,
+"file": "launch_demo_4.jpg",
+"start": 23.583,
+"dur": 0.292
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "launch_demo_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "launch_demo_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "launch_demo_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "launch_demo_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "launch_demo_vertical",
+"strips": [
+{
+"k": 0,
+"file": "launch_demo_vertical_0.jpg",
+"start": 0.083,
+"dur": 0.25
+},
+{
+"k": 1,
+"file": "launch_demo_vertical_1.jpg",
+"start": 7.708,
+"dur": 0.583
+},
+{
+"k": 2,
+"file": "launch_demo_vertical_2.jpg",
+"start": 15.375,
+"dur": 0.417
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "launch_demo_vertical_0.jpg",
+"h": 1706
+},
+{
+"k": 1,
+"file": "launch_demo_vertical_1.jpg",
+"h": 1706
+},
+{
+"k": 2,
+"file": "launch_demo_vertical_2.jpg",
+"h": 1706
+}
+]
+},
+{
+"slug": "mg_demo",
+"strips": [
+{
+"k": 0,
+"file": "mg_demo_0.jpg",
+"start": 0.083,
+"dur": 0.875
+},
+{
+"k": 1,
+"file": "mg_demo_1.jpg",
+"start": 2.833,
+"dur": 0.792
+},
+{
+"k": 2,
+"file": "mg_demo_2.jpg",
+"start": 6.792,
+"dur": 2.042
+},
+{
+"k": 3,
+"file": "mg_demo_3.jpg",
+"start": 10.5,
+"dur": 0.458
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "mg_demo_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "mg_demo_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "mg_demo_2.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "relay_demo",
+"strips": [
+{
+"k": 0,
+"file": "relay_demo_0.jpg",
+"start": 0.583,
+"dur": 1.875
+},
+{
+"k": 1,
+"file": "relay_demo_1.jpg",
+"start": 4.208,
+"dur": 0.333
+},
+{
+"k": 2,
+"file": "relay_demo_2.jpg",
+"start": 7.0,
+"dur": 0.583
+},
+{
+"k": 3,
+"file": "relay_demo_3.jpg",
+"start": 8.958,
+"dur": 1.167
+},
+{
+"k": 4,
+"file": "relay_demo_4.jpg",
+"start": 12.083,
+"dur": 0.292
+},
+{
+"k": 5,
+"file": "relay_demo_5.jpg",
+"start": 15.75,
+"dur": 0.583
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "relay_demo_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "relay_demo_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "relay_demo_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "relay_demo_3.jpg",
+"h": 540
+}
+]
+}
+]

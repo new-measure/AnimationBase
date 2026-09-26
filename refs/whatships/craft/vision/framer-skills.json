@@ -1,0 +1,17 @@
+{
+ "slug": "framer-skills",
+ "moves": [
+  {"k": 0, "element": "card", "action": "enter", "style": ["rise", "fade"], "frames_to_settle": 8, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Cut to canvas; glowing selected page rises into row, slow drift"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["scale_down"], "frames_to_settle": 28, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Long pull-back from page close-up to canvas of pages"},
+  {"k": 2, "element": "mixed", "action": "replace", "style": ["fall", "slide"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Canvas drifts down out of frame, cut to prompt box settling"},
+  {"k": 3, "element": "text", "action": "enter", "style": ["typing", "color_change"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Slash command typed, snaps into blue highlighted chip"},
+  {"k": 4, "element": "camera", "action": "camera_move", "style": ["slide"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Slow drift over prompt, cut to canvas with continued pan"},
+  {"k": 5, "element": "ui_panel", "action": "transform", "style": ["slide"], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Selected page content scrolls up inside glowing frame"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 46, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 35, "radius_px": 16, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Single blue slash-command chip centred on black"},
+  {"k": 1, "headline_px": 34, "body_px": 34, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 21.5, "radius_px": 52, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Dark prompt box with typing cursor, grey controls"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 47, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Small white logo mark centred on black end card"},
+  {"k": 3, "headline_px": 20, "body_px": 8, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": 0, "shadow": "glow", "bg_style": "flat", "accent_count": 1, "density": "dense", "notes": "Row of dark website pages, selected one has blue glow"}
+ ]
+}

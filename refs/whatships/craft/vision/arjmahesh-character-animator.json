@@ -1,0 +1,17 @@
+{
+ "slug": "arjmahesh-character-animator",
+ "moves": [
+  {"k": 0, "element": "ui_panel", "action": "enter", "style": ["fade"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Settings sidebar pops in by fade while ring keeps rotating"},
+  {"k": 1, "element": "shape", "action": "transform", "style": ["morph", "rotate"], "frames_to_settle": 33, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Segmented ring snaps into dense ribbon in 3 frames, then loops"},
+  {"k": 2, "element": "shape", "action": "transform", "style": ["morph", "color_change"], "frames_to_settle": 4, "fast_start": true, "overshoot": "slight", "stagger_frames": null, "motion_blur": false, "notes": "Fin density change: strands brighten briefly then dim, continuous rotation"},
+  {"k": 3, "element": "ui_panel", "action": "exit", "style": ["fade"], "frames_to_settle": 2, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Material swatch popover disappears; copper ring keeps spinning"},
+  {"k": 4, "element": "shape", "action": "transform", "style": ["morph"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Ring instantly morphs into wavy star from slider change"},
+  {"k": 5, "element": "shape", "action": "transform", "style": ["color_change", "scale_pop"], "frames_to_settle": 5, "fast_start": true, "overshoot": "slight", "stagger_frames": null, "motion_blur": false, "notes": "Glow pulse: star brightens and swells, then relaxes"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 13, "body_px": 9, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 10, "radius_px": 4, "shadow": "none", "bg_style": "image", "accent_count": 2, "density": "medium", "notes": "App window over photo office; copper ring, dense slider sidebar"},
+  {"k": 1, "headline_px": 13, "body_px": 9, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 10, "radius_px": 4, "shadow": "none", "bg_style": "image", "accent_count": 4, "density": "medium", "notes": "Silver ribbon ring; material swatches visible in sidebar"},
+  {"k": 2, "headline_px": 13, "body_px": 9, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 10, "radius_px": 4, "shadow": "none", "bg_style": "image", "accent_count": 2, "density": "medium", "notes": "Copper wavy star shape centred in black canvas"},
+  {"k": 3, "headline_px": 13, "body_px": 9, "typefaces": 2, "type_style": ["sans", "mono"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 10, "radius_px": 4, "shadow": "none", "bg_style": "image", "accent_count": 4, "density": "medium", "notes": "Chunky segmented white ring, low fin count setting"}
+ ]
+}

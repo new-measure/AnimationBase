@@ -1,0 +1,26 @@
+{
+ "slug": "cosmos-summer",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Typed lines: You had a summer. So did we."},
+  {"start": 3, "end": 6.2, "kind": "intro", "what": "Cosmos Summer Update 2026 on textured backgrounds"},
+  {"start": 6.2, "end": 9.5, "kind": "feature", "what": "Word cards: You can shop on Cosmos"},
+  {"start": 9.5, "end": 13, "kind": "demo", "what": "Phone app screens showing shoppable brand content"},
+  {"start": 13, "end": 18.2, "kind": "proof", "what": "585 brands, 1,000,000 products count up"},
+  {"start": 18.2, "end": 21, "kind": "proof", "what": "Brand imagery: On, Balenciaga, Eckhaus Latta"},
+  {"start": 21, "end": 27.1, "kind": "feature", "what": "Cosmos now on iPad, tablet screens"},
+  {"start": 27.1, "end": 33, "kind": "feature", "what": "And Android? It's been rebuilt; phone screens"},
+  {"start": 33, "end": 38.4, "kind": "feature", "what": "Your now available in infinite canvas"},
+  {"start": 38.4, "end": 44.2, "kind": "demo", "what": "Infinite canvas scroll of image grid"},
+  {"start": 44.2, "end": 47.3, "kind": "end_card", "what": "Check full cosmos.so/summer typed"},
+  {"start": 47.3, "end": 50, "kind": "end_card", "what": "/summer pill on textured backgrounds"},
+  {"start": 50, "end": 53.8, "kind": "end_card", "what": "Cosmos dot logo animates"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 44.2, "logo": true, "cta": true},
+ "text_cards": 16,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "zoom_out_reveal", "push_in"],
+ "pace": "fast",
+ "notes": "Word-by-word kinetic text cards alternating with device shots; many short cuts; exact feature split uncertain between text cards."
+}

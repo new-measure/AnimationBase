@@ -1,0 +1,380 @@
+[
+{
+"slug": "achx-recent",
+"strips": [
+{
+"k": 0,
+"file": "achx-recent_0.jpg",
+"start": 16.042,
+"dur": 1.167
+},
+{
+"k": 1,
+"file": "achx-recent_1.jpg",
+"start": 30.917,
+"dur": 0.875
+},
+{
+"k": 2,
+"file": "achx-recent_2.jpg",
+"start": 38.5,
+"dur": 0.792
+},
+{
+"k": 3,
+"file": "achx-recent_3.jpg",
+"start": 43.75,
+"dur": 0.792
+},
+{
+"k": 4,
+"file": "achx-recent_4.jpg",
+"start": 45.667,
+"dur": 0.792
+},
+{
+"k": 5,
+"file": "achx-recent_5.jpg",
+"start": 69.25,
+"dur": 1.417
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "achx-recent_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "achx-recent_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "achx-recent_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "achx-recent_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "chatgpt-legal-plugins",
+"strips": [
+{
+"k": 0,
+"file": "chatgpt-legal-plugins_0.jpg",
+"start": 5.792,
+"dur": 1.0
+},
+{
+"k": 1,
+"file": "chatgpt-legal-plugins_1.jpg",
+"start": 41.583,
+"dur": 2.417
+},
+{
+"k": 2,
+"file": "chatgpt-legal-plugins_2.jpg",
+"start": 44.875,
+"dur": 2.042
+},
+{
+"k": 3,
+"file": "chatgpt-legal-plugins_3.jpg",
+"start": 48.958,
+"dur": 1.917
+},
+{
+"k": 4,
+"file": "chatgpt-legal-plugins_4.jpg",
+"start": 52.167,
+"dur": 0.458
+},
+{
+"k": 5,
+"file": "chatgpt-legal-plugins_5.jpg",
+"start": 55.042,
+"dur": 1.875
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "chatgpt-legal-plugins_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "chatgpt-legal-plugins_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "chatgpt-legal-plugins_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "chatgpt-legal-plugins_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "figma-publish-to-community",
+"strips": [
+{
+"k": 0,
+"file": "figma-publish-to-community_0.jpg",
+"start": 6.292,
+"dur": 0.583
+},
+{
+"k": 1,
+"file": "figma-publish-to-community_1.jpg",
+"start": 9.0,
+"dur": 1.333
+},
+{
+"k": 2,
+"file": "figma-publish-to-community_2.jpg",
+"start": 14.5,
+"dur": 0.458
+},
+{
+"k": 3,
+"file": "figma-publish-to-community_3.jpg",
+"start": 17.125,
+"dur": 1.083
+},
+{
+"k": 4,
+"file": "figma-publish-to-community_4.jpg",
+"start": 23.125,
+"dur": 0.792
+},
+{
+"k": 5,
+"file": "figma-publish-to-community_5.jpg",
+"start": 26.333,
+"dur": 0.542
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "figma-publish-to-community_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "figma-publish-to-community_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "figma-publish-to-community_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "figma-publish-to-community_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "grok-bot-icon-in-code",
+"strips": [
+{
+"k": 0,
+"file": "grok-bot-icon-in-code_0.jpg",
+"start": 1.083,
+"dur": 0.292
+},
+{
+"k": 1,
+"file": "grok-bot-icon-in-code_1.jpg",
+"start": 7.75,
+"dur": 0.417
+},
+{
+"k": 2,
+"file": "grok-bot-icon-in-code_2.jpg",
+"start": 11.458,
+"dur": 0.5
+},
+{
+"k": 3,
+"file": "grok-bot-icon-in-code_3.jpg",
+"start": 13.833,
+"dur": 0.375
+},
+{
+"k": 4,
+"file": "grok-bot-icon-in-code_4.jpg",
+"start": 26.042,
+"dur": 0.417
+},
+{
+"k": 5,
+"file": "grok-bot-icon-in-code_5.jpg",
+"start": 29.375,
+"dur": 0.417
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "grok-bot-icon-in-code_0.jpg",
+"h": 960
+},
+{
+"k": 1,
+"file": "grok-bot-icon-in-code_1.jpg",
+"h": 960
+},
+{
+"k": 2,
+"file": "grok-bot-icon-in-code_2.jpg",
+"h": 960
+},
+{
+"k": 3,
+"file": "grok-bot-icon-in-code_3.jpg",
+"h": 960
+}
+]
+},
+{
+"slug": "linear-loops-update",
+"strips": [
+{
+"k": 0,
+"file": "linear-loops-update_0.jpg",
+"start": 0.833,
+"dur": 0.958
+},
+{
+"k": 1,
+"file": "linear-loops-update_1.jpg",
+"start": 4.375,
+"dur": 0.5
+},
+{
+"k": 2,
+"file": "linear-loops-update_2.jpg",
+"start": 6.167,
+"dur": 0.667
+},
+{
+"k": 3,
+"file": "linear-loops-update_3.jpg",
+"start": 10.167,
+"dur": 0.875
+},
+{
+"k": 4,
+"file": "linear-loops-update_4.jpg",
+"start": 18.417,
+"dur": 1.25
+},
+{
+"k": 5,
+"file": "linear-loops-update_5.jpg",
+"start": 22.083,
+"dur": 0.792
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "linear-loops-update_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "linear-loops-update_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "linear-loops-update_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "linear-loops-update_3.jpg",
+"h": 540
+}
+]
+},
+{
+"slug": "socoloff-brand-launch-videos",
+"strips": [
+{
+"k": 0,
+"file": "socoloff-brand-launch-videos_0.jpg",
+"start": 3.5,
+"dur": 0.708
+},
+{
+"k": 1,
+"file": "socoloff-brand-launch-videos_1.jpg",
+"start": 7.75,
+"dur": 1.417
+},
+{
+"k": 2,
+"file": "socoloff-brand-launch-videos_2.jpg",
+"start": 15.125,
+"dur": 1.333
+},
+{
+"k": 3,
+"file": "socoloff-brand-launch-videos_3.jpg",
+"start": 19.5,
+"dur": 1.708
+},
+{
+"k": 4,
+"file": "socoloff-brand-launch-videos_4.jpg",
+"start": 24.167,
+"dur": 1.875
+},
+{
+"k": 5,
+"file": "socoloff-brand-launch-videos_5.jpg",
+"start": 26.25,
+"dur": 0.25
+}
+],
+"stills": [
+{
+"k": 0,
+"file": "socoloff-brand-launch-videos_0.jpg",
+"h": 540
+},
+{
+"k": 1,
+"file": "socoloff-brand-launch-videos_1.jpg",
+"h": 540
+},
+{
+"k": 2,
+"file": "socoloff-brand-launch-videos_2.jpg",
+"h": 540
+},
+{
+"k": 3,
+"file": "socoloff-brand-launch-videos_3.jpg",
+"h": 540
+}
+]
+}
+]

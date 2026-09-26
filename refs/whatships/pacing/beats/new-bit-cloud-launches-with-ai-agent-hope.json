@@ -1,0 +1,21 @@
+{
+ "slug": "new-bit-cloud-launches-with-ai-agent-hope",
+ "beats": [
+  {"start": 0, "end": 4.2, "kind": "hook", "what": "Agent chat beside hero 'Imagine it. Create it. Ship it.'"},
+  {"start": 4.2, "end": 8.5, "kind": "intro", "what": "'One prompt today. A whole company tomorrow.'"},
+  {"start": 8.5, "end": 29.2, "kind": "demo", "what": "Agent Hope builds landing page sections from prompt, scrolling"},
+  {"start": 29.2, "end": 41.6, "kind": "demo", "what": "Enterprise page generated: context, smarter AI, reuse metrics"},
+  {"start": 41.6, "end": 47.4, "kind": "feature", "what": "Component dependency graph visualised"},
+  {"start": 47.4, "end": 59.2, "kind": "feature", "what": "Marketing theme, brand book, token usage across components"},
+  {"start": 59.2, "end": 79.2, "kind": "montage", "what": "Rapid tour of generated site sections and headlines"},
+  {"start": 79.2, "end": 82.2, "kind": "other", "what": "Node graph canvas closing frame"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "pan_slide", "push_zoom"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "medium",
+ "notes": "Raw screen-capture style, dark UI throughout; headlines exist only inside generated pages; no logo end card. Beat kinds approximate."
+}

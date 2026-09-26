@@ -1,0 +1,7 @@
+{"slug":"stamply","beats":[
+{"start":0,"end":5,"kind":"demo","what":"Phone app: eye stamp counter ticks, swipe to next stamp"},
+{"start":5,"end":10,"kind":"demo","what":"Green then paper stamps swiped, count 17"},
+{"start":10,"end":11.45,"kind":"feature","what":"Stamp collection grid view with wabi-sabi detail"}],
+"first_text_s":0,"first_product_s":0,"end_card":null,
+"text_cards":0,"transitions":["none_visible","pan_slide"],"camera":["static"],
+"pace":"medium","notes":"Short vertical phone-screen recording on white; swipe gestures are the only transitions, no title or end card."}

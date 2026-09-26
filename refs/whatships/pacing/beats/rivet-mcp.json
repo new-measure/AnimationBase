@@ -1,0 +1,16 @@
+{
+ "slug": "rivet-mcp",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Introducing Rivet MCP; connector pulses to five AI client icons"},
+  {"start": 6, "end": 12, "kind": "feature", "what": "Same diagram loop repeats: connects Claude, ChatGPT, Gemini, Cursor, VS Code"},
+  {"start": 12, "end": 18, "kind": "feature", "what": "Loop repeats a third time"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 1,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Single static title-plus-diagram card with a 6 s looping pulse animation repeated three times; no cuts."
+}

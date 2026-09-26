@@ -1,0 +1,17 @@
+{
+ "slug": "gemini-3-8-live",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["typing", "fade"], "frames_to_settle": 27, "fast_start": false, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Live transcript words fade in one by one beside phone video"},
+  {"k": 1, "element": "text", "action": "replace", "style": ["fade", "typing"], "frames_to_settle": 30, "fast_start": false, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Old paragraph cuts out, new sentence streams in word by word"},
+  {"k": 2, "element": "text", "action": "enter", "style": ["typing", "fade"], "frames_to_settle": 26, "fast_start": false, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Response words fade from grey to black successively"},
+  {"k": 3, "element": "text", "action": "replace", "style": ["fade", "typing"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": 5, "motion_blur": false, "notes": "Paragraph fades out over 2 frames; new words stream in"},
+  {"k": 4, "element": "text", "action": "replace", "style": ["fade"], "frames_to_settle": 5, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Short word crossfades to next; phone camera footage keeps moving"},
+  {"k": 5, "element": "camera", "action": "camera_move", "style": ["zoom_through", "fade"], "frames_to_settle": 7, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Push-in onto phone UI; side text fades; tap dot slides after"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 24, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 18, "radius_px": 52, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Phone mock centred, small transcript text to right"},
+  {"k": 1, "headline_px": 27, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 12, "radius_px": 52, "shadow": "soft", "bg_style": "flat", "accent_count": 2, "density": "medium", "notes": "Phone with result chip, four-line centred transcript right"},
+  {"k": 2, "headline_px": 26, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 12.8, "radius_px": 52, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Transcript words stream in, last word still grey"},
+  {"k": 3, "headline_px": 56, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 34, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 4, "density": "sparse", "notes": "End logo lockup, multicolour spark, soft blue bottom gradient"}
+ ]
+}

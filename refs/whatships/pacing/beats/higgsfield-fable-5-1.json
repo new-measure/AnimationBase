@@ -1,0 +1,23 @@
+{
+ "slug": "higgsfield-fable-5-1",
+ "beats": [
+  {"start": 0, "end": 2.7, "kind": "intro", "what": "Birds fly past Higgsfield MCP x Claude Fable 5.1 logos"},
+  {"start": 2.7, "end": 8.2, "kind": "demo", "what": "Oak tree photo; user prompts to build treehouse on it"},
+  {"start": 8.2, "end": 14, "kind": "feature", "what": "AI measures tree height and assesses health, overlaid on footage"},
+  {"start": 14, "end": 19.2, "kind": "demo", "what": "Claude replies, Higgsfield MCP connected, making previews"},
+  {"start": 19.2, "end": 22.9, "kind": "feature", "what": "Grid of exterior and interior treehouse options"},
+  {"start": 22.9, "end": 30.6, "kind": "feature", "what": "Builds 3D model, generates realistic interior view"},
+  {"start": 30.6, "end": 38, "kind": "feature", "what": "Walkthrough; prompt swaps the doorknob in-scene"},
+  {"start": 38, "end": 44.6, "kind": "feature", "what": "Compiles build document, download treehouse PDF"},
+  {"start": 44.6, "end": 52.6, "kind": "feature", "what": "Blueprint pages: elevations, cabin cutaway, QR build video"},
+  {"start": 52.6, "end": 57, "kind": "end_card", "what": "Carpenter builds; caption: Try Fable 5.1 on Claude"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 52.6, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "push_zoom", "morph_match"],
+ "camera": ["push_in", "static", "pan", "handheld"],
+ "pace": "fast",
+ "notes": "Single use-case story (tree to treehouse plans) told through alternating chat UI and generated footage; CTA overlaid on live-action closing shots."
+}

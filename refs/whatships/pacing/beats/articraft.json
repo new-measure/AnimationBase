@@ -1,0 +1,20 @@
+{
+ "slug": "articraft",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Wide view of huge field of articulated 3D objects"},
+  {"start": 4, "end": 10, "kind": "feature", "what": "Camera glides to cutaway jet engine with spinning parts"},
+  {"start": 10, "end": 18, "kind": "feature", "what": "Glide past workbench to articulated yellow frame mechanism"},
+  {"start": 18, "end": 25, "kind": "feature", "what": "Sliding gate and barrier arm articulating"},
+  {"start": 25, "end": 32, "kind": "feature", "what": "Satellite dish tilting on tripod, cabinet doors"},
+  {"start": 32, "end": 38, "kind": "feature", "what": "Bookends, motor, desk lamp articulating"},
+  {"start": 38, "end": 42.1, "kind": "end_card", "what": "Pull back to wide overview of all objects"}
+ ],
+ "first_text_s": null,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["pan_slide", "cut"],
+ "camera": ["pan", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "notes": "Single continuous fly-through camera over generated 3D assets, one hard cut; bookended by wide shots. No text; final beat is pullback, not true end card."
+}

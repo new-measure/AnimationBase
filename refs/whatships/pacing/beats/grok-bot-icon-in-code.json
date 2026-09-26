@@ -1,0 +1,20 @@
+{
+ "slug": "grok-bot-icon-in-code",
+ "beats": [
+  {"start": 0, "end": 1.08, "kind": "intro", "what": "Black orb bot icon with two eyes"},
+  {"start": 1.08, "end": 5.83, "kind": "feature", "what": "Thinking dots state, orb blinks and squints"},
+  {"start": 5.83, "end": 10, "kind": "feature", "what": "Exclamation alert state, notification dot on orb"},
+  {"start": 10, "end": 12.67, "kind": "feature", "what": "Exclamation morphs into bouncing drop"},
+  {"start": 12.67, "end": 24.08, "kind": "feature", "what": "Orb morphs egg, hexagon, triangle with colour orbit trails"},
+  {"start": 24.08, "end": 27.33, "kind": "feature", "what": "Orb collapses to dot and pops back"},
+  {"start": 27.33, "end": 30.75, "kind": "end_card", "what": "Dot swirls into orb, resting icon"}
+ ],
+ "first_text_s": null,
+ "first_product_s": 0,
+ "end_card": {"start": 27.33, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["morph_match", "cut"],
+ "camera": ["static"],
+ "pace": "medium",
+ "notes": "Wordless icon-state reel; every beat is a morph of one mascot shape. Beats labelled feature as animation states; end_card is just the resting icon."
+}

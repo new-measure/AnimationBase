@@ -1,0 +1,23 @@
+{
+ "slug": "playstation-gaming-monitor",
+ "beats": [
+  {"start": 0, "end": 2.2, "kind": "intro", "what": "PlayStation logo on blue"},
+  {"start": 2.2, "end": 5, "kind": "hook", "what": "Moody macro glimpses of monitor bezel, stand, profile"},
+  {"start": 5, "end": 7.8, "kind": "feature", "what": "Array of DualSense controllers including Wolverine edition"},
+  {"start": 7.8, "end": 12.2, "kind": "feature", "what": "Controller charging hook on stand; Feel every frame"},
+  {"start": 12.2, "end": 19.5, "kind": "montage", "what": "Gameplay screens fly around; Live every moment"},
+  {"start": 19.5, "end": 25.4, "kind": "feature", "what": "Monitor design details and multiple monitors lineup"},
+  {"start": 25.4, "end": 29, "kind": "montage", "what": "Stacked game screens morph into snowy gameplay"},
+  {"start": 29, "end": 34.7, "kind": "feature", "what": "Desk setup: Play-ready desktop gaming title on screen"},
+  {"start": 34.7, "end": 38.9, "kind": "end_card", "what": "Product card: 27-inch monitor, availability details"},
+  {"start": 38.9, "end": 40.9, "kind": "end_card", "what": "Play has no limits; PlayStation logo"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": {"start": 34.7, "logo": true, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "morph_match", "whip_blur", "push_zoom"],
+ "camera": ["push_in", "pan", "tilt_3d", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Glossy CGI hardware spot with three short tagline cards; screens-as-objects morph between beats; availability card before brand sign-off."
+}

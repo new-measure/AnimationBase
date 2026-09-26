@@ -1,0 +1,17 @@
+{
+ "slug": "framer-agent-responsive",
+ "moves": [
+  {"k": 0, "element": "camera", "action": "camera_move", "style": ["scale_pop"], "frames_to_settle": 10, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Canvas zooms in on scrolling page preview, eases out quickly"},
+  {"k": 1, "element": "ui_panel", "action": "enter", "style": ["slide", "fade", "stagger_list"], "frames_to_settle": 24, "fast_start": true, "overshoot": "none", "stagger_frames": 7, "motion_blur": false, "notes": "Canvas pans; tablet then phone breakpoint frames appear with loading shimmer"},
+  {"k": 2, "element": "ui_panel", "action": "transform", "style": ["fade", "color_change"], "frames_to_settle": 12, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Blue generating overlay fades off the new breakpoint frames"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["scale_pop", "slide"], "frames_to_settle": 12, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Zoom into three breakpoints then slow upward drift"},
+  {"k": 4, "element": "camera", "action": "camera_move", "style": ["slide", "scale_pop"], "frames_to_settle": 11, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Pan and zoom to phone frame beside agent chat panel"},
+  {"k": 5, "element": "camera", "action": "camera_move", "style": ["scale_down"], "frames_to_settle": 10, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Zoom out from phone to full editor canvas, ease-out"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 20, "body_px": 16, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 2, "radius_px": 20, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Dark editor agent panel with typed prompt, webcam overlay"},
+  {"k": 1, "headline_px": 26, "body_px": 8, "typefaces": 3, "type_style": ["serif", "sans", "mono"], "weights": ["regular"], "align": "mixed", "margin_pct": 13, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Three responsive page frames, serif display, mono code card"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 47, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Small white logo mark centred on black end card"},
+  {"k": 3, "headline_px": 24, "body_px": 8, "typefaces": 3, "type_style": ["serif", "sans", "mono"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 2, "radius_px": 20, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "dense", "notes": "Full editor UI: layers, three breakpoints, agent panel, webcam"}
+ ]
+}

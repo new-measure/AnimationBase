@@ -1,0 +1,21 @@
+{
+ "slug": "chatgpt-mythos-for-sales",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Logo, then 'Introducing ChatGPT Mythos for Sales'"},
+  {"start": 2, "end": 7, "kind": "demo", "what": "'Just enter your domain': stripe.com typed into field"},
+  {"start": 7, "end": 13, "kind": "demo", "what": "Agent checklist: researching, building lists, writing sequences"},
+  {"start": 13, "end": 29, "kind": "demo", "what": "Contacts table with outreach drafts, email panel opens"},
+  {"start": 29, "end": 34, "kind": "feature", "what": "Replies roll in, meetings booked on calendar"},
+  {"start": 34, "end": 39, "kind": "feature", "what": "Coding contribution grid versus calendar grid comparison"},
+  {"start": 39, "end": 44, "kind": "proof", "what": "'91x → 100x your pipeline' counter beside phone"},
+  {"start": 44, "end": 46.89, "kind": "end_card", "what": "Origami.Chat bird logo, 'ChatGPT Mythos for Sales'"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": {"start": 44, "logo": true, "cta": false},
+ "text_cards": 4,
+ "transitions": ["fade_dissolve", "morph_match", "cut"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Near one-take stylised UI walkthrough; headline captions drive each step; brand oddly shifts from ChatGPT to Origami. Pipeline stat is claim, labelled proof."
+}

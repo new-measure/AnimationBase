@@ -1,0 +1,23 @@
+{
+ "slug": "pegfinity-steam",
+ "beats": [
+  {"start": 0, "end": 3.25, "kind": "hook", "what": "Ball drops through peg board: Upgrade Your Board"},
+  {"start": 3.25, "end": 6.42, "kind": "feature", "what": "Skill tree purchases: Gadgets, Balls and Pegs"},
+  {"start": 6.42, "end": 10, "kind": "demo", "what": "Whip into chaotic scoring gameplay, numbers flying"},
+  {"start": 10, "end": 13.5, "kind": "feature", "what": "Skill tree: Beachball, peg density, portal unlocks"},
+  {"start": 13.5, "end": 17, "kind": "demo", "what": "Satisfying Combos caption over score explosions"},
+  {"start": 17, "end": 20.42, "kind": "feature", "what": "New PWR-Up!!! chest opens with rainbow burst"},
+  {"start": 20.42, "end": 23.33, "kind": "feature", "what": "Unique Board Each Run caption over new layout"},
+  {"start": 23.33, "end": 25, "kind": "proof", "what": "Run Summary: $8,520,157 new highscore"},
+  {"start": 25, "end": 30, "kind": "montage", "what": "Frenzied combos, board flooded with score numbers"},
+  {"start": 30, "end": 33.56, "kind": "end_card", "what": "Pegfinity logo, Available 8/14/26 on Steam"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 30, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["cut", "whip_blur", "push_zoom"],
+ "camera": ["push_in", "static", "pan"],
+ "pace": "fast",
+ "notes": "Game trailer alternating gameplay and skill-tree screens with pixel captions; whip-zoom blurs between shots, ~41 cuts/min."
+}

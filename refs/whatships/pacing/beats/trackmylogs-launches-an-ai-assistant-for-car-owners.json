@@ -1,0 +1,19 @@
+{
+ "slug": "trackmylogs-launches-an-ai-assistant-for-car-owners",
+ "beats": [
+  {"start": 0, "end": 17.7, "kind": "demo", "what": "Upload receipt photo; assistant creates oil change service record"},
+  {"start": 17.7, "end": 28.8, "kind": "feature", "what": "Vehicles list and records view showing new entry"},
+  {"start": 28.8, "end": 52.3, "kind": "feature", "what": "Ask fuel filter interval; answer cites owner manual PDF"},
+  {"start": 52.3, "end": 79.8, "kind": "feature", "what": "Ask if Uber allowed; answer cites lease and insurance docs"},
+  {"start": 79.8, "end": 94, "kind": "feature", "what": "Ask fuel spending this year; assistant summarises costs"},
+  {"start": 94, "end": 108, "kind": "feature", "what": "Statistics dashboard with spending pie charts and filters"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "notes": "Raw screen recording on teal backdrop with zoom-ins; no titles, hook, logo reveal or end card. Long real-time waits for AI responses."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "higgsfield-astra-animate",
+ "beats": [
+  {"start": 0, "end": 3.2, "kind": "demo", "what": "Split: sketch colours into anime character above tablet input"},
+  {"start": 3.2, "end": 6.3, "kind": "demo", "what": "Character animates; editor UI shows generation below"},
+  {"start": 6.3, "end": 9.8, "kind": "feature", "what": "Gun-pose shot from pencil sketch keyframe"},
+  {"start": 9.8, "end": 12.8, "kind": "demo", "what": "Line-art sketch in editor becomes coloured frame"},
+  {"start": 12.8, "end": 15.4, "kind": "demo", "what": "Tablet drawing input animated into character turn"},
+  {"start": 15.4, "end": 19.65, "kind": "feature", "what": "Rough multi-pose sketch drives final gun pose animation"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "fast",
+ "notes": "Vertical before/after split-screen loop with persistent Higgsfield badge; no titles or end card; pure output demo, repeated sketches."
+}

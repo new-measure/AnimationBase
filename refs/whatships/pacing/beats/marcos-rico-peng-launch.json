@@ -1,0 +1,25 @@
+{
+ "slug": "marcos-rico-peng-launch",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Captions 'we built Claude its own video editor' over b-roll"},
+  {"start": 3, "end": 7, "kind": "intro", "what": "Palmier bottle, editor on screen, PalmierPro dock icon clicked"},
+  {"start": 7, "end": 8.6, "kind": "transition", "what": "Black card 'so let's see what it can do'"},
+  {"start": 8.6, "end": 14.2, "kind": "demo", "what": "Prompt 'Organize my media in Palmier', folders created"},
+  {"start": 14.2, "end": 14.8, "kind": "story", "what": "Founder reaction close-up 'cool'"},
+  {"start": 14.8, "end": 24, "kind": "demo", "what": "Prompt 'now edit it for me', timeline assembled, 'not bad'"},
+  {"start": 24, "end": 25, "kind": "other", "what": "Black card 'but can it generate footage?'"},
+  {"start": 25, "end": 28.4, "kind": "feature", "what": "Clips generating inside timeline"},
+  {"start": 28.4, "end": 29.1, "kind": "story", "what": "Founder close-up 'holy sh*t'"},
+  {"start": 29.1, "end": 33.9, "kind": "feature", "what": "Generate eye close-ups with first/last frame prompts"},
+  {"start": 33.9, "end": 37, "kind": "other", "what": "Generated eye shots, tagline 'finally, a video editor built for AI'"},
+  {"start": 37, "end": 39.13, "kind": "end_card", "what": "palmier.io on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 37, "logo": false, "cta": true},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "whip_blur"],
+ "camera": ["handheld", "static", "push_in"],
+ "pace": "fast",
+ "notes": "Creator-style call-and-response: black text prompts, UI demo, reaction close-ups punctuate; ~1s cuts; ends on URL only."
+}

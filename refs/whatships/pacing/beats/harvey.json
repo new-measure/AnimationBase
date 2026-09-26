@@ -1,0 +1,15 @@
+{"slug":"harvey","beats":[
+{"start":0,"end":10.8,"kind":"hook","what":"Textured collage shapes, scribbles, legal text fragments, rotating cube"},
+{"start":10.8,"end":13.5,"kind":"demo","what":"Harvey assistant UI: Good morning, Maya"},
+{"start":13.5,"end":16,"kind":"feature","what":"Project Titan hub with connected panels among 3D blocks"},
+{"start":16,"end":18.9,"kind":"transition","what":"Monochrome 3D slabs sliding"},
+{"start":18.9,"end":22.2,"kind":"demo","what":"Home UI, selecting Acme Acquisition project"},
+{"start":22.2,"end":29.2,"kind":"feature","what":"Portal box with templates, precedents, standards callouts"},
+{"start":29.2,"end":36.2,"kind":"transition","what":"Collage cubes and shapes morphing, camera through geometry"},
+{"start":36.2,"end":40.5,"kind":"other","what":"Collage letters assemble into word Intelligence."},
+{"start":40.5,"end":50.6,"kind":"feature","what":"Oval/portal collage with document review and agent cards"},
+{"start":50.6,"end":55.6,"kind":"demo","what":"Project Titan workspace: agents list, workflow launch"},
+{"start":55.6,"end":60.14,"kind":"end_card","what":"Black cube unfolds into Harvey H logo"}],
+"first_text_s":2,"first_product_s":11,"end_card":{"start":57,"logo":true,"cta":false},
+"text_cards":1,"transitions":["cut","morph_match","push_zoom","wipe_mask"],"camera":["push_in","tilt_3d","zoom_out_reveal"],
+"pace":"medium","notes":"Brand-art collage film interleaving tactile paper/3D abstractions with brief UI glimpses; single word text card; cube motif ends as logo."}

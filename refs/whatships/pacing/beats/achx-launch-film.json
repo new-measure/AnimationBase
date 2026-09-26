@@ -1,0 +1,12 @@
+{"slug":"achx-launch-film","beats":[
+{"start":0,"end":4,"kind":"hook","what":"Stars and review cards: 10,000 reviews on a book"},
+{"start":4,"end":10.6,"kind":"problem","what":"Kinetic text: you're bored at page 50, why trust average"},
+{"start":10.6,"end":11.8,"kind":"intro","what":"LinQfolio logo on purple"},
+{"start":11.8,"end":19.4,"kind":"feature","what":"Kinetic type: social network building your reader DNA"},
+{"start":19.4,"end":23.1,"kind":"feature","what":"Book icon; instantly know if it's yours"},
+{"start":23.1,"end":29.3,"kind":"feature","what":"Your next read is on someone's shelf, bookshelf burst"},
+{"start":29.3,"end":32.1,"kind":"feature","what":"Join book clubs. Discover. Connect. Swap."},
+{"start":32.1,"end":36.92,"kind":"end_card","what":"LinQfolio logo, social hub for book lovers tagline"}],
+"first_text_s":3,"first_product_s":11,"end_card":{"start":32.1,"logo":true,"cta":false},
+"text_cards":10,"transitions":["cut","morph_match","fade_dissolve","whip_blur"],"camera":["static","push_in"],
+"pace":"fast","notes":"Almost entirely kinetic typography; no UI shown, only logo and book icons. Word-by-word text builds carry the whole film."}

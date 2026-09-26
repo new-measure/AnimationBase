@@ -1,0 +1,17 @@
+{
+ "slug": "claude-opus-5-5",
+ "moves": [
+  {"k": 0, "element": "image", "action": "replace", "style": [], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Hard match-cuts between curved-horizon textures, near-static hold between cuts"},
+  {"k": 1, "element": "image", "action": "replace", "style": [], "frames_to_settle": 6, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Quick shape-matched cuts: sphere arc to blueprint arc, 6 frames each"},
+  {"k": 2, "element": "image", "action": "replace", "style": [], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Arc-matched hard cuts across material textures, static holds"},
+  {"k": 3, "element": "mixed", "action": "replace", "style": [], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Hand-drawn galloping horse cycle on arc, then cut to planet with word"},
+  {"k": 4, "element": "text", "action": "transform", "style": ["morph"], "frames_to_settle": 8, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Word held while backdrop cuts; baseline bends to match new terrain"},
+  {"k": 5, "element": "camera", "action": "camera_move", "style": ["slide"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Slow tilt: logo drifts up off top, glowing horizon rises, ease-in"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 70, "body_px": null, "typefaces": 1, "type_style": ["serif"], "weights": ["regular"], "align": "center", "margin_pct": 40, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 0, "density": "sparse", "notes": "Small white serif title over dark space with faint horizon"},
+  {"k": 1, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 2, "density": "sparse", "notes": "Full-bleed orbital sunrise horizon, orange and blue bands"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "image", "accent_count": 1, "density": "sparse", "notes": "Macro amber curved surface against black, horizon motif"},
+  {"k": 3, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 2, "density": "sparse", "notes": "Stitched leather arc on paper texture, red and green thread"}
+ ]
+}

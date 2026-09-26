@@ -1,0 +1,61 @@
+{
+ "slug": "roll",
+ "beats": [
+  {
+   "start": 0,
+   "end": 3,
+   "kind": "hook",
+   "what": "Yellow ROLL film box spins in black void"
+  },
+  {
+   "start": 3,
+   "end": 7.3,
+   "kind": "demo",
+   "what": "'Unbox roll' swipe button slides under box"
+  },
+  {
+   "start": 7.3,
+   "end": 13,
+   "kind": "feature",
+   "what": "Box opens; Ambro film canister on phone, load film"
+  },
+  {
+   "start": 13,
+   "end": 18,
+   "kind": "demo",
+   "what": "Phone camera shoots lakeside scene, photo captured"
+  },
+  {
+   "start": 18,
+   "end": 22,
+   "kind": "other",
+   "what": "'fresh film daily' then rasmusnielsen.dk/roll URL"
+  },
+  {
+   "start": 22,
+   "end": 26.94,
+   "kind": "end_card",
+   "what": "Maus Computing Company wordmark"
+  }
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": {
+  "start": 22,
+  "logo": true,
+  "cta": false
+ },
+ "text_cards": 2,
+ "transitions": [
+  "cut",
+  "push_zoom",
+  "fade_dissolve"
+ ],
+ "camera": [
+  "tilt_3d",
+  "push_in",
+  "static"
+ ],
+ "pace": "slow",
+ "notes": "Minimal black-void 3D product objects; one hard cut into box opening. Tiny text, lots of black holds at the end."
+}

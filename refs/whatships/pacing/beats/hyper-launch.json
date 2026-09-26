@@ -1,0 +1,21 @@
+{
+ "slug": "hyper-launch",
+ "beats": [
+  {"start": 0, "end": 25.2, "kind": "hook", "what": "Home-video montage with kinetic text: decade building for makers"},
+  {"start": 25.2, "end": 29.9, "kind": "transition", "what": "Glitchy VHS 'March 2026' date card"},
+  {"start": 29.9, "end": 44, "kind": "story", "what": "Founders selfie video: AI agents can't remember our story"},
+  {"start": 44, "end": 50.3, "kind": "story", "what": "'Companies of tomorrow' text over founders, glitch effects"},
+  {"start": 50.3, "end": 64, "kind": "intro", "what": "Hyper logo, 'Self Driving Company Brain' title"},
+  {"start": 64, "end": 92, "kind": "feature", "what": "Retro cartoon: learns everything, up to date, same page"},
+  {"start": 92, "end": 104.2, "kind": "story", "what": "Sketch cartoon: 'For the crazy teams trying to bend future'"},
+  {"start": 104.2, "end": 111.3, "kind": "end_card", "what": "heyhyper.ai URL and logo on red"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 50,
+ "end_card": {"start": 104.2, "logo": true, "cta": true},
+ "text_cards": 10,
+ "transitions": ["cut", "fade_dissolve", "whip_blur", "morph_match"],
+ "camera": ["handheld", "static", "push_in"],
+ "pace": "medium",
+ "notes": "Vertical manifesto film: no product UI at all; founder story then Jetsons-style cartoon explains features. Feature beat is illustrative, not demo."
+}

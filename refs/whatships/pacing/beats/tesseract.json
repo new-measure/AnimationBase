@@ -1,0 +1,21 @@
+{
+ "slug": "tesseract",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Moody retro computer desk, camera pushes toward CRT"},
+  {"start": 3, "end": 9.2, "kind": "intro", "what": "CRT types 'We rebuilt After Effects and Premiere for agents'"},
+  {"start": 9.2, "end": 10.9, "kind": "demo", "what": "Green terminal user/agent prompt log"},
+  {"start": 10.9, "end": 13.2, "kind": "montage", "what": "White flash into rapid galloping horse renders"},
+  {"start": 13.2, "end": 20.8, "kind": "demo", "what": "Node UI: timing, type, frame, easing, sound, mix"},
+  {"start": 20.8, "end": 26.4, "kind": "montage", "what": "Horse animation in many rapid visual styles"},
+  {"start": 26.4, "end": 27.5, "kind": "transition", "what": "CRT static colour burst"},
+  {"start": 27.5, "end": 32.02, "kind": "end_card", "what": "Tesseract by Mirage logo on CRT screen"}
+ ],
+ "first_text_s": 4,
+ "first_product_s": 6,
+ "end_card": {"start": 27.5, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "whip_blur", "fade_dissolve"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "fast",
+ "notes": "Bookended by retro CRT push-in/pull-out; Muybridge horse as a motif re-rendered in rapid-fire styles; one-line pitch."
+}

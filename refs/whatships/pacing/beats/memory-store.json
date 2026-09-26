@@ -1,0 +1,22 @@
+{
+ "slug": "memory-store",
+ "beats": [
+  {"start": 0, "end": 1.8, "kind": "story", "what": "Wide shot of startup office"},
+  {"start": 1.8, "end": 3.5, "kind": "hook", "what": "Giant 'FRICTION' title card"},
+  {"start": 3.5, "end": 17.9, "kind": "problem", "what": "Skit: engineer asks founder which PR, 'Founder 1: bottleneck'"},
+  {"start": 17.9, "end": 35.7, "kind": "problem", "what": "Skits: lost feedback, email checks, annoying customer Slack"},
+  {"start": 35.7, "end": 40.8, "kind": "problem", "what": "'Founder 2: the human CRM', why keep asking"},
+  {"start": 40.8, "end": 46.4, "kind": "other", "what": "Text cards: so much to track, get company a brain"},
+  {"start": 46.4, "end": 53, "kind": "intro", "what": "Founders on sofa introduce Memory Store, one shared brain"},
+  {"start": 53, "end": 64.8, "kind": "feature", "what": "Collects insights from Slack, Email, Granola into agent memories"},
+  {"start": 64.8, "end": 69.31, "kind": "end_card", "what": "cal.com/memory link with memory.store logo"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 65,
+ "end_card": {"start": 64.8, "logo": true, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["handheld", "static", "push_in"],
+ "pace": "medium",
+ "notes": "Comedic subtitled skit dominates first 40s; product never shown in UI, explained by founders talking head; late logo."
+}

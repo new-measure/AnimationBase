@@ -1,0 +1,24 @@
+{
+ "slug": "memelord",
+ "beats": [
+  {"start": 0, "end": 9.6, "kind": "hook", "what": "Cartoon hoodie founder: memes, book, bags of money"},
+  {"start": 9.6, "end": 17.3, "kind": "story", "what": "Investors chase him; he gasps with energy drink"},
+  {"start": 17.3, "end": 29.7, "kind": "intro", "what": "Holds MEMELORD.COM sign; metal-detector and flag gags under banner"},
+  {"start": 29.7, "end": 31.7, "kind": "story", "what": "Painter at easel; founder with clapperboard"},
+  {"start": 31.7, "end": 47.9, "kind": "demo", "what": "Bob Ross-style host presents retro editor building a meme video"},
+  {"start": 47.9, "end": 63.5, "kind": "feature", "what": "Timeline, characters, captions assembled; '$3M seed' joke text"},
+  {"start": 63.5, "end": 74.7, "kind": "story", "what": "Cartoon skits: filming, interview, bellhops, MEMELORD title"},
+  {"start": 74.7, "end": 84.9, "kind": "demo", "what": "More editor scenes: 'we gonna save dat money', racecar"},
+  {"start": 84.9, "end": 95.2, "kind": "story", "what": "Rainbow, Van Gogh, painter gags; host speaks to camera"},
+  {"start": 95.2, "end": 100.9, "kind": "demo", "what": "MEMELORD site homepage with Try Free button"},
+  {"start": 100.9, "end": 107.25, "kind": "end_card", "what": "Host under MEMELORD.COM banner on green field"}
+ ],
+ "first_text_s": 4,
+ "first_product_s": 18,
+ "end_card": {"start": 100.9, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "notes": "Absurdist comedy parody on Windows XP backdrop, alternating cartoon skits with live host demoing; long runtime but constant gag density. Beat kinds approximate."
+}

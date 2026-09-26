@@ -1,0 +1,28 @@
+{
+ "slug": "opacity-pen-tool",
+ "beats": [
+  {"start": 0, "end": 1.2, "kind": "hook", "what": "Founder to camera at desk"},
+  {"start": 1.2, "end": 6.2, "kind": "feature", "what": "Pen tool panel: place point, drag to curve"},
+  {"start": 6.2, "end": 22, "kind": "demo", "what": "Drawing curves and loops with pen tool on canvas"},
+  {"start": 22, "end": 34.8, "kind": "story", "what": "Founder talks about building the pen tool"},
+  {"start": 34.8, "end": 44, "kind": "demo", "what": "Mixing straight segments and arcs with dimension labels"},
+  {"start": 44, "end": 62.5, "kind": "feature", "what": "Tangent line constraints between two circles"},
+  {"start": 62.5, "end": 70.8, "kind": "demo", "what": "Curve editing in full app window"},
+  {"start": 70.8, "end": 75.8, "kind": "feature", "what": "Curvature comb visualisation on spline"},
+  {"start": 75.8, "end": 82, "kind": "feature", "what": "Tangent circles revisited"},
+  {"start": 82, "end": 88, "kind": "feature", "what": "Mirror and offset panels in inspector"},
+  {"start": 88, "end": 96.7, "kind": "feature", "what": "Boolean container and deform effect layers"},
+  {"start": 96.7, "end": 104, "kind": "feature", "what": "Filled shapes with thick strokes, boolean results"},
+  {"start": 104, "end": 109.1, "kind": "montage", "what": "Tilted overview grid of many shape examples"},
+  {"start": 109.1, "end": 112, "kind": "story", "what": "Founder closing remark to camera"},
+  {"start": 112, "end": 118.61, "kind": "end_card", "what": "Logo mark animates to Opacity wordmark"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 2,
+ "end_card": {"start": 112, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "handheld", "tilt_3d", "push_in"],
+ "pace": "slow",
+ "notes": "Long founder-narrated feature walkthrough; webcam segments bracket clean canvas recordings; faster feature cuts near 97-104s."
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "google-ai-subscriptions-pro-ultra-with-google-ai",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "intro", "what": "Text: 'Start vibe coding with Google AI Studio' in plan"},
+  {"start": 4, "end": 7.2, "kind": "demo", "what": "Prompt box typing laser tag game idea"},
+  {"start": 7.2, "end": 8.7, "kind": "demo", "what": "Generated neon laser tag game plays"},
+  {"start": 8.7, "end": 14, "kind": "feature", "what": "Text card: higher usage limits for live apps"},
+  {"start": 14, "end": 18.6, "kind": "feature", "what": "Text card: access Nano Banana Pro and Gemini 3.1"},
+  {"start": 18.6, "end": 24.1, "kind": "montage", "what": "Voxel sandbox app generated from prompt"},
+  {"start": 24.1, "end": 31.8, "kind": "montage", "what": "Webcam hand-tracked slingshot bubble game"},
+  {"start": 31.8, "end": 38.2, "kind": "montage", "what": "Multiplayer drawing canvas app"},
+  {"start": 38.2, "end": 43.8, "kind": "montage", "what": "ISS orbital tracker globe dashboard"},
+  {"start": 43.8, "end": 46.83, "kind": "end_card", "what": "Google AI Studio logo and ai.studio URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {"start": 43.8, "logo": true, "cta": true},
+ "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Opens text-first with typed-on headline; alternates black text cards with prompt-to-app examples, each app shown with its prompt bar."
+}

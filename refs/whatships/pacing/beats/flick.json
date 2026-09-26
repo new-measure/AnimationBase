@@ -1,0 +1,23 @@
+{
+ "slug": "flick",
+ "beats": [
+  {"start": 0, "end": 2.67, "kind": "hook", "what": "'AI is powerful, but only matters in creators' hands'"},
+  {"start": 2.67, "end": 6.08, "kind": "intro", "what": "Red scribble animation resolves into Flick logo"},
+  {"start": 6.08, "end": 12.67, "kind": "proof", "what": "$6M seed round, investor logos accumulate"},
+  {"start": 12.67, "end": 16.67, "kind": "intro", "what": "'Built for filmmakers', Flick Residency Film Series title"},
+  {"start": 16.67, "end": 26, "kind": "montage", "what": "Film clips with '14 Residency Filmmakers' caption"},
+  {"start": 26, "end": 39, "kind": "montage", "what": "'13 stories made with Flick', rapid varied film excerpts"},
+  {"start": 39, "end": 42, "kind": "other", "what": "'Not AI films, but films using AI' caption"},
+  {"start": 42, "end": 61.33, "kind": "montage", "what": "Accelerating montage of residency film shots"},
+  {"start": 61.33, "end": 63.25, "kind": "other", "what": "Stacked 'Watch: flick.art/showroom' text over dark shot"},
+  {"start": 63.25, "end": 67.29, "kind": "end_card", "what": "Scribble to 'Only on Flick, May 14', URL"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 5,
+ "end_card": {"start": 63.25, "logo": true, "cta": true},
+ "text_cards": 8,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Funding proof front-loaded; rest is showcase montage of films made with tool, no UI shown; animated scribble bookends logo."
+}

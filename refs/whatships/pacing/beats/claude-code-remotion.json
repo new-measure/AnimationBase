@@ -1,0 +1,22 @@
+{
+ "slug": "claude-code-remotion",
+ "beats": [
+  {"start": 0, "end": 5.3, "kind": "intro", "what": "'Introducing' then Tables logo on blue glass background"},
+  {"start": 5.3, "end": 24, "kind": "demo", "what": "Typing prospect query, agent searches, finds 247 matching leads"},
+  {"start": 24, "end": 34, "kind": "feature", "what": "297M+ profile database; call the decision maker directly"},
+  {"start": 34, "end": 50, "kind": "feature", "what": "Outsource research: AI scores leads with reasoning and sources"},
+  {"start": 50, "end": 62, "kind": "feature", "what": "Built for existing workflow; tool logos; one-click CRM sync"},
+  {"start": 62, "end": 80, "kind": "feature", "what": "Prospecting in Tables or via Claude MCP chat"},
+  {"start": 80, "end": 88, "kind": "feature", "what": "Reveal leads inside LinkedIn via extension"},
+  {"start": 88, "end": 92, "kind": "other", "what": "Tagline 'Let AI find your next customer'"},
+  {"start": 92, "end": 95.3, "kind": "end_card", "what": "Tables logo on blue background"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 2,
+ "end_card": {"start": 92, "logo": true, "cta": false},
+ "text_cards": 12,
+ "transitions": ["cut", "push_zoom", "fade_dissolve", "whip_blur", "morph_match"],
+ "camera": ["push_in", "pan", "tilt_3d", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Opens directly with 'Introducing' and logo; long continuous UI sections with few hard cuts, small typographic cards bridging features. Tagline beat labelled other."
+}

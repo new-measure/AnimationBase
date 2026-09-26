@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-financial-services",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Typed headline: financial work your team can use"},
+  {"start": 6, "end": 8, "kind": "intro", "what": "With ChatGPT for Financial Services title"},
+  {"start": 8, "end": 14, "kind": "feature", "what": "Using built-in data headline over ChatGPT UI"},
+  {"start": 14, "end": 24, "kind": "demo", "what": "Prompt about Huron meeting, toggling financial data sources"},
+  {"start": 24, "end": 36, "kind": "feature", "what": "Understand what changed; thinking and search steps listed"},
+  {"start": 36, "end": 42, "kind": "demo", "what": "Generated company overview with revenue table"},
+  {"start": 42, "end": 48, "kind": "feature", "what": "Trace the analysis back to evidence, citation popover"},
+  {"start": 48, "end": 58, "kind": "demo", "what": "Charts of share price on full desktop"},
+  {"start": 58, "end": 70, "kind": "feature", "what": "Create materials: prompt turns chart into PPT slide"},
+  {"start": 70, "end": 76, "kind": "montage", "what": "Built for equity research, asset management text cards"},
+  {"start": 76, "end": 78, "kind": "end_card", "what": "With ChatGPT for Financial Services title reprise"},
+  {"start": 78, "end": 81.3, "kind": "end_card", "what": "OpenAI logo"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 8,
+ "end_card": {"start": 76, "logo": true, "cta": false},
+ "text_cards": 9,
+ "transitions": ["push_zoom", "morph_match", "fade_dissolve", "cut"],
+ "camera": ["push_in", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "notes": "Alternates kinetic headline cards with zoomed UI close-ups; almost no hard cuts until final third; chapter-headline structure."
+}

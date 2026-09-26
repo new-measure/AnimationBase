@@ -1,0 +1,20 @@
+{
+ "slug": "gemini-3-5-flash",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "demo", "what": "Generated Minecraft web clone: world generator settings configured"},
+  {"start": 12, "end": 30.08, "kind": "demo", "what": "Walking, building blocks in generated voxel world"},
+  {"start": 30.08, "end": 34, "kind": "feature", "what": "Inventory and crafting panel opened"},
+  {"start": 34, "end": 43.67, "kind": "demo", "what": "More play, placing blocks, pause menu"},
+  {"start": 43.67, "end": 52.08, "kind": "feature", "what": "Main menu, multiplayer server list browsed"},
+  {"start": 52.08, "end": 72.25, "kind": "demo", "what": "Building brick walls, inventory, first-person play"},
+  {"start": 72.25, "end": 76.86, "kind": "other", "what": "'You Died!' game-over screen, no end card"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "notes": "Raw screen capture of a model-built game; no titles, logo or end card; product shown only via its output (counted as product at 0)."
+}

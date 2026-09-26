@@ -1,0 +1,21 @@
+{
+ "slug": "propel",
+ "beats": [
+  {"start": 0, "end": 8.2, "kind": "hook", "what": "Storm, wave, racket: 'The market is unforgiving'"},
+  {"start": 8.2, "end": 27.1, "kind": "problem", "what": "Founders launch into silence with nobody watching"},
+  {"start": 27.1, "end": 34.9, "kind": "story", "what": "Chess and handshake: right story to right people"},
+  {"start": 34.9, "end": 46.7, "kind": "intro", "what": "Rocket with logo; four days in Lake Como with founders"},
+  {"start": 46.7, "end": 64, "kind": "montage", "what": "Launch dimensions: GTM, timing, narrative, production crew"},
+  {"start": 64, "end": 74.6, "kind": "montage", "what": "Mission control, rocket launch, satellite: market pays attention"},
+  {"start": 74.6, "end": 78, "kind": "proof", "what": "Brought to you by PROOF, supported by EchoTrade"},
+  {"start": 78, "end": 80.8, "kind": "end_card", "what": "Propel by Proof logo"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 36,
+ "end_card": {"start": 78, "logo": true, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut", "fade_dissolve", "whip_blur"],
+ "camera": ["static", "push_in", "pan", "handheld"],
+ "pace": "fast",
+ "notes": "Cinematic stock/film montage with small subtitle narration only; cuts every ~0.7s. Program, not software, so no UI; intro beat uncertain."
+}

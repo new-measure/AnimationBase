@@ -1,0 +1,20 @@
+{
+ "slug": "claude-for-chrome",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Serif text: Now available as a research preview"},
+  {"start": 2, "end": 4.4, "kind": "transition", "what": "Hand-drawn monitor and cursor sketch morphs into browser"},
+  {"start": 4.4, "end": 12, "kind": "intro", "what": "Cursor clicks Claude icon; side panel opens, 'How can I help'"},
+  {"start": 12, "end": 14.7, "kind": "intro", "what": "Browser page headline: Claude's in your Chrome"},
+  {"start": 14.7, "end": 25, "kind": "montage", "what": "Claude panel working on Zillow, docs, DoorDash, Salesforce tasks"},
+  {"start": 25, "end": 29, "kind": "end_card", "what": "Tagline: Meet your thinking partner on any tab"},
+  {"start": 29, "end": 32.1, "kind": "end_card", "what": "Claude logo on beige"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {"start": 25, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["morph_match", "push_zoom", "cut"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Opens on availability line, sketch morphs into real UI; quick tab-by-tab use montage; calm tagline plus logo close."
+}

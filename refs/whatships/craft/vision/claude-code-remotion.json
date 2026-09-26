@@ -1,0 +1,17 @@
+{
+ "slug": "claude-code-remotion",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["typing"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Cut to zoomed prompt box; ~1 char per frame, camera pans with caret"},
+  {"k": 1, "element": "ui_panel", "action": "exit", "style": ["slide", "fade"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Tilted lead list scrolls up, accelerating, rows blur and fade away"},
+  {"k": 2, "element": "text", "action": "enter", "style": ["blur_in", "stagger_list", "fade"], "frames_to_settle": 33, "fast_start": false, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Table blurs out; words blur in one by one; counter ticks; camera punches in"},
+  {"k": 3, "element": "ui_panel", "action": "enter", "style": ["fade", "scale_pop"], "frames_to_settle": 16, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Output popover fades in over table while camera drifts up to frame it"},
+  {"k": 4, "element": "ui_panel", "action": "enter", "style": ["fade", "fall"], "frames_to_settle": 14, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Sources dropdown opens under click; camera scrolls up to keep it framed"},
+  {"k": 5, "element": "text", "action": "replace", "style": ["blur_in", "morph"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Highlighted keyword swaps in 2-3 frames, pill resizes; ~14 frame holds"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 18, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "left", "margin_pct": 0, "radius_px": 32, "shadow": "soft", "bg_style": "image", "accent_count": 3, "density": "dense", "notes": "Tilted 3D table window bleeding off frame over blue light streaks"},
+  {"k": 1, "headline_px": 32, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 46.8, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Single blue word centred on faint radial glow"},
+  {"k": 2, "headline_px": 80, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 18.1, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Large regular-weight line with blue selection highlight, off-white radial glow"},
+  {"k": 3, "headline_px": 26, "body_px": 26, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 0, "radius_px": 40, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Zoomed chat UI cropped at right, orange spinner accent"}
+ ]
+}

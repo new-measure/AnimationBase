@@ -1,0 +1,28 @@
+{
+ "slug": "unifi-whole-home-wifi",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Glowing device close-up, UniFi neon logo in hall"},
+  {"start": 4, "end": 12.7, "kind": "problem", "what": "Retail shelves of consumer routers, luxury home"},
+  {"start": 12.7, "end": 16.4, "kind": "problem", "what": "Red cloud villain over mesh nodes and streams"},
+  {"start": 16.4, "end": 20.3, "kind": "intro", "what": "UniFi logo, Home Wi-Fi 7 box and units"},
+  {"start": 20.3, "end": 26.8, "kind": "feature", "what": "Phone adopts device, topology view in app"},
+  {"start": 26.8, "end": 36.8, "kind": "feature", "what": "10 Gbps speed test, full-duplex MLO, 5+6 GHz"},
+  {"start": 36.8, "end": 44.5, "kind": "feature", "what": "Units placed around home, channel spectrum graphic"},
+  {"start": 44.5, "end": 48.8, "kind": "feature", "what": "Cutaway house with coverage bubbles"},
+  {"start": 48.8, "end": 54, "kind": "feature", "what": "WiFi Doctor app shortcuts and client details"},
+  {"start": 54, "end": 60.6, "kind": "feature", "what": "X-ray device, glass house exteriors"},
+  {"start": 60.6, "end": 65.2, "kind": "feature", "what": "Globe zoom to remote site, Apple TV teleport"},
+  {"start": 65.2, "end": 81.9, "kind": "feature", "what": "MSP dashboard: sites, latency, configurations, customers"},
+  {"start": 81.9, "end": 86.5, "kind": "other", "what": "Product family hero 'Built for you. Not for them.'"},
+  {"start": 86.5, "end": 91, "kind": "proof", "what": "Ubiquiti store and trade-show booth 'License Free'"},
+  {"start": 91, "end": 99.56, "kind": "end_card", "what": "UniFi logo 'Rethinking IT' on black"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 0,
+ "end_card": {"start": 91, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "whip_blur", "morph_match", "fade_dissolve"],
+ "camera": ["push_in", "pan", "zoom_out_reveal", "tilt_3d", "static"],
+ "pace": "fast",
+ "notes": "Dense hardware ad with ~50 cuts; CG feature graphics mixed with app UI; long enterprise MSP section late; proof via retail/booth shots is uncertain."
+}

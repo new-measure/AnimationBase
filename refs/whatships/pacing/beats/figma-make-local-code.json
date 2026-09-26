@@ -1,0 +1,19 @@
+{
+ "slug": "figma-make-local-code",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "demo", "what": "Make prompt box; cursor clicks Open local folder, Clone repository"},
+  {"start": 4, "end": 8.5, "kind": "montage", "what": "Loading checklist over retro computing footage, setup steps"},
+  {"start": 8.5, "end": 17.67, "kind": "feature", "what": "Visual edits to event page: layout, background, typography panels"},
+  {"start": 17.67, "end": 24.08, "kind": "feature", "what": "Prompt adds icon for attendees; changes, Create PR"},
+  {"start": 24.08, "end": 26.75, "kind": "intro", "what": "Title: Figma Make, now on your local code."},
+  {"start": 26.75, "end": 30.06, "kind": "end_card", "what": "Make icon morphs into Figma logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 26.75, "logo": true, "cta": false},
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "morph_match"],
+ "camera": ["push_in", "static"],
+ "pace": "fast",
+ "notes": "Opens straight in UI with oversized cursor; archival computing footage behind loading steps; product name held back until 24s."
+}

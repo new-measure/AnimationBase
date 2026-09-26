@@ -1,0 +1,13 @@
+{
+ "slug": "achx-projects",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["fade", "mask_reveal", "stagger_list"], "frames_to_settle": 24, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Collage grid; tiles independently cut/reveal, red 'Introducing' glows in"},
+  {"k": 1, "element": "mixed", "action": "replace", "style": ["fade", "rise", "slide"], "frames_to_settle": 26, "fast_start": false, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Grid tiles swap; 'Grow faster' text and chat pills slide in"},
+  {"k": 2, "element": "text", "action": "enter", "style": ["scale_pop", "rotate"], "frames_to_settle": 10, "fast_start": true, "overshoot": "slight", "stagger_frames": 1, "motion_blur": false, "notes": "Scattered 'Unicorns' letters pop in rotated; word cuts No/More/Guessing"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 44, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "mixed", "margin_pct": 2, "radius_px": 24, "shadow": "soft", "bg_style": "gradient", "accent_count": 3, "density": "dense", "notes": "Collage grid of tiles; orange-red two-tone headline words"},
+  {"k": 1, "headline_px": 36, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "mixed", "margin_pct": 2, "radius_px": 24, "shadow": "soft", "bg_style": "gradient", "accent_count": 3, "density": "dense", "notes": "Collage grid: chat bubbles, phone UI, red 'Introducing' glow"},
+  {"k": 2, "headline_px": 64, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 2, "radius_px": 40, "shadow": "glow", "bg_style": "gradient", "accent_count": 3, "density": "dense", "notes": "Collage; purple-glow prompt box, big 'Numbers' white on black"}
+ ]
+}

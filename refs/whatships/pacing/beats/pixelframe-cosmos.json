@@ -1,0 +1,22 @@
+{
+ "slug": "pixelframe-cosmos",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "Artist in library with caption 'Need inspiration?'"},
+  {"start": 2, "end": 4.4, "kind": "story", "what": "Empty canvas on easel, reference image appears"},
+  {"start": 4.4, "end": 5, "kind": "transition", "what": "Loading spinner on grey"},
+  {"start": 5, "end": 9.1, "kind": "intro", "what": "Cosmos logo over typographic poster collage"},
+  {"start": 9.1, "end": 11.3, "kind": "feature", "what": "'Your Art Library' with floating reference images"},
+  {"start": 11.3, "end": 14, "kind": "montage", "what": "Collage of type specimens, posters, design references"},
+  {"start": 14, "end": 15.2, "kind": "other", "what": "Text card 'Designed for Artists'"},
+  {"start": 15.2, "end": 17, "kind": "feature", "what": "Large type specimen 'Aa' Cosmos Oracle font"},
+  {"start": 17, "end": 20.13, "kind": "end_card", "what": "Cosmos logo on black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 5,
+ "end_card": {"start": 17, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "wipe_mask"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Short brand teaser: live-action hook then rapid editorial collage; no real UI shown, product implied through library visuals."
+}

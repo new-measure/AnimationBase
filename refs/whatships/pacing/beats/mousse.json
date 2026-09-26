@@ -1,0 +1,19 @@
+{
+ "slug": "mousse",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Mousse logo mark animates, wordmark appears"},
+  {"start": 2, "end": 8, "kind": "demo", "what": "'One prompt. No tickets.' Plan mode drafts, user approves"},
+  {"start": 8, "end": 16, "kind": "feature", "what": "Fans out to three worktrees, live progress per task"},
+  {"start": 16, "end": 19, "kind": "feature", "what": "Branches merge cleanly: 'A week of work, before lunch'"},
+  {"start": 19, "end": 22, "kind": "feature", "what": "Answer from your phone, or run at 3am"},
+  {"start": 22, "end": 25.58, "kind": "end_card", "what": "Mousse logo, 'Ship a week's work before lunch'"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": {"start": 22, "logo": true, "cta": false},
+ "text_cards": 2,
+ "transitions": ["morph_match", "push_zoom", "pan_slide"],
+ "camera": ["tilt_3d", "pan", "zoom_out_reveal", "push_in"],
+ "pace": "fast",
+ "notes": "Single continuous camera move through dark UI; each second gets a short lower-left caption; logo bookends."
+}

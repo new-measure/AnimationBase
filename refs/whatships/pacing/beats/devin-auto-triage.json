@@ -1,0 +1,22 @@
+{
+ "slug": "devin-auto-triage",
+ "beats": [
+  {"start": 0, "end": 2.2, "kind": "intro", "what": "Devin logo glow, 'Introducing Auto-Triage'"},
+  {"start": 2.2, "end": 12, "kind": "demo", "what": "Slack triage channel alert, Devin replies looking into it"},
+  {"start": 12, "end": 23.4, "kind": "demo", "what": "Root cause found, PR opened, squash and merge, confetti"},
+  {"start": 23.4, "end": 27.7, "kind": "feature", "what": "Brain graphic: Devin learns, each incident handled faster"},
+  {"start": 27.7, "end": 30.6, "kind": "feature", "what": "De-duplicated alerts shown in thread"},
+  {"start": 30.6, "end": 35.6, "kind": "feature", "what": "Text: extra security against prompt injection, exfiltration"},
+  {"start": 35.6, "end": 40.1, "kind": "proof", "what": "Trusted by enterprise teams logo wall"},
+  {"start": 40.1, "end": 45.7, "kind": "proof", "what": "Modal engineer testimonial quote with video"},
+  {"start": 45.7, "end": 49.96, "kind": "end_card", "what": "Devin Auto-Triage logo, available now, URL"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 0,
+ "end_card": {"start": 45.7, "logo": true, "cta": true},
+ "text_cards": 4,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "notes": "Single 21s continuous Slack-to-merge walkthrough with camera pushes, then quick feature text cards and two proof beats."
+}

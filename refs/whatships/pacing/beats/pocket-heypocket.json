@@ -1,0 +1,21 @@
+{
+ "slug": "pocket-heypocket",
+ "beats": [
+  {"start": 0, "end": 1.42, "kind": "hook", "what": "Hand holds up blue Pocket device"},
+  {"start": 1.42, "end": 15.42, "kind": "intro", "what": "Founder talks to camera across office, clinic, cafe locations"},
+  {"start": 15.42, "end": 22.08, "kind": "feature", "what": "Thin device close-ups, magnetic snap to phone"},
+  {"start": 22.08, "end": 31.83, "kind": "demo", "what": "Cafe chat recap summary and action items on phone"},
+  {"start": 31.83, "end": 36.42, "kind": "feature", "what": "Mind-map UI floating beside founder"},
+  {"start": 36.42, "end": 44, "kind": "other", "what": "Comic space gag: astronaut, device floating over Earth"},
+  {"start": 44, "end": 52.33, "kind": "intro", "what": "Back at desk, founder holds device, wraps up pitch"},
+  {"start": 52.33, "end": 55.7, "kind": "end_card", "what": "'This is Pocket', Get Yours Today, URL"}
+ ],
+ "first_text_s": 24,
+ "first_product_s": 0,
+ "end_card": {"start": 52.33, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "medium",
+ "notes": "Founder monologue with location jump-cuts, AR-style UI overlays, and a humorous space interlude; talking-head beats labelled intro (uncertain)."
+}

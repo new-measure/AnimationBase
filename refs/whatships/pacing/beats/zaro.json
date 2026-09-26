@@ -1,0 +1,23 @@
+{
+ "slug": "zaro",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "hook", "what": "Typed line 'Apps and agents with one prompt'"},
+  {"start": 5, "end": 8.5, "kind": "intro", "what": "'Meet' then Zaro logo reveal"},
+  {"start": 8.5, "end": 19.92, "kind": "feature", "what": "'Build an app with a sentence': prompt builds deal tracker"},
+  {"start": 19.92, "end": 28.33, "kind": "feature", "what": "'Add in agents. They keep it running': agents, pipeline, charts"},
+  {"start": 28.33, "end": 32.83, "kind": "feature", "what": "'Simple to start. Powerful to scale': agent workflow graph"},
+  {"start": 32.83, "end": 43.92, "kind": "feature", "what": "'Connect your tools', 'Chaos becomes context', file connections"},
+  {"start": 43.92, "end": 56.92, "kind": "feature", "what": "'Ask anything. Your files answer': query, sources searched"},
+  {"start": 56.92, "end": 58.58, "kind": "feature", "what": "Works where you work: answer in Slack/phone"},
+  {"start": 58.58, "end": 65.08, "kind": "other", "what": "'You didn't just build an app. You grew a system.'"},
+  {"start": 65.08, "end": 68.54, "kind": "end_card", "what": "Zaro logo, 'Try for free at zaro.ai'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 1,
+ "end_card": {"start": 65.08, "logo": true, "cta": true},
+ "text_cards": 10,
+ "transitions": ["cut", "push_zoom", "morph_match", "pan_slide"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "notes": "Strict rhythm: typed two-line headline card, then UI proof, repeated per feature; dark/light alternation marks each section."
+}

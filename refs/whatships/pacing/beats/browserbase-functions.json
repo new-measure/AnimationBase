@@ -1,0 +1,20 @@
+{
+ "slug": "browserbase-functions",
+ "beats": [
+  {"start": 0, "end": 6.1, "kind": "hook", "what": "Founder: 'We just built AWS Lambda for browser agents'"},
+  {"start": 6.1, "end": 23.4, "kind": "problem", "what": "Latency matters; code and browser in wrong regions"},
+  {"start": 23.4, "end": 29, "kind": "intro", "what": "Browserbase Functions title, 'a new compute paradigm'"},
+  {"start": 29, "end": 35.8, "kind": "feature", "what": "Colocated code and browser for lowest round-trip latency"},
+  {"start": 35.8, "end": 45.2, "kind": "demo", "what": "Write code locally, deploy with single CLI command"},
+  {"start": 45.2, "end": 49.6, "kind": "proof", "what": "Founder: biggest customers already using Functions, GA today"},
+  {"start": 49.6, "end": 53.7, "kind": "end_card", "what": "Get Started Today npx command, browserbase.com"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 49.6, "logo": false, "cta": true},
+ "text_cards": 7,
+ "transitions": ["cut", "morph_match", "fade_dissolve", "pan_slide"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "notes": "Founder talking-head with burned captions, intercut with motion-graphic text cards and floating UI windows; logo B backdrop counted as first product sighting."
+}

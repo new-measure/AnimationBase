@@ -1,0 +1,23 @@
+{
+ "slug": "indie-os",
+ "beats": [
+  {"start": 0, "end": 2.8, "kind": "hook", "what": "Founder to camera: Nobody cares"},
+  {"start": 2.8, "end": 12.8, "kind": "problem", "what": "Late-night desk shots, flying solo with zero accountability"},
+  {"start": 12.8, "end": 22, "kind": "story", "what": "Founder explains need to be accountable, productive; I built"},
+  {"start": 22, "end": 39.6, "kind": "demo", "what": "Notion workspace: ventures, launch phases, formula-based ship stats"},
+  {"start": 39.6, "end": 41.2, "kind": "story", "what": "Founder: to keep you honest"},
+  {"start": 41.2, "end": 62, "kind": "feature", "what": "Overall stats and public portfolio page viewed in browser"},
+  {"start": 62, "end": 72, "kind": "story", "what": "Founder talks behind accountability, daily workverse, tunnel"},
+  {"start": 72, "end": 92.4, "kind": "demo", "what": "Walkthrough of product page, solution brief, planner, resources"},
+  {"start": 92.4, "end": 104.4, "kind": "story", "what": "Founder recaps struggle with accountability, how it will feel"},
+  {"start": 104.4, "end": 116.1, "kind": "end_card", "what": "Get Indie OS for $29 one-time, free lite version"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 22,
+ "end_card": {"start": 104.4, "logo": false, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "slow",
+ "notes": "Creator-style talking head with kinetic captions, alternating with long screen recordings; product appears at 22s; long 12s price CTA."
+}

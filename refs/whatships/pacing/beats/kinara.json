@@ -1,0 +1,20 @@
+{
+ "slug": "kinara",
+ "beats": [
+  {"start": 0, "end": 2.8, "kind": "hook", "what": "Presenter with kinetic text: turn video into many clips"},
+  {"start": 2.8, "end": 7.2, "kind": "demo", "what": "Upload media dialog over presenter"},
+  {"start": 7.2, "end": 14.2, "kind": "feature", "what": "AI proposes hooks from transcript; assemble 12 reels"},
+  {"start": 14.2, "end": 25.1, "kind": "demo", "what": "Presenter explains; clip editor with captions and timeline"},
+  {"start": 25.1, "end": 32, "kind": "demo", "what": "Exporting progress bar, 'Voila' payoff"},
+  {"start": 32, "end": 35, "kind": "transition", "what": "Corner-bracket reveal to Kinara wordmark"},
+  {"start": 35, "end": 40.3, "kind": "end_card", "what": "usekinara.com URL, then black"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 3,
+ "end_card": {"start": 35, "logo": false, "cta": true},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "wipe_mask"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "notes": "Presenter-led with UI panels overlaid on talking head; bold red kinetic captions ('Claude Code', 'Voila') punctuate. Brand barely named until end."
+}

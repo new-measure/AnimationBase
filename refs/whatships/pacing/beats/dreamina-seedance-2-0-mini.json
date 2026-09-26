@@ -1,0 +1,15 @@
+{
+ "slug": "dreamina-seedance-2-0-mini",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Title 'Dreamina Seedance 2.0 Mini' fades in over running child"},
+  {"start": 2, "end": 10.1, "kind": "hook", "what": "Single AI-generated shot: child running through windblown grass"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 1,
+ "transitions": ["none_visible"],
+ "camera": ["handheld", "pan"],
+ "pace": "slow",
+ "notes": "One continuous 10s tracking shot with persistent title overlay and tagline; no cuts. Sample output itself serves as product showcase; hook label uncertain."
+}

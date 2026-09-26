@@ -1,0 +1,21 @@
+{
+ "slug": "instance",
+ "beats": [
+  {"start": 0, "end": 9.1, "kind": "intro", "what": "Two co-founders seated, name supers, Instance logo lower-third"},
+  {"start": 9.1, "end": 17.2, "kind": "story", "what": "Robot arm attempts task while founder watches"},
+  {"start": 17.2, "end": 29, "kind": "problem", "what": "Founders explain evaluating robot task attempts"},
+  {"start": 29, "end": 34.1, "kind": "feature", "what": "Lower-third diagram: success verifier to automated evals"},
+  {"start": 34.1, "end": 52.2, "kind": "demo", "what": "Phone records task via QR, web app 'verdict in seconds'"},
+  {"start": 52.2, "end": 63.8, "kind": "demo", "what": "PASS verdict with video and subtask decomposition"},
+  {"start": 63.8, "end": 70.2, "kind": "end_card", "what": "Founders sign off with founders@instancelabs.ai email"},
+  {"start": 70.2, "end": 72.72, "kind": "end_card", "what": "Instance logo icon on white"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 6,
+ "end_card": {"start": 70.2, "logo": true, "cta": true},
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static", "handheld"],
+ "pace": "slow",
+ "notes": "Plain founder talking-head launch; long stretches of single shot; product demo is a split phone/web screen recording; email CTA before logo."
+}

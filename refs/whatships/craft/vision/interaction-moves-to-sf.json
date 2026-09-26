@@ -1,0 +1,15 @@
+{
+ "slug": "interaction-moves-to-sf",
+ "moves": [
+  {"k": 0, "element": "card", "action": "enter", "style": ["scale_pop", "rise"], "frames_to_settle": 6, "fast_start": true, "overshoot": "slight", "stagger_frames": null, "motion_blur": false, "notes": "Notification bubble pops up out of app icon, tiny overshoot"},
+  {"k": 1, "element": "camera", "action": "camera_move", "style": ["scale_down", "fade"], "frames_to_settle": 14, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Pull back from icon; Messages screen fades in, phone frame revealed"},
+  {"k": 2, "element": "card", "action": "enter", "style": ["rise", "fade"], "frames_to_settle": 6, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "New chat bubble appears; thread and input bar slide up"},
+  {"k": 3, "element": "card", "action": "enter", "style": ["rise", "scale_down"], "frames_to_settle": 9, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Reply bubble enters, thread scrolls up while camera eases back"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "center", "margin_pct": 43, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Small black palm logo with orange mascot on white"},
+  {"k": 1, "headline_px": 33, "body_px": 30, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "mixed", "margin_pct": 7, "radius_px": 60, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Close-up iMessage thread, grey and blue bubbles, keyboard suggestions"},
+  {"k": 2, "headline_px": 48, "body_px": 36, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "center", "margin_pct": 23, "radius_px": 105, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Huge app icon with notification pill overlapping top"},
+  {"k": 3, "headline_px": 51, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["medium"], "align": "center", "margin_pct": 34, "radius_px": 105, "shadow": "soft", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Textured blue squircle app icon with grey label"}
+ ]
+}

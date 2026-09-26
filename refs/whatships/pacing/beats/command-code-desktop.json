@@ -1,0 +1,21 @@
+{
+ "slug": "command-code-desktop",
+ "beats": [
+  {"start": 0, "end": 3.6, "kind": "hook", "what": "Stacking tweets asking for a desktop app"},
+  {"start": 3.6, "end": 7.2, "kind": "intro", "what": "App glimpse then Command Code Desktop logo"},
+  {"start": 7.2, "end": 13, "kind": "demo", "what": "Typing 'build a portfolio site' prompt, agent working"},
+  {"start": 13, "end": 19, "kind": "feature", "what": "Review Changes: diff panel and code view"},
+  {"start": 19, "end": 22.2, "kind": "feature", "what": "Built-in Browser Previews of generated site"},
+  {"start": 22.2, "end": 29, "kind": "feature", "what": "Redesign with /design command, dark mode variants"},
+  {"start": 29, "end": 38, "kind": "feature", "what": "Instant Design Edits via visual inspector panel"},
+  {"start": 38, "end": 46.3, "kind": "end_card", "what": "Download Command Code, get the desktop app button"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 4,
+ "end_card": {"start": 38, "logo": true, "cta": true},
+ "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Social-proof tweet wall as hook; each feature introduced by a short word-by-word text card with a thumbnail flying into UI. Long 8s end card."
+}

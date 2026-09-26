@@ -1,0 +1,17 @@
+{
+ "slug": "perplexity-hybrid-compute",
+ "moves": [
+  {"k": 0, "element": "text", "action": "enter", "style": ["fade", "stagger_list", "scale_pop"], "frames_to_settle": 27, "fast_start": false, "overshoot": "none", "stagger_frames": 3, "motion_blur": false, "notes": "Words fade in one after another, app icon pops inline last"},
+  {"k": 1, "element": "ui_panel", "action": "enter", "style": ["scale_pop", "fade", "slide"], "frames_to_settle": 16, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Model dropdown grows from anchor; camera drifts down to follow"},
+  {"k": 2, "element": "ui_panel", "action": "exit", "style": ["scale_down", "fade", "slide"], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Dropdown shrinks into anchor and fades; view recentres on prompt"},
+  {"k": 3, "element": "camera", "action": "camera_move", "style": ["slide", "scale_pop"], "frames_to_settle": 16, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Camera pushes in and pans down modal toward options"},
+  {"k": 4, "element": "ui_panel", "action": "transform", "style": ["typing", "slide"], "frames_to_settle": 35, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Long answer streams in while view scrolls up steadily"},
+  {"k": 5, "element": "logo", "action": "replace", "style": ["morph", "rotate", "slide", "fade"], "frames_to_settle": 25, "fast_start": false, "overshoot": "none", "stagger_frames": 1, "motion_blur": false, "notes": "Text becomes book-mark that spins into logo, wordmark fades in letterwise"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 60, "body_px": 18, "typefaces": 2, "type_style": ["serif", "sans"], "weights": ["regular"], "align": "center", "margin_pct": 12.3, "radius_px": 28, "shadow": "glow", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Serif question above prompt box with teal glow on near-black"},
+  {"k": 1, "headline_px": 66, "body_px": 18, "typefaces": 2, "type_style": ["serif", "sans"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 12, "radius_px": 48, "shadow": "glow", "bg_style": "gradient", "accent_count": 1, "density": "medium", "notes": "Zoomed dropdown with toggle over prompt box, cursor pointing"},
+  {"k": 2, "headline_px": 44, "body_px": 40, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "left", "margin_pct": 24, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Status lines barely visible, fading in on near-black"},
+  {"k": 3, "headline_px": 100, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 27, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "White logo lockup on flat near-black end card"}
+ ]
+}

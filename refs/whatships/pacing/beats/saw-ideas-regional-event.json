@@ -1,0 +1,17 @@
+{
+ "slug": "saw-ideas-regional-event",
+ "beats": [
+  {"start": 0, "end": 6.9, "kind": "intro", "what": "Metallic 3D 'S' logo animation on dark"},
+  {"start": 6.9, "end": 20, "kind": "hook", "what": "Aerial flyovers of game maps with titles"},
+  {"start": 20, "end": 116, "kind": "montage", "what": "Rapid first-person sniper kill clips with glitch effects"},
+  {"start": 116, "end": 117.82, "kind": "end_card", "what": "Black screen ending"}
+ ],
+ "first_text_s": 12,
+ "first_product_s": 4,
+ "end_card": {"start": 116, "logo": false, "cta": false},
+ "text_cards": 0,
+ "transitions": ["cut", "whip_blur", "push_zoom", "fade_dissolve"],
+ "camera": ["pan", "push_in", "handheld"],
+ "pace": "fast",
+ "notes": "Gaming clip edit, not a product launch; logo sting then ~95s beat-synced montage with whip/blur transitions. Kind mapping uncertain."
+}

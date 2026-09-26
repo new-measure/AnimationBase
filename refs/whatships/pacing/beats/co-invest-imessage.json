@@ -1,0 +1,19 @@
+{
+ "slug": "co-invest-imessage",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "hook", "what": "Messages icon zooms out to phone home screen"},
+  {"start": 3, "end": 7, "kind": "demo", "what": "Typing 'Hey Co-Invest, how's the market?' extreme close-up"},
+  {"start": 7, "end": 16.75, "kind": "demo", "what": "Chat: market reply, SpaceX limit order, YES confirm, order placed"},
+  {"start": 16.75, "end": 20.17, "kind": "intro", "what": "Phone tilt, Co-Invest logo with connected ticker list"},
+  {"start": 20.17, "end": 28, "kind": "feature", "what": "Dark 3D rings: Ask, Confirm, Trade steps"},
+  {"start": 28, "end": 32.17, "kind": "end_card", "what": "'Your Trading Assistant, Inside iMessage', phone number CTA"}
+ ],
+ "first_text_s": 3,
+ "first_product_s": 1,
+ "end_card": {"start": 28, "logo": false, "cta": true},
+ "text_cards": 4,
+ "transitions": ["push_zoom", "morph_match", "cut", "wipe_mask"],
+ "camera": ["zoom_out_reveal", "push_in", "pan", "tilt_3d"],
+ "pace": "medium",
+ "notes": "Opens straight into a macro chat demo; name reveal comes mid-film; three-word Ask/Confirm/Trade recap before text-number CTA."
+}

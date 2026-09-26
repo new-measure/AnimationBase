@@ -1,0 +1,23 @@
+{
+ "slug": "minimax-design-astra",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "MiniMax Design logo on white"},
+  {"start": 2, "end": 4, "kind": "intro", "what": "'MCP + GPT-6 Astra Now Live' headline"},
+  {"start": 4, "end": 14.8, "kind": "demo", "what": "Long treehouse prompt typed and submitted, agent plans"},
+  {"start": 14.8, "end": 23.8, "kind": "demo", "what": "Blender builds 3D treehouse miniature, rotates result"},
+  {"start": 23.8, "end": 27.4, "kind": "demo", "what": "Second prompt: Blender chase scene with reference image"},
+  {"start": 27.4, "end": 55.3, "kind": "feature", "what": "Blockout animation beside cinematic chase render, split screens"},
+  {"start": 55.3, "end": 64, "kind": "montage", "what": "Agent in After Effects and other pro tools"},
+  {"start": 64, "end": 70, "kind": "feature", "what": "Skill + Connector UI, connector cards grid"},
+  {"start": 70, "end": 80.3, "kind": "montage", "what": "Rapid tool outputs: sketch, fish, game art, collage"},
+  {"start": 80.3, "end": 82.67, "kind": "end_card", "what": "Logo with 'Bring AI Creativity to Your Professional Tools'"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": {"start": 80.3, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "wipe_mask"],
+ "camera": ["push_in", "static", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Logo-first, then two long prompt-to-output case studies; long split-screen blockout vs final render section, fast montage before end card."
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "pdf-design-beautification-tool-specific-name-not",
+ "beats": [
+  {"start": 0, "end": 2.3, "kind": "hook", "what": "Bold line typed: 'Your PDFs suck.'"},
+  {"start": 2.3, "end": 10, "kind": "problem", "what": "Grey plain text-heavy PDF pages drift, then disintegrate"},
+  {"start": 10, "end": 12, "kind": "intro", "what": "'We just shipped a Make it POP button'"},
+  {"start": 12, "end": 20.2, "kind": "demo", "what": "Prompt box: upload PDF, type beautify instructions, Create"},
+  {"start": 20.2, "end": 29, "kind": "demo", "what": "Plain document transforms into branded designed pages"},
+  {"start": 29, "end": 33, "kind": "feature", "what": "Follow-up prompt 'make steps pop with crazy colors'"},
+  {"start": 33, "end": 38, "kind": "feature", "what": "Export dialog: download PDF, pages overview"},
+  {"start": 38, "end": 41, "kind": "story", "what": "PDF attached to email and sent"},
+  {"start": 41, "end": 44.7, "kind": "transition", "what": "Floating PDFs collapse into folder, chameleon logo forms"},
+  {"start": 44.7, "end": 48.73, "kind": "end_card", "what": "Moda logo on magenta with Moda.app button"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 11,
+ "end_card": {"start": 44.7, "logo": true, "cta": true},
+ "text_cards": 2,
+ "transitions": ["cut", "morph_match", "push_zoom", "fade_dissolve"],
+ "camera": ["tilt_3d", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "notes": "Provocative text hook, before/after structure; long single-take zoomed UI demo, logo formed via morph from product objects."
+}

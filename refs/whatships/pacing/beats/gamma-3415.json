@@ -1,0 +1,24 @@
+{
+ "slug": "gamma-3415",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "intro", "what": "GAMMA wordmark over blue cloud sky"},
+  {"start": 4, "end": 16, "kind": "proof", "what": "CEO before sky screen: a million gammas created daily"},
+  {"start": 16, "end": 24, "kind": "hook", "what": "Biggest Update Ever title; icons for new ways"},
+  {"start": 24, "end": 34, "kind": "feature", "what": "Gamma Imagine title card, CEO explains"},
+  {"start": 34, "end": 48, "kind": "demo", "what": "Imagine UI: pick type, prompt, logo concepts, brand matched"},
+  {"start": 48, "end": 58, "kind": "story", "what": "CEO: no design skills needed; walks forward"},
+  {"start": 58, "end": 76, "kind": "feature", "what": "Connectors title; Claude, ChatGPT icons; email into deck"},
+  {"start": 76, "end": 94, "kind": "feature", "what": "AI-Native Templates title, template personalization, deck grids"},
+  {"start": 94, "end": 100, "kind": "feature", "what": "Smart charts: animated market and revenue charts"},
+  {"start": 100, "end": 110, "kind": "story", "what": "CEO: available today, start creating at gamma.app"},
+  {"start": 110, "end": 115.05, "kind": "end_card", "what": "G logo silhouette, then GAMMA wordmark gamma.app"}
+ ],
+ "first_text_s": 2,
+ "first_product_s": 2,
+ "end_card": {"start": 110, "logo": true, "cta": true},
+ "text_cards": 5,
+ "transitions": ["cut", "fade_dissolve", "pan_slide", "morph_match"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Keynote-style CEO address in cloud-sky set; each feature introduced by a chapter title card, then floating glass UI panels."
+}

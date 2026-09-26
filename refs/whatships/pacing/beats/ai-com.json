@@ -1,0 +1,20 @@
+{
+ "slug": "ai-com",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Glowing orbs streak through space with light trails"},
+  {"start": 8, "end": 10, "kind": "transition", "what": "Light streak arcs and resolves into logo"},
+  {"start": 10, "end": 16, "kind": "intro", "what": "ai.com logo holds on dark background"},
+  {"start": 16, "end": 19, "kind": "hook", "what": "Text card: AGI is coming"},
+  {"start": 19, "end": 22, "kind": "other", "what": "Text card: Get your @handle now"},
+  {"start": 22, "end": 28, "kind": "demo", "what": "URL field types ai.com/mark, sam, elon handles"},
+  {"start": 28, "end": 30.2, "kind": "end_card", "what": "ai.com logo closing card"}
+ ],
+ "first_text_s": 9,
+ "first_product_s": 10,
+ "end_card": {"start": 28, "logo": true, "cta": false},
+ "text_cards": 3,
+ "transitions": ["morph_match", "fade_dissolve", "cut"],
+ "camera": ["push_in", "static"],
+ "pace": "slow",
+ "notes": "Abstract CGI opener morphs into logo; second half is pure typographic cards with typing handle demo; long logo holds."
+}

@@ -1,0 +1,15 @@
+{
+ "slug": "tesla-product-update-film",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Dark city skyline at dusk, car barely visible"},
+  {"start": 6, "end": 15.85, "kind": "story", "what": "Car's light bar switches on; sky slowly brightens"}
+ ],
+ "first_text_s": null,
+ "first_product_s": 6,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Single locked-off shot, no cuts or text; only event is the car's lightbar appearing around 6s. Kind 'story' approximate for mood shot."
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "leadbee-launch-video",
+ "moves": [
+  {"k": 0, "element": "logo", "action": "enter", "style": ["fade", "scale_down"], "frames_to_settle": 5, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Fade up from black to cream vignette, small mark settles"},
+  {"k": 1, "element": "text", "action": "replace", "style": ["fade"], "frames_to_settle": 3, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Cut to dim footage; caption brightens in; footage drifts slowly"},
+  {"k": 2, "element": "mixed", "action": "enter", "style": ["slide", "typing", "blur_in", "color_change"], "frames_to_settle": 11, "fast_start": true, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Dashboard card slides left, headline types with blur, word highlight"},
+  {"k": 3, "element": "image", "action": "replace", "style": [], "frames_to_settle": 17, "fast_start": false, "overshoot": "none", "stagger_frames": 6, "motion_blur": false, "notes": "Hard cuts between footage every 5-7 frames under fixed label"},
+  {"k": 4, "element": "text", "action": "enter", "style": ["typing", "color_change"], "frames_to_settle": 15, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Orange flash, linear number count-up, caption types beneath"},
+  {"k": 5, "element": "text", "action": "enter", "style": ["typing", "color_change", "fade"], "frames_to_settle": 11, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "CTA types with block caret, then first word gets highlight box"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 72, "body_px": 22, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "center", "margin_pct": 25, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "CTA with highlighted word, URL, logo pill on orange vignette"},
+  {"k": 1, "headline_px": 24, "body_px": 24, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 46, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Tiny logo mark and URL on cream radial vignette"},
+  {"k": 2, "headline_px": 52, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "bold"], "align": "mixed", "margin_pct": 4, "radius_px": 12, "shadow": "soft", "bg_style": "gradient", "accent_count": 2, "density": "medium", "notes": "Numbered feature headline left, analytics card right"},
+  {"k": 3, "headline_px": 76, "body_px": null, "typefaces": 1, "type_style": ["sans"], "weights": ["bold"], "align": "center", "margin_pct": 23, "radius_px": null, "shadow": "none", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "One-line headline, first word in orange accent"}
+ ]
+}

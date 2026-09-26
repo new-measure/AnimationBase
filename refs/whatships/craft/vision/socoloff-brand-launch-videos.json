@@ -1,0 +1,17 @@
+{
+ "slug": "socoloff-brand-launch-videos",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "transform", "style": ["scale_down", "stagger_list"], "frames_to_settle": 14, "fast_start": true, "overshoot": "none", "stagger_frames": 4, "motion_blur": false, "notes": "Large app icon shrinks into list row; neighbouring rows slide in"},
+  {"k": 1, "element": "mixed", "action": "transform", "style": ["rotate", "morph"], "frames_to_settle": 30, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Glassy 3D logo spins through headline, refracting letters; text slowly scales"},
+  {"k": 2, "element": "card", "action": "enter", "style": ["rise", "rotate", "fall"], "frames_to_settle": 14, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Fanned card trio rises from bottom, drifts, then sinks out"},
+  {"k": 3, "element": "ui_panel", "action": "enter", "style": ["rise", "mask_reveal"], "frames_to_settle": 28, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Social post card rises, expands downward revealing text then image"},
+  {"k": 4, "element": "mixed", "action": "replace", "style": ["slide", "flip", "rotate", "mask_reveal"], "frames_to_settle": 33, "fast_start": true, "overshoot": "none", "stagger_frames": null, "motion_blur": true, "notes": "Card row whips away blurred; card flips while giant type slides behind"},
+  {"k": 5, "element": "camera", "action": "camera_move", "style": ["zoom_through"], "frames_to_settle": 5, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Push into giant letters, hard cut to phone-in-hand shot"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Fully black frame"},
+  {"k": 1, "headline_px": 22, "body_px": 22, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 22, "radius_px": null, "shadow": "none", "bg_style": "texture", "accent_count": 1, "density": "sparse", "notes": "Lime token blob and avatar with pill labels on dot grid"},
+  {"k": 2, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": null, "shadow": "none", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Thin white curved outline on black, bleeding off edges"},
+  {"k": 3, "headline_px": null, "body_px": null, "typefaces": 0, "type_style": [], "weights": [], "align": "none", "margin_pct": 0, "radius_px": 30, "shadow": "glow", "bg_style": "flat", "accent_count": 0, "density": "sparse", "notes": "Two rim-lit rounded object edges crossing dark frame"}
+ ]
+}

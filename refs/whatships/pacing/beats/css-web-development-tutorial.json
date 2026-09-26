@@ -1,0 +1,17 @@
+{
+ "slug": "css-web-development-tutorial",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "demo", "what": "Hamburger icon toggles to X on black browser page"},
+  {"start": 6, "end": 12.1, "kind": "feature", "what": "DevTools inspector highlights button and line spans"},
+  {"start": 12.1, "end": 15, "kind": "demo", "what": "Same toggle animation on gradient background"},
+  {"start": 15, "end": 22.3, "kind": "feature", "what": "Inspector highlights spans again; toggle repeats"}
+ ],
+ "first_text_s": 7,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "slow",
+ "notes": "Pure screen capture loop of one micro-interaction, two background variants; no titles or end card. Tutorial, not a launch film."
+}

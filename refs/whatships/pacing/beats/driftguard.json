@@ -1,0 +1,16 @@
+{
+ "slug": "driftguard",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "demo", "what": "Handheld shot of controller calibration app on monitor"},
+  {"start": 4, "end": 12, "kind": "demo", "what": "Hand moves PS3 controller sticks, app reacts"},
+  {"start": 12, "end": 14.26, "kind": "demo", "what": "Controller lowered, screen readouts shown again"}
+ ],
+ "first_text_s": 0,
+ "first_product_s": 0,
+ "end_card": null,
+ "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["handheld"],
+ "pace": "slow",
+ "notes": "Phone-filmed raw demo of stick-drift tool; no titles, no end card, single cut."
+}

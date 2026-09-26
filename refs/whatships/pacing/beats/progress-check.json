@@ -1,0 +1,5 @@
+{"slug":"progress-check","beats":[
+{"start":0,"end":11.28,"kind":"demo","what":"Three terminal-style progress bars filling: agent repair, batches, build"}],
+"first_text_s":0,"first_product_s":0,"end_card":null,
+"text_cards":0,"transitions":["none_visible"],"camera":["static"],
+"pace":"slow","notes":"Single static progress-bar screen with numbers ticking; no narrative structure, title or end card. Uncertain whether product or status clip."}

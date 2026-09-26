@@ -1,0 +1,21 @@
+{
+ "slug": "zora",
+ "beats": [
+  {"start": 0, "end": 1, "kind": "other", "what": "Blank white frame"},
+  {"start": 1, "end": 4, "kind": "intro", "what": "'Introducing Autosell' chrome-blue type grows"},
+  {"start": 4, "end": 8, "kind": "feature", "what": "'Just buy and let the sells happen automatically'"},
+  {"start": 8, "end": 9.7, "kind": "demo", "what": "Phone feed: buy creator coin, price ticks up"},
+  {"start": 9.7, "end": 16.2, "kind": "feature", "what": "Creator avatar ring: autosold earnings at 2x, 4x, 8x, 32x"},
+  {"start": 16.2, "end": 21, "kind": "feature", "what": "Portfolio balance climbs $1,624 to $4,646"},
+  {"start": 21, "end": 24, "kind": "other", "what": "'Be early, miss less, win more.' tagline"},
+  {"start": 24, "end": 26.58, "kind": "end_card", "what": "Zora orb logo with zora.co"}
+ ],
+ "first_text_s": 1,
+ "first_product_s": 8,
+ "end_card": {"start": 24, "logo": true, "cta": true},
+ "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["push_in", "static"],
+ "pace": "fast",
+ "notes": "Text-card bookends around a rapid escalating multiplier sequence (2x to 32x) cut on beat; vertical format."
+}

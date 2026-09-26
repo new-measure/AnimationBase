@@ -1,0 +1,22 @@
+{
+ "slug": "cibby",
+ "beats": [
+  {"start": 0, "end": 7.5, "kind": "hook", "what": "Cozy retro game room, phone fills with game boxes"},
+  {"start": 7.5, "end": 15.7, "kind": "demo", "what": "Collection grid on phone across different gamer rooms"},
+  {"start": 15.7, "end": 22.8, "kind": "feature", "what": "Game detail page, trivia, custom box art editing"},
+  {"start": 22.8, "end": 26.1, "kind": "feature", "what": "Settings unlocks, empty wishlist, scan options"},
+  {"start": 26.1, "end": 32.8, "kind": "feature", "what": "Camera scan of Duke Nukem box adds to collection"},
+  {"start": 32.8, "end": 36, "kind": "feature", "what": "Ratings from outlets, popular NES boxes"},
+  {"start": 36, "end": 41, "kind": "montage", "what": "Platform list and rapid game detail pages"},
+  {"start": 41, "end": 43, "kind": "other", "what": "Tagline card: More than a collection."},
+  {"start": 43, "end": 46.4, "kind": "end_card", "what": "Cibby app icon, wordmark, cibby.app"}
+ ],
+ "first_text_s": 41,
+ "first_product_s": 0,
+ "end_card": {"start": 43, "logo": true, "cta": true},
+ "text_cards": 1,
+ "transitions": ["cut", "morph_match", "push_zoom"],
+ "camera": ["static", "tilt_3d", "push_in", "pan"],
+ "pace": "medium",
+ "notes": "Almost wordless: phone-in-environment opener then tilted 3D phone UI tour; only text is closing tagline."
+}

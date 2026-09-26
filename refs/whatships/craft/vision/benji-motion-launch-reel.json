@@ -1,0 +1,16 @@
+{
+ "slug": "benji-motion-launch-reel",
+ "moves": [
+  {"k": 0, "element": "mixed", "action": "replace", "style": ["wipe", "fade", "stagger_list"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": 2, "motion_blur": false, "notes": "Wavy black wipe rises over tile, then pill list items fade in"},
+  {"k": 1, "element": "shape", "action": "transform", "style": ["mask_reveal", "scale_pop"], "frames_to_settle": 6, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "White circle expands from button to fill tile, reveals 'Create Agent'"},
+  {"k": 2, "element": "mixed", "action": "transform", "style": ["typing", "scale_down"], "frames_to_settle": 34, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Prompt typed char-by-char; phone tile zooms/scales, feed scrolls"},
+  {"k": 3, "element": "ui_panel", "action": "enter", "style": ["rise", "fade"], "frames_to_settle": 14, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Dark code panel rises from bottom of tile, then settles"},
+  {"k": 4, "element": "text", "action": "enter", "style": ["typing"], "frames_to_settle": 13, "fast_start": false, "overshoot": "none", "stagger_frames": null, "motion_blur": false, "notes": "Phone number typed one digit per frame in input field"}
+ ],
+ "stills": [
+  {"k": 0, "headline_px": 56, "body_px": 10, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium", "bold"], "align": "mixed", "margin_pct": 11, "radius_px": 24, "shadow": "none", "bg_style": "flat", "accent_count": 2, "density": "medium", "notes": "2x2 quad grid; black/white tiles, orange tab underline"},
+  {"k": 1, "headline_px": 28, "body_px": 24, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 20, "radius_px": null, "shadow": "soft", "bg_style": "gradient", "accent_count": 1, "density": "sparse", "notes": "Quad grid, minimal words, thin red wave line"},
+  {"k": 2, "headline_px": 34, "body_px": 14, "typefaces": 1, "type_style": ["sans"], "weights": ["regular"], "align": "center", "margin_pct": 10, "radius_px": 4, "shadow": "none", "bg_style": "flat", "accent_count": 1, "density": "sparse", "notes": "Quad grid; text lines with fading-in words, brown waveform"},
+  {"k": 3, "headline_px": 124, "body_px": 12, "typefaces": 1, "type_style": ["sans"], "weights": ["regular", "medium"], "align": "mixed", "margin_pct": 5, "radius_px": 40, "shadow": "glow", "bg_style": "flat", "accent_count": 1, "density": "medium", "notes": "Quad grid; outline 'Faster', dark pill list, node diagram"}
+ ]
+}
