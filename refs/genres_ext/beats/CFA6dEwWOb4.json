@@ -1,0 +1,19 @@
+{"id": "CFA6dEwWOb4", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 20, "kind": "title", "what": "Grand Mono presents, piano-key steps title sequence"},
+  {"start": 20, "end": 48, "kind": "intro", "what": "Singer on floating steps, falling silhouette, spy style"},
+  {"start": 48, "end": 72, "kind": "verse", "what": "Singer and band in colour panels; Love That Man"},
+  {"start": 72, "end": 104, "kind": "verse", "what": "Street silhouette scene, taxi, streetlamp, dancers"},
+  {"start": 104, "end": 124, "kind": "chorus", "what": "Panels with singer, dancers, LOVE sign"},
+  {"start": 124, "end": 144, "kind": "bridge", "what": "Scat lyrics dipdipdip in scrolling banded type"},
+  {"start": 144, "end": 176, "kind": "instrumental", "what": "Record label, dot patterns around singer"},
+  {"start": 176, "end": 196, "kind": "instrumental", "what": "Dot-matrix saxophones and trombones"},
+  {"start": 196, "end": 224, "kind": "chorus", "what": "You know I've been; stair-climbing silhouette on orange"},
+  {"start": 224, "end": 230.99, "kind": "outro", "what": "Singer meets man, fade to black"}
+ ],
+ "first_text_s": 8, "text_cards": 4,
+ "transitions": ["cut", "pan_slide", "morph_match", "wipe_mask"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "kinetic"},
+ "notes": "Saul Bass-style title-sequence music video; lyrics shown only occasionally as big graphic type; mostly performance silhouettes. Uncertain it is a full lyric video."}

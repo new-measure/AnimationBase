@@ -1,0 +1,17 @@
+{"id": "bhVgQW3UhFM", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 15, "kind": "intro", "what": "Live-action city walk, rapper in plaid"},
+  {"start": 15, "end": 20.88, "kind": "title", "what": "Cardboard MAGNOLIA letters on sidewalk"},
+  {"start": 20.88, "end": 39, "kind": "intro", "what": "Walking feet, hallway, rapper closeup"},
+  {"start": 39, "end": 87, "kind": "verse", "what": "Cardboard lyric words carried through city scenes"},
+  {"start": 87, "end": 99, "kind": "instrumental", "what": "Cardboard letters tumble through locations"},
+  {"start": 99, "end": 138, "kind": "verse", "what": "More cardboard words: and, clap, sun, wild, Jesus, everywhere"},
+  {"start": 138, "end": 153, "kind": "outro", "what": "Rapper amid field of cardboard words at sunset"},
+  {"start": 153, "end": 160.54, "kind": "outro", "what": "Black end"}
+ ],
+ "first_text_s": 15, "text_cards": 2,
+ "transitions": ["cut"],
+ "camera": ["handheld", "static", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 1, "text_position": "varied", "line_hold_s_typical": 1.5, "text_style": "integrated_in_scene"},
+ "notes": "Live action; one physical cardboard word per shot held over faces; rapid cuts on beat. Verse/chorus split not discernible visually."}

@@ -1,0 +1,19 @@
+{"id": "852450882", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 14, "kind": "hook", "what": "Abstract gradient mesh, pixel squares emerge"},
+  {"start": 14, "end": 24, "kind": "title", "what": "Impact stories: Bold moves series title"},
+  {"start": 24, "end": 40, "kind": "context", "what": "Board game pieces, chess board, rook and pawn"},
+  {"start": 40, "end": 48, "kind": "transition", "what": "Blurred gradient passage between scenes"},
+  {"start": 48, "end": 58, "kind": "example", "what": "Go stones, shogi tile, Atari Breakout gameplay"},
+  {"start": 58, "end": 66, "kind": "title", "what": "MuZero name repeated in large type"},
+  {"start": 66, "end": 78, "kind": "example", "what": "Flower on video frame, playback bar: video compression"},
+  {"start": 78, "end": 92, "kind": "example", "what": "Cursors and power icons grid, light tunnel"},
+  {"start": 92, "end": 104, "kind": "transition", "what": "Pixel gradient textures dissolve"},
+  {"start": 104, "end": 110.02, "kind": "cta", "what": "Google DeepMind logo on gradient"}
+ ],
+ "first_text_s": 14, "text_cards": 3,
+ "transitions": ["morph_match", "fade_dissolve", "cut", "push_zoom"],
+ "camera": ["static", "push_in", "tilt_3d"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 8},
+ "notes": "Abstract brand-style gradient interstitials frame few concrete examples; little explanatory text; heavy morph and pixel transitions."}

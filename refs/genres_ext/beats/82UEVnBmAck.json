@@ -1,0 +1,18 @@
+{"id": "82UEVnBmAck", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 9.38, "kind": "title", "what": "Title card: 5 design tips so you don't stink"},
+  {"start": 9.38, "end": 28, "kind": "other", "what": "Sponsor/course promo: website, UI-UX and CSS courses"},
+  {"start": 28, "end": 84, "kind": "step", "what": "Tip: colored icon cards and section backgrounds critiqued"},
+  {"start": 84, "end": 140, "kind": "step", "what": "Same section redone with neutral line icons, less color"},
+  {"start": 140, "end": 196, "kind": "step", "what": "At Home Visits section layout with map adjusted"},
+  {"start": 196, "end": 217, "kind": "step", "what": "Font pairing list: sans and serif options"},
+  {"start": 217, "end": 280, "kind": "step", "what": "Hero section headline sizing and line breaks refined"},
+  {"start": 280, "end": 385, "kind": "step", "what": "Lactation Support section alignment and spacing guides"},
+  {"start": 385, "end": 461.91, "kind": "tip", "what": "Browse Dribbble-style galleries for design inspiration"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"steps": 6, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Voiceover screen-capture critique; long static holds on a single page per tip; tip boundaries inferred from content changes, count uncertain."}

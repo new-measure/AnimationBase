@@ -1,0 +1,17 @@
+{"id": "U3KAmUYkkVc", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "title", "what": "Title beside MacBook: How to use window tiling"},
+  {"start": 10, "end": 16, "kind": "overview", "what": "Cluttered overlapping windows on desktop"},
+  {"start": 16, "end": 28, "kind": "step", "what": "Drag window to screen edge to tile it"},
+  {"start": 28, "end": 42, "kind": "step", "what": "Zoomed: green button menu, choose tile arrangement"},
+  {"start": 42, "end": 56, "kind": "step", "what": "Windows tiled side by side, keyboard shortcut use"},
+  {"start": 56, "end": 62, "kind": "result", "what": "Four windows arranged neatly on MacBook"},
+  {"start": 62, "end": 66, "kind": "recap", "what": "Windows animate into tiled layout on blue"},
+  {"start": 66, "end": 76.56, "kind": "outro", "what": "Apple logo on blue"}
+ ],
+ "first_text_s": 2, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "morph_match"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"steps": 3, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": false},
+ "notes": "Apple Support format: product-framed screen, push-ins to menus, blue graphic recap and long logo tail (~10 s)."}

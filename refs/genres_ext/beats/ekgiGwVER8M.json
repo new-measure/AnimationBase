@@ -1,0 +1,20 @@
+{"id": "ekgiGwVER8M", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "title", "what": "Ghosts; Tom Rosenthal presents; Don't Die Curious marquee"},
+  {"start": 12, "end": 30, "kind": "verse", "what": "You can't be the..., everything in this place, heal soul"},
+  {"start": 30, "end": 42, "kind": "chorus", "what": "CURIOUS word, skeleton band, trumpeting ghosts"},
+  {"start": 42, "end": 51, "kind": "verse", "what": "Grain of sand, save a heart, make everyone understand"},
+  {"start": 51, "end": 66, "kind": "chorus", "what": "Banners: hello words, found a way, just died, curious"},
+  {"start": 66, "end": 75, "kind": "instrumental", "what": "Trumpet ghosts, skeleton conductor"},
+  {"start": 75, "end": 93, "kind": "verse", "what": "Can't paint, pronounce, kiss a stranger in the street"},
+  {"start": 93, "end": 108, "kind": "chorus", "what": "Repeat banners: hello words, not say, just died, curious"},
+  {"start": 108, "end": 126, "kind": "bridge", "what": "Can't change a mind, waiting for hope, rainbow, not do"},
+  {"start": 126, "end": 144, "kind": "chorus", "what": "Found the blues, banners again, crowd, CURIOUS frame"},
+  {"start": 144, "end": 161.05, "kind": "outro", "what": "Pan to sunny landscape, directed by Chloe Jackson sign"}
+ ],
+ "first_text_s": 3, "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "wipe_mask"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Lyrics lettered onto banners, signs and speech bubbles; chorus banner sequence reused verbatim each chorus. Few hard cuts; spotlight wipes."}

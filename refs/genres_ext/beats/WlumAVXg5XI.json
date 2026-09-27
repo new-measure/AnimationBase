@@ -1,0 +1,19 @@
+{"id": "WlumAVXg5XI", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "title", "what": "Loader dot, Tigrelab studio logo"},
+  {"start": 8, "end": 40, "kind": "verse", "what": "Blueprint rocket on launch pad; 'How come' lines"},
+  {"start": 40, "end": 48, "kind": "pre_chorus", "what": "'Baby blue on blue', 'I want you'"},
+  {"start": 48, "end": 92, "kind": "chorus", "what": "Rocket lifts off through rings; more than ever, love you"},
+  {"start": 92, "end": 120, "kind": "verse", "what": "'How long' lines beside ascending rocket in starfield"},
+  {"start": 120, "end": 140, "kind": "chorus", "what": "Wrapped lyric horizon; capsule separates on white, MOON"},
+  {"start": 140, "end": 168, "kind": "chorus", "what": "Lunar lander on moon surface with chorus lines"},
+  {"start": 168, "end": 212, "kind": "bridge", "what": "Lander among asteroids; giant 'I'm coming under fire'"},
+  {"start": 212, "end": 232, "kind": "outro", "what": "Clouds, capsule parachutes down, 'Blue on Blue'"},
+  {"start": 232, "end": 237.45, "kind": "other", "what": "Credits on black"}
+ ],
+ "first_text_s": 12, "text_cards": 2,
+ "transitions": ["none_visible", "push_zoom", "fade_dissolve", "pan_slide"],
+ "camera": ["push_in", "tilt_3d", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "integrated_in_scene"},
+ "notes": "One continuous camera journey (no hard cuts) following a rocket to the moon and back; lyrics wrap around 3D blueprint geometry."}

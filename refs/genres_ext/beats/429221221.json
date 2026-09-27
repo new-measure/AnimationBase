@@ -1,0 +1,19 @@
+{"id": "429221221", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Black screen, small 'Retail' label appears"},
+  {"start": 4, "end": 12, "kind": "hook", "what": "Line-drawn shop icon grows into cluster of products"},
+  {"start": 12, "end": 24, "kind": "context", "what": "Objects multiply into dense grid of retail items with cursor"},
+  {"start": 24, "end": 36, "kind": "example", "what": "Online store product pages browsed with cursor"},
+  {"start": 36, "end": 46, "kind": "explanation", "what": "Shop icon, box scene, hand gesture, product card"},
+  {"start": 46, "end": 54, "kind": "example", "what": "Blue room of products, hand picks item"},
+  {"start": 54, "end": 66, "kind": "transition", "what": "Zoom out to dark space, 'Once upon a time' text"},
+  {"start": 66, "end": 68, "kind": "other", "what": "Dense collage of blue product illustrations"},
+  {"start": 68, "end": 74, "kind": "cta", "what": "'Rewrite your story. Discover our retail services.'"},
+  {"start": 74, "end": 77.14, "kind": "title", "what": "THE : FUTURE : LABORATORY end card"}
+ ],
+ "first_text_s": 4, "text_cards": 3,
+ "transitions": ["push_zoom", "cut", "morph_match", "fade_dissolve"],
+ "camera": ["push_in", "zoom_out_reveal", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 9},
+ "notes": "Wordless agency promo; blue/black line-art objects morph continuously; text only at start and final CTA/logo cards."}

@@ -1,0 +1,23 @@
+{"id": "QPKKQnijnsM", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Wealth Inequality in America title over US map"},
+  {"start": 6, "end": 24, "kind": "context", "what": "Survey of 5,000 Americans as pictogram row"},
+  {"start": 24, "end": 48, "kind": "chart_reveal", "what": "Stacked bars: perceived vs ideal wealth distribution"},
+  {"start": 48, "end": 96, "kind": "comparison", "what": "Reality bar added; top 20% dominates"},
+  {"start": 96, "end": 132, "kind": "story", "what": "311 million Americans as 100 figures"},
+  {"start": 132, "end": 144, "kind": "map", "what": "54 trillion dollars fills US map, becomes bars"},
+  {"start": 144, "end": 162, "kind": "comparison", "what": "Dreaded socialism: equal bars baseline"},
+  {"start": 162, "end": 198, "kind": "chart_reveal", "what": "Ideal distribution percentile bar chart"},
+  {"start": 198, "end": 228, "kind": "comparison", "what": "What Americans think distribution"},
+  {"start": 228, "end": 252, "kind": "chart_reveal", "what": "Actual distribution; magnifier on poor"},
+  {"start": 252, "end": 300, "kind": "zoom", "what": "Top 1% bar cut and stacked beyond frame, 40%"},
+  {"start": 300, "end": 354, "kind": "insight", "what": "1% income 24%, stocks 50%, CEO 380x pay"},
+  {"start": 354, "end": 372, "kind": "conclusion", "what": "Ideal, think, reality curves compared"},
+  {"start": 372, "end": 383.5, "kind": "source", "what": "Licence note and references list"}
+ ],
+ "first_text_s": 0, "text_cards": 6,
+ "transitions": ["fade_dissolve", "morph_match", "pan_slide"],
+ "camera": ["static", "pan", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["bar", "unit/pictogram", "map", "pie"], "annotations": true, "source_shown": true},
+ "notes": "Same video listed as explainer too (saved as QPKKQnijnsM.explainers.json). No cuts; one canvas morphing chart states; top-1% bar overflow is the climax."}

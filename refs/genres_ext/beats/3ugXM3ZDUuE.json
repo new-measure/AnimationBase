@@ -1,0 +1,20 @@
+{"id": "3ugXM3ZDUuE", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "intro", "what": "Presenter to camera introduces the problem"},
+  {"start": 5, "end": 12.21, "kind": "goal", "what": "Product card example with awkward button wrapping"},
+  {"start": 12.21, "end": 46.46, "kind": "step", "what": "Inspect flex-group CSS: display flex, gap"},
+  {"start": 46.46, "end": 80, "kind": "step", "what": "Add flex-grow / flex: 1 to children"},
+  {"start": 80, "end": 90, "kind": "tip", "what": "Zoomed card: the wrapping text is ugly"},
+  {"start": 90, "end": 125, "kind": "step", "what": "Add flex-wrap: wrap, resize card to test"},
+  {"start": 125, "end": 170, "kind": "step", "what": "Try min-width values and flex-shrink"},
+  {"start": 170, "end": 210, "kind": "result", "what": "min-width: fit-content wraps buttons cleanly"},
+  {"start": 210, "end": 250, "kind": "recap", "what": "Highlight final rules, explain why it works"},
+  {"start": 250, "end": 260, "kind": "outro", "what": "Design to Code challenge site promo"},
+  {"start": 260, "end": 301.09, "kind": "outro", "what": "Starter code walkthrough and sign-off"}
+ ],
+ "first_text_s": 80, "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Picture-in-picture webcam beside live code/preview for nearly whole video; few cuts; step boundaries inferred from code changes."}

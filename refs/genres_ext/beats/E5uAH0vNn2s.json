@@ -1,0 +1,19 @@
+{"id": "E5uAH0vNn2s", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 20.71, "kind": "intro", "what": "Phone screen scrolling Instagram posts, band photos"},
+  {"start": 20.71, "end": 42, "kind": "verse", "what": "Lyrics typed as iMessage texts: hurry on home"},
+  {"start": 42, "end": 54, "kind": "pre_chorus", "what": "Texts: undateable, unf*ckable lines stack up"},
+  {"start": 54, "end": 70.08, "kind": "chorus", "what": "Disconnect me from my bones texts typed"},
+  {"start": 70.08, "end": 75, "kind": "other", "what": "Brief band photo and video cutaways"},
+  {"start": 75, "end": 96, "kind": "verse", "what": "More typed texts: been in bed since noon"},
+  {"start": 96, "end": 108, "kind": "pre_chorus", "what": "Unlovable, undateable bubbles, emoji"},
+  {"start": 108, "end": 122.12, "kind": "chorus", "what": "Disconnect me from my bones, begin again"},
+  {"start": 122.12, "end": 156, "kind": "bridge", "what": "Camera recordings, YouTube, tarot, I Ching apps browsing"},
+  {"start": 156, "end": 178.91, "kind": "outro", "what": "You got me used to loving you repeated texts"}
+ ],
+ "first_text_s": 21, "text_cards": 0,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 6, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Entire video is a vertical phone screen recording; lyrics appear as typed chat bubbles scrolling up. Section labels inferred from repeated lines."}

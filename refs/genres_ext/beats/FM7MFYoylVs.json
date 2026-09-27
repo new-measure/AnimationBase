@@ -1,0 +1,22 @@
+{"id": "FM7MFYoylVs", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "title", "what": "Cover art of boy hero; director credit"},
+  {"start": 8, "end": 28, "kind": "verse", "what": "Chalk words: books of old, Achilles, Spider-Man, Batman"},
+  {"start": 28, "end": 44, "kind": "pre_chorus", "what": "How much you wanna risk, superhero, I can turn to"},
+  {"start": 44, "end": 56, "kind": "chorus", "what": "'I want something just like this', mask eyes"},
+  {"start": 56, "end": 84, "kind": "instrumental", "what": "Doo doo drop; rocket, planet, spiral text, eye"},
+  {"start": 84, "end": 100, "kind": "verse", "what": "Legends and myths, the moon, Superman unrolls"},
+  {"start": 100, "end": 120, "kind": "pre_chorus", "what": "Where d'you wanna go, superhuman gifts, fairytale bliss"},
+  {"start": 120, "end": 148, "kind": "instrumental", "what": "Boy hero, rockets, spiral lyric ring, eye"},
+  {"start": 148, "end": 156, "kind": "chorus", "what": "Big chalk 'THIS'"},
+  {"start": 156, "end": 176, "kind": "pre_chorus", "what": "Where d'you wanna go reprise, somebody heart"},
+  {"start": 176, "end": 212, "kind": "bridge", "what": "Boy on moon, space flight, UFO, Earth"},
+  {"start": 212, "end": 236, "kind": "chorus", "what": "Oh I want something; alien band, THIS"},
+  {"start": 236, "end": 247.18, "kind": "outro", "what": "Boy asleep in bedroom; 'The End'"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "handwritten"},
+ "notes": "Chalk-drawn hand-lettered lyrics alternating with illustrated story of boy superhero; instrumental drops filled by drawings; ends with 'The End'."}

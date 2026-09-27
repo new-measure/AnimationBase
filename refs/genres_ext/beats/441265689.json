@@ -1,0 +1,19 @@
+{"id": "441265689", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "hook", "what": "Hand holding light; woman standing before mountain"},
+  {"start": 10, "end": 45, "kind": "context", "what": "Narrator credential text, family scene, woman alone"},
+  {"start": 45, "end": 75, "kind": "context", "what": "Researcher at desk; hands raised, it's much bigger"},
+  {"start": 75, "end": 145, "kind": "explanation", "what": "Crowds, globe in hands, pandemic, protests show shared adversity"},
+  {"start": 145, "end": 175, "kind": "transition", "what": "Mountain returns, becomes stage before audience"},
+  {"start": 175, "end": 205, "kind": "explanation", "what": "Tip 1: understand suffering is part of life"},
+  {"start": 205, "end": 235, "kind": "explanation", "what": "Tip 2: tune in to the good, sticky notes"},
+  {"start": 235, "end": 255, "kind": "explanation", "what": "Tip 3: ask is this helping; memories, stiff lip"},
+  {"start": 255, "end": 275, "kind": "recap", "what": "Resilience includes asking for help; holding hands"},
+  {"start": 275, "end": 305, "kind": "recap", "what": "Callback to opening; crowd at mountain, other people matter"}
+ ],
+ "first_text_s": 10, "text_cards": 5,
+ "transitions": ["fade_dissolve", "morph_match", "cut", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 6},
+ "notes": "Numbered three-tip list mid-film; bookended by mountain and torch imagery; watercolour dissolves dominate over hard cuts."}

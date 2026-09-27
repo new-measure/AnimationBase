@@ -1,0 +1,18 @@
+{"id": "02tkp6eeh40", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 195, "kind": "story", "what": "Introduction: sparse solo lines scroll across piano-roll score"},
+  {"start": 195, "end": 390, "kind": "story", "what": "Repeated chord blocks, then dense layered textures"},
+  {"start": 390, "end": 468, "kind": "story", "what": "Fast busy bursts with blue bass hits"},
+  {"start": 468, "end": 585, "kind": "story", "what": "Calmer long horizontal lines, slow rounds"},
+  {"start": 585, "end": 689, "kind": "story", "what": "Massive full-orchestra bars, then quiet interlude"},
+  {"start": 689, "end": 832, "kind": "story", "what": "Rival rhythmic patterns, dense purple procession"},
+  {"start": 832, "end": 845, "kind": "other", "what": "Near-silent pause, few notes"},
+  {"start": 845, "end": 910, "kind": "conclusion", "what": "Frenzied climax with golden bass floor"},
+  {"start": 910, "end": 921.76, "kind": "source", "what": "Credits: Jay Bacal, Stephen Malinowski, riteanim.com"}
+ ],
+ "first_text_s": 910, "text_cards": 1,
+ "transitions": ["none_visible"],
+ "camera": ["pan"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["timeline", "other"], "annotations": false, "source_shown": true},
+ "notes": "Continuous scrolling graphical score, no cuts or text until credits; beat boundaries guessed from texture changes at 13 s step."}

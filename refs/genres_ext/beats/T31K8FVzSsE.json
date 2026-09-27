@@ -1,0 +1,14 @@
+{"id": "T31K8FVzSsE", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 22, "kind": "chart_reveal", "what": "Bar race 1850s-1890s: UK leads, steam-era illustration"},
+  {"start": 22, "end": 60, "kind": "story", "what": "US overtakes UK; cars, planes, factories icons 1900-1980"},
+  {"start": 60, "end": 74, "kind": "story", "what": "Soviet and China rise, shipping bar; 1980s-2000s"},
+  {"start": 74, "end": 80, "kind": "insight", "what": "China overtakes US and becomes dominant emitter"},
+  {"start": 80, "end": 90.09, "kind": "conclusion", "what": "Final 2022 ranking held on screen"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["bar", "counter", "other"], "annotations": true, "source_shown": true},
+ "notes": "Single continuous vertical bar-chart race, no cuts; year counter and era illustration change; final frame held ~10 s. Regional share legend."}

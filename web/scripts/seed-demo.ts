@@ -23,12 +23,13 @@ const storyboard: Storyboard = {
   ],
 };
 
-const project = createProject('11s launch film for Relay, a sync engine for developers', brief, []);
-updateProject(project.id, { storyboard, status: 'arena' });
+async function main() {
+const project = await createProject({ prompt: '11s launch film for Relay, a sync engine for developers', brief, similar: [] });
+await updateProject(project.id, { storyboard, status: 'arena' });
 
 // both demo scenes are in the engine; each workspace registers one of them as "film"
-for (const [slot, scene, model] of [['A', 'launch_demo', 'claude-opus-5-5'], ['B', 'mg_demo', 'claude-sonnet-5']] as const) {
-  const run = createRun(project.id, slot, model);
+for (const [slot, scene, model] of [['A', 'launch_demo', 'anthropic/claude-opus-5-5'], ['B', 'mg_demo', 'anthropic/claude-sonnet-5']] as const) {
+  const run = await createRun(project.id, slot, model, 'high');
   createWorkspace(run.id, {});
   const idx = resolve(wsDir(run.id), 'src/scenes/index.js');
   const src = readFileSync(idx, 'utf8');
@@ -36,8 +37,10 @@ for (const [slot, scene, model] of [['A', 'launch_demo', 'claude-opus-5-5'], ['B
   if (!m) throw new Error(`scene ${scene} not found in index.js`);
   writeFileSync(idx, src.replace(/const SCENES = \{/, `const SCENES = {\n  film: ${m[1]},`));
   snapshot(run.id, 1);
-  updateRun(run.id, { status: 'done', version: 1, startedAt: Date.now() - 9 * 60000, finishedAt: Date.now() });
-  addEvent(run.id, 'status', 'Seeded from the engine demo "' + scene + '"');
-  addEvent(run.id, 'result', 'Finished', {});
+  await updateRun(run.id, { status: 'done', version: 1, startedAt: Date.now() - 9 * 60000, finishedAt: Date.now() });
+  await addEvent(run.id, 'status', 'Seeded from the engine demo "' + scene + '"');
+  await addEvent(run.id, 'result', 'Finished', {});
 }
 console.log(`seeded: http://localhost:3000/p/${project.id}`);
+}
+main().catch(e => { console.error(e); process.exit(1); });

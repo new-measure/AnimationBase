@@ -1,0 +1,15 @@
+{"id": "353635147", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "hook", "what": "Glitchy code particles assemble into wireframe web layouts"},
+  {"start": 16, "end": 38, "kind": "context", "what": "Light burst, spiraling paper vortex tunnel, dark geometric void"},
+  {"start": 38, "end": 50, "kind": "explanation", "what": "Sphere forms, spheres in frame, building blocks become houses"},
+  {"start": 50, "end": 74, "kind": "explanation", "what": "Bright pastel world of floating spheres, ribbons, architecture"},
+  {"start": 74, "end": 86, "kind": "other", "what": "Landscape sunrise then cosmic planets montage"},
+  {"start": 86, "end": 89.83, "kind": "cta", "what": "White card, No Code Conf logo"}
+ ],
+ "first_text_s": 88, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["push_in", "tilt_3d", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 10},
+ "notes": "Abstract textless mood film; dark-to-light arc; only text is closing logo. Beat labels inferred from visuals, likely voiceover-driven."}

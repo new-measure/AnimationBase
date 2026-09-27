@@ -1,0 +1,21 @@
+{"id": "3K0RzZGpyds", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 9, "kind": "title", "what": "Taylor Swift and song title hand-lettered on red"},
+  {"start": 9, "end": 15, "kind": "intro", "what": "Credits: created by ODD, produced by"},
+  {"start": 15, "end": 42, "kind": "verse", "what": "Chess pieces, tilted stage, perfect crime, when you laugh"},
+  {"start": 42, "end": 57, "kind": "pre_chorus", "what": "But I got smarter, harder in the nick of time"},
+  {"start": 57, "end": 75, "kind": "chorus", "what": "Look what you made me do spiraling red text"},
+  {"start": 75, "end": 102, "kind": "verse", "what": "Kingdom keys, castle, bed, wine, world moves on"},
+  {"start": 102, "end": 117, "kind": "pre_chorus", "what": "But I got smarter, headstone, red list"},
+  {"start": 117, "end": 135, "kind": "chorus", "what": "Spiral chorus, look what you made me do"},
+  {"start": 135, "end": 171, "kind": "bridge", "what": "I don't trust nobody; starring in bad dreams"},
+  {"start": 171, "end": 180, "kind": "other", "what": "Phone call: old Taylor can't come to the phone"},
+  {"start": 180, "end": 207, "kind": "chorus", "what": "Final spiraling chorus text"},
+  {"start": 207, "end": 215.04, "kind": "outro", "what": "Big DO, red and black end, copyright"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "morph_match", "pan_slide", "wipe_mask"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 2.5, "text_style": "mixed"},
+ "notes": "Red-black-grey cutout noir; chorus is a recurring spiral motif; lyrics integrated into props and scenes. Section boundaries estimated."}

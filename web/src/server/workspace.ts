@@ -7,8 +7,14 @@ import { ENGINE_ROOT, WORKSPACES } from './paths';
 export const SCENE = 'film';
 export const wsDir = (runId: string) => resolve(WORKSPACES, runId);
 
-const COPY = ['studio.html', 'render.mjs', 'ANIMATION_GUIDE.md', 'package.json', 'src', 'docs', 'assets'];
-const REFS = ['pacing.md', 'craft.md', 'genres.md'];
+const COPY = ['studio.html', 'render.mjs', 'ANIMATION_GUIDE.md', 'package.json', 'src', 'docs', 'assets',
+  'projects/README.md', 'projects/_template',                       // the guide's brief template and project layout
+  'projects/demo/brief.md', 'projects/demo/project.js', 'projects/demo/scene.js',   // the footage example, to read (its media isn't copied)
+  'scripts/whatships_craft.py', 'scripts/eval_scorecard.py',        // so the agent can score its film (guide, workflow 5)
+  'refs/genres_ext/measured.md', 'refs/genres_ext/index.md'];      // the genres beyond launch films: measured pacing and structure, reference list
+// refs keep the engine's own paths (refs/whatships/...), which the guide links to. The flat copies (refs/pacing.md, ...)
+// are kept for runs whose instructions predate that.
+const REFS = ['pacing.md', 'craft.md', 'genres.md', 'visual.md'];
 
 export function createWorkspace(runId: string, files: Record<string, string>) {
   const dir = wsDir(runId);
@@ -17,10 +23,16 @@ export function createWorkspace(runId: string, files: Record<string, string>) {
     const from = resolve(ENGINE_ROOT, f);
     if (existsSync(from)) cpSync(from, resolve(dir, f), { recursive: true, filter: s => !s.includes(`${sep}out${sep}`) });
   }
-  mkdirSync(resolve(dir, 'refs'), { recursive: true });
+  mkdirSync(resolve(dir, 'refs/whatships'), { recursive: true });
   for (const f of REFS) {
     const from = resolve(ENGINE_ROOT, 'refs/whatships', f);
-    if (existsSync(from)) cpSync(from, resolve(dir, 'refs', f));
+    if (existsSync(from)) { cpSync(from, resolve(dir, 'refs/whatships', f)); cpSync(from, resolve(dir, 'refs', f)); }
+  }
+  // the top tier's per-film measurements (no strips, stills or vision files), for scripts/eval_scorecard.py
+  const craft = resolve(ENGINE_ROOT, 'refs/whatships/craft');
+  if (existsSync(craft)) {
+    mkdirSync(resolve(dir, 'refs/whatships/craft'), { recursive: true });
+    for (const f of readdirSync(craft)) if (f.endsWith('.json')) cpSync(resolve(craft, f), resolve(dir, 'refs/whatships/craft', f));
   }
   if (!existsSync(resolve(dir, 'node_modules'))) symlinkSync(resolve(ENGINE_ROOT, 'node_modules'), resolve(dir, 'node_modules'), 'dir');
   mkdirSync(resolve(dir, 'out/check'), { recursive: true });

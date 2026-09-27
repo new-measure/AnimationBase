@@ -1,0 +1,21 @@
+{"id": "MMmOLN5zBLY", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "title", "what": "TED-Ed logo with collage brain"},
+  {"start": 5, "end": 30, "kind": "hook", "what": "Newspaper speech bubbles in many languages, plane flying"},
+  {"start": 30, "end": 60, "kind": "context", "what": "Multilingual brain; character speaks Russian, French"},
+  {"start": 60, "end": 115, "kind": "example", "what": "Types of bilinguals: family, dictionary learner, market"},
+  {"start": 115, "end": 150, "kind": "explanation", "what": "TV static, brain hemispheres, analytical versus emotional"},
+  {"start": 150, "end": 165, "kind": "explanation", "what": "Critical period hypothesis, brain lighting up"},
+  {"start": 165, "end": 190, "kind": "example", "what": "Baby cries, bilingual translation speech bubbles"},
+  {"start": 190, "end": 215, "kind": "explanation", "what": "Multilingual brain benefits, Alzheimer's and dementia delay"},
+  {"start": 215, "end": 255, "kind": "example", "what": "Woman switching languages naming picture flashcards"},
+  {"start": 255, "end": 265, "kind": "explanation", "what": "Executive function, dorsolateral prefrontal cortex"},
+  {"start": 265, "end": 290, "kind": "recap", "what": "Characters together in city; plane departs"},
+  {"start": 290, "end": 303.79, "kind": "cta", "what": "Credits and TED-Ed end card with buttons"}
+ ],
+ "first_text_s": 0, "text_cards": 9,
+ "transitions": ["cut", "pan_slide", "push_zoom"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 5},
+ "notes": "Newspaper-collage characters; Scrabble-tile keywords fly in as term labels; recurring cast bookends with plane motif."}

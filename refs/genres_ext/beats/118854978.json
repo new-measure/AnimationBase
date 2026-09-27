@@ -1,0 +1,17 @@
+{"id": "118854978", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 28.38, "kind": "hook", "what": "Timelapse harbor sky, gulls leave dotted trails"},
+  {"start": 28.38, "end": 39.33, "kind": "context", "what": "Beach and big clouds viewpoint, few birds"},
+  {"start": 39.33, "end": 49.17, "kind": "story", "what": "Flock traced as dotted arcs over cliffs"},
+  {"start": 49.17, "end": 62.17, "kind": "story", "what": "Upward sky view, dense gull trails"},
+  {"start": 62.17, "end": 72, "kind": "zoom", "what": "Low angle sky, individual bird paths"},
+  {"start": 72, "end": 86.96, "kind": "insight", "what": "Harbor again, trails become continuous blue ribbons"},
+  {"start": 86.96, "end": 96.29, "kind": "story", "what": "Sky view full of accumulated ribbon trails"},
+  {"start": 96.29, "end": 151.25, "kind": "conclusion", "what": "Harbor view with trails layering into dense tangle"}
+ ],
+ "first_text_s": null, "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["other"], "annotations": false, "source_shown": false},
+ "notes": "Motion-trail visualisation over locked-off timelapse; no text or axes; long takes, density builds over time. Kinds interpretive."}

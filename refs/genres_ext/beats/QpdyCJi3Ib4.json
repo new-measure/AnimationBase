@@ -1,0 +1,19 @@
+{"id": "QpdyCJi3Ib4", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 6.42, "kind": "hook", "what": "Wide stage, audience, glowing poor-rich axis"},
+  {"start": 6.42, "end": 24.08, "kind": "context", "what": "Rosling explains poor-to-rich scale with seven people"},
+  {"start": 24.08, "end": 48.5, "kind": "chart_reveal", "what": "Log income axis $1, $10, $100 appears"},
+  {"start": 48.5, "end": 78, "kind": "insight", "what": "Extreme poverty line at $1 a day"},
+  {"start": 78, "end": 105, "kind": "comparison", "what": "Sandals, bicycle, motorbike, car icons per level"},
+  {"start": 105, "end": 132, "kind": "comparison", "what": "Car to plane: richest billion, audience reactions"},
+  {"start": 132, "end": 150, "kind": "insight", "what": "Recap of transport icons along full scale"},
+  {"start": 150, "end": 195, "kind": "story", "what": "Ladder climb: people moving up income scale"},
+  {"start": 195, "end": 204, "kind": "conclusion", "what": "Final wide shot of yardstick and extreme poverty"},
+  {"start": 204, "end": 214.74, "kind": "source", "what": "BBC Two end card, programme title and URL"}
+ ],
+ "first_text_s": 3, "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["unit/pictogram", "other"], "annotations": true, "source_shown": true},
+ "notes": "Live presenter with holographic AR axis; frequent cuts to audience; icon bubbles progress along a log wealth scale."}

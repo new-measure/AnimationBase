@@ -1,0 +1,17 @@
+{"id": "YFHdV7waWbc", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 35, "kind": "hook", "what": "Host introduces topic in studio, remote guest on screen"},
+  {"start": 35, "end": 91, "kind": "chart_reveal", "what": "Bubble chart of fertility rates 2023, below replacement highlighted"},
+  {"start": 91, "end": 133, "kind": "context", "what": "Studio discussion with second guest, Economics editor"},
+  {"start": 133, "end": 140, "kind": "chart_reveal", "what": "UN baseline world population projection line, peak marked"},
+  {"start": 140, "end": 182, "kind": "story", "what": "Guest explains projections in studio conversation"},
+  {"start": 182, "end": 210, "kind": "comparison", "what": "Scenario lines: recent fertility trends 5/15/25 years"},
+  {"start": 210, "end": 497, "kind": "insight", "what": "Extended three-way studio discussion on causes and consequences"},
+  {"start": 497, "end": 500.95, "kind": "title", "what": "Economist Insider end card"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["scatter", "line"], "annotations": true, "source_shown": true},
+ "notes": "Talk-show format; only two charts, both front-loaded in first 210s, rest is cutting between speakers. Charts show UN source line."}

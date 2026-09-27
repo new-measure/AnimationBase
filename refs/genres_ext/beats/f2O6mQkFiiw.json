@@ -1,0 +1,23 @@
+{"id": "f2O6mQkFiiw", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "title", "what": "TED-Ed logo card"},
+  {"start": 5, "end": 25.17, "kind": "hook", "what": "Spotlit stage performers on brain-like surface"},
+  {"start": 25.17, "end": 42.21, "kind": "question", "what": "Head outline, brain, gray matter labelled"},
+  {"start": 42.21, "end": 65, "kind": "context", "what": "Nervous system figures, violinist, sagittal brain"},
+  {"start": 65, "end": 85, "kind": "explanation", "what": "Myelin sheath around axons explained with labels"},
+  {"start": 85, "end": 95.92, "kind": "example", "what": "Rat studies in circles"},
+  {"start": 95.92, "end": 125.17, "kind": "explanation", "what": "Signal tracks, brain to arm, runner lanes"},
+  {"start": 125.17, "end": 145, "kind": "analogy", "what": "Figure pushes boulder as seasons change"},
+  {"start": 145, "end": 185, "kind": "example", "what": "Tip: focus, minimize distractions; bassist, laptops"},
+  {"start": 185, "end": 200, "kind": "example", "what": "Tip: start slow; boxer practicing"},
+  {"start": 200, "end": 235, "kind": "example", "what": "Tip: frequent breaks, visualize; ski jumper thought bubble"},
+  {"start": 235, "end": 255, "kind": "example", "what": "Basketball teams A and B practice comparison"},
+  {"start": 255, "end": 275, "kind": "recap", "what": "Glowing brain, climbers reach summits"},
+  {"start": 275, "end": 289.07, "kind": "cta", "what": "Credits and related TED-Ed videos"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "pan_slide", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 7},
+ "notes": "Science first (myelin), then list of practice tips as vignettes; hand-drawn textured style. Tip boundaries inferred without audio."}

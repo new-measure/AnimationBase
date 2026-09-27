@@ -1,0 +1,20 @@
+{"id": "Kas0tIxDvrg", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 40, "kind": "hook", "what": "COVID case scatter grows, counter labels climb to 21,395"},
+  {"start": 40, "end": 64, "kind": "context", "what": "Four framing questions; daily growth ratio annotated"},
+  {"start": 64, "end": 112, "kind": "story", "what": "Pi-creature crowd; derive E·p·N daily change formula"},
+  {"start": 112, "end": 160, "kind": "chart_reveal", "what": "Log-scale chart, linear regression, x10 every 16 days"},
+  {"start": 160, "end": 184, "kind": "comparison", "what": "South Korea vs Australia: one month behind"},
+  {"start": 184, "end": 224, "kind": "zoom", "what": "Extrapolate 30, 64 days; SARS comparison; xkcd joke"},
+  {"start": 224, "end": 288, "kind": "insight", "what": "Formula to exponential; saturation term; crowd simulation"},
+  {"start": 288, "end": 400, "kind": "insight", "what": "Logistic curve, inflection point, growth factor table"},
+  {"start": 400, "end": 464, "kind": "story", "what": "Log chart recalled; clustered communities simulation"},
+  {"start": 464, "end": 512, "kind": "conclusion", "what": "What makes this shrink; reducing E and p outcomes"},
+  {"start": 512, "end": 536.22, "kind": "other", "what": "Supporter credits"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["morph_match", "none_visible", "cut", "fade_dissolve"],
+ "camera": ["static", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["scatter", "line", "counter", "table", "unit/pictogram", "other"], "annotations": true, "source_shown": true},
+ "notes": "Math-animation data story; equations and charts morph in place with almost no hard cuts; returns to same chart repeatedly."}

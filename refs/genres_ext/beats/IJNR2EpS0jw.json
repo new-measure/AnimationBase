@@ -1,0 +1,21 @@
+{"id": "IJNR2EpS0jw", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Sunny calm opening, dandelion and horizon"},
+  {"start": 6, "end": 18, "kind": "example", "what": "Characters die: poke bear, eat glue, swim piranhas"},
+  {"start": 18, "end": 36.58, "kind": "recap", "what": "Chorus lineup of dead characters dancing"},
+  {"start": 36.58, "end": 51, "kind": "example", "what": "Toaster, house fire, drugs, rattled character deaths"},
+  {"start": 51, "end": 66, "kind": "recap", "what": "Growing lineup chorus"},
+  {"start": 66, "end": 81, "kind": "example", "what": "Chainsaw, boat, space helmet, eat medicine"},
+  {"start": 81, "end": 96, "kind": "recap", "what": "Lineup chorus expands"},
+  {"start": 96, "end": 111, "kind": "example", "what": "Snake, wasp nest, sell kidney, superglue deaths"},
+  {"start": 111, "end": 129, "kind": "recap", "what": "Full lineup chorus"},
+  {"start": 129, "end": 156, "kind": "example", "what": "Antlers, cactus, railway crossing, train platform deaths"},
+  {"start": 156, "end": 177, "kind": "recap", "what": "Final full-cast chorus with train victims"},
+  {"start": 177, "end": 181.97, "kind": "cta", "what": "Be Safe Around Trains, Metro logo"}
+ ],
+ "first_text_s": 177, "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 12},
+ "notes": "Song structure: vignette verses alternate with cumulative lineup choruses; message withheld until final card."}

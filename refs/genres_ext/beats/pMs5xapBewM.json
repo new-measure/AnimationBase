@@ -1,0 +1,21 @@
+{"id": "pMs5xapBewM", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Teaser snapshots of chart at 1679 and 1910"},
+  {"start": 6, "end": 30, "kind": "chart_reveal", "what": "Bar chart race starts 1500: Beijing, Vijayanagar lead"},
+  {"start": 30, "end": 90, "kind": "chart_reveal", "what": "1590s-1830: Istanbul, Tokyo, London rise"},
+  {"start": 90, "end": 120, "kind": "insight", "what": "Industrial era: London, New York, Paris dominate"},
+  {"start": 120, "end": 141, "kind": "insight", "what": "Post-war: Tokyo, Delhi, Shanghai top by 2018"},
+  {"start": 141, "end": 144, "kind": "transition", "what": "Bars clear at 2018"},
+  {"start": 144, "end": 156, "kind": "zoom", "what": "Rewind to 1558-1568, Vijayanagar highlighted then falls"},
+  {"start": 156, "end": 168, "kind": "story", "what": "Hampi temple footage, Vijayanagara Empire caption"},
+  {"start": 168, "end": 177, "kind": "other", "what": "FT journalist John Burn-Murdoch explains over chart"},
+  {"start": 177, "end": 183, "kind": "source", "what": "Observable code and data link shown"},
+  {"start": 183, "end": 189, "kind": "other", "what": "Journalist over chart, handle shown"},
+  {"start": 189, "end": 192.66, "kind": "title", "what": "Financial Times logo endcard"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible", "cut", "fade_dissolve"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["bar", "map", "counter"], "annotations": true, "source_shown": true},
+ "notes": "Continuous single-chart race for 140 s with year counter, then presenter coda and live footage; inset region map legend; source line at bottom."}

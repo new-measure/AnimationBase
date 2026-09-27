@@ -1,0 +1,23 @@
+{"id": "aircAruvnKk", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 64, "kind": "hook", "what": "Sloppy 28px digit 3 recognized effortlessly by brain"},
+  {"start": 64, "end": 96, "kind": "context", "what": "Pi characters: machine learning, why the layers?"},
+  {"start": 96, "end": 160, "kind": "chart_reveal", "what": "Full network diagram 784 inputs to 10 outputs"},
+  {"start": 160, "end": 224, "kind": "zoom", "what": "Neuron holds a number; 28x28 pixel activations"},
+  {"start": 224, "end": 336, "kind": "story", "what": "Hidden layers, activations propagate to output digit"},
+  {"start": 336, "end": 496, "kind": "insight", "what": "Why layers: digits decompose into loops and edges"},
+  {"start": 496, "end": 640, "kind": "zoom", "what": "Weights, weighted sum, pixel weight maps"},
+  {"start": 640, "end": 736, "kind": "insight", "what": "Sigmoid squish, bias; 784x16 weights and biases"},
+  {"start": 736, "end": 800, "kind": "conclusion", "what": "13,002 parameters; learning means finding them"},
+  {"start": 800, "end": 912, "kind": "zoom", "what": "Matrix-vector notation sigma(Wa+b)"},
+  {"start": 912, "end": 992, "kind": "conclusion", "what": "Neuron as function; network is one big function"},
+  {"start": 992, "end": 1024, "kind": "source", "what": "Subscribe prompt and Patreon supporter list"},
+  {"start": 1024, "end": 1104, "kind": "other", "what": "Guest interview on sigmoid vs ReLU"},
+  {"start": 1104, "end": 1119.99, "kind": "other", "what": "Pi character end screen"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["morph_match", "fade_dissolve", "cut"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["network", "line", "other"], "annotations": true, "source_shown": false},
+ "notes": "Math explainer on black; one network diagram re-used and annotated repeatedly; pi characters voice questions. Only three hard cuts."}

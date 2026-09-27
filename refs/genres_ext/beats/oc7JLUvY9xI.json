@@ -1,0 +1,19 @@
+{"id": "oc7JLUvY9xI", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "title", "what": "Sketchbook, doodles, Avril Lavigne, torn Breakaway title"},
+  {"start": 16, "end": 48, "kind": "verse", "what": "Grew up in small town; torn notepaper lyrics"},
+  {"start": 48, "end": 52, "kind": "pre_chorus", "what": "So I prayed"},
+  {"start": 52, "end": 96, "kind": "chorus", "what": "I could breakaway, spread my wings, the sky"},
+  {"start": 96, "end": 116, "kind": "verse", "what": "Wanna feel the warm, get onboard, far away"},
+  {"start": 116, "end": 148, "kind": "chorus", "what": "And breakaway, make a wish, out of the darkness"},
+  {"start": 148, "end": 176, "kind": "bridge", "what": "Gotta take a risk, revolving, take me, Breakaway"},
+  {"start": 176, "end": 204, "kind": "chorus", "what": "Spread my wings, take a risk, and breakaway"},
+  {"start": 204, "end": 212, "kind": "outro", "what": "Red Breakaway handwritten, blank notebook"},
+  {"start": 212, "end": 224.26, "kind": "outro", "what": "Sketchbook returns, fade black"}
+ ],
+ "first_text_s": 8, "text_cards": 4,
+ "transitions": ["wipe_mask", "cut", "push_zoom", "morph_match"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "center", "line_hold_s_typical": 4, "text_style": "handwritten"},
+ "notes": "Scrapbook collage of torn notepaper over archival photos; sketchbook bookends; hook word Breakaway recurs in large hand lettering."}

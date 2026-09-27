@@ -1,0 +1,16 @@
+{"id": "504501034", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "title", "what": "'Open' word, circles split and scatter into shapes"},
+  {"start": 12, "end": 30, "kind": "context", "what": "'Unlocking information'; data balls flow through shape portals"},
+  {"start": 30, "end": 34, "kind": "example", "what": "Kinetic words: debt, pension, investment dissolve"},
+  {"start": 34, "end": 42, "kind": "explanation", "what": "'Payments' rings interlock, ball threads through"},
+  {"start": 42, "end": 72, "kind": "explanation", "what": "Circles multiply, balls orbit, stack into balanced figures"},
+  {"start": 72, "end": 84, "kind": "recap", "what": "'Easy' card, bold shape mosaic, target circles"},
+  {"start": 84, "end": 90.6, "kind": "cta", "what": "Yapily logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 5,
+ "transitions": ["cut", "morph_match", "wipe_mask", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 20},
+ "notes": "Flat geometric motion design with sparse keyword text; shape-morph transitions dominate; many cut detections are fast flashes."}

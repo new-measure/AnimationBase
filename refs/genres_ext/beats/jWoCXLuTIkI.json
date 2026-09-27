@@ -1,0 +1,14 @@
+{"id": "jWoCXLuTIkI", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 24, "kind": "chart_reveal", "what": "Radial monthly temperature spiral traces from 1881"},
+  {"start": 24, "end": 40, "kind": "story", "what": "Mid-century years, warmer colors begin appearing"},
+  {"start": 40, "end": 57, "kind": "insight", "what": "Spiral expands red past rings, 1981 to 2021"},
+  {"start": 57, "end": 63, "kind": "zoom", "what": "Camera tilts spiral into 3D funnel"},
+  {"start": 63, "end": 70.05, "kind": "conclusion", "what": "Side view stack shows warming by year"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static", "tilt_3d"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["line", "timeline"], "annotations": true, "source_shown": false},
+ "notes": "Single continuous animated polar chart, year counter ticks up; one late 3D tilt reveal as payoff. No cuts, no narration text."}

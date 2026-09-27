@@ -1,0 +1,19 @@
+{"id": "cADu9rtlZGQ", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "title", "what": "Label logo on black"},
+  {"start": 10, "end": 50, "kind": "intro", "what": "Singer walks along night waterfront, handheld tracking"},
+  {"start": 50, "end": 90, "kind": "verse", "what": "Occasional physical lyric cutouts appear beside walking singer"},
+  {"start": 90, "end": 120, "kind": "chorus", "what": "Lyric characters on mic stands spread across concourse"},
+  {"start": 120, "end": 140, "kind": "instrumental", "what": "Dark hall, lyric stands, band plays"},
+  {"start": 140, "end": 165, "kind": "bridge", "what": "Paper sheets and screens with singer, big kana"},
+  {"start": 165, "end": 205, "kind": "chorus", "what": "Large lyric characters in scene, card row caption"},
+  {"start": 205, "end": 250, "kind": "chorus", "what": "Singer passes through lyric mic-stand forest"},
+  {"start": 250, "end": 275, "kind": "instrumental", "what": "Band shot, singer running along railings"},
+  {"start": 275, "end": 288.88, "kind": "outro", "what": "Small title text, singer walks into dark"}
+ ],
+ "first_text_s": 50, "text_cards": 1,
+ "transitions": ["cut", "whip_blur", "none_visible"],
+ "camera": ["handheld", "pan"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 5, "text_style": "integrated_in_scene"},
+ "notes": "Largely one-take handheld walk; lyrics are physical cutout characters on mic stands in the location. No cuts detected; section labels uncertain."}

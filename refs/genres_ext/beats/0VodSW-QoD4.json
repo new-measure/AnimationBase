@@ -1,0 +1,19 @@
+{"id": "0VodSW-QoD4", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "title", "what": "Dolly Parton, Blue Bonnet Breeze title"},
+  {"start": 5, "end": 45, "kind": "intro", "what": "Realistic farmhouse window, fireplace, into paper-cut painting"},
+  {"start": 45, "end": 80, "kind": "chorus", "what": "Blue bonnet breezes over moonlit truck and couple"},
+  {"start": 80, "end": 125, "kind": "verse", "what": "Story is old: lovers, families, heart, promise"},
+  {"start": 125, "end": 160, "kind": "chorus", "what": "Floating dancing couple ringed by lyric circles"},
+  {"start": 160, "end": 200, "kind": "verse", "what": "City skyline, neath the wide open sky, dancing woman"},
+  {"start": 200, "end": 240, "kind": "bridge", "what": "Bouquet of blue bonnets; truck drives faster, crashes"},
+  {"start": 240, "end": 265, "kind": "verse", "what": "Graves under tree, back into farmhouse"},
+  {"start": 265, "end": 285, "kind": "chorus", "what": "Making love in the blue bonnet breeze by clock"},
+  {"start": 285, "end": 318.14, "kind": "outro", "what": "Wind chime at window over bluebonnet field"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["fade_dissolve", "push_zoom", "morph_match"],
+ "camera": ["push_in", "pan", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 5, "text_style": "integrated_in_scene"},
+ "notes": "Frame story: live-action farmhouse bookends a blue paper-silhouette narrative; handwritten-script lyrics drift in scene. Section labels inferred visually."}

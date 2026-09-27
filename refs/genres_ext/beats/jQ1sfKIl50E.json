@@ -1,0 +1,22 @@
+{"id": "jQ1sfKIl50E", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Drake meme: Canva rejected, Figma approved"},
+  {"start": 12, "end": 72, "kind": "step", "what": "Empty canvas, toolbar, create first frame"},
+  {"start": 72, "end": 132, "kind": "step", "what": "Add and edit text 'Smart choice!', layers panel"},
+  {"start": 132, "end": 204, "kind": "step", "what": "Fill colors and gradients on frame and text"},
+  {"start": 204, "end": 264, "kind": "step", "what": "Layout grid, columns and alignment"},
+  {"start": 264, "end": 348, "kind": "step", "what": "Second frame, big 'Flux' text styling"},
+  {"start": 348, "end": 444, "kind": "step", "what": "Image masking inside text, adjust fills"},
+  {"start": 444, "end": 456, "kind": "tip", "what": "Presenter on camera mid-video"},
+  {"start": 456, "end": 600, "kind": "step", "what": "Build 'Learn Figma' button with auto layout"},
+  {"start": 600, "end": 660, "kind": "step", "what": "Components and variants of the button"},
+  {"start": 660, "end": 744, "kind": "step", "what": "Prototype interactions and connections"},
+  {"start": 744, "end": 792, "kind": "result", "what": "Presenting prototype with hover button"},
+  {"start": 792, "end": 801.37, "kind": "outro", "what": "Presenter sign-off on camera"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"steps": 10, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Continuous screen capture building one project; keyboard-shortcut overlays lower-left; presenter appears only mid-way and at end. Coarse 12s step."}

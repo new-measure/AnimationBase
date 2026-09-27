@@ -1,0 +1,22 @@
+{"id": "aVwxzDHniEw", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 63, "kind": "hook", "what": "Animated curves with tangents and handles"},
+  {"start": 63, "end": 126, "kind": "context", "what": "Game footage examples: Final Fantasy, level paths"},
+  {"start": 126, "end": 252, "kind": "chart_reveal", "what": "Lerp between points builds quadratic and cubic curves"},
+  {"start": 252, "end": 399, "kind": "insight", "what": "De Casteljau's algorithm, polynomial and weight bars"},
+  {"start": 399, "end": 504, "kind": "zoom", "what": "Derivatives: velocity, acceleration vectors with plots"},
+  {"start": 504, "end": 672, "kind": "insight", "what": "Jerk and curvature formulas, osculating circle"},
+  {"start": 672, "end": 693, "kind": "other", "what": "Quadtree bounding-box use case"},
+  {"start": 693, "end": 861, "kind": "comparison", "what": "X/Y derivative plots, roots for bounding boxes"},
+  {"start": 861, "end": 1008, "kind": "insight", "what": "Arc length integral, segment approximation"},
+  {"start": 1008, "end": 1176, "kind": "chart_reveal", "what": "Cumulative distance lookup table, code snippet"},
+  {"start": 1176, "end": 1197, "kind": "transition", "what": "Blank pause before credits"},
+  {"start": 1197, "end": 1428, "kind": "source", "what": "Special thanks and Patreon list with presenter webcam"},
+  {"start": 1428, "end": 1465.13, "kind": "other", "what": "Audio waveform editor outtake"}
+ ],
+ "first_text_s": 126, "text_cards": 3,
+ "transitions": ["morph_match", "cut", "fade_dissolve"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["line", "other"], "annotations": true, "source_shown": false},
+ "notes": "Math explainer mislabelled as data story; continuous morphing diagrams on dark canvas, formula panels; long 4-min credits. Coarse 21 s step."}

@@ -1,0 +1,18 @@
+{"id": "_gBF27M7NHI", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Orbit arc: issue enters triage, loop trigger"},
+  {"start": 2, "end": 8, "kind": "step", "what": "Nodes: find bug labels, search context, coding session"},
+  {"start": 8, "end": 12, "kind": "overview", "what": "Camera pulls back to full loop ellipse"},
+  {"start": 12, "end": 17.17, "kind": "transition", "what": "Blurred cross-fade to second loop"},
+  {"start": 17.17, "end": 21, "kind": "step", "what": "Review issues, draft root cause analysis"},
+  {"start": 21, "end": 27, "kind": "overview", "what": "Multiple loops orbit together, zooming out"},
+  {"start": 27, "end": 34, "kind": "title", "what": "Loops collapse into icon and Loops wordmark"},
+  {"start": 34, "end": 36, "kind": "outro", "what": "Now available in Linear"},
+  {"start": 36, "end": 40.5, "kind": "outro", "what": "Linear logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["fade_dissolve", "morph_match", "cut"],
+ "camera": ["tilt_3d", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"steps": 2, "zooms_into_ui": false, "cursor_visible": false, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Abstract feature teaser rather than true tutorial; monochrome 3D orbits with labelled nodes; zoom-out reveal into logo."}

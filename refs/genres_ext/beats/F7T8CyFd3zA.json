@@ -1,0 +1,21 @@
+{"id": "F7T8CyFd3zA", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 7.04, "kind": "intro", "what": "Presenter at laptop introduces Craft tour"},
+  {"start": 7.04, "end": 20.54, "kind": "overview", "what": "All Documents home grid, sidebar"},
+  {"start": 20.54, "end": 40, "kind": "step", "what": "Tasks view: inbox, today, add task"},
+  {"start": 40, "end": 88, "kind": "step", "what": "Calendar and daily notes, sidebar folders"},
+  {"start": 88, "end": 100, "kind": "step", "what": "Customize sidebar popup settings"},
+  {"start": 100, "end": 113.33, "kind": "step", "what": "Templates and settings panels"},
+  {"start": 113.33, "end": 119.42, "kind": "transition", "what": "Presenter to camera bridges to document editor"},
+  {"start": 119.42, "end": 168, "kind": "step", "what": "Document page: outline, images, cover media"},
+  {"start": 168, "end": 204, "kind": "step", "what": "Share, preview and page style options"},
+  {"start": 204, "end": 256, "kind": "step", "what": "Right-side panels: comments, formatting, colours"},
+  {"start": 256, "end": 260, "kind": "recap", "what": "Final document view"},
+  {"start": 260, "end": 265.78, "kind": "outro", "what": "Presenter sign-off"}
+ ],
+ "first_text_s": null, "text_cards": 0,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"steps": 7, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Presenter bookends and one mid bridge; long screen-recording stretches with subtle zooms; UI text too small to read."}

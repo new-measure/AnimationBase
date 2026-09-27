@@ -1,0 +1,19 @@
+{"id": "785256722", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 24, "kind": "hook", "what": "Live-action presenter at desk talks to camera, rubber duck"},
+  {"start": 24, "end": 39, "kind": "transition", "what": "Duck dives into colorful animated code universe"},
+  {"start": 39, "end": 48, "kind": "context", "what": "Animated presenter flies through city and space"},
+  {"start": 48, "end": 60, "kind": "explanation", "what": "Presenter on cloud, hands hold duck and orb"},
+  {"start": 60, "end": 84, "kind": "explanation", "what": "Branch lines and nodes; developer collaborating in code world"},
+  {"start": 84, "end": 99, "kind": "example", "what": "UI panels, relaxed presenter, robot among many ducks"},
+  {"start": 99, "end": 123, "kind": "explanation", "what": "Constellation graph, glowing cube, giant duck companion"},
+  {"start": 123, "end": 141, "kind": "example", "what": "Diverse developers at work, giant duck close-up"},
+  {"start": 141, "end": 150, "kind": "cta", "what": "Figure faces duck in space, 'Let's build from here'"},
+  {"start": 150, "end": 154.71, "kind": "title", "what": "GitHub Octocat logo end card"}
+ ],
+ "first_text_s": 144, "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "morph_match", "whip_blur"],
+ "camera": ["static", "push_in", "tilt_3d", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": true, "recurring_character": true, "scene_changes_per_min": 20},
+ "notes": "Live-action host opening hands off to a 3D animated metaphor journey; rubber duck recurs throughout. Nearly text-free until the tagline."}

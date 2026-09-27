@@ -4,10 +4,8 @@
 import { useState } from 'react';
 import type { Project, Shot, Storyboard } from '@/lib/types';
 import type { FamilyStats } from '@/server/catalog';
-import { MODELS } from '@/lib/models';
-import { Button, Card, Spinner } from './ui';
-
-const EFFORTS = [{ v: 'medium', l: 'Quick draft' }, { v: 'high', l: 'Standard' }, { v: 'xhigh', l: 'Extra care' }];
+import { Badge, Button, Card, Page, Textarea } from './ui';
+import { ArrowRight } from './icons';
 
 function Editable({ value, onSave, className = '', multiline, placeholder }: { value: string; onSave: (v: string) => void; className?: string; multiline?: boolean; placeholder?: string }) {
   const common = { defaultValue: value, placeholder, onBlur: (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => { if (e.target.value !== value) onSave(e.target.value); } };
@@ -18,43 +16,42 @@ function Editable({ value, onSave, className = '', multiline, placeholder }: { v
 export default function StoryboardStep({ project, family, onSave, onRevise, onStart, busy }: {
   project: Project; family: Omit<FamilyStats, 'byCategory'> | null;
   onSave: (s: Storyboard) => void; onRevise: (change: string) => Promise<void>;
-  onStart: (models: string[], effort: string) => Promise<void>; busy: '' | 'revise' | 'start';
+  onStart: () => Promise<void>; busy: '' | 'revise' | 'start';
 }) {
   const s = project.storyboard!, len = project.brief!.length;
   const [change, setChange] = useState('');
-  const [models, setModels] = useState<string[]>([MODELS[0].id, MODELS[1].id]);
-  const [effort, setEffort] = useState('high');
   const upd = (i: number, p: Partial<Shot>) => onSave({ ...s, shots: s.shots.map((x, j) => (j === i ? { ...x, ...p } : x)) });
   const avgShot = s.shots.length ? len / s.shots.length : 0;
 
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-8 grid gap-6 lg:grid-cols-[1fr_340px]">
+    <Page width="wide" className="grid gap-8 lg:grid-cols-[1fr_340px]">
       <div className="min-w-0">
-        <Editable value={s.title} onSave={v => onSave({ ...s, title: v })} className="text-2xl font-semibold tracking-tight" />
-        <Editable value={s.logline} onSave={v => onSave({ ...s, logline: v })} className="mt-1 text-muted" multiline />
+        <p className="mb-1.5 text-xs font-medium uppercase tracking-wider text-accent">Storyboard · {s.shots.length} shots · {len}s</p>
+        <Editable value={s.title} onSave={v => onSave({ ...s, title: v })} className="text-2xl sm:text-3xl font-semibold tracking-tight" />
+        <Editable value={s.logline} onSave={v => onSave({ ...s, logline: v })} className="mt-1 text-base text-muted" multiline />
 
         {/* the film at a glance, with the genre's measured cut rhythm underneath */}
         <div className="mt-6">
-          <div className="flex h-9 rounded-lg overflow-hidden ring-1 ring-line">
+          <div className="flex h-10 rounded-lg overflow-hidden ring-1 ring-line bg-panel">
             {s.shots.map((sh, i) => (
               <a key={sh.id} href={`#shot-${sh.id}`} style={{ width: `${((sh.t1 - sh.t0) / len) * 100}%` }}
-                className={`flex items-center px-2 text-xs whitespace-nowrap overflow-hidden border-r border-bg ${i % 2 ? 'bg-accent/20' : 'bg-accent/10'} hover:bg-accent/30`}>
-                <b className="mr-1">{sh.id}</b>{sh.name}
+                className={`flex items-center px-2 text-xs whitespace-nowrap overflow-hidden border-r border-panel transition-colors ${i % 2 ? 'bg-accent/20' : 'bg-accent/10'} hover:bg-accent/30`}>
+                <b className="mr-1.5 font-semibold">{sh.id}</b><span className="truncate text-muted">{sh.name}</span>
               </a>
             ))}
           </div>
-          <div className="mt-1 flex justify-between text-[10px] text-faint tabular-nums"><span>0s</span><span>{len / 2}s</span><span>{len}s</span></div>
+          <div className="mt-1.5 flex justify-between text-xs text-faint tabular-nums"><span>0s</span><span>{len / 2}s</span><span>{len}s</span></div>
           {family?.pacing && (
-            <p className="mt-2 text-xs text-muted">
-              {s.shots.length} shots, ~{avgShot.toFixed(1)}s each. Real {family.label} films cut every {family.pacing.shot}s with beats of ~{family.pacing.beat}s,
-              so shots here usually hold several quick moves.
+            <p className="mt-3 text-sm text-muted text-pretty">
+              {s.shots.length} shots, ~{avgShot.toFixed(1)}s each. Real {family.label} films cut every {family.pacing.shot}s with beats of ~{Math.round(family.pacing.beat)}s,
+              {family.group === 'beyond' ? ' so each shot holds long enough to be read, one change at a time.' : ' so shots here usually hold several quick moves.'}
             </p>
           )}
         </div>
 
         <Card className="mt-5 px-5 py-4">
-          <p className="text-xs font-medium text-muted uppercase tracking-wide">Look</p>
-          <Editable value={s.look} onSave={v => onSave({ ...s, look: v })} className="mt-1 text-sm" multiline />
+          <p className="text-sm font-semibold">Look</p>
+          <Editable value={s.look} onSave={v => onSave({ ...s, look: v })} className="mt-1 text-sm text-muted" multiline />
         </Card>
 
         <div className="mt-4 grid gap-3">
@@ -63,11 +60,11 @@ export default function StoryboardStep({ project, family, onSave, onRevise, onSt
               <div id={`shot-${sh.id}`} className="flex items-center gap-3">
                 <span className="size-7 shrink-0 rounded-lg bg-ink text-bg grid place-items-center text-xs font-semibold">{sh.id}</span>
                 <Editable value={sh.name} onSave={v => upd(i, { name: v })} className="font-medium" />
-                <span className="ml-auto shrink-0 text-xs tabular-nums text-muted">{sh.t0}–{sh.t1}s</span>
+                <Badge className="ml-auto shrink-0 tabular-nums">{sh.t0}–{sh.t1}s</Badge>
               </div>
-              <div className="mt-3 grid gap-2 text-sm">
+              <div className="mt-3 grid gap-3 text-sm">
                 <Editable value={sh.action} onSave={v => upd(i, { action: v })} multiline />
-                <div className="grid grid-cols-[88px_1fr] items-baseline gap-2">
+                <div className="grid grid-cols-[88px_1fr] items-baseline gap-x-3 gap-y-1.5 border-t border-line pt-3">
                   <span className="text-xs text-muted">On screen</span>
                   <Editable value={sh.text || ''} onSave={v => upd(i, { text: v })} placeholder="no words" className="font-medium" />
                   <span className="text-xs text-muted">Transition</span>
@@ -80,45 +77,26 @@ export default function StoryboardStep({ project, family, onSave, onRevise, onSt
       </div>
 
       <aside className="lg:sticky lg:top-20 self-start grid gap-4">
-        <Card className="p-4">
-          <p className="text-sm font-medium">Ask for changes</p>
-          <textarea value={change} onChange={e => setChange(e.target.value)} rows={3} disabled={!!busy}
-            placeholder="“Make the opening calmer” · “Add a shot showing the mobile app” · “Shorter end card”"
-            className="mt-2 w-full rounded-lg border border-line bg-bg px-3 py-2 text-sm outline-none focus:border-accent resize-none" />
-          <Button variant="ghost" className="mt-2 w-full" disabled={!change.trim() || !!busy}
-            onClick={async () => { await onRevise(change); setChange(''); }}>
-            {busy === 'revise' ? <span className="inline-flex items-center gap-2"><Spinner /> Revising…</span> : 'Revise storyboard'}
+        <Card className="p-5 border-accent/40">
+          <p className="text-base font-semibold tracking-tight">Build it in the arena</p>
+          <p className="mt-1 text-sm text-muted">Two versions of your film are built side by side from this storyboard. Watch both, then keep the one you like.</p>
+          <Button size="lg" className="mt-4 w-full" disabled={!!busy && busy !== 'start'} loading={busy === 'start'} onClick={onStart}>
+            {busy === 'start' ? 'Starting…' : <>Approve and start the arena <ArrowRight /></>}
           </Button>
-          <p className="mt-2 text-[11px] text-faint">Or edit any text directly: click it.</p>
+          <p className="mt-2.5 text-xs text-muted">Usually 10–30 minutes. You can leave and come back.</p>
         </Card>
 
-        <Card className="p-4">
-          <p className="text-sm font-medium">Build it in the arena</p>
-          <p className="mt-1 text-xs text-muted">Two models build this storyboard side by side. You won’t know which is which until you pick the better film.</p>
-          <div className="mt-3 grid gap-2">
-            {[0, 1].map(i => (
-              <label key={i} className="grid grid-cols-[64px_1fr] items-center gap-2 text-sm">
-                <span className="text-muted text-xs">Model {i + 1}</span>
-                <select value={models[i]} onChange={e => setModels(m => m.map((x, j) => (j === i ? e.target.value : x)))}
-                  className="rounded-lg border border-line bg-bg px-2 py-1.5">
-                  {MODELS.map(m => <option key={m.id} value={m.id}>{m.label}{m.note ? ` · ${m.note}` : ''}</option>)}
-                </select>
-              </label>
-            ))}
-            <label className="grid grid-cols-[64px_1fr] items-center gap-2 text-sm">
-              <span className="text-muted text-xs">Effort</span>
-              <select value={effort} onChange={e => setEffort(e.target.value)} className="rounded-lg border border-line bg-bg px-2 py-1.5">
-                {EFFORTS.map(x => <option key={x.v} value={x.v}>{x.l}</option>)}
-              </select>
-            </label>
-          </div>
-          {models[0] === models[1] && <p className="mt-2 text-[11px] text-warn">Same model twice: you’ll compare two takes.</p>}
-          <Button className="mt-4 w-full" disabled={!!busy} onClick={() => onStart(models, effort)}>
-            {busy === 'start' ? <span className="inline-flex items-center gap-2"><Spinner /> Starting…</span> : 'Approve & start arena →'}
+        <Card className="p-5">
+          <p className="text-sm font-semibold">Ask for changes</p>
+          <Textarea value={change} onChange={e => setChange(e.target.value)} rows={3} disabled={!!busy} className="mt-2"
+            placeholder="“Make the opening calmer” · “Add a shot showing the mobile app” · “Shorter end card”" />
+          <Button variant="secondary" className="mt-2 w-full" disabled={!change.trim() || (!!busy && busy !== 'revise')} loading={busy === 'revise'}
+            onClick={async () => { await onRevise(change); setChange(''); }}>
+            {busy === 'revise' ? 'Revising…' : 'Revise storyboard'}
           </Button>
-          <p className="mt-2 text-[11px] text-faint">A build usually takes 10–30 minutes. You can leave this page and come back.</p>
+          <p className="mt-2.5 text-xs text-muted">Or click any text on the left to edit it directly.</p>
         </Card>
       </aside>
-    </div>
+    </Page>
   );
 }

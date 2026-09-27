@@ -1,0 +1,20 @@
+{"id": "QZZwoObFMhU", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Vox logo; photos of oddities and a vote sign"},
+  {"start": 12, "end": 24, "kind": "question", "what": "US map, dot grid of voters, Gerrymandering title"},
+  {"start": 24, "end": 33, "kind": "context", "what": "Elbridge Gerry portrait and 1810 salamander cartoon"},
+  {"start": 33, "end": 48, "kind": "explanation", "what": "Voting district dots and House of Reps photo"},
+  {"start": 48, "end": 55, "kind": "data", "what": "Pie: 36 states let politicians draw districts"},
+  {"start": 55, "end": 90, "kind": "example", "what": "North Carolina 2012: results bars, contorted districts"},
+  {"start": 90, "end": 102, "kind": "data", "what": "Margins of victory bars and seats pie chart"},
+  {"start": 102, "end": 111, "kind": "explanation", "what": "Dot grid redrawn as packed, cracked districts"},
+  {"start": 111, "end": 123, "kind": "recap", "what": "US versus Canada map comparison"},
+  {"start": 123, "end": 153, "kind": "cta", "what": "Host on camera thanks viewers, asks subscribe"},
+  {"start": 153, "end": 165.51, "kind": "cta", "what": "End cards Best of Vox, subscribe; credits"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "morph_match"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": true, "recurring_character": false, "scene_changes_per_min": 12},
+ "notes": "Flat-color motion graphics explainer with one case study; presenter appears only in closing appeal after 123 s."}

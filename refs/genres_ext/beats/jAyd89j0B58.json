@@ -1,0 +1,22 @@
+{"id": "jAyd89j0B58", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "title", "what": "How to use Mac keyboard shortcuts title beside MacBook"},
+  {"start": 12, "end": 36.08, "kind": "overview", "what": "Menu bar menus reveal listed shortcuts"},
+  {"start": 36.08, "end": 42, "kind": "title", "what": "Section card: Copy, paste, other common shortcuts"},
+  {"start": 42, "end": 72, "kind": "step", "what": "Copy and paste text with keycap graphics"},
+  {"start": 72, "end": 96.54, "kind": "step", "what": "Undo, paste and match style, quit an app"},
+  {"start": 96.54, "end": 144, "kind": "step", "what": "Switch apps, open selected app, Screenshot app"},
+  {"start": 144, "end": 198, "kind": "step", "what": "Hide windows, Spotlight search, Quick Look"},
+  {"start": 198, "end": 252, "kind": "step", "what": "Look up word, Character Viewer, Help menu"},
+  {"start": 252, "end": 288, "kind": "step", "what": "Browser tabs: open, close, switch"},
+  {"start": 288, "end": 294, "kind": "title", "what": "Section card: Accessibility shortcuts"},
+  {"start": 294, "end": 342, "kind": "step", "what": "VoiceOver, zoom in and zoom out"},
+  {"start": 342, "end": 360, "kind": "step", "what": "Show Accessibility Shortcuts panel"},
+  {"start": 360, "end": 367.69, "kind": "outro", "what": "Keycap combo on dark end frame"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "fade_dissolve"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "genre_fields": {"steps": 21, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Repeating template: label plus animated keycaps left, MacBook demo right; two section title cards; about 12 s per shortcut."}

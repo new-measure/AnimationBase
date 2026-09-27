@@ -1,0 +1,20 @@
+{"id": "HHnjuUVgSJ4", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "title", "what": "Black card: Marshmello ft. CHVRCHES, Here With Me"},
+  {"start": 5, "end": 24.17, "kind": "verse", "what": "Blue glitch faces, single words: just, free, word, be"},
+  {"start": 24.17, "end": 42.12, "kind": "pre_chorus", "what": "Orange palette: lift, saying every, harder to breathe"},
+  {"start": 42.12, "end": 59.54, "kind": "chorus", "what": "Blue again: day, the words, away, know me"},
+  {"start": 59.54, "end": 81, "kind": "instrumental", "what": "Purple lightning drop, sparse words: say, heart, here"},
+  {"start": 81, "end": 99, "kind": "verse", "what": "Pink glitch scenes: that I go, harder, need"},
+  {"start": 99, "end": 111, "kind": "pre_chorus", "what": "Mirrored faces: every, sayin, won't"},
+  {"start": 111, "end": 120.08, "kind": "chorus", "what": "Blue characters: now, with"},
+  {"start": 120.08, "end": 138, "kind": "instrumental", "what": "Purple lightning drop: to, pain, heart, deep, you"},
+  {"start": 138, "end": 159, "kind": "outro", "what": "Orange faded faces: you, your perfect, I, me"},
+  {"start": 159, "end": 161.15, "kind": "other", "what": "Black end frame"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "whip_blur", "wipe_mask"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 1, "text_position": "center", "line_hold_s_typical": 1.5, "text_style": "kinetic"},
+ "notes": "One word at a time, centered over glitchy character art; color palette (blue/orange/purple) maps to song sections. Sections estimated visually."}

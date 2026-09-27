@@ -1,0 +1,19 @@
+{"id": "UFKfT1xwmdU", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 9, "kind": "intro", "what": "Glitchy 'Yeah' dot-matrix repeats"},
+  {"start": 9, "end": 27, "kind": "verse", "what": "She looks cool, her eyes lighting up, nothing to prove"},
+  {"start": 27, "end": 36, "kind": "pre_chorus", "what": "But I think, 1+1, you keep on getting closer"},
+  {"start": 36, "end": 54, "kind": "chorus", "what": "I wasn't ready, felt it, bodies locked, worst way"},
+  {"start": 54, "end": 72, "kind": "verse", "what": "She's got a new tattoo, I guess, ego, you"},
+  {"start": 72, "end": 84, "kind": "pre_chorus", "what": "But I think you do, she's, getting closer"},
+  {"start": 84, "end": 111, "kind": "chorus", "what": "Bodies locked, over it, not OK, Aftershock, my heart"},
+  {"start": 111, "end": 126, "kind": "bridge", "what": "Ran out, still want it, this drug on"},
+  {"start": 126, "end": 162, "kind": "chorus", "what": "Felt it hit me, over it, walls are shaking"},
+  {"start": 162, "end": 172.69, "kind": "outro", "what": "Yeah yeah yeah, then black"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "whip_blur", "wipe_mask"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "full_frame", "line_hold_s_typical": 2, "text_style": "kinetic"},
+ "notes": "Every cell a new full-frame type treatment over glitch/VHS collage textures; font and palette change per line; sections inferred from lyric repetition."}

@@ -1,0 +1,19 @@
+{"id": "mQaqXK7z9LM", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 14, "kind": "hook", "what": "Empty blue backdrop; collage figures pop into Freud"},
+  {"start": 14, "end": 70, "kind": "context", "what": "Freud biography: family photos, early research, Traumdeutung book"},
+  {"start": 70, "end": 126, "kind": "explanation", "what": "Pleasure principle; unconscious desires, repression collages"},
+  {"start": 126, "end": 154, "kind": "explanation", "what": "Id, ego, superego labelled around classical head"},
+  {"start": 154, "end": 203, "kind": "explanation", "what": "Numbered cards: oral and anal phases with archival footage"},
+  {"start": 203, "end": 294, "kind": "explanation", "what": "Phallic phase, Oedipus complex, family and romance collages"},
+  {"start": 294, "end": 350, "kind": "analogy", "what": "Hedgehogs dilemma; civilisation and its discontents"},
+  {"start": 350, "end": 385, "kind": "explanation", "what": "Psychoanalysis couch, parapraxes, slips examples"},
+  {"start": 385, "end": 420, "kind": "recap", "what": "Freud's relevance today; keyhole closing image"},
+  {"start": 420, "end": 439.58, "kind": "cta", "what": "Subscribe end screen with other videos"}
+ ],
+ "first_text_s": 63, "text_cards": 7,
+ "transitions": ["cut", "none_visible", "pan_slide"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 9},
+ "notes": "Cut-out photo collage on constant blue ground; numbered text cards structure the psychosexual stages; elements animate in and out."}

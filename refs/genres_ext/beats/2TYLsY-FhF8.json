@@ -1,0 +1,22 @@
+{"id": "2TYLsY-FhF8", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 7.5, "kind": "intro", "what": "Presenter Keegan Leary introduces GSAP interactions"},
+  {"start": 7.5, "end": 17.67, "kind": "overview", "what": "Kinetic feature text: animate anything, eases"},
+  {"start": 17.67, "end": 30.92, "kind": "overview", "what": "GSAP Field template timeline editor demo"},
+  {"start": 30.92, "end": 36.54, "kind": "intro", "what": "Presenter talks to camera"},
+  {"start": 36.54, "end": 54.88, "kind": "result", "what": "Callisto example site scroll animations"},
+  {"start": 54.88, "end": 57.04, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 57.04, "end": 117.67, "kind": "result", "what": "Hotel Orange site: letter scatter hover effects"},
+  {"start": 117.67, "end": 120.17, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 120.17, "end": 151.08, "kind": "result", "what": "Crane equipment site scroll-driven reveals"},
+  {"start": 151.08, "end": 159.46, "kind": "tip", "what": "Presenter comments on possibilities"},
+  {"start": 159.46, "end": 170.17, "kind": "result", "what": "Heavy equipment headline scroll animation"},
+  {"start": 170.17, "end": 175.92, "kind": "outro", "what": "Webflow blog announcement page link"},
+  {"start": 175.92, "end": 184.06, "kind": "outro", "what": "Presenter sign-off, Webflow logo"}
+ ],
+ "first_text_s": 3, "text_cards": 3,
+ "transitions": ["cut"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "genre_fields": {"steps": 0, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Showcase more than tutorial: presenter A-roll alternates with example-site screen captures; no build steps shown; URL lower-thirds as callouts."}

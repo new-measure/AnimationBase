@@ -1,0 +1,13 @@
+{"id": "b42jdyhA6YI", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 11, "kind": "map", "what": "Anomaly map 1880–1935, mostly blue cool years"},
+  {"start": 11, "end": 20, "kind": "map", "what": "Mid-century 1940s–1970s mixed warm and cool"},
+  {"start": 20, "end": 27, "kind": "map", "what": "1980s–2010s warming spreads, yellow dominates"},
+  {"start": 27, "end": 30.05, "kind": "insight", "what": "2018–2023 map deep red, holds on 2023"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["map", "timeline"], "annotations": false, "source_shown": false},
+ "notes": "Single static-camera animated choropleth with year timeline scrubber and colour legend; no narration cards; ~5 years per second."}

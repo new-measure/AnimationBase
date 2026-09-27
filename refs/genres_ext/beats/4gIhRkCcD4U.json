@@ -1,0 +1,21 @@
+{"id": "4gIhRkCcD4U", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "other", "what": "Nature Video ident"},
+  {"start": 5, "end": 15, "kind": "context", "what": "Encoding explained: birth place linked to death place"},
+  {"start": 15, "end": 25, "kind": "title", "what": "Charting culture 600 BCE–2012 CE over world map"},
+  {"start": 25, "end": 40, "kind": "map", "what": "Global migration arcs build up on world map"},
+  {"start": 40, "end": 70, "kind": "zoom", "what": "Zoom tour over Japan, Australia sparse data"},
+  {"start": 70, "end": 120, "kind": "story", "what": "Europe focus: Rome, Cordova sub-centers emerge"},
+  {"start": 120, "end": 150, "kind": "insight", "what": "Paris centralization contrasts multi-centre competition"},
+  {"start": 150, "end": 200, "kind": "story", "what": "Flashback to 1620, migrants to North America, names"},
+  {"start": 200, "end": 265, "kind": "map", "what": "Northeastern megalopolis; births east, deaths spread west"},
+  {"start": 265, "end": 320, "kind": "insight", "what": "Trains connect coasts, cars exodus, Florida retirement"},
+  {"start": 320, "end": 325, "kind": "zoom", "what": "Zoom out on dense US arcs"},
+  {"start": 325, "end": 336.62, "kind": "source", "what": "Paper citation, data and visualization credits"}
+ ],
+ "first_text_s": 5, "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve", "none_visible"],
+ "camera": ["pan", "push_in", "zoom_out_reveal", "tilt_3d"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map", "network", "timeline"], "annotations": true, "source_shown": true},
+ "notes": "Single continuous animated map with time-lapse; camera flies region to region while small lower captions annotate historical insights."}

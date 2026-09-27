@@ -1,0 +1,20 @@
+{"id": "ym6NDDRFHvc", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "5 Seconds of Summer and Don't Stop comic splash"},
+  {"start": 6, "end": 22.38, "kind": "verse", "what": "Comic panels: holiday, high score, run away"},
+  {"start": 22.38, "end": 33, "kind": "pre_chorus", "what": "Don't have a phone, gotta let you know, find a way"},
+  {"start": 33, "end": 57, "kind": "chorus", "what": "Don't stop doin' what you're doin', walk in the room"},
+  {"start": 57, "end": 69.58, "kind": "verse", "what": "Swear I can taste it, tongue tied, push me off"},
+  {"start": 69.58, "end": 78, "kind": "pre_chorus", "what": "Oh oh, home tonight, make you mine"},
+  {"start": 78, "end": 102, "kind": "chorus", "what": "Don't stop, like it, walk in the room, know it"},
+  {"start": 102, "end": 129, "kind": "bridge", "what": "Everyday same love games, round and round, fight scenes"},
+  {"start": 129, "end": 153, "kind": "chorus", "what": "Don't stop, move to the, harder for me"},
+  {"start": 153, "end": 168, "kind": "outro", "what": "Heroes defeat villain, band group panel"},
+  {"start": 168, "end": 171.78, "kind": "title", "what": "Comic cover end card"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "whip_blur", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Comic-book framing: lyrics as speech bubbles, captions and big 3D onomatopoeia; chorus reuses same splash panels each time."}

@@ -1,0 +1,19 @@
+{"id": "FTuOS8E1LZk", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "intro", "what": "Message box types Hello!"},
+  {"start": 2, "end": 4.04, "kind": "title", "what": "Slack logo zooms through colorful tunnel"},
+  {"start": 4.04, "end": 9, "kind": "step", "what": "Workspace sidebar; open channels, click project-unicorn"},
+  {"start": 9, "end": 22.92, "kind": "step", "what": "Channel conversation: messages, app status, files, reactions"},
+  {"start": 22.92, "end": 25.33, "kind": "transition", "what": "High-five illustration"},
+  {"start": 25.33, "end": 31, "kind": "step", "what": "Record video clip and post to channel"},
+  {"start": 31, "end": 35.21, "kind": "step", "what": "Start huddle with screen share"},
+  {"start": 35.21, "end": 38, "kind": "tip", "what": "Help button highlighted in workspace"},
+  {"start": 38, "end": 42, "kind": "outro", "what": "Ready, set typed; colorful shapes burst"},
+  {"start": 42, "end": 45.09, "kind": "outro", "what": "Slack: Where the future works"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["push_zoom", "pan_slide", "cut", "morph_match"],
+ "camera": ["push_in", "pan", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"steps": 4, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Stylized mock UI, not real capture; typed-message bookends; UI zoomed and scrolled on brand-colored backgrounds."}

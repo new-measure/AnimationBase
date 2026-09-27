@@ -1,0 +1,18 @@
+{"id": "362469637", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Close-up faces, lone figure on vast dark hillside"},
+  {"start": 8, "end": 12, "kind": "title", "what": "Title card: Solving for Faster Drug Discovery"},
+  {"start": 12, "end": 17.33, "kind": "title", "what": "Featuring card: Nilkanth Patel, computational biochemist"},
+  {"start": 17.33, "end": 34.25, "kind": "context", "what": "Figure crosses dense jungle of leafy shapes, searching"},
+  {"start": 34.25, "end": 48, "kind": "analogy", "what": "Figure alone as molecule-like shapes swirl around him"},
+  {"start": 48, "end": 56, "kind": "other", "what": "Spotlit figure crouches in darkness; hands in void"},
+  {"start": 56, "end": 72.5, "kind": "explanation", "what": "Hands cradle glowing light; figure carries it forward"},
+  {"start": 72.5, "end": 80, "kind": "recap", "what": "Face returns, tunnel of spiraling shapes toward light"},
+  {"start": 80, "end": 82.65, "kind": "cta", "what": "Google Cloud logo end card"}
+ ],
+ "first_text_s": 8, "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 14},
+ "notes": "Metaphorical brand film with almost no on-screen text; beat kinds inferred from imagery only, narration unknown."}

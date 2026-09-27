@@ -1,0 +1,23 @@
+{"id": "QPKKQnijnsM", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Wealth Inequality in America title over US map"},
+  {"start": 6, "end": 24, "kind": "context", "what": "Survey of 5,000 Americans shown as figure row"},
+  {"start": 24, "end": 48, "kind": "data", "what": "Bars: what Americans think vs ideal distribution"},
+  {"start": 48, "end": 96, "kind": "data", "what": "Reality bar added; bottom quintiles nearly vanish"},
+  {"start": 96, "end": 132, "kind": "explanation", "what": "311 million Americans lined up as 100 people"},
+  {"start": 132, "end": 144, "kind": "explanation", "what": "54 trillion dollars as green map, becomes bars"},
+  {"start": 144, "end": 162, "kind": "example", "what": "Dreaded socialism: perfectly equal distribution"},
+  {"start": 162, "end": 198, "kind": "data", "what": "Ideal distribution bar chart"},
+  {"start": 198, "end": 228, "kind": "data", "what": "What Americans think distribution chart"},
+  {"start": 228, "end": 300, "kind": "data", "what": "Actual distribution; top 1% bar exceeds frame"},
+  {"start": 300, "end": 324, "kind": "data", "what": "Top 1% income 24%, owns 50% stocks"},
+  {"start": 324, "end": 354, "kind": "example", "what": "CEO earns 380x average worker"},
+  {"start": 354, "end": 372, "kind": "recap", "what": "Ideal, think, reality curves side by side"},
+  {"start": 372, "end": 383.5, "kind": "other", "what": "Licence note and references"}
+ ],
+ "first_text_s": 0, "text_cards": 6,
+ "transitions": ["fade_dissolve", "morph_match", "pan_slide"],
+ "camera": ["static", "pan", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 2},
+ "notes": "Single continuous infographic canvas, no cuts; charts build and re-label repeatedly; heavy vignette; magnifier and hand pointers annotate."}

@@ -1,0 +1,21 @@
+{"id": "LPZh9BOjkQs", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 35, "kind": "hook", "what": "Script scroll of chatbot dialogue fed into a machine"},
+  {"start": 35, "end": 42, "kind": "title", "what": "Large Language Model box labelled"},
+  {"start": 42, "end": 91, "kind": "explanation", "what": "Next-word prediction with probability bars, building assistant reply"},
+  {"start": 91, "end": 119, "kind": "example", "what": "Huge text corpus; 'best of times' predicting next word"},
+  {"start": 119, "end": 203, "kind": "explanation", "what": "Parameters/weights tuned; backprop on training examples"},
+  {"start": 203, "end": 224, "kind": "data", "what": "Scale: billion computations per second over millions of years"},
+  {"start": 224, "end": 259, "kind": "explanation", "what": "Training steps: pretraining then RLHF with human feedback"},
+  {"start": 259, "end": 294, "kind": "context", "what": "GPUs, parallelism; before 2017 vs Transformers"},
+  {"start": 294, "end": 406, "kind": "explanation", "what": "Embeddings, attention, feedforward layers, repeated blocks, prediction"},
+  {"start": 406, "end": 420, "kind": "recap", "what": "Return to chatbot script producing an answer"},
+  {"start": 420, "end": 455, "kind": "cta", "what": "Museum credit, Deep Learning series and talk plugs"},
+  {"start": 455, "end": 477.52, "kind": "other", "what": "Where to dig deeper; Patreon supporter credits"}
+ ],
+ "first_text_s": 0, "text_cards": 5,
+ "transitions": ["morph_match", "push_zoom", "cut", "fade_dissolve"],
+ "camera": ["push_in", "zoom_out_reveal", "tilt_3d", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 4},
+ "notes": "Continuous 3D scene evolution with few hard cuts; recurring model box and pi creatures; long credits tail. Presenter only as talk thumbnail."}

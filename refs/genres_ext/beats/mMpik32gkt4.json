@@ -1,0 +1,21 @@
+{"id": "mMpik32gkt4", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 8.38, "kind": "title", "what": "Dark intro, Rive logo reveal"},
+  {"start": 8.38, "end": 27.29, "kind": "overview", "what": "Showcase: game UI, app, character animations"},
+  {"start": 27.29, "end": 38.17, "kind": "intro", "what": "Rive website: design tool, run anywhere runtimes"},
+  {"start": 38.17, "end": 66.08, "kind": "step", "what": "Editor: design headphone product card, colour swatches"},
+  {"start": 66.08, "end": 90, "kind": "step", "what": "Animate star rating timeline keyframes"},
+  {"start": 90, "end": 123, "kind": "step", "what": "Build state machine with inputs and transitions"},
+  {"start": 123, "end": 127.33, "kind": "result", "what": "Interactive rating preview works"},
+  {"start": 127.33, "end": 138, "kind": "overview", "what": "Community showcase: A.D. Police, characters, Iron Man"},
+  {"start": 138, "end": 147, "kind": "step", "what": "Export and embed options menu"},
+  {"start": 147, "end": 171.83, "kind": "tip", "what": "Docs, runtime preview, community files"},
+  {"start": 171.83, "end": 195, "kind": "outro", "what": "Website, YouTube Rive 101 playlist resources"},
+  {"start": 195, "end": 198.93, "kind": "outro", "what": "Fade to black"}
+ ],
+ "first_text_s": 27, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": false},
+ "notes": "Screen recordings floated on purple gradient with frequent zooms into panels; showcase sandwiches the hands-on demo; voiceover only."}

@@ -1,0 +1,20 @@
+{"id": "y4sOfO8Ei1g", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4.08, "kind": "title", "what": "Jonathan Coulton, Shop Vac title"},
+  {"start": 4.08, "end": 35.33, "kind": "verse", "what": "Kinetic words on textured colors: swing set, Wall-to-Wall"},
+  {"start": 35.33, "end": 45, "kind": "pre_chorus", "what": "Retro paper board: I'll be down"},
+  {"start": 45, "end": 60, "kind": "chorus", "what": "Because it's loud with the shop-vac on, you can cry"},
+  {"start": 60, "end": 90, "kind": "verse", "what": "Gourmet grocery, mower, fake ones, forget to hide"},
+  {"start": 90, "end": 102, "kind": "pre_chorus", "what": "Throw up, if you need me, man-call phone"},
+  {"start": 102, "end": 132, "kind": "chorus", "what": "Shop-vac chorus, iPhone, Starbucks map reviews"},
+  {"start": 132, "end": 144, "kind": "instrumental", "what": "Sheet music scrolls, sketched guitarist solo"},
+  {"start": 144, "end": 177, "kind": "bridge", "what": "Dark sky words: I'm still looking down, go away"},
+  {"start": 177, "end": 198, "kind": "chorus", "what": "Final chorus: I'll be down, you can cry"},
+  {"start": 198, "end": 205.89, "kind": "outro", "what": "Shop-vac banner with design and music credits"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "pan_slide", "whip_blur"],
+ "camera": ["push_in", "pan", "tilt_3d", "static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 2, "text_style": "kinetic"},
+ "notes": "Verses use 3D kinetic words on colored textures; chorus switches to consistent retro-ad paper layout, making sections visually distinct."}

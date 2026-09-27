@@ -1,0 +1,19 @@
+{"id": "686028247", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Extreme close-up of girl's eyes, pencil sweep"},
+  {"start": 4, "end": 12, "kind": "context", "what": "Girl draws and builds flat world on purple"},
+  {"start": 12, "end": 24, "kind": "context", "what": "Journey across purple landscape, reaching a glowing orb"},
+  {"start": 24, "end": 38, "kind": "transition", "what": "Orb turns world 3D; girl on colourful hill"},
+  {"start": 38, "end": 50, "kind": "explanation", "what": "Hands shape flat square into 3D cube"},
+  {"start": 50, "end": 56, "kind": "example", "what": "3D phone UI and web page mockups"},
+  {"start": 56, "end": 64, "kind": "example", "what": "Floating 3D primitives assemble in dark space"},
+  {"start": 64, "end": 72, "kind": "example", "what": "Portal reveals lush 3D landscape, castle"},
+  {"start": 72, "end": 82, "kind": "recap", "what": "Girl smiles, overlooks sunrise vista"},
+  {"start": 82, "end": 85.01, "kind": "title", "what": "Spline orb logo on black"}
+ ],
+ "first_text_s": null, "text_cards": 0,
+ "transitions": ["cut", "morph_match", "wipe_mask", "push_zoom"],
+ "camera": ["push_in", "pan", "tilt_3d", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 14},
+ "notes": "Wordless brand film; 2D-to-3D transformation as narrative arc; bookended by eye close-ups; only logo at end."}

@@ -1,0 +1,22 @@
+{"id": "R8VBRCs2jTU", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 28, "kind": "hook", "what": "Collage TV news of rate rises, hiring signs"},
+  {"start": 28, "end": 42, "kind": "title", "what": "Presenter intro and big serif title letters"},
+  {"start": 42, "end": 63, "kind": "context", "what": "Archive footage: interest rates, borrowing and saving"},
+  {"start": 63, "end": 105, "kind": "story", "what": "Economics editor explains; savings-tank plumbing metaphor"},
+  {"start": 105, "end": 161, "kind": "story", "what": "Spending cools demand; presenter and archive cutaways"},
+  {"start": 161, "end": 196, "kind": "other", "what": "Central bank plumbing diagram: reserves to customer rates"},
+  {"start": 196, "end": 273, "kind": "context", "what": "Housing, global footage: how rates ripple through economy"},
+  {"start": 273, "end": 322, "kind": "story", "what": "Consumers, shops, markets feel higher prices"},
+  {"start": 322, "end": 343, "kind": "chart_reveal", "what": "US federal funds rate line chart, Volcker headline"},
+  {"start": 343, "end": 413, "kind": "story", "what": "Rate and inflation dials; India inflation news clips"},
+  {"start": 413, "end": 441, "kind": "chart_reveal", "what": "US interest rate vs consumer prices line chart, COVID"},
+  {"start": 441, "end": 476, "kind": "conclusion", "what": "Presenter wraps: rates at record high signs"},
+  {"start": 476, "end": 493.98, "kind": "other", "what": "Economist end card with jar"}
+ ],
+ "first_text_s": 35, "text_cards": 2,
+ "transitions": ["cut", "wipe_mask", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["line", "other"], "annotations": true, "source_shown": true},
+ "notes": "Presenter-led with dense archive/stock cutaways; only two actual charts late; plumbing-tank metaphor recurs. Boundaries approximate at 7 s step."}

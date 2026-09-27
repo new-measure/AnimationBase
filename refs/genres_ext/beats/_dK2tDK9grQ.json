@@ -1,0 +1,20 @@
+{"id": "_dK2tDK9grQ", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "intro", "what": "Divide symbol and neon chevrons on black"},
+  {"start": 8, "end": 28, "kind": "verse", "what": "The club neon, drink bottle, you come over"},
+  {"start": 28, "end": 48, "kind": "pre_chorus", "what": "Girl you know I want your love, phone texts"},
+  {"start": 48, "end": 84, "kind": "chorus", "what": "Heart, push and pull, last night, love, lips"},
+  {"start": 84, "end": 96, "kind": "chorus", "what": "Every day discovering, in love with shape of you"},
+  {"start": 96, "end": 112, "kind": "verse", "what": "Pack your bag, the tour, in a taxi"},
+  {"start": 112, "end": 128, "kind": "pre_chorus", "what": "Girl you know, phone text messages again"},
+  {"start": 128, "end": 172, "kind": "chorus", "what": "Heart, push and pull, bass, love, every day"},
+  {"start": 172, "end": 192, "kind": "bridge", "what": "Come on be my baby, come on"},
+  {"start": 192, "end": 228, "kind": "chorus", "what": "Push and pull, last night, I'm in love"},
+  {"start": 228, "end": 235.06, "kind": "outro", "what": "Small shape of you lockup, fade to black"}
+ ],
+ "first_text_s": 8, "text_cards": 0,
+ "transitions": ["cut", "morph_match", "push_zoom", "whip_blur"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "full_frame", "line_hold_s_typical": 2, "text_style": "kinetic"},
+ "notes": "Hand-lettered kinetic typography; chorus visuals reused identically each repeat; very dense cuts in first 13 s."}

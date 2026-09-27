@@ -1,0 +1,20 @@
+{"id": "gUQjMoW1N_s", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Figma in Five purple opener"},
+  {"start": 6, "end": 41.38, "kind": "intro", "what": "Presenter webcam introduces design system components"},
+  {"start": 41.38, "end": 78, "kind": "step", "what": "Create icon and button components, publish library"},
+  {"start": 78, "end": 120, "kind": "step", "what": "Instances and overrides: Rad button edits propagate"},
+  {"start": 120, "end": 150, "kind": "step", "what": "Swap icon instances, bell component variants"},
+  {"start": 150, "end": 192, "kind": "step", "what": "Nested button inside card component, colour override"},
+  {"start": 192, "end": 216, "kind": "step", "what": "Search button component styling"},
+  {"start": 216, "end": 258, "kind": "step", "what": "Tooltip variants set, publish dialog"},
+  {"start": 258, "end": 336, "kind": "step", "what": "Slider component with auto layout and constraints"},
+  {"start": 336, "end": 414, "kind": "step", "what": "Tabbed image gallery component, resizing behaviour"},
+  {"start": 414, "end": 430.52, "kind": "outro", "what": "Figma in Five end card"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"steps": 9, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Same series format as Auto Layout episode: webcam intro, then continuous screen recording of escalating component examples; step splits inferred from canvas content."}

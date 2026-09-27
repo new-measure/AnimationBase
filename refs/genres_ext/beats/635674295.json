@@ -1,0 +1,20 @@
+{"id": "635674295", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "title", "what": "Podcast Subscriptions title with Anchor logo"},
+  {"start": 2, "end": 12, "kind": "hook", "what": "Abstract stripes, book, collage frames, glitch"},
+  {"start": 12, "end": 16, "kind": "transition", "what": "Line blooms into audio waveform blob"},
+  {"start": 16, "end": 20, "kind": "context", "what": "Phone player surrounded by collage listeners"},
+  {"start": 20, "end": 24, "kind": "explanation", "what": "Ear, lock icon, waveform: gated listening"},
+  {"start": 24, "end": 35, "kind": "explanation", "what": "Episode player bars multiply and animate"},
+  {"start": 35, "end": 44, "kind": "example", "what": "Microphone, phone app, collage of listeners"},
+  {"start": 44, "end": 48, "kind": "explanation", "what": "Lock badge in pulsing rings: subscribe unlock"},
+  {"start": 48, "end": 56, "kind": "example", "what": "Creators and listeners collage, mirrored lips"},
+  {"start": 56, "end": 59, "kind": "cta", "what": "Tagline: Great podcasts need great listeners"},
+  {"start": 59, "end": 60.05, "kind": "title", "what": "Anchor by Spotify logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "morph_match", "wipe_mask", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 22},
+ "notes": "Collage motion-graphics promo with almost no on-screen text; bookended by matching purple title and tagline cards; dense cut clusters."}

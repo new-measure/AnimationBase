@@ -1,0 +1,21 @@
+{"id": "sNhhvQGsMEc", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "hook", "what": "Earth surrounded by imagined alien civilizations"},
+  {"start": 6, "end": 36, "kind": "data", "what": "Observable universe size, galaxy and star counts, many planets"},
+  {"start": 36, "end": 42, "kind": "title", "what": "Kurzgesagt logo sting"},
+  {"start": 42, "end": 108, "kind": "data", "what": "Local group, Milky Way stars, habitable zone, planets with life"},
+  {"start": 108, "end": 174, "kind": "explanation", "what": "Timeline of universe, Kardashev scale civilization types I-III"},
+  {"start": 174, "end": 210, "kind": "question", "what": "Colonizing galaxy network; so where is everybody?"},
+  {"start": 210, "end": 216, "kind": "title", "what": "'THE FERMI PARADOX' title card"},
+  {"start": 216, "end": 258, "kind": "explanation", "what": "Great Filter: life's steps, rare-life scenarios"},
+  {"start": 258, "end": 312, "kind": "explanation", "what": "Filters ahead, civilizations destroyed, galactic predators"},
+  {"start": 312, "end": 342, "kind": "recap", "what": "Empty lonely nothingness, 90 billion light years of nothing"},
+  {"start": 342, "end": 360, "kind": "transition", "what": "Space exploration montage, Milky Way, to be continued"},
+  {"start": 360, "end": 380.3, "kind": "cta", "what": "Patreon, subscribe and Wait But Why end cards"}
+ ],
+ "first_text_s": 6, "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "wipe_mask", "pan_slide"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 10},
+ "notes": "Cold open with big-number data before logo; title card lands mid-video (210s) after setup; ends on cliffhanger then long end cards."}

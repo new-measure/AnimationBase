@@ -1,0 +1,19 @@
+{"id": "251182297", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 3.21, "kind": "title", "what": "Colorscope title card on pink"},
+  {"start": 3.21, "end": 8.46, "kind": "hook", "what": "Abstract overlapping circles form color wheel"},
+  {"start": 8.46, "end": 17.04, "kind": "context", "what": "Light burst, rose unfurling, swirling petals"},
+  {"start": 17.04, "end": 30.0, "kind": "explanation", "what": "Koi fish, mandala flower, eye; pink in nature and culture"},
+  {"start": 30.0, "end": 42.92, "kind": "explanation", "what": "Kissing lips, hands, sparkles; pink as love and intimacy"},
+  {"start": 42.92, "end": 51.5, "kind": "example", "what": "Flamingos form heart, keyhole silhouette"},
+  {"start": 51.5, "end": 67.42, "kind": "explanation", "what": "Ribbons, shell, figure on swing drifting through pink"},
+  {"start": 67.42, "end": 72.0, "kind": "transition", "what": "Dark planet curve and hourglass collapse"},
+  {"start": 72.0, "end": 78.0, "kind": "title", "what": "Credits with color wheel logo"},
+  {"start": 78.0, "end": 83.05, "kind": "cta", "what": "See more episodes URL, CNN logo end"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["morph_match", "fade_dissolve", "push_zoom", "cut"],
+ "camera": ["push_in", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 14},
+ "notes": "Abstract, near-wordless narrated mood piece; monochrome pink scenes flow via morphs. Beat semantics inferred from imagery only; uncertain."}

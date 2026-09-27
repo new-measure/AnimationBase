@@ -1,0 +1,16 @@
+{"id": "5Jrwkfoy5WY", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 7, "kind": "intro", "what": "Presenter to camera: stop making confusing tutorials"},
+  {"start": 7, "end": 10, "kind": "goal", "what": "Let me show you Smart Zoom, kinetic text"},
+  {"start": 10, "end": 16, "kind": "step", "what": "Screen Studio automatically adds zooms to your clicks"},
+  {"start": 16, "end": 23, "kind": "result", "what": "Preview zooms guide viewer's attention"},
+  {"start": 23, "end": 31, "kind": "step", "what": "Adjust zoom settings in right panel, instant animation"},
+  {"start": 31, "end": 37, "kind": "result", "what": "Playback: tutorials easier to follow"},
+  {"start": 37, "end": 43.33, "kind": "outro", "what": "Presenter: small details make better tutorials, see you"}
+ ],
+ "first_text_s": 1, "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"steps": 2, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Short-form talking-head sandwich around screen recording; burned-in subtitles throughout; UI frames animate zoom in/out demonstrating the feature itself."}

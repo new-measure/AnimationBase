@@ -1,0 +1,22 @@
+{"id": "jbkSRLYSojo", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 28.71, "kind": "hook", "what": "Behind-the-scenes: warehouse, crew, bubble chart teaser"},
+  {"start": 28.71, "end": 62.33, "kind": "context", "what": "Rosling explains axes: income, life expectancy"},
+  {"start": 62.33, "end": 88, "kind": "chart_reveal", "what": "Countries in 1810 appear as coloured bubbles"},
+  {"start": 88, "end": 92, "kind": "insight", "what": "Close-up talking head commentary"},
+  {"start": 92, "end": 120, "kind": "story", "what": "Industrial revolution: bubbles move 1826-1920"},
+  {"start": 120, "end": 140, "kind": "story", "what": "Wars and depression, 1933-1944 dips"},
+  {"start": 140, "end": 172, "kind": "comparison", "what": "Frozen 1948: labels USA, Japan, Brazil, China, India"},
+  {"start": 172, "end": 212, "kind": "story", "what": "Postwar convergence 1958 to 2009"},
+  {"start": 212, "end": 240, "kind": "zoom", "what": "Within-country split: Shanghai, Guizhou, Italy, Pakistan"},
+  {"start": 240, "end": 256, "kind": "insight", "what": "Action replay of 200 years"},
+  {"start": 256, "end": 268, "kind": "conclusion", "what": "Future arrow: all can reach rich and healthy"},
+  {"start": 268, "end": 284, "kind": "conclusion", "what": "Rosling closing remarks, chart gone"},
+  {"start": 284, "end": 287.46, "kind": "source", "what": "BBC Four The Joy of Stats end card"}
+ ],
+ "first_text_s": 8, "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["scatter"], "annotations": true, "source_shown": false},
+ "notes": "Presenter composited inside an AR bubble chart; big year counter as clock; handheld making-of cold open."}

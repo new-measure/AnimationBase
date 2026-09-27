@@ -1,0 +1,18 @@
+{"id": "P_Fx1yq3A8M", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 20, "kind": "verse", "what": "Typed text: down along the creek, heron hurried"},
+  {"start": 20, "end": 24, "kind": "instrumental", "what": "Text box xxxx then empty"},
+  {"start": 24, "end": 48, "kind": "verse", "what": "Low moon on yellow road, not the Time, OoOo"},
+  {"start": 48, "end": 50, "kind": "instrumental", "what": "Empty text box over sky"},
+  {"start": 50, "end": 76, "kind": "verse", "what": "Toiling with your blood, kissing, second sun"},
+  {"start": 76, "end": 78, "kind": "instrumental", "what": "Empty box, background changes"},
+  {"start": 78, "end": 112, "kind": "verse", "what": "Oh then how we gonna cry, honey understand"},
+  {"start": 112, "end": 130, "kind": "chorus", "what": "TURN AROUND YOU'RE MY A TEAM, hearts backdrop"},
+  {"start": 130, "end": 132.17, "kind": "outro", "what": "Deus ex Machina hand-drawn logo"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 15, "text_position": "center", "line_hold_s_typical": 6, "text_style": "static_cards"},
+ "notes": "Lyrics typed live into a notepad-like box that scrolls; background changes per section; section labels uncertain for this through-composed song."}

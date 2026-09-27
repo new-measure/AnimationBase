@@ -1,0 +1,17 @@
+{"id": "Sp6K3qpVFO0", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 30, "kind": "overview", "what": "Showcase of generative fill composite images"},
+  {"start": 30, "end": 41.75, "kind": "goal", "what": "Salt-flat photo and finished target image"},
+  {"start": 41.75, "end": 90, "kind": "step", "what": "Contextual task bar, selection, prompt field"},
+  {"start": 90, "end": 150.5, "kind": "step", "what": "Generate a car, browse variations, layer mask"},
+  {"start": 150.5, "end": 195, "kind": "step", "what": "Add water pool in cracked ground"},
+  {"start": 195, "end": 240, "kind": "step", "what": "Select sky area, generate clouds"},
+  {"start": 240, "end": 300, "kind": "step", "what": "Expand canvas with crop, fill empty sides"},
+  {"start": 300, "end": 330.79, "kind": "result", "what": "Final widened panorama with sun and car"}
+ ],
+ "first_text_s": null, "text_cards": 0,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Pure screen capture with red circular magnifier callouts; almost no cuts; ends on result without outro. Cursor presence assumed."}

@@ -1,0 +1,20 @@
+{"id": "458712140", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8.92, "kind": "hook", "what": "Student stands before fenced school"},
+  {"start": 8.92, "end": 24.0, "kind": "context", "what": "Confederate general statue with flag, chains, rubble collage"},
+  {"start": 24.0, "end": 43.83, "kind": "question", "what": "Statue in front of school; students walk past"},
+  {"start": 43.83, "end": 58.5, "kind": "data", "what": "US map filling with Confederate-named school locations"},
+  {"start": 58.5, "end": 88.0, "kind": "explanation", "what": "Flag burning, giant pen pushed; symbols of resistance"},
+  {"start": 88.0, "end": 120.0, "kind": "explanation", "what": "Courthouse, scales, archival news: court bans segregation"},
+  {"start": 120.0, "end": 152.0, "kind": "example", "what": "Bus, schools renamed after Confederates with statues"},
+  {"start": 152.0, "end": 204.0, "kind": "example", "what": "1975, book shelter, flag in classroom, yearbooks diversify"},
+  {"start": 204.0, "end": 224.0, "kind": "recap", "what": "Student returns, graduation celebration"},
+  {"start": 224.0, "end": 232.0, "kind": "cta", "what": "EJI logo and learn-more URL"},
+  {"start": 232.0, "end": 240.04, "kind": "title", "what": "Credits on black"}
+ ],
+ "first_text_s": 100, "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "morph_match", "wipe_mask"],
+ "camera": ["static", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 8},
+ "notes": "Bookended by same student character; muted grey history middle between colored present-day frames; map data beat early."}

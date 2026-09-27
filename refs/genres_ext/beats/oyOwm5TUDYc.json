@@ -1,0 +1,17 @@
+{"id": "oyOwm5TUDYc", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "World map with animated ship tracks, globe warp"},
+  {"start": 4, "end": 7, "kind": "title", "what": "SHIPMAP.ORG by UCL & Kiln title, dissolves"},
+  {"start": 7, "end": 13, "kind": "map", "what": "Global shipping movements animate across world map"},
+  {"start": 13, "end": 15, "kind": "context", "what": "Interactive map from 250 million data points"},
+  {"start": 15, "end": 27, "kind": "zoom", "what": "Europe: all positions, then colour by ship type"},
+  {"start": 27, "end": 42, "kind": "zoom", "what": "Asia: all positions, then by ship type"},
+  {"start": 42, "end": 57, "kind": "zoom", "what": "Americas: all positions, then by ship type"},
+  {"start": 57, "end": 62.04, "kind": "conclusion", "what": "Explore the interactive map at shipmap.org"}
+ ],
+ "first_text_s": 4, "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["map"], "annotations": true, "source_shown": true},
+ "notes": "Three regional chapters repeating the same pattern: region label, all positions white, then ship-type colours. Promo for interactive map."}

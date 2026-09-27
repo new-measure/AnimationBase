@@ -1,0 +1,18 @@
+{"id": "-ncIVUXZla8", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Avicii 'Waiting For Love' title card"},
+  {"start": 4, "end": 36, "kind": "verse", "what": "Farmhouse sketches, dog and owner, lower subtitles"},
+  {"start": 36, "end": 68, "kind": "chorus", "what": "Monday to Thursday waiting for love, dog runs"},
+  {"start": 68, "end": 120, "kind": "instrumental", "what": "Wordless: industrial city in rain, mountains, night run"},
+  {"start": 120, "end": 136, "kind": "bridge", "what": "Glowing moon through branches, 'We are one of a kind'"},
+  {"start": 136, "end": 164, "kind": "chorus", "what": "Days of week over battlefield ruins with dog"},
+  {"start": 164, "end": 200, "kind": "instrumental", "what": "Memories in wreckage, TV, dog sketches, fires"},
+  {"start": 200, "end": 224, "kind": "outro", "what": "Dog finds wounded soldier, return to farmhouse"},
+  {"start": 224, "end": 231.18, "kind": "title", "what": "'Waiting For Love' banner on fence"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["morph_match", "fade_dissolve", "pan_slide"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "lower", "line_hold_s_typical": 4, "text_style": "static_cards"},
+ "notes": "Narrative hand-drawn story of a dog; lyrics as small subtitles, dropped during long instrumental drops. Sections inferred from lyric content."}

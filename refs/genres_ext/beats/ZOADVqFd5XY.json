@@ -1,0 +1,19 @@
+{"id": "ZOADVqFd5XY", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Song title over moonlit sea"},
+  {"start": 4, "end": 40, "kind": "verse", "what": "Night forest, child drawing; small lower-centre lyric words"},
+  {"start": 40, "end": 48, "kind": "chorus", "what": "La-la-la line over city lights and space"},
+  {"start": 48, "end": 104, "kind": "verse", "what": "Carnival, lovers, crabs dancing; style changes per line"},
+  {"start": 104, "end": 112, "kind": "chorus", "what": "La-la-la over hand grabbing moon, rooftop"},
+  {"start": 112, "end": 144, "kind": "verse", "what": "Watercolour sea and felt cut-out scenes"},
+  {"start": 144, "end": 172, "kind": "bridge", "what": "Swans, moon with fireworks, embracing couples"},
+  {"start": 172, "end": 236, "kind": "chorus", "what": "Claymation fox, flower worlds, surreal figures"},
+  {"start": 236, "end": 244, "kind": "outro", "what": "Moon over forest, studio logo"},
+  {"start": 244, "end": 262.46, "kind": "other", "what": "Animation collaborator credits"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "push_zoom"],
+ "camera": ["static", "push_in", "pan", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 1, "text_position": "lower", "line_hold_s_typical": 2, "text_style": "static_cards"},
+ "notes": "Multi-studio anthology, animation style changes every few lines; lyrics tiny single words low-centre. Section labels uncertain."}

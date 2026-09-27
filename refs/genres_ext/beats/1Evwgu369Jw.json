@@ -1,0 +1,17 @@
+{"id": "1Evwgu369Jw", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "title", "what": "Victorian woman image then RSA Shorts logo"},
+  {"start": 8, "end": 21, "kind": "question", "what": "Empathy versus sympathy words contrasted in circles"},
+  {"start": 21, "end": 56, "kind": "context", "what": "Bear meets sad fox under raincloud in forest"},
+  {"start": 56, "end": 72, "kind": "analogy", "what": "Fox in dark hole: I'm stuck, it's dark, overwhelmed"},
+  {"start": 72, "end": 96, "kind": "explanation", "what": "Bear climbs down into hole; empathy as connection"},
+  {"start": 96, "end": 135, "kind": "example", "what": "Deer peers in, silver lining sympathy responses"},
+  {"start": 135, "end": 162, "kind": "recap", "what": "Bear hugs fox; heart appears, fade to black"},
+  {"start": 162, "end": 173.06, "kind": "cta", "what": "Credits and RSA logo, website"}
+ ],
+ "first_text_s": 6, "text_cards": 3,
+ "transitions": ["cut", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 7},
+ "notes": "Audio-led narrative with two long held two-shots; few cuts, character metaphor carries argument. Beat boundaries by content guess."}

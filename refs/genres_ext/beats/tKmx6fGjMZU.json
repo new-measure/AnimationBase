@@ -1,0 +1,14 @@
+{"id": "tKmx6fGjMZU", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "title", "what": "Presenter beside wall: Three Charts: Recession Bound?"},
+  {"start": 8, "end": 28, "kind": "chart_reveal", "what": "Bar chart: U.S. quarterly EPS growth turns negative"},
+  {"start": 28, "end": 45, "kind": "chart_reveal", "what": "Line chart: manufacturing PMI with recession bands, circled dip"},
+  {"start": 45, "end": 62, "kind": "comparison", "what": "Bars: credit spreads in past recessions versus now"},
+  {"start": 62, "end": 63.72, "kind": "conclusion", "what": "Presenter gestures, screen fades to black"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["wipe_mask", "fade_dissolve"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["bar", "line"], "annotations": true, "source_shown": true},
+ "notes": "Studio presenter at video wall, locked camera; chart swaps on wall are the only structure, three near-equal ~17 s segments."}

@@ -45,7 +45,7 @@ def download(url, path):
 
 def frames_grey(path):
     raw = ff(['-i', path, '-vf', f'fps={FPS},scale={GW}:{GH}:force_original_aspect_ratio=decrease,pad={GW}:{GH}:(ow-iw)/2:(oh-ih)/2,format=gray', '-f', 'rawvideo', '-'])
-    return np.frombuffer(raw, np.uint8).reshape(-1, GH, GW).astype(np.float32)
+    return np.frombuffer(raw, np.uint8).reshape(-1, GH, GW)   # bytes: diffs are taken in chunks (long films fit in memory)
 
 def runs(mask):
     out, s = [], None
@@ -56,7 +56,9 @@ def runs(mask):
     return out
 
 def motion(f):
-    d = np.zeros(len(f)); d[1:] = np.abs(np.diff(f, axis=0)).mean(axis=(1, 2))
+    d = np.zeros(len(f))
+    for a in range(1, len(f), 240):
+        b = min(len(f), a + 240); d[a:b] = np.abs(f[a:b].astype(np.int16) - f[a - 1:b - 1].astype(np.int16)).mean(axis=(1, 2))
     med = np.median(d) if len(d) else 0
     local = np.array([np.median(d[max(0, i - 12):i + 12]) for i in range(len(d))])
     cuts = [i for i in range(1, len(d)) if d[i] > max(12, 6 * local[i] + 2) and d[i] >= d[i - 1] and (i + 1 >= len(d) or d[i] >= d[i + 1])]

@@ -1,0 +1,22 @@
+{"id": "C4Q2ezioTUM", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4.38, "kind": "intro", "what": "Head of Notion Calendar introduces product"},
+  {"start": 4.38, "end": 10.5, "kind": "overview", "what": "Dock icon click opens calendar app"},
+  {"start": 10.5, "end": 21.29, "kind": "goal", "what": "Presenter explains purpose, hands on laptop"},
+  {"start": 21.29, "end": 34.25, "kind": "step", "what": "Calendar views, event menu, block event options"},
+  {"start": 34.25, "end": 36.04, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 36.04, "end": 41.75, "kind": "step", "what": "Link Notion page, menu bar upcoming meetings"},
+  {"start": 41.75, "end": 43.96, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 43.96, "end": 52.21, "kind": "step", "what": "Share availability, snippet copied to clipboard"},
+  {"start": 52.21, "end": 53.21, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 53.21, "end": 62.25, "kind": "step", "what": "Command menu and event creation"},
+  {"start": 62.25, "end": 63.96, "kind": "transition", "what": "Presenter bridge"},
+  {"start": 63.96, "end": 74.75, "kind": "step", "what": "Notion database dates shown in calendar"},
+  {"start": 74.75, "end": 79.6, "kind": "outro", "what": "Icons converge to logo, Notion wordmark"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Feature tour alternating presenter on couch with zoomed UI captures on laptop mockup; cuts every 2-5 s; brief logo outro."}

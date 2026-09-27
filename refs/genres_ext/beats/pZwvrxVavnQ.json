@@ -1,0 +1,20 @@
+{"id": "pZwvrxVavnQ", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Consent: It's simple as tea title"},
+  {"start": 6, "end": 18, "kind": "analogy", "what": "Stick figure offers tea; happy yes"},
+  {"start": 18, "end": 45, "kind": "analogy", "what": "Unsure or refusing: don't force tea, red crossed circles"},
+  {"start": 45, "end": 72, "kind": "analogy", "what": "Changing mind: accept then decline, respect it"},
+  {"start": 72, "end": 78, "kind": "data", "what": "Hand-drawn graph: interest in tea declines over time"},
+  {"start": 78, "end": 108, "kind": "analogy", "what": "Unconscious person can't want tea, don't pour"},
+  {"start": 108, "end": 129, "kind": "analogy", "what": "Then versus now: past yes isn't current yes"},
+  {"start": 129, "end": 135.75, "kind": "example", "what": "Calendar: tea once doesn't mean always"},
+  {"start": 135.75, "end": 153, "kind": "analogy", "what": "Doorway and bed scenes, sleeping person, crossed out"},
+  {"start": 153, "end": 159.96, "kind": "recap", "what": "It's the same with sex text card"},
+  {"start": 159.96, "end": 169.34, "kind": "recap", "what": "Consent is everything title, teacup end"}
+ ],
+ "first_text_s": 0, "text_cards": 5,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 8},
+ "notes": "Single extended analogy on white; very few hard cuts, redraws in place; red cross motif repeats; punchline text reveal near end."}

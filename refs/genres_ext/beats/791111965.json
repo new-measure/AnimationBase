@@ -1,0 +1,19 @@
+{"id": "791111965", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "The World Has a Waste title card"},
+  {"start": 4, "end": 24, "kind": "data", "what": "2BLN tons, 24x, 2036, 2050 figures in circle"},
+  {"start": 24, "end": 44, "kind": "explanation", "what": "Dry versus wet waste bins"},
+  {"start": 44, "end": 96, "kind": "explanation", "what": "In theory recycling; plastics degrade, 9% recycled, cost"},
+  {"start": 96, "end": 112, "kind": "example", "what": "Scale of money vs nature; burning waste 33%"},
+  {"start": 112, "end": 116, "kind": "question", "what": "Where is all this trash coming from?"},
+  {"start": 116, "end": 152, "kind": "data", "what": "Global North 16% population, 33% trash; US landfills emissions"},
+  {"start": 152, "end": 192, "kind": "example", "what": "Waste pickers: human rights issue, no protective equipment"},
+  {"start": 192, "end": 216, "kind": "explanation", "what": "Online consumption, ordering products, packaging returns to Earth"},
+  {"start": 216, "end": 225, "kind": "cta", "what": "Stop trashing our planet end card"}
+ ],
+ "first_text_s": 0, "text_cards": 9,
+ "transitions": ["morph_match", "pan_slide", "cut", "push_zoom"],
+ "camera": ["static", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 8},
+ "notes": "Flat two-colour motion graphics; almost no hard cuts, scenes morph; frequent headline text statements carry the argument."}

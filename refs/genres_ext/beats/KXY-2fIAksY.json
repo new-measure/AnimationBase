@@ -1,0 +1,20 @@
+{"id": "KXY-2fIAksY", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 14, "kind": "intro", "what": "Presenter cold open, 'a normal person' gag, confusion graphic"},
+  {"start": 14, "end": 42, "kind": "step", "what": "Tip 1: extension shortcuts via chrome://extensions"},
+  {"start": 42, "end": 63, "kind": "overview", "what": "Presenter intro, social handle, chapter list overlay"},
+  {"start": 63, "end": 119, "kind": "step", "what": "Tip 2 card: bookmark related tabs together"},
+  {"start": 119, "end": 224, "kind": "step", "what": "Tip 3: multiple user profiles, profile graphic, demo"},
+  {"start": 224, "end": 329, "kind": "step", "what": "Tip 4: custom search engines, Wikipedia keyword demo"},
+  {"start": 329, "end": 364, "kind": "step", "what": "Tip 5: focused work window"},
+  {"start": 364, "end": 413, "kind": "step", "what": "Tip 6: quickly find specific tabs"},
+  {"start": 413, "end": 455, "kind": "step", "what": "Tip 7: manage tabs efficiently, context menu"},
+  {"start": 455, "end": 483, "kind": "step", "what": "Tip 8: keyboard shortcuts with key callouts"},
+  {"start": 483, "end": 498.54, "kind": "outro", "what": "Presenter sign-off to camera"}
+ ],
+ "first_text_s": 0, "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 8, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Listicle; numbered tip cards over blurred presenter; screen recordings with presenter inset; first tip precedes channel intro. Tip 4/7 cards not captured."}

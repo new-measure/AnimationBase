@@ -1,0 +1,20 @@
+{"id": "Mh5LY4Mz15o", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Mount Fuji with glowing word 'beautiful'"},
+  {"start": 8, "end": 48, "kind": "context", "what": "Map of early migration, Bronze Age, rice farming"},
+  {"start": 48, "end": 96, "kind": "explanation", "what": "Asuka era: constitution text, Taika Reforms, name Nihon"},
+  {"start": 96, "end": 160, "kind": "explanation", "what": "Heian to samurai rise, emperor vs warriors, corrections"},
+  {"start": 160, "end": 240, "kind": "explanation", "what": "Shogunates, Warring States map, Hideyoshi, Tokugawa unification"},
+  {"start": 240, "end": 288, "kind": "explanation", "what": "Edo isolation, Dutch trade, prosperity graph"},
+  {"start": 288, "end": 352, "kind": "explanation", "what": "Black ships, Meiji modernization, war with Russia"},
+  {"start": 352, "end": 424, "kind": "explanation", "what": "Anglo alliance, WWI Europe maps, Pacific islands gained"},
+  {"start": 424, "end": 480, "kind": "explanation", "what": "Great Depression, WWII alliances, atom bomb"},
+  {"start": 480, "end": 520, "kind": "explanation", "what": "War maps of empire, US entry, Pacific conquest"},
+  {"start": 520, "end": 540.24, "kind": "recap", "what": "Post-war Japan, Panasonic and Seiko brands, fade out"}
+ ],
+ "first_text_s": 0, "text_cards": 8,
+ "transitions": ["cut", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 14},
+ "notes": "Bill Wurtz-style: satellite map base with rapid jokey word-art overlays, flags and dates; chronological, no sections; text constant."}

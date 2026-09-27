@@ -1,184 +1,188 @@
-// SQLite through node:sqlite, shared by the Next.js server and the worker (WAL mode, so both can use it at once).
-// Jobs are rows in `jobs`: the API inserts them, the worker claims and runs them.
-import { DatabaseSync } from 'node:sqlite';
-import { mkdirSync } from 'node:fs';
+// The data layer, on Neon Postgres through Drizzle (HTTP driver, so it works from serverless routes and the worker
+// alike). Jobs are rows in `jobs`: the API inserts them, the worker claims them with FOR UPDATE SKIP LOCKED.
+import { neon } from '@neondatabase/serverless';
+import { drizzle } from 'drizzle-orm/neon-http';
+import { and, asc, desc, eq, gt, inArray, sql } from 'drizzle-orm';
 import { randomUUID } from 'node:crypto';
-import { DATA_DIR, DB_PATH } from './paths';
-import type { Project, Run, RunEvent, Render, Brief, Storyboard, SimilarFilm, ProjectStatus, RunStatus } from '@/lib/types';
+import * as t from './schema';
+import type { Project, Run, RunEvent, Render, ProjectStatus, RunStatus } from '@/lib/types';
 
-const g = globalThis as unknown as { __db?: DatabaseSync };
-
-export function db(): DatabaseSync {
+const g = globalThis as unknown as { __db?: ReturnType<typeof drizzle<typeof t>> };
+export function db() {
   if (g.__db) return g.__db;
-  mkdirSync(DATA_DIR, { recursive: true });
-  const d = new DatabaseSync(DB_PATH);
-  d.exec(`
-    PRAGMA journal_mode = WAL;
-    PRAGMA busy_timeout = 5000;
-    CREATE TABLE IF NOT EXISTS projects (
-      id TEXT PRIMARY KEY, prompt TEXT NOT NULL, status TEXT NOT NULL, brief TEXT, storyboard TEXT, similar TEXT,
-      winner_run_id TEXT, created_at INTEGER NOT NULL);
-    CREATE TABLE IF NOT EXISTS runs (
-      id TEXT PRIMARY KEY, project_id TEXT NOT NULL, slot TEXT NOT NULL, model TEXT NOT NULL, status TEXT NOT NULL,
-      session_id TEXT, version INTEGER NOT NULL DEFAULT 0, error TEXT, cost_usd REAL NOT NULL DEFAULT 0,
-      started_at INTEGER, finished_at INTEGER);
-    CREATE TABLE IF NOT EXISTS events (
-      id INTEGER PRIMARY KEY AUTOINCREMENT, run_id TEXT NOT NULL, kind TEXT NOT NULL, text TEXT NOT NULL, data TEXT,
-      at INTEGER NOT NULL);
-    CREATE INDEX IF NOT EXISTS events_run ON events (run_id, id);
-    CREATE TABLE IF NOT EXISTS jobs (
-      id INTEGER PRIMARY KEY AUTOINCREMENT, kind TEXT NOT NULL, run_id TEXT NOT NULL, payload TEXT, status TEXT NOT NULL,
-      created_at INTEGER NOT NULL);
-    CREATE TABLE IF NOT EXISTS renders (
-      id TEXT PRIMARY KEY, run_id TEXT NOT NULL, status TEXT NOT NULL, progress REAL NOT NULL DEFAULT 0, eta TEXT,
-      file TEXT, error TEXT, created_at INTEGER NOT NULL);
-    CREATE TABLE IF NOT EXISTS votes (
-      id INTEGER PRIMARY KEY AUTOINCREMENT, project_id TEXT NOT NULL UNIQUE, run_a TEXT NOT NULL, run_b TEXT NOT NULL,
-      model_a TEXT NOT NULL, model_b TEXT NOT NULL, choice TEXT NOT NULL, created_at INTEGER NOT NULL);
-  `);
-  g.__db = d;
-  return d;
+  if (!process.env.DATABASE_URL) throw new Error('DATABASE_URL is not set: run through `npm run dev` (Infisical project animate)');
+  return (g.__db = drizzle(neon(process.env.DATABASE_URL), { schema: t }));
 }
-
-type Row = Record<string, unknown>;
-const j = <T>(s: unknown, fallback: T): T => (typeof s === 'string' && s ? JSON.parse(s) : fallback);
 export const newId = () => randomUUID().replace(/-/g, '').slice(0, 12);
 
 // ---------- projects ----------
-const toProject = (r: Row): Project => ({
-  id: r.id as string, prompt: r.prompt as string, status: r.status as ProjectStatus,
-  brief: j<Brief | null>(r.brief, null), storyboard: j<Storyboard | null>(r.storyboard, null),
-  similar: j<SimilarFilm[]>(r.similar, []), winnerRunId: (r.winner_run_id as string) || null, createdAt: r.created_at as number,
+type ProjectRow = typeof t.projects.$inferSelect;
+const toProject = (r: ProjectRow): Project => ({
+  id: r.id, userId: r.userId, prompt: r.prompt, status: r.status as ProjectStatus, brief: r.brief ?? null,
+  storyboard: r.storyboard ?? null, similar: r.similar ?? [], winnerRunId: r.winnerRunId, createdAt: r.createdAt,
 });
 
-export function createProject(prompt: string, brief: Brief, similar: SimilarFilm[]): Project {
-  const id = newId();
-  db().prepare('INSERT INTO projects (id, prompt, status, brief, similar, created_at) VALUES (?, ?, ?, ?, ?, ?)')
-    .run(id, prompt, 'brief', JSON.stringify(brief), JSON.stringify(similar), Date.now());
-  return getProject(id)!;
+export async function createProject(p: Pick<Project, 'prompt' | 'brief' | 'similar'> & { userId?: string | null }): Promise<Project> {
+  const [r] = await db().insert(t.projects).values({
+    id: newId(), userId: p.userId ?? null, prompt: p.prompt, status: 'brief', brief: p.brief, similar: p.similar, createdAt: Date.now(),
+  }).returning();
+  return toProject(r);
 }
-export function getProject(id: string): Project | null {
-  const r = db().prepare('SELECT * FROM projects WHERE id = ?').get(id) as Row | undefined;
+export async function getProject(id: string): Promise<Project | null> {
+  const [r] = await db().select().from(t.projects).where(eq(t.projects.id, id));
   return r ? toProject(r) : null;
 }
-export function listProjects(limit = 30): Project[] {
-  return (db().prepare('SELECT * FROM projects ORDER BY created_at DESC LIMIT ?').all(limit) as Row[]).map(toProject);
+export async function listProjects(opts: { userId?: string | null; limit?: number } = {}): Promise<Project[]> {
+  const q = db().select().from(t.projects);
+  const rows = await (opts.userId ? q.where(eq(t.projects.userId, opts.userId)) : q).orderBy(desc(t.projects.createdAt)).limit(opts.limit ?? 30);
+  return rows.map(toProject);
 }
-export function updateProject(id: string, p: Partial<Pick<Project, 'status' | 'brief' | 'storyboard' | 'similar' | 'winnerRunId'>>) {
-  const cols: Record<string, unknown> = {};
-  if (p.status) cols.status = p.status;
-  if (p.brief !== undefined) cols.brief = JSON.stringify(p.brief);
-  if (p.storyboard !== undefined) cols.storyboard = JSON.stringify(p.storyboard);
-  if (p.similar !== undefined) cols.similar = JSON.stringify(p.similar);
-  if (p.winnerRunId !== undefined) cols.winner_run_id = p.winnerRunId;
-  const keys = Object.keys(cols);
-  if (!keys.length) return;
-  db().prepare(`UPDATE projects SET ${keys.map(k => `${k} = ?`).join(', ')} WHERE id = ?`).run(...(Object.values(cols) as never[]), id);
+export async function updateProject(id: string, p: Partial<Pick<Project, 'status' | 'brief' | 'storyboard' | 'similar' | 'winnerRunId'>>) {
+  if (Object.keys(p).length) await db().update(t.projects).set(p).where(eq(t.projects.id, id));
 }
 
 // ---------- runs ----------
-const toRun = (r: Row): Run => ({
-  id: r.id as string, projectId: r.project_id as string, slot: r.slot as 'A' | 'B', model: r.model as string,
-  status: r.status as RunStatus, sessionId: (r.session_id as string) || null, version: r.version as number,
-  busy: !!db().prepare("SELECT 1 FROM jobs WHERE run_id = ? AND kind IN ('build', 'revise') AND status IN ('queued', 'running')").get(r.id as string),
-  error: (r.error as string) || null, costUsd: r.cost_usd as number,
-  startedAt: (r.started_at as number) || null, finishedAt: (r.finished_at as number) || null,
+type RunRow = typeof t.runs.$inferSelect;
+async function busyRuns(ids: string[]): Promise<Set<string>> {
+  if (!ids.length) return new Set();
+  const rows = await db().select({ runId: t.jobs.runId }).from(t.jobs).where(and(
+    inArray(t.jobs.runId, ids), inArray(t.jobs.kind, ['build', 'revise']), inArray(t.jobs.status, ['queued', 'running', 'cancel'])));
+  return new Set(rows.map(r => r.runId));
+}
+const toRun = (r: RunRow, busy: Set<string>): Run => ({
+  id: r.id, projectId: r.projectId, slot: r.slot as 'A' | 'B', model: r.model, thinking: r.thinking, status: r.status as RunStatus,
+  sessionId: r.sessionId, version: r.version, busy: busy.has(r.id), error: r.error, costUsd: r.costUsd,
+  startedAt: r.startedAt, finishedAt: r.finishedAt, engineHash: r.engineHash,
 });
-export function createRun(projectId: string, slot: 'A' | 'B', model: string): Run {
-  const id = newId();
-  db().prepare('INSERT INTO runs (id, project_id, slot, model, status) VALUES (?, ?, ?, ?, ?)').run(id, projectId, slot, model, 'queued');
-  return getRun(id)!;
+export async function createRun(projectId: string, slot: 'A' | 'B', model: string, thinking: string): Promise<Run> {
+  const [r] = await db().insert(t.runs).values({ id: newId(), projectId, slot, model, thinking, status: 'queued' }).returning();
+  return toRun(r, new Set());
 }
-export function getRun(id: string): Run | null {
-  const r = db().prepare('SELECT * FROM runs WHERE id = ?').get(id) as Row | undefined;
-  return r ? toRun(r) : null;
+export async function getRun(id: string): Promise<Run | null> {
+  const [r] = await db().select().from(t.runs).where(eq(t.runs.id, id));
+  return r ? toRun(r, await busyRuns([id])) : null;
 }
-export function projectRuns(projectId: string): Run[] {
-  return (db().prepare('SELECT * FROM runs WHERE project_id = ? ORDER BY slot').all(projectId) as Row[]).map(toRun);
+export async function projectRuns(projectId: string): Promise<Run[]> {
+  const rows = await db().select().from(t.runs).where(eq(t.runs.projectId, projectId)).orderBy(asc(t.runs.slot));
+  const busy = await busyRuns(rows.map(r => r.id));
+  return rows.map(r => toRun(r, busy));
 }
-export function updateRun(id: string, p: Partial<{ status: RunStatus; sessionId: string; version: number; error: string | null; costUsd: number; startedAt: number; finishedAt: number }>) {
-  const map: Record<string, string> = { status: 'status', sessionId: 'session_id', version: 'version', error: 'error', costUsd: 'cost_usd', startedAt: 'started_at', finishedAt: 'finished_at' };
-  const keys = Object.keys(p) as (keyof typeof p)[];
-  if (!keys.length) return;
-  db().prepare(`UPDATE runs SET ${keys.map(k => `${map[k]} = ?`).join(', ')} WHERE id = ?`).run(...(keys.map(k => p[k]) as never[]), id);
+export async function updateRun(id: string, p: Partial<Pick<RunRow, 'status' | 'sessionId' | 'version' | 'error' | 'costUsd' | 'startedAt' | 'finishedAt' | 'engineHash'>>) {
+  if (Object.keys(p).length) await db().update(t.runs).set(p).where(eq(t.runs.id, id));
+}
+
+// ---------- versions ----------
+export type VersionRow = typeof t.runVersions.$inferSelect;
+export async function saveVersion(runId: string, version: number, v: { files: Record<string, string>; deleted: string[] }, note: string | null = null) {
+  await db().insert(t.runVersions).values({ runId, version, files: v.files, deleted: v.deleted, note, createdAt: Date.now() })
+    .onConflictDoUpdate({ target: [t.runVersions.runId, t.runVersions.version], set: { files: v.files, deleted: v.deleted, note } });
+}
+export async function getVersion(runId: string, version: number): Promise<VersionRow | null> {
+  const [r] = await db().select().from(t.runVersions).where(and(eq(t.runVersions.runId, runId), eq(t.runVersions.version, version)));
+  return r ?? null;
+}
+export async function listVersions(runId: string): Promise<{ version: number; note: string | null; createdAt: number }[]> {
+  return db().select({ version: t.runVersions.version, note: t.runVersions.note, createdAt: t.runVersions.createdAt }).from(t.runVersions)
+    .where(eq(t.runVersions.runId, runId)).orderBy(asc(t.runVersions.version));
 }
 
 // ---------- events ----------
-export function addEvent(runId: string, kind: RunEvent['kind'], text: string, data: Record<string, unknown> | null = null) {
-  db().prepare('INSERT INTO events (run_id, kind, text, data, at) VALUES (?, ?, ?, ?, ?)').run(runId, kind, text, data ? JSON.stringify(data) : null, Date.now());
+export async function addEvent(runId: string, kind: RunEvent['kind'], text: string, data: Record<string, unknown> | null = null) {
+  await db().insert(t.events).values({ runId, kind, text, data, at: Date.now() });
 }
-export function runEvents(runId: string, after = 0, limit = 400): RunEvent[] {
-  return (db().prepare('SELECT * FROM events WHERE run_id = ? AND id > ? ORDER BY id LIMIT ?').all(runId, after, limit) as Row[]).map(r => ({
-    id: r.id as number, runId: r.run_id as string, kind: r.kind as RunEvent['kind'], text: r.text as string,
-    data: j<Record<string, unknown> | null>(r.data, null), at: r.at as number,
-  }));
+export async function runEvents(runId: string, after = 0, limit = 400): Promise<RunEvent[]> {
+  const rows = await db().select().from(t.events).where(and(eq(t.events.runId, runId), gt(t.events.id, after))).orderBy(asc(t.events.id)).limit(limit);
+  return rows.map(r => ({ id: r.id, runId: r.runId, kind: r.kind as RunEvent['kind'], text: r.text, data: r.data ?? null, at: r.at }));
 }
 
 // ---------- jobs ----------
 export type JobKind = 'build' | 'revise' | 'render';
 export interface Job { id: number; kind: JobKind; runId: string; payload: Record<string, unknown>; status: string }
-export function enqueue(kind: JobKind, runId: string, payload: Record<string, unknown> = {}) {
-  db().prepare('INSERT INTO jobs (kind, run_id, payload, status, created_at) VALUES (?, ?, ?, ?, ?)').run(kind, runId, JSON.stringify(payload), 'queued', Date.now());
+export async function enqueue(kind: JobKind, runId: string, payload: Record<string, unknown> = {}) {
+  const [j] = await db().insert(t.jobs).values({ kind, runId, payload, status: 'queued', createdAt: Date.now() }).returning({ id: t.jobs.id });
+  // in production each job runs in its own Modal container, started right away (the sweeper is the fallback)
+  if (process.env.WORKER_MODE === 'modal') await import('./dispatch').then(d => d.dispatch(j.id)).catch(e => console.error('dispatch failed; the sweeper will retry', e));
+  return j.id;
 }
-// atomically claim the oldest queued job of one of these kinds
-export function claimJob(kinds: JobKind[]): Job | null {
-  const d = db();
-  const r = d.prepare(`SELECT * FROM jobs WHERE status = 'queued' AND kind IN (${kinds.map(() => '?').join(',')}) ORDER BY id LIMIT 1`).get(...kinds) as Row | undefined;
-  if (!r) return null;
-  const res = d.prepare("UPDATE jobs SET status = 'running' WHERE id = ? AND status = 'queued'").run(r.id as number);
-  if (!res.changes) return null;
-  return { id: r.id as number, kind: r.kind as JobKind, runId: r.run_id as string, payload: j(r.payload, {}), status: 'running' };
+// claim one specific job (production: the container started for it). 'held' jobs are only ever claimed this way,
+// which keeps them away from polling workers (handy for tests and debugging).
+export async function claimJobById(id: number): Promise<Job | null> {
+  const [r] = await db().update(t.jobs).set({ status: 'running', heartbeatAt: Date.now() }).where(and(eq(t.jobs.id, id), inArray(t.jobs.status, ['queued', 'held']))).returning();
+  return r ? { id: r.id, kind: r.kind as JobKind, runId: r.runId, payload: r.payload ?? {}, status: r.status } : null;
 }
-export function finishJob(id: number, status: 'done' | 'failed' | 'cancelled') {
-  db().prepare('UPDATE jobs SET status = ? WHERE id = ?').run(status, id);
+export async function heartbeat(id: number) {
+  await db().update(t.jobs).set({ heartbeatAt: Date.now() }).where(eq(t.jobs.id, id));
 }
-export function requestCancel(runId: string) {
-  db().prepare("UPDATE jobs SET status = 'cancelled' WHERE run_id = ? AND status = 'queued'").run(runId);
-  db().prepare("UPDATE jobs SET status = 'cancel' WHERE run_id = ? AND status = 'running'").run(runId);
+export async function queuedJobIds(olderThanMs: number): Promise<number[]> {
+  const rows = await db().select({ id: t.jobs.id }).from(t.jobs).where(and(eq(t.jobs.status, 'queued'), sql`${t.jobs.createdAt} < ${Date.now() - olderThanMs}`));
+  return rows.map(r => r.id);
 }
-export function jobCancelled(id: number): boolean {
-  const r = db().prepare('SELECT status FROM jobs WHERE id = ?').get(id) as Row | undefined;
+// running jobs whose container stopped sending heartbeats: mark them and their run or render failed
+export async function failSilentJobs(silentMs: number) {
+  const cutoff = Date.now() - silentMs;
+  const dead = await db().update(t.jobs).set({ status: 'failed' })
+    .where(and(inArray(t.jobs.status, ['running', 'cancel']), sql`coalesce(${t.jobs.heartbeatAt}, ${t.jobs.createdAt}) < ${cutoff}`))
+    .returning({ runId: t.jobs.runId, kind: t.jobs.kind });
+  for (const s of dead) {
+    if (s.kind === 'render') await db().update(t.renders).set({ status: 'failed', error: 'the render machine stopped' }).where(and(eq(t.renders.runId, s.runId), inArray(t.renders.status, ['queued', 'running'])));
+    else await db().update(t.runs).set({ status: 'failed', error: 'the build machine stopped' }).where(and(eq(t.runs.id, s.runId), inArray(t.runs.status, ['queued', 'running'])));
+  }
+  return dead.length;
+}
+// atomically claim the oldest queued job of one of these kinds (safe with several workers)
+export async function claimJob(kinds: JobKind[]): Promise<Job | null> {
+  const res = await db().execute(sql`
+    UPDATE jobs SET status = 'running', heartbeat_at = ${Date.now()} WHERE id = (
+      SELECT id FROM jobs WHERE status = 'queued' AND kind IN (${sql.join(kinds.map(k => sql`${k}`), sql`, `)})
+      ORDER BY id LIMIT 1 FOR UPDATE SKIP LOCKED)
+    RETURNING id, kind, run_id, payload, status`);
+  const r = res.rows[0] as { id: number | string; kind: JobKind; run_id: string; payload: Record<string, unknown>; status: string } | undefined;
+  return r ? { id: Number(r.id), kind: r.kind, runId: r.run_id, payload: r.payload ?? {}, status: r.status } : null;
+}
+export async function finishJob(id: number, status: 'done' | 'failed' | 'cancelled') {
+  await db().update(t.jobs).set({ status }).where(eq(t.jobs.id, id));
+}
+export async function requestCancel(runId: string) {
+  await db().update(t.jobs).set({ status: 'cancelled' }).where(and(eq(t.jobs.runId, runId), eq(t.jobs.status, 'queued')));
+  await db().update(t.jobs).set({ status: 'cancel' }).where(and(eq(t.jobs.runId, runId), eq(t.jobs.status, 'running')));
+}
+export async function jobCancelled(id: number): Promise<boolean> {
+  const [r] = await db().select({ status: t.jobs.status }).from(t.jobs).where(eq(t.jobs.id, id));
   return r?.status === 'cancel';
 }
 // a worker that died mid-job leaves rows 'running'; on start, the worker marks them failed
-export function failStaleJobs() {
-  const d = db();
-  const stale = d.prepare("SELECT run_id, kind FROM jobs WHERE status IN ('running', 'cancel')").all() as Row[];
-  d.prepare("UPDATE jobs SET status = 'failed' WHERE status IN ('running', 'cancel')").run();
+export async function failStaleJobs() {
+  const stale = await db().update(t.jobs).set({ status: 'failed' }).where(inArray(t.jobs.status, ['running', 'cancel'])).returning({ runId: t.jobs.runId, kind: t.jobs.kind });
   for (const s of stale) {
-    if (s.kind === 'render') d.prepare("UPDATE renders SET status = 'failed', error = 'worker restarted' WHERE run_id = ? AND status IN ('queued', 'running')").run(s.run_id as string);
-    else d.prepare("UPDATE runs SET status = 'failed', error = 'worker restarted' WHERE id = ? AND status IN ('queued', 'running')").run(s.run_id as string);
+    if (s.kind === 'render') await db().update(t.renders).set({ status: 'failed', error: 'worker restarted' }).where(and(eq(t.renders.runId, s.runId), inArray(t.renders.status, ['queued', 'running'])));
+    else await db().update(t.runs).set({ status: 'failed', error: 'worker restarted' }).where(and(eq(t.runs.id, s.runId), inArray(t.runs.status, ['queued', 'running'])));
   }
 }
 
 // ---------- renders ----------
-const toRender = (r: Row): Render => ({
-  id: r.id as string, runId: r.run_id as string, status: r.status as RunStatus, progress: r.progress as number,
-  eta: (r.eta as string) || null, file: (r.file as string) || null, error: (r.error as string) || null, createdAt: r.created_at as number,
-});
-export function createRender(runId: string): Render {
-  const id = newId();
-  db().prepare('INSERT INTO renders (id, run_id, status, created_at) VALUES (?, ?, ?, ?)').run(id, runId, 'queued', Date.now());
-  return toRender(db().prepare('SELECT * FROM renders WHERE id = ?').get(id) as Row);
+type RenderRow = typeof t.renders.$inferSelect;
+const toRender = (r: RenderRow): Render => ({ ...r, status: r.status as RunStatus });
+export async function createRender(runId: string): Promise<Render> {
+  const [r] = await db().insert(t.renders).values({ id: newId(), runId, status: 'queued', createdAt: Date.now() }).returning();
+  return toRender(r);
 }
-export function latestRender(runId: string): Render | null {
-  const r = db().prepare('SELECT * FROM renders WHERE run_id = ? ORDER BY created_at DESC LIMIT 1').get(runId) as Row | undefined;
+export async function latestRender(runId: string): Promise<Render | null> {
+  const [r] = await db().select().from(t.renders).where(eq(t.renders.runId, runId)).orderBy(desc(t.renders.createdAt)).limit(1);
   return r ? toRender(r) : null;
 }
-export function updateRender(id: string, p: Partial<{ status: RunStatus; progress: number; eta: string | null; file: string; error: string }>) {
-  const keys = Object.keys(p) as (keyof typeof p)[];
-  if (!keys.length) return;
-  db().prepare(`UPDATE renders SET ${keys.map(k => `${k} = ?`).join(', ')} WHERE id = ?`).run(...(keys.map(k => p[k]) as never[]), id);
+export async function updateRender(id: string, p: Partial<Pick<RenderRow, 'status' | 'progress' | 'eta' | 'file' | 'error'>>) {
+  if (Object.keys(p).length) await db().update(t.renders).set(p).where(eq(t.renders.id, id));
 }
 
 // ---------- votes ----------
-export function recordVote(projectId: string, runA: Run, runB: Run, choice: string) {
-  db().prepare('INSERT OR REPLACE INTO votes (project_id, run_a, run_b, model_a, model_b, choice, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
-    .run(projectId, runA.id, runB.id, runA.model, runB.model, choice, Date.now());
+export async function recordVote(projectId: string, runA: Run, runB: Run, choice: string, userId: string | null = null) {
+  await db().insert(t.votes).values({ projectId, userId, runA: runA.id, runB: runB.id, modelA: runA.model, modelB: runB.model, choice, createdAt: Date.now() })
+    .onConflictDoNothing({ target: t.votes.projectId });
 }
-export function getVote(projectId: string): { choice: string } | null {
-  return (db().prepare('SELECT choice FROM votes WHERE project_id = ?').get(projectId) as { choice: string } | undefined) || null;
+export async function getVote(projectId: string): Promise<{ choice: string } | null> {
+  const [r] = await db().select({ choice: t.votes.choice }).from(t.votes).where(eq(t.votes.projectId, projectId));
+  return r ?? null;
 }
-export function allVotes(): { model_a: string; model_b: string; choice: string }[] {
-  return db().prepare('SELECT model_a, model_b, choice FROM votes').all() as { model_a: string; model_b: string; choice: string }[];
+export async function allVotes() {
+  return db().select({ model_a: t.votes.modelA, model_b: t.votes.modelB, choice: t.votes.choice }).from(t.votes);
 }

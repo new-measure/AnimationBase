@@ -1,0 +1,1232 @@
+{
+ "genre": "lyric_videos",
+ "definition": "Official music videos in which the song's lyrics are the primary visual, animated as kinetic typography, set over illustration or footage, or physically lettered, and timed to the vocal.",
+ "sources": [
+  {
+   "name": "MTV Video Music Awards 2014 \u2014 Best Lyric Video",
+   "url": "https://en.wikipedia.org/wiki/2014_MTV_Video_Music_Awards",
+   "what": "award category (the only year it ran): winner and nominees"
+  },
+  {
+   "name": "UK Music Video Awards 2024 nominations (Promonews)",
+   "url": "https://www.promonews.tv/news/2024/09/25/uk-music-video-awards-2024-all-nominations-years-ukmvas/88248",
+   "what": "award shortlist (Best Animation in a Video)"
+  },
+  {
+   "name": "Space Shower Music Video Awards / Japan Media Arts Festival (via Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Aruku_Around",
+   "what": "Japanese music video award and arts festival prize"
+  },
+  {
+   "name": "Vimeo Staff Picks",
+   "url": "https://vimeo.com/channels/staffpicks",
+   "what": "editorial curation, checked by resolving vimeo.com/channels/staffpicks/<id>"
+  },
+  {
+   "name": "Stash magazine",
+   "url": "https://www.stashmedia.tv/",
+   "what": "motion design and animation curator"
+  },
+  {
+   "name": "Motionographer",
+   "url": "https://motionographer.com/",
+   "what": "motion design curator (Quickies and technical breakdowns)"
+  },
+  {
+   "name": "It's Nice That",
+   "url": "https://www.itsnicethat.com/",
+   "what": "design and illustration press"
+  },
+  {
+   "name": "Promonews",
+   "url": "https://www.promonews.tv/",
+   "what": "music video trade press and curator"
+  },
+  {
+   "name": "Creative Bloq \u2014 12 inventive uses of typography in music videos",
+   "url": "https://www.creativebloq.com/typography/typography-music-videos-11121409",
+   "what": "design-press list"
+  },
+  {
+   "name": "Creative Bloq \u2014 The best kinetic typography: 15 must-see examples",
+   "url": "https://www.creativebloq.com/typography/examples-kinetic-typography-11121304",
+   "what": "design-press list"
+  },
+  {
+   "name": "Paste Magazine \u2014 5 Creative Lyric Videos That Stand Out From The Crowd",
+   "url": "https://www.pastemagazine.com/design/5-creative-lyric-videos-that-stand-out-from-the-cr",
+   "what": "music and design press list"
+  },
+  {
+   "name": "People's Graphic Design Archive",
+   "url": "https://peoplesgdarchive.org/",
+   "what": "curated graphic design archive (lyric video entries)"
+  },
+  {
+   "name": "Animation World Network",
+   "url": "https://www.awn.com/",
+   "what": "animation trade press"
+  },
+  {
+   "name": "Creative Commission \u2014 Mood board: 13 great lyric video examples",
+   "url": "https://creative-commission.com/news/mood-board-13-great-lyric-video-examples",
+   "what": "music-industry commissioning platform's curated list"
+  },
+  {
+   "name": "Stereogum / Walker Art Center on Bon Iver's 22, A Million lyric videos",
+   "url": "https://www.walkerart.org/reader/designing-bon-iver-22-a-million-album-art-eric-timothy-carlson/",
+   "what": "music press and museum design feature"
+  },
+  {
+   "name": "Yere Studio portfolio",
+   "url": "https://yere.co/",
+   "what": "studio known for lyric videos (featured by Motionographer)"
+  }
+ ],
+ "films": [
+  {
+   "title": "Taylor Swift \u2014 Look What You Made Me Do",
+   "creator": "ODD NY (Gary Breslin)",
+   "client": "Taylor Swift / Big Machine",
+   "url": "https://www.youtube.com/watch?v=3K0RzZGpyds",
+   "platform": "youtube",
+   "year": 2017,
+   "duration_s": 215,
+   "quality_signal": "Featured by Stash magazine as ODD NY's lyric video; set a 24-hour viewing record for a lyric video",
+   "signal_url": "https://www.stashmedia.tv/taylor-swift-look-do-lyric-video/",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "pop / vengeful, dramatic",
+   "notes": "Stark black-red-white display type; each word is a stamped hit, cuts land on vocal accents.",
+   "check": {
+    "ok": true,
+    "title": "Taylor Swift - Look What You Made Me Do (Lyric Video)",
+    "author": "Taylor Swift",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Katy Perry \u2014 Roar",
+   "creator": "Aya Tanimura, Joe Humpay, Tim Zimmer, Tuan Le",
+   "client": "Katy Perry / Capitol",
+   "url": "https://www.youtube.com/watch?v=e9SeJIgWRPk",
+   "platform": "youtube",
+   "year": 2013,
+   "duration_s": 236,
+   "quality_signal": "Widely covered viral lyric video (HuffPost): lyrics told entirely as emoji text messages",
+   "signal_url": "https://www.huffpost.com/entry/katy-perry-roar-lyric-video-emoji-text_n_3743229",
+   "medium": "type_over_footage",
+   "feasible": "partial",
+   "subject": "pop anthem / empowering",
+   "notes": "Lyrics transcribed into emoji chat bubbles; messages pop in on each sung phrase over day-in-life footage.",
+   "check": {
+    "ok": true,
+    "title": "Katy Perry - Roar (Lyric Video)",
+    "author": "KatyPerryVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Katy Perry \u2014 Birthday",
+   "creator": "Aya Tanimura (dir.), Mandy Sellick (prod.)",
+   "client": "Katy Perry / Capitol",
+   "url": "https://www.youtube.com/watch?v=jqYxyd1iSNk",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 216,
+   "quality_signal": "Nominee, MTV VMA Best Lyric Video 2014; archived by People's Graphic Design Archive",
+   "signal_url": "https://peoplesgdarchive.org/item/8847/katy-perry-birthday-lyric-video",
+   "medium": "hand_lettering",
+   "feasible": "no",
+   "subject": "pop / playful, party",
+   "notes": "Physical type: lyrics piped in frosting, candles and sprinkles; camera moves object to object per line.",
+   "check": {
+    "ok": true,
+    "title": "Katy Perry - Birthday (Lyric Video)",
+    "author": "KatyPerryVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "5 Seconds of Summer \u2014 Don't Stop",
+   "creator": "Sophia Ray",
+   "client": "5SOS / Capitol",
+   "url": "https://www.youtube.com/watch?v=ym6NDDRFHvc",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 172,
+   "quality_signal": "Winner, MTV VMA Best Lyric Video 2014 (inaugural category)",
+   "signal_url": "https://en.wikipedia.org/wiki/2014_MTV_Video_Music_Awards",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "pop-punk / upbeat",
+   "notes": "Comic-book panels, halftones and burst balloons; big pop-art words slam in on the chorus.",
+   "check": {
+    "ok": true,
+    "title": "5 Seconds of Summer - Don't Stop (Lyric video)",
+    "author": "5SOSVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Ariana Grande ft. Iggy Azalea \u2014 Problem",
+   "creator": "Jones Crow",
+   "client": "Ariana Grande / Republic",
+   "url": "https://www.youtube.com/watch?v=SoJ8s90NLc4",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 194,
+   "quality_signal": "Nominee, MTV VMA Best Lyric Video 2014; premiered on RollingStone.com",
+   "signal_url": "https://www.rollingstone.com/music/music-news/watch-ariana-grande-and-iggy-azaleas-problem-lyric-video-premiere-79507/",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "pop / R&B, sultry",
+   "notes": "Black-and-white close-ups with patterned shadows; lyrics set beside faces, timed to breathy call-and-response.",
+   "check": {
+    "ok": true,
+    "title": "Ariana Grande - Problem (Official Lyric Video) ft. Iggy Azalea",
+    "author": "ArianaGrandeVevo",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "CeeLo Green \u2014 F**k You",
+   "creator": "Unknown (label-produced)",
+   "client": "CeeLo Green / Elektra",
+   "url": "https://www.youtube.com/watch?v=CAV0XrbEwNc",
+   "platform": "youtube",
+   "year": 2010,
+   "duration_s": 225,
+   "quality_signal": "Archived by People's Graphic Design Archive as the first 'lyric video' by name; Billboard calls it the best-known lyric video",
+   "signal_url": "https://peoplesgdarchive.org/item/8845",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "soul-pop / cheeky",
+   "notes": "Bold condensed sans on flat colour fields that change per line; words bounce in on the beat.",
+   "check": {
+    "ok": true,
+    "title": "Cee Lo Green - FUCK YOU",
+    "author": "CeeLo Green",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "\"Weird Al\" Yankovic \u2014 Word Crimes",
+   "creator": "Jarrett Heather",
+   "client": "\"Weird Al\" Yankovic / RCA",
+   "url": "https://www.youtube.com/watch?v=8Gv0H-vPoDc",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 225,
+   "quality_signal": "Official video; MTV News called it 'a pretty incredible piece of animation'; widely documented kinetic-type landmark",
+   "signal_url": "https://en.wikipedia.org/wiki/Word_Crimes",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "comedy pop parody / rapid",
+   "notes": "Dense grammar-joke typography; every syllable of fast patter gets its own typographic gag and transition.",
+   "check": {
+    "ok": true,
+    "title": "\"Weird Al\" Yankovic - Word Crimes (Official 4K Video)",
+    "author": "alyankovicVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Jonathan Coulton \u2014 Shop Vac",
+   "creator": "Jarrett Heather",
+   "client": "Jonathan Coulton",
+   "url": "https://www.youtube.com/watch?v=y4sOfO8Ei1g",
+   "platform": "youtube",
+   "year": 2010,
+   "duration_s": 206,
+   "quality_signal": "Kinetic-type video that led Weird Al to commission Heather for Word Crimes (Sactown Magazine)",
+   "signal_url": "https://www.sactownmag.com/elk-grove-animator-hits-it-big-with-weird-al-yankovic-video/",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "indie pop / wry",
+   "notes": "Camera tracks through a continuous world built from words; lyric phrases become the architecture.",
+   "check": {
+    "ok": true,
+    "title": "Shop Vac (kinetic typography animation)",
+    "author": "jmheather",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": null
+  },
+  {
+   "title": "Prince \u2014 Sign o' the Times",
+   "creator": "Bill Konersman",
+   "client": "Prince / Warner Bros",
+   "url": "https://www.youtube.com/watch?v=8EdxM72EZ94",
+   "platform": "youtube",
+   "year": 1987,
+   "duration_s": 224,
+   "quality_signal": "Archived by People's Graphic Design Archive as an ur-lyric video; cited on Wikipedia's lyric-video history",
+   "signal_url": "https://peoplesgdarchive.org/item/8843/prince-sign-o-the-times-music-video",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "funk / sombre social commentary",
+   "notes": "Times typeface pulsing with geometric shapes; words shrink, slide and cycle through windowed layouts to the drum machine.",
+   "check": {
+    "ok": true,
+    "title": "Prince - Sign O' The Times (Official Music Video)",
+    "author": "Prince",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "George Michael \u2014 Praying for Time",
+   "creator": "Michael Borofsky",
+   "client": "George Michael / Epic",
+   "url": "https://www.youtube.com/watch?v=goroyZbVdlo",
+   "platform": "youtube",
+   "year": 1990,
+   "duration_s": 276,
+   "quality_signal": "Canonical early lyric video (Wikipedia): Michael refused to appear, so the video is only lyrics",
+   "signal_url": "https://en.wikipedia.org/wiki/Praying_for_Time",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "ballad / solemn",
+   "notes": "Minimal serif lines fading on black; slow reveals pace with the vocal, nothing else on screen.",
+   "check": {
+    "ok": true,
+    "title": "George Michael - Praying For Time (Official Video)",
+    "author": "georgemichaelVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Bob Dylan \u2014 Subterranean Homesick Blues",
+   "creator": "D. A. Pennebaker",
+   "client": "Bob Dylan / Columbia",
+   "url": "https://www.youtube.com/watch?v=MGxjIBEZvx0",
+   "platform": "youtube",
+   "year": 1965,
+   "duration_s": 136,
+   "quality_signal": "Paste Magazine and Creative Bloq cite it as the origin of the lyric video",
+   "signal_url": "https://www.pastemagazine.com/design/5-creative-lyric-videos-that-stand-out-from-the-cr",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "folk-rock / sardonic",
+   "notes": "Hand-lettered cue cards flipped on key words, deliberately lagging or leading the rapid vocal.",
+   "check": {
+    "ok": true,
+    "title": "Bob Dylan - Subterranean Homesick Blues (Official Video)",
+    "author": "BobDylanVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Bon Iver \u2014 715 - CR\u03a3\u03a3KS",
+   "creator": "Aaron Anderson & Eric Timothy Carlson",
+   "client": "Bon Iver / Jagjaguwar",
+   "url": "https://www.youtube.com/watch?v=P_Fx1yq3A8M",
+   "platform": "youtube",
+   "year": 2016,
+   "duration_s": 132,
+   "quality_signal": "Part of the 22, A Million lyric-video set covered by Stereogum and the Walker Art Center",
+   "signal_url": "https://stereogum.com/1904021/watch-bon-ivers-10-22-a-million-lyric-videos-and-read-about-eric-timothy-carlsons-album-design/news",
+   "medium": "motion_graphics",
+   "feasible": "yes",
+   "subject": "experimental folk / fractured, intimate",
+   "notes": "Text panels and numerological glyphs from the album art; lines appear as plain captions over gradients and stamps.",
+   "check": {
+    "ok": true,
+    "title": "Bon Iver - 715 - CR\u2211\u2211KS - Official Video",
+    "author": "Bon Iver",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Car Seat Headrest \u2014 Hollywood",
+   "creator": "Sabrina Nichols",
+   "client": "Car Seat Headrest / Matador",
+   "url": "https://www.youtube.com/watch?v=ka9l8X8W03Y",
+   "platform": "youtube",
+   "year": 2020,
+   "duration_s": 202,
+   "quality_signal": "Featured by Stash magazine for its 'fast and loose animation and typography'",
+   "signal_url": "https://www.stashmedia.tv/car-seat-headrest-hollywood-lyric-video-sabrina-nichols/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "indie rock / sneering, raw",
+   "notes": "Scrappy hand-drawn frames and scrawled lettering that jitter at rough frame rates like the guitar.",
+   "check": {
+    "ok": true,
+    "title": "Car Seat Headrest - \"Hollywood\" (Official Music Video)",
+    "author": "carseatheadrest",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Hannah Jane Lewis \u2014 Aftershock",
+   "creator": "Chrissie Abbott",
+   "client": "Hannah Jane Lewis",
+   "url": "https://www.youtube.com/watch?v=UFKfT1xwmdU",
+   "platform": "youtube",
+   "year": 2018,
+   "duration_s": 173,
+   "quality_signal": "Featured by It's Nice That; 13 typefaces inspired by 80s film credits",
+   "signal_url": "https://www.itsnicethat.com/articles/chrissie-abbott-aftershock-video-graphic-design-animation-120418",
+   "medium": "type_over_footage",
+   "feasible": "partial",
+   "subject": "electropop / anxious",
+   "notes": "Words act out meaning: 'not okay' glitches, 'aftershock' vibrates and spreads, 'growing ego' swells to fill frame.",
+   "check": {
+    "ok": true,
+    "title": "Hannah Jane Lewis - Aftershock (Lyric Video)",
+    "author": "HannahJaneLewisVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Tom Rosenthal \u2014 Don't Die Curious",
+   "creator": "Chloe Jackson",
+   "client": "Tom Rosenthal",
+   "url": "https://www.youtube.com/watch?v=ekgiGwVER8M",
+   "platform": "youtube",
+   "year": 2018,
+   "duration_s": 161,
+   "quality_signal": "Featured by Stash magazine (Animation / Typography categories)",
+   "signal_url": "https://www.stashmedia.tv/chloe-jackson-tom-rosenthal-dont-die-curious-music-video/",
+   "medium": "character_2d",
+   "feasible": "yes",
+   "subject": "indie folk / whimsical",
+   "notes": "Flat folk-art skeletons and ghosts carry lettered banners; type sits inside the illustration as signage.",
+   "check": {
+    "ok": true,
+    "title": "Tom Rosenthal - Don't Die Curious (Official Lyric Video)",
+    "author": "Tom Rosenthal",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "James Blunt \u2014 Blue on Blue",
+   "creator": "Tigrelab",
+   "client": "James Blunt / Atlantic",
+   "url": "https://www.youtube.com/watch?v=WlumAVXg5XI",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 237,
+   "quality_signal": "Featured by Stash magazine: melancholy told 'thru the cold detachment of technical schematics'",
+   "signal_url": "https://www.stashmedia.tv/tigrelab-james-blunt-blue-blue/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "soft rock ballad / melancholy",
+   "notes": "Blueprint line drawings of a moon mission; thin technical type annotates the vocal like diagram labels.",
+   "check": {
+    "ok": true,
+    "title": "James Blunt - Blue on Blue Music Lyric Video",
+    "author": "Tigrelab",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Imagine Dragons \u2014 Sharks",
+   "creator": "Ingenuity Studios (Alex Popkin)",
+   "client": "Imagine Dragons / Interscope",
+   "url": "https://www.youtube.com/watch?v=7j7twuejxvU",
+   "platform": "youtube",
+   "year": 2022,
+   "duration_s": 195,
+   "quality_signal": "Featured by Stash magazine; Saul Bass homage by a studio noted for lyric videos",
+   "signal_url": "https://www.stashmedia.tv/imagine-dragons-sharks-music-video-by-ingenuity-studios/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "pop rock / menacing",
+   "notes": "Saul Bass cut-paper figures and the 'Hitchcock' typeface; huge words repeat and stack on the chorus hits.",
+   "check": {
+    "ok": true,
+    "title": "Imagine Dragons - Sharks (Official Lyric Video)",
+    "author": "ImagineDragonsVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Dolly Parton \u2014 Blue Bonnet Breeze",
+   "creator": "Ingenuity Studios (Alex Popkin, Bailee DesRocher)",
+   "client": "Dolly Parton / Butterfly Records",
+   "url": "https://www.youtube.com/watch?v=0VodSW-QoD4",
+   "platform": "youtube",
+   "year": 2022,
+   "duration_s": 318,
+   "quality_signal": "Featured as a Motionographer Quickie",
+   "signal_url": "https://motionographer.com/quickie/ingenuity-studios-dolly-parton-blue-bonnet-breeze-official-lyric-video/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "country ballad / tender, tragic",
+   "notes": "Flat silhouette night scenes in blue/violet; script lyrics drift in slowly, following the story's scene changes.",
+   "check": {
+    "ok": true,
+    "title": "Dolly Parton - Blue Bonnet Breeze (Official Lyric Video)",
+    "author": "Dolly Parton",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Bruce Springsteen \u2014 Badlands",
+   "creator": "Yere Studio (Sara Serna, Jko S\u00e1nchez)",
+   "client": "Bruce Springsteen / Legacy",
+   "url": "https://www.youtube.com/watch?v=o5IZuuzUa04",
+   "platform": "youtube",
+   "year": 2023,
+   "duration_s": 242,
+   "quality_signal": "Featured as a Motionographer Quickie",
+   "signal_url": "https://motionographer.com/quickie/bruce-springsteen-badlands-official-lyric-video-yere-studio/",
+   "medium": "mixed",
+   "feasible": "partial",
+   "subject": "heartland rock / defiant",
+   "notes": "Massive weathered display words fill the frame over road-trip landscapes, cutting on each shouted hook.",
+   "check": {
+    "ok": true,
+    "title": "Bruce Springsteen - Badlands (Official Lyric Video)",
+    "author": "BruceSpringsteenVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Marvin Gaye \u2014 What's Going On",
+   "creator": "Tim Fox",
+   "client": "Marvin Gaye / Motown",
+   "url": "https://www.youtube.com/watch?v=KDK7TiEiMOI",
+   "platform": "youtube",
+   "year": 2021,
+   "duration_s": 236,
+   "quality_signal": "Featured as a Motionographer Quickie; part of Motown's 50th-anniversary visual album",
+   "signal_url": "https://motionographer.com/quickie/motown-tim-fox-marvin-gaye-whats-going-on-lyric-video/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "soul / reflective protest",
+   "notes": "Flat illustrated figures with hand-lettered phrases that repeat and pile up as the vocal overlaps.",
+   "check": {
+    "ok": true,
+    "title": "Marvin Gaye - What's Going On (Lyric Video)",
+    "author": "MarvinGayeVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Avicii \u2014 Waiting For Love",
+   "creator": "Blackmeal (via Jelly London)",
+   "client": "Avicii / PRMD",
+   "url": "https://www.youtube.com/watch?v=-ncIVUXZla8",
+   "platform": "youtube",
+   "year": 2015,
+   "duration_s": 231,
+   "quality_signal": "Featured by Promonews: 'delightful, very emotional lyric video'",
+   "signal_url": "https://www.promonews.tv/videos/2015/06/01/avicii-waiting-love-blackmeal/34530",
+   "medium": "character_2d",
+   "feasible": "partial",
+   "subject": "EDM / uplifting yet poignant",
+   "notes": "Hand-drawn war story (boy and dog); small subtitle lyrics let the narrative animation carry the drops.",
+   "check": {
+    "ok": true,
+    "title": "Avicii - Waiting For Love (Lyric Video)",
+    "author": "AviciiOfficialVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Kanye West ft. T-Pain \u2014 Good Life",
+   "creator": "So Me",
+   "client": "Kanye West / Roc-A-Fella",
+   "url": "https://www.youtube.com/watch?v=FEKEjpTzB0Q",
+   "platform": "youtube",
+   "year": 2007,
+   "duration_s": 230,
+   "quality_signal": "Listed in Creative Bloq's '12 inventive uses of typography in music videos'",
+   "signal_url": "https://www.creativebloq.com/typography/typography-music-videos-11121409",
+   "medium": "motion_graphics",
+   "feasible": "partial",
+   "subject": "hip-hop / celebratory",
+   "notes": "Vector cartoon graphics and bubbly lettering pop around cut-out performers on every lyric reference.",
+   "check": {
+    "ok": true,
+    "title": "Kanye West - Good Life ft. T-Pain",
+    "author": "KanyeWestVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Justice \u2014 D.A.N.C.E.",
+   "creator": "Jonas & Fran\u00e7ois (graphics So Me)",
+   "client": "Justice / Ed Banger",
+   "url": "https://www.youtube.com/watch?v=sy1dYFGkPUE",
+   "platform": "youtube",
+   "year": 2007,
+   "duration_s": 181,
+   "quality_signal": "Cited by Paste and Creative Bloq as the benchmark typographic music video",
+   "signal_url": "https://www.pastemagazine.com/design/5-creative-lyric-videos-that-stand-out-from-the-cr",
+   "medium": "motion_graphics",
+   "feasible": "partial",
+   "subject": "French electro / disco",
+   "notes": "Animated T-shirt graphics spell out the lyrics on the duo's chests, flipping design per phrase.",
+   "check": {
+    "ok": true,
+    "title": "Justice - D.A.N.C.E. (Official Video)",
+    "author": "Justice",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Caro Emerald \u2014 That Man",
+   "creator": "Planet X",
+   "client": "Caro Emerald / Grandmono",
+   "url": "https://www.youtube.com/watch?v=CFA6dEwWOb4",
+   "platform": "youtube",
+   "year": 2010,
+   "duration_s": 231,
+   "quality_signal": "Listed in Creative Bloq's '12 inventive uses of typography in music videos' for its Saul Bass-style motion",
+   "signal_url": "https://www.creativebloq.com/typography/typography-music-videos-11121409",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "jazz-pop swing / retro",
+   "notes": "60s title-sequence shapes and dots swing on the big-band hits; type framed like movie credits.",
+   "check": {
+    "ok": true,
+    "title": "Caro Emerald - That Man (Official Video)",
+    "author": "caroemerald",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Adele \u2014 Skyfall",
+   "creator": "Unknown (XL / Columbia)",
+   "client": "Adele / XL Recordings",
+   "url": "https://www.youtube.com/watch?v=DeumyOzKqgI",
+   "platform": "youtube",
+   "year": 2012,
+   "duration_s": 289,
+   "quality_signal": "Listed in Creative Bloq's '12 inventive uses of typography in music videos' as a Bond-credits-style lyric video",
+   "signal_url": "https://www.creativebloq.com/typography/typography-music-videos-11121409",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "orchestral pop / cinematic",
+   "notes": "Sparse tracked-out caps over smoky tinted fields; slow fades mirror the orchestral swells.",
+   "check": {
+    "ok": true,
+    "title": "Adele - Skyfall (Official Lyric Video)",
+    "author": "AdeleVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "The Chainsmokers & Coldplay \u2014 Something Just Like This",
+   "creator": "James Zwadlo",
+   "client": "The Chainsmokers / Disruptor-Columbia",
+   "url": "https://www.youtube.com/watch?v=FM7MFYoylVs",
+   "platform": "youtube",
+   "year": 2017,
+   "duration_s": 247,
+   "quality_signal": "Featured in Creative Commission's '13 great lyric video examples'; one of YouTube's most-viewed lyric videos",
+   "signal_url": "https://creative-commission.com/news/mood-board-13-great-lyric-video-examples",
+   "medium": "character_2d",
+   "feasible": "yes",
+   "subject": "EDM pop / wistful",
+   "notes": "Line-drawn boy-superhero story; lyrics sit quietly inside a sketchy monochrome world.",
+   "check": {
+    "ok": true,
+    "title": "The Chainsmokers & Coldplay - Something Just Like This (Official Lyric Video)",
+    "author": "ChainsmokersVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Jamie xx \u2014 LET'S DO IT AGAIN",
+   "creator": "Connor Campbell Studio",
+   "client": "Jamie xx / Young",
+   "url": "https://www.youtube.com/watch?v=DtHpJLKpWrg",
+   "platform": "youtube",
+   "year": 2022,
+   "duration_s": 230,
+   "quality_signal": "Featured by It's Nice That: typographic lyric video in 18 languages",
+   "signal_url": "https://www.itsnicethat.com/articles/connor-campbell-jamie-xx-lets-do-it-again-music-video-animation-210422",
+   "medium": "3d",
+   "feasible": "partial",
+   "subject": "house / euphoric",
+   "notes": "Chunky red 3D type lockups stack skyward in 18 languages as the loop repeats and builds.",
+   "check": {
+    "ok": true,
+    "title": "Jamie xx - LET'S DO IT AGAIN (Lyric Video)",
+    "author": "Jamie xx",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "The Chemical Brothers \u2014 Out of Control (The Avalanches Surrender to Love Mix)",
+   "creator": "Jimmy Turrell, Kate Gibb & Computer Team",
+   "client": "The Chemical Brothers / Virgin",
+   "url": "https://www.youtube.com/watch?v=_DYL2pQX2rk",
+   "platform": "youtube",
+   "year": 2019,
+   "duration_s": 226,
+   "quality_signal": "Featured by It's Nice That: Turrell's letterforms chopped up and moved to the lyrics",
+   "signal_url": "https://www.itsnicethat.com/news/jimmy-turrell-out-of-control-chemical-brothers-animation-291119",
+   "medium": "motion_graphics",
+   "feasible": "yes",
+   "subject": "big beat / rave nostalgia",
+   "notes": "Rave-flyer letterforms sliced, echoed and screenprint-offset; repetitions stutter with the vocal loop.",
+   "check": {
+    "ok": true,
+    "title": "The Chemical Brothers - Out Of Control (The Avalanches Surrender To Love Mix / Visualiser)",
+    "author": "ChemicalBrothersVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "The Rolling Stones \u2014 Shame, Shame, Shame",
+   "creator": "Camille Boumans & Ewan Jones Morris",
+   "client": "The Rolling Stones / Polydor",
+   "url": "https://www.youtube.com/watch?v=Ylq-seLHqKs",
+   "platform": "youtube",
+   "year": 2025,
+   "duration_s": 244,
+   "quality_signal": "Featured by Stash and Promonews (Partizan director)",
+   "signal_url": "https://www.stashmedia.tv/camille-boumans-and-ewan-jones-morris-put-the-rolling-stones-to-shame-shame-shame/",
+   "medium": "mixed",
+   "feasible": "partial",
+   "subject": "rock / disco cover",
+   "notes": "Scrapbook pages of archive photos; handwritten lyric lines appear on props like matchsticks and notes.",
+   "check": {
+    "ok": true,
+    "title": "The Rolling Stones - Shame Shame Shame",
+    "author": "TheRollingStonesVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "The Rolling Stones \u2014 Doom and Gloom",
+   "creator": "Trunk Animation",
+   "client": "The Rolling Stones / Polydor",
+   "url": "https://www.youtube.com/watch?v=rPFGWVKXxm0",
+   "platform": "youtube",
+   "year": 2012,
+   "duration_s": 247,
+   "quality_signal": "Listed in Creative Bloq's 'best kinetic typography: 15 must-see examples'",
+   "signal_url": "https://www.creativebloq.com/typography/examples-kinetic-typography-11121304",
+   "medium": "hand_lettering",
+   "feasible": "yes",
+   "subject": "rock / gritty",
+   "notes": "Ralph Steadman-style ink-splatter lettering on white; blots burst on snare hits and words smear.",
+   "check": {
+    "ok": true,
+    "title": "The Rolling Stones -- Doom And Gloom (Lyric Video)",
+    "author": "The Rolling Stones",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Odezenne \u2014 Dedans",
+   "creator": "Vladimir Mavounia-Kouka",
+   "client": "Odezenne",
+   "url": "https://www.youtube.com/watch?v=Q42FXJEhnAI",
+   "platform": "youtube",
+   "year": 2012,
+   "duration_s": 232,
+   "quality_signal": "Vimeo Staff Pick; listed in Creative Bloq's typography-in-music-video roundup",
+   "signal_url": "https://vimeo.com/channels/staffpicks/41194902",
+   "medium": "hand_lettering",
+   "feasible": "yes",
+   "subject": "French rap / wry, lo-fi",
+   "notes": "Faux-vintage sketch animation on white; hand-lettered words morph into drawings and back.",
+   "check": {
+    "ok": true,
+    "title": "Odezenne - Dedans - Clip Officiel",
+    "author": "odezenne",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Lushlife \u2014 Magnolia",
+   "creator": "LAMAR+NIK",
+   "client": "Lushlife / Western Vinyl",
+   "url": "https://www.youtube.com/watch?v=bhVgQW3UhFM",
+   "platform": "youtube",
+   "year": 2012,
+   "duration_s": 161,
+   "quality_signal": "Vimeo Staff Pick; listed in Creative Bloq's typography-in-music-video roundup",
+   "signal_url": "https://vimeo.com/channels/staffpicks/52258194",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "hip-hop / thoughtful",
+   "notes": "Each of the 188 words is a cardboard head worn by a different person, cut on every word.",
+   "check": {
+    "ok": true,
+    "title": "Lushlife - \"Magnolia\" (Official Music Video)",
+    "author": "LAMAR\ufe62NIK",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Sakanaction \u2014 Aruku Around",
+   "creator": "Kazuaki Seki",
+   "client": "Sakanaction / Victor",
+   "url": "https://www.youtube.com/watch?v=cADu9rtlZGQ",
+   "platform": "youtube",
+   "year": 2010,
+   "duration_s": 289,
+   "quality_signal": "Best Video of the Year, Space Shower Music Video Awards 2011; Japan Media Arts Festival excellence prize",
+   "signal_url": "https://en.wikipedia.org/wiki/Aruku_Around",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "J-rock / synth dance",
+   "notes": "One-take walk where giant lyric letters, placed in real space, resolve into legible lines from the camera's viewpoint.",
+   "check": {
+    "ok": true,
+    "title": "\u30b5\u30ab\u30ca\u30af\u30b7\u30e7\u30f3 / \u30a2\u30eb\u30af\u30a2\u30e9\u30a6\u30f3\u30c9\u3000-Music Video-",
+    "author": "\u30b5\u30ab\u30ca\u30af\u30b7\u30e7\u30f3 sakanaction",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Sleater-Kinney \u2014 Hurry On Home",
+   "creator": "Miranda July",
+   "client": "Sleater-Kinney / Mom + Pop",
+   "url": "https://www.youtube.com/watch?v=E5uAH0vNn2s",
+   "platform": "youtube",
+   "year": 2019,
+   "duration_s": 179,
+   "quality_signal": "Featured by Promonews: made 'live' with a phone's screen-record mode",
+   "signal_url": "https://www.promonews.tv/videos/2019/05/31/sleater-kinney-hurry-home-lyric-video-miranda-july/58996",
+   "medium": "type_over_footage",
+   "feasible": "partial",
+   "subject": "punk / restless",
+   "notes": "Lyrics typed and texted in phone UI (iMessage, camera) in real time; typing rhythm tracks the vocal.",
+   "check": {
+    "ok": true,
+    "title": "Sleater-Kinney - Hurry On Home (Official Lyric Video)",
+    "author": "Sleater-Kinney",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Simon Pyke & James Buttery \u2014 Life Cycles",
+   "creator": "Universal Everything (Matt Pyke)",
+   "client": "Freefarm (Simon Pyke)",
+   "url": "https://www.youtube.com/watch?v=oAp2mvvgPT4",
+   "platform": "youtube",
+   "year": 2023,
+   "duration_s": 283,
+   "quality_signal": "Featured by Stash magazine: AI lyric video balancing generative imagery with legibility",
+   "signal_url": "https://www.stashmedia.tv/universal-everything-merges-ai-and-typography-for-freefarm-lifecycles-music-video/",
+   "medium": "mixed",
+   "feasible": "partial",
+   "subject": "electronic / eerie",
+   "notes": "Convulsing letterforms grow alien architecture; legibility flickers in and out with the texture of the track.",
+   "check": {
+    "ok": true,
+    "title": "Simon Pyke & James Buttery 'Life Cycles' - Ai Music video by Universal Everything",
+    "author": "Simon Pyke | Freefarm, Music and Sound Design",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Avicii \u2014 The Days",
+   "creator": "Jesper Eriksson (At Night Studios), art by INO",
+   "client": "Avicii / PRMD",
+   "url": "https://www.youtube.com/watch?v=JDglMK9sgIQ",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 247,
+   "quality_signal": "Cited by Paste Magazine as an elaborate, high-end lyric video",
+   "signal_url": "https://www.pastemagazine.com/design/5-creative-lyric-videos-that-stand-out-from-the-cr",
+   "medium": "hand_lettering",
+   "feasible": "no",
+   "subject": "EDM / nostalgic",
+   "notes": "Lyrics sprayed through stencils on walls, building up into one large mural by the end.",
+   "check": {
+    "ok": true,
+    "title": "Avicii - The Days (Lyric Video)",
+    "author": "AviciiOfficialVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Elvis Costello & The Roots \u2014 Walk Us Uptown",
+   "creator": "Mariana Blanco",
+   "client": "Elvis Costello / Blue Note",
+   "url": "https://www.youtube.com/watch?v=PQHIuFHjfCY",
+   "platform": "youtube",
+   "year": 2013,
+   "duration_s": 212,
+   "quality_signal": "Cited by Paste Magazine: cut-out paper lyrics that 'vibrate about on screen'",
+   "signal_url": "https://www.pastemagazine.com/design/5-creative-lyric-videos-that-stand-out-from-the-cr",
+   "medium": "type_over_footage",
+   "feasible": "partial",
+   "subject": "soul-rock / jittery groove",
+   "notes": "Ransom-note paper word slips jitter on a spinning turntable, each word its own scrap.",
+   "check": {
+    "ok": true,
+    "title": "Elvis Costello And The Roots - Walk Us UPTOWN (Lyric Video)",
+    "author": "ElvisCostelloVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "The Score \u2014 Unstoppable",
+   "creator": "Peter Reeve (RMV Productions)",
+   "client": "The Score / Republic",
+   "url": "https://www.youtube.com/watch?v=_PBlykN4KIY",
+   "platform": "youtube",
+   "year": 2017,
+   "duration_s": 191,
+   "quality_signal": "Featured by Promonews: 'impactful gif-like animations'",
+   "signal_url": "https://www.promonews.tv/videos/2017/10/09/score-unstoppable-lyric-video-peter-reeve/49916",
+   "medium": "character_2d",
+   "feasible": "yes",
+   "subject": "arena rock / fist-pumping",
+   "notes": "Flat textured illustrations with chunky lettering integrated into each looping vignette.",
+   "check": {
+    "ok": true,
+    "title": "The Score - Unstoppable (Lyric Video)",
+    "author": "TheScoreVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Husbands \u2014 Dream",
+   "creator": "Cauboyz",
+   "client": "Husbands",
+   "url": "https://www.youtube.com/watch?v=4D1JOfRBhj8",
+   "platform": "youtube",
+   "year": 2013,
+   "duration_s": 231,
+   "quality_signal": "Vimeo Staff Pick; Creative Bloq: 'as good as a typography music video gets'",
+   "signal_url": "https://vimeo.com/channels/staffpicks/60371252",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "indie pop / dreamy build",
+   "notes": "Pure B&W type in dozens of fonts; sparse words early, then an explosion of stacked badges and labels.",
+   "check": {
+    "ok": true,
+    "title": "Husbands - \"Dream\"",
+    "author": "Husbands Marseille",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "James Arthur \u2014 September",
+   "creator": "LADYBUG (illustration Anna Smith)",
+   "client": "James Arthur / Columbia",
+   "url": "https://www.youtube.com/watch?v=RxkvWTjJJ68",
+   "platform": "youtube",
+   "year": 2021,
+   "duration_s": 224,
+   "quality_signal": "Featured by Promonews: comic-book-inspired lyric video",
+   "signal_url": "https://www.promonews.tv/videos/2021/06/17/james-arthur-september-ladybug/71482",
+   "medium": "character_2d",
+   "feasible": "yes",
+   "subject": "pop ballad / romantic",
+   "notes": "Comic panels and split screens; caption-box lyrics and speech balloons carry the lines.",
+   "check": {
+    "ok": true,
+    "title": "James Arthur - September (Lyric Video)",
+    "author": "JamesAVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "James Arthur \u2014 Christmas Bells",
+   "creator": "LADYBUG (illustration Bella Bernard)",
+   "client": "James Arthur / Columbia",
+   "url": "https://www.youtube.com/watch?v=cG4M3hXuurE",
+   "platform": "youtube",
+   "year": 2021,
+   "duration_s": 252,
+   "quality_signal": "Featured by Promonews for its 'gentle animation of the lyrics'",
+   "signal_url": "https://www.promonews.tv/videos/2021/12/14/james-arthur-christmas-bells-ladybug/74274",
+   "medium": "character_2d",
+   "feasible": "yes",
+   "subject": "Christmas ballad / bittersweet",
+   "notes": "Illustrated memory vignettes; small serif lyrics fade in gently within each scene.",
+   "check": {
+    "ok": true,
+    "title": "James Arthur - Christmas Bells (Official Lyric Video)",
+    "author": "James Arthur",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Run The Jewels ft. Pharrell Williams & Zack de la Rocha \u2014 JU$T",
+   "creator": "Winston Hacking (type animation Drew Tyndell)",
+   "client": "Run The Jewels / Jewel Runners",
+   "url": "https://www.youtube.com/watch?v=32hUIGnMpOY",
+   "platform": "youtube",
+   "year": 2020,
+   "duration_s": 206,
+   "quality_signal": "Featured as a Motionographer Quickie and on Promonews",
+   "signal_url": "https://motionographer.com/quickie/run-the-jewels-jut-ft-pharrell-williams-and-zack-de-la-rocha/",
+   "medium": "mixed",
+   "feasible": "partial",
+   "subject": "political hip-hop / aggressive",
+   "notes": "Frantic photo collage with lyrics printed and warped onto targets, bills and faces.",
+   "check": {
+    "ok": true,
+    "title": "Run The Jewels - JU$T [ft. Pharrell Williams and Zack de la Rocha] (Lyric Video)",
+    "author": "RunTheJewels",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "We Were Evergreen \u2014 Belong",
+   "creator": "Studio Moross",
+   "client": "We Were Evergreen / Warner France",
+   "url": "https://www.youtube.com/watch?v=91rpU2HglOk",
+   "platform": "youtube",
+   "year": 2014,
+   "duration_s": 208,
+   "quality_signal": "Featured by It's Nice That: 'plays close attention to the syllables and musical details'",
+   "signal_url": "https://www.itsnicethat.com/articles/kate-moross-2",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "indie pop / joyous",
+   "notes": "Textured triangles and grain; simple caps appear syllable by syllable in shifting positions.",
+   "check": {
+    "ok": true,
+    "title": "Evergreen - BELONG (LYRIC VIDEO)",
+    "author": "Evergreen",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Talking Heads \u2014 (Nothing But) Flowers",
+   "creator": "Sandy McLeod & David Byrne",
+   "client": "Talking Heads / Sire",
+   "url": "https://www.youtube.com/watch?v=2twY8YQYDBE",
+   "platform": "youtube",
+   "year": 1988,
+   "duration_s": 262,
+   "quality_signal": "Cited in Wikipedia's lyric-video history as an early lyrics-superimposed video",
+   "signal_url": "https://en.wikipedia.org/wiki/Music_video",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "art rock / ironic",
+   "notes": "Lyrics superimposed onto or beside band members in performance shots.",
+   "check": {
+    "ok": true,
+    "title": "Talking Heads - [Nothing But] Flowers (Official Video)",
+    "author": "Talking Heads",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Makaveli (2Pac) \u2014 Hail Mary",
+   "creator": "Yere Studio (Sara Serna, Jko S\u00e1nchez)",
+   "client": "2Pac / Death Row-Interscope",
+   "url": "https://www.youtube.com/watch?v=t_vjHqaZidU",
+   "platform": "youtube",
+   "year": 2023,
+   "duration_s": 311,
+   "quality_signal": "By Yere Studio, the lyric-video specialists behind the Motionographer-featured Badlands",
+   "signal_url": "https://yere.co/work/2pac-hail-mary",
+   "medium": "kinetic_type",
+   "feasible": "yes",
+   "subject": "West Coast hip-hop / ominous",
+   "notes": "Bold pink condensed type on saturated blue with bullet graphics; lines punch in on each bar.",
+   "check": {
+    "ok": true,
+    "title": "Makaveli - Hail Mary (Lyric Video)",
+    "author": "2PacVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Avril Lavigne \u2014 Breakaway",
+   "creator": "Yere Studio (Sara Serna, Jko S\u00e1nchez)",
+   "client": "Avril Lavigne / Sony Legacy",
+   "url": "https://www.youtube.com/watch?v=oc7JLUvY9xI",
+   "platform": "youtube",
+   "year": 2022,
+   "duration_s": 224,
+   "quality_signal": "By Yere Studio (Motionographer-featured); recreates Avril's own handwriting in motion",
+   "signal_url": "https://yere.co/work/avril-lavigne",
+   "medium": "hand_lettering",
+   "feasible": "partial",
+   "subject": "pop rock / nostalgic",
+   "notes": "Animated recreations of Avril's calligraphy with stop-motion textures over 2002-era photos.",
+   "check": {
+    "ok": true,
+    "title": "Avril Lavigne - Breakaway (Official Lyric Video)",
+    "author": "AvrilLavigneVEVO",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Coldplay \u2014 feelslikeimfallinginlove",
+   "creator": "Raman Djafari (BLINKINK)",
+   "client": "Coldplay / Parlophone",
+   "url": "https://www.youtube.com/watch?v=ZOADVqFd5XY",
+   "platform": "youtube",
+   "year": 2024,
+   "duration_s": 262,
+   "quality_signal": "Shortlisted, UK Music Video Awards 2024 Best Animation in a Video; covered by Animation World Network",
+   "signal_url": "https://www.awn.com/news/blinkink-crafts-coldplay-feelslikeimfallinginlove-lyric-video",
+   "medium": "mixed",
+   "feasible": "partial",
+   "subject": "pop rock / romantic",
+   "notes": "15 animators, 16 style transitions; small lyrics ride across stop-motion, 2D and 3D segments.",
+   "check": {
+    "ok": true,
+    "title": "Coldplay - feelslikeimfallinginlove (Official Lyric Video) (A Film For The Future)",
+    "author": "Coldplay",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Ed Sheeran \u2014 Shape of You",
+   "creator": "Charlotte Audrey (anim. Jonny Costello, Matt Clugston)",
+   "client": "Ed Sheeran / Asylum",
+   "url": "https://www.youtube.com/watch?v=_dK2tDK9grQ",
+   "platform": "youtube",
+   "year": 2017,
+   "duration_s": 235,
+   "quality_signal": "Archived by Setaprint as a visual reference; illustrator profiled by Creative Lives in Progress",
+   "signal_url": "https://www.setaprint.net/2017/05/official-lyric-video-for-the-shape-of-you/",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "pop / flirtatious",
+   "notes": "Flat kitsch illustration with mixed script and bold lettering sized to each phrase's emphasis.",
+   "check": {
+    "ok": true,
+    "title": "Ed Sheeran - Shape Of You [Official Lyric Video]",
+    "author": "Ed Sheeran",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Marshmello & Anne-Marie \u2014 FRIENDS",
+   "creator": "Toon53 Productions",
+   "client": "Marshmello / Joytime",
+   "url": "https://www.youtube.com/watch?v=CY8E6N5Nzec",
+   "platform": "youtube",
+   "year": 2018,
+   "duration_s": 206,
+   "quality_signal": "Featured in Creative Commission's '13 great lyric video examples'; by a studio with 75+ lyric videos",
+   "signal_url": "https://creative-commission.com/news/meet-africas-animator-stars-1-billion-youtube-views",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "EDM pop / sassy",
+   "notes": "Doodle-line characters on flat pink; chunky marker words bounce in step with each sung beat.",
+   "check": {
+    "ok": true,
+    "title": "Marshmello & Anne-Marie - FRIENDS (Lyric Video) *OFFICIAL FRIENDZONE ANTHEM*",
+    "author": "Marshmello",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Marshmello ft. CHVRCHES \u2014 Here With Me",
+   "creator": "Unknown (Marshmello channel)",
+   "client": "Marshmello / Joytime",
+   "url": "https://www.youtube.com/watch?v=HHnjuUVgSJ4",
+   "platform": "youtube",
+   "year": 2019,
+   "duration_s": 161,
+   "quality_signal": "Featured in Creative Commission's '13 great lyric video examples'",
+   "signal_url": "https://creative-commission.com/news/mood-board-13-great-lyric-video-examples",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "EDM pop / sweet",
+   "notes": "Flat illustrated tiles in mirrored repeat patterns; single words centred and swapped on the beat.",
+   "check": {
+    "ok": true,
+    "title": "Marshmello - Here With Me Feat. CHVRCHES [Official Lyric Video]",
+    "author": "Marshmello",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Ookay \u2014 Bad Habits",
+   "creator": "Unknown (Ookay channel)",
+   "client": "Ookay",
+   "url": "https://www.youtube.com/watch?v=zUAW73rXztA",
+   "platform": "youtube",
+   "year": 2018,
+   "duration_s": 137,
+   "quality_signal": "Featured in Creative Commission's '13 great lyric video examples'",
+   "signal_url": "https://creative-commission.com/news/mood-board-13-great-lyric-video-examples",
+   "medium": "type_over_illustration",
+   "feasible": "yes",
+   "subject": "future bass / playful",
+   "notes": "Bright flat illustrations and retro lettering, with repeating icon patterns on vocal hooks.",
+   "check": {
+    "ok": true,
+    "title": "Ookay - Bad Habits (Official Lyric Video)",
+    "author": "Ookay",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  },
+  {
+   "title": "Muse \u2014 Dead Inside",
+   "creator": "Tom Kirk",
+   "client": "Muse / Warner",
+   "url": "https://www.youtube.com/watch?v=aTcJWhmdzpg",
+   "platform": "youtube",
+   "year": 2015,
+   "duration_s": 263,
+   "quality_signal": "Featured by Promonews: 'striking black and white lyric promo'",
+   "signal_url": "https://www.promonews.tv/videos/2015/03/24/muse-dead-inside-lyric-video-tom-kirk/32763",
+   "medium": "type_over_footage",
+   "feasible": "no",
+   "subject": "alt rock / dark electro",
+   "notes": "Kaleidoscopic mirrored footage of a painted body; minimal type anchored at the centre line.",
+   "check": {
+    "ok": true,
+    "title": "Muse - Dead Inside [Official Lyric Video]",
+    "author": "Muse",
+    "how": "oembed"
+   },
+   "creator_matches_uploader": true
+  }
+ ]
+}

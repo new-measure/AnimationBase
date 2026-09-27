@@ -1,0 +1,18 @@
+{"id": "t_vjHqaZidU", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 20, "kind": "intro", "what": "'Killuminati' chant, 'to lead', 'la la la' over portraits"},
+  {"start": 20, "end": 30, "kind": "chorus", "what": "Hail Mary, ride, over halo portrait collage"},
+  {"start": 30, "end": 80, "kind": "verse", "what": "Big words: I ain't a killer, bow, screams, mama"},
+  {"start": 80, "end": 100, "kind": "chorus", "what": "Run quick see, la la, Hail Mary, ride"},
+  {"start": 100, "end": 155, "kind": "verse", "what": "Penitentiaries packed, checkin' in, what can I do"},
+  {"start": 155, "end": 175, "kind": "chorus", "what": "Palm trees 'la', giant Hail Mary, wanna B"},
+  {"start": 175, "end": 245, "kind": "verse", "what": "Our enemies, I die, sixty seconds, gave you love"},
+  {"start": 245, "end": 300, "kind": "chorus", "what": "Hopin' God don't, SEE, Hail Mary, ride or die"},
+  {"start": 300, "end": 311.15, "kind": "outro", "what": "'Outlawz' then blue portrait fade"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut", "whip_blur", "wipe_mask"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "center", "line_hold_s_typical": 1, "text_style": "kinetic"},
+ "notes": "Red/blue duotone photo collage with huge kinetic keyword typography; cuts roughly every beat; Hail Mary title recurs as chorus marker. Sections approximate."}

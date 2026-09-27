@@ -1,0 +1,21 @@
+{"id": "501630931", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "hook", "what": "Typed 'langu' and Irish sentence open the topic"},
+  {"start": 10, "end": 30, "kind": "context", "what": "Icons and 1940-1980 timeline introduce linguistics history"},
+  {"start": 30, "end": 50, "kind": "question", "what": "Is there a universal grammar? hashtag title"},
+  {"start": 50, "end": 90, "kind": "explanation", "what": "Brain halves, clipboard, question mark, 'impossible' idea"},
+  {"start": 90, "end": 120, "kind": "analogy", "what": "Rules as code; a-to-b tangle; determinism"},
+  {"start": 120, "end": 150, "kind": "explanation", "what": "Tape machines, complexity, universal grammar by Chomsky"},
+  {"start": 150, "end": 180, "kind": "explanation", "what": "Principle stated: every sentence must have a subject"},
+  {"start": 180, "end": 210, "kind": "example", "what": "404 error, 1980-2020 timeline, recursion example sentences"},
+  {"start": 210, "end": 240, "kind": "example", "what": "Counterexamples: blank brackets, leaderboard, Pirahã-like basket"},
+  {"start": 240, "end": 270, "kind": "explanation", "what": "Genetics versus behaviorism; agree/disagree debate"},
+  {"start": 270, "end": 290, "kind": "recap", "what": "Specific isolated innate language vs behaviorism summarized"},
+  {"start": 290, "end": 299.8, "kind": "question", "what": "Brain with question mark: open question ending"}
+ ],
+ "first_text_s": 0, "text_cards": 16,
+ "transitions": ["cut", "wipe_mask", "morph_match", "whip_blur"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 12},
+ "notes": "Kinetic-typography explainer; flat color-block cards change nearly every cell; typed words and collage hands carry argument. Beat boundaries approximate."}

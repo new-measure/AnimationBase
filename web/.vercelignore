@@ -1,0 +1,7 @@
+# upload only the app: src/generated (made by npm run catalog before deploying) is needed even though git ignores it
+node_modules
+.next
+data
+.infisical.json
+.env*
+modal

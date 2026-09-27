@@ -1,0 +1,20 @@
+{"id": "319009347", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Lone grasshopper lands on a desert rock"},
+  {"start": 12, "end": 27, "kind": "context", "what": "Locust swarms engulf desert and people"},
+  {"start": 27, "end": 36, "kind": "context", "what": "Lab flasks, 1921 caption, early scientific study"},
+  {"start": 36, "end": 57, "kind": "explanation", "what": "Green and black insects compared as specimens in frame"},
+  {"start": 57, "end": 78, "kind": "explanation", "what": "Grasshopper in lush foliage, transitions via blob masks"},
+  {"start": 78, "end": 99, "kind": "explanation", "what": "Legs form swarm patterns; crowding transforms insects"},
+  {"start": 99, "end": 111, "kind": "transition", "what": "Split mask worlds, lab microscope scene"},
+  {"start": 111, "end": 129, "kind": "analogy", "what": "Woman with plant-pattern body; psychologist Lisa Feldman Barrett named"},
+  {"start": 129, "end": 144, "kind": "analogy", "what": "Woman at mirror sees insect-like reflection"},
+  {"start": 144, "end": 159, "kind": "recap", "what": "Meditating figure amid swirling swarm on green"},
+  {"start": 159, "end": 179.09, "kind": "title", "what": "Invisibilia logo endcard then black"}
+ ],
+ "first_text_s": 30, "text_cards": 1,
+ "transitions": ["wipe_mask", "morph_match", "cut", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 5},
+ "notes": "Heavily mask/blob transitions between dark and light worlds; human analogy in second half; long logo tail with black ending."}

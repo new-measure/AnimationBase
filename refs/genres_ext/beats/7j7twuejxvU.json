@@ -1,0 +1,21 @@
+{"id": "7j7twuejxvU", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Imagine Dragons and Sharks title cards"},
+  {"start": 6, "end": 12, "kind": "intro", "what": "Figure falls through corridor into water"},
+  {"start": 12, "end": 30, "kind": "verse", "what": "Blood in the rock waters, dancing with the devils"},
+  {"start": 30, "end": 45, "kind": "pre_chorus", "what": "Your friends, stadium crowd, the same as them"},
+  {"start": 45, "end": 66, "kind": "chorus", "what": "First you're in, you're a light, swimming with sharks"},
+  {"start": 66, "end": 90, "kind": "verse", "what": "Seeing double, crisis, cut you up, think they're real"},
+  {"start": 90, "end": 99, "kind": "pre_chorus", "what": "The end, same as them, so let it go"},
+  {"start": 99, "end": 123, "kind": "chorus", "what": "Band performs; pumping, coming to get you"},
+  {"start": 123, "end": 159, "kind": "bridge", "what": "Shark movie posters, don't take it, spiral chase"},
+  {"start": 159, "end": 183, "kind": "chorus", "what": "That's the way, then you're out, swimming with sharks"},
+  {"start": 183, "end": 189, "kind": "outro", "what": "Sharks swarm, corridor fall reprise"},
+  {"start": 189, "end": 195.33, "kind": "title", "what": "Shark silhouette, Directed by Ingenuity Studios"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "whip_blur", "push_zoom", "morph_match"],
+ "camera": ["tilt_3d", "push_in", "pan", "static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 2, "text_style": "integrated_in_scene"},
+ "notes": "Papercut 3D lyric video with words placed in scene geometry; section boundaries inferred from lyrics, approximate; bookended by corridor fall."}

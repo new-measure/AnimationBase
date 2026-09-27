@@ -1,0 +1,21 @@
+{"id": "aK4hGfDmLag", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4.25, "kind": "title", "what": "Take a tour of Descript title card"},
+  {"start": 4.25, "end": 16.42, "kind": "intro", "what": "Quick glimpses of transcript editor and timeline"},
+  {"start": 16.42, "end": 24, "kind": "overview", "what": "We'll go over: text, scenes, timeline, AI editing"},
+  {"start": 24, "end": 48, "kind": "step", "what": "Create project, add speaker, record or import"},
+  {"start": 48, "end": 84, "kind": "step", "what": "Editing with text: delete words, regenerate audio"},
+  {"start": 84, "end": 88, "kind": "title", "what": "Designing scenes section card"},
+  {"start": 88, "end": 132, "kind": "step", "what": "Add scenes, layouts, elements, captions"},
+  {"start": 132, "end": 160, "kind": "step", "what": "Timeline editing: title cards, clips, b-roll"},
+  {"start": 160, "end": 192, "kind": "step", "what": "AI tools: Underlord prompts, studio sound, eye contact"},
+  {"start": 192, "end": 208, "kind": "step", "what": "Add text overlays, export and share project"},
+  {"start": 208, "end": 216, "kind": "recap", "what": "You've learned list of five topics"},
+  {"start": 216, "end": 222.59, "kind": "outro", "what": "Descript logo"}
+ ],
+ "first_text_s": 0, "text_cards": 5,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"steps": 6, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Agenda card then matching recap card frame the tour; section cards on dark gradient; UI zooms to panels. Section cards partly inferred."}

@@ -1,0 +1,19 @@
+{"id": "597500442", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Rapid collage of graphic elements, type fragments build up"},
+  {"start": 12, "end": 16, "kind": "title", "what": "What is Layout? with Nathalie Kirsheh"},
+  {"start": 16, "end": 26, "kind": "explanation", "what": "Tone and contrast headline morphs into spread"},
+  {"start": 26, "end": 50, "kind": "explanation", "what": "Grid, margins, bleed shown assembling page elements"},
+  {"start": 50, "end": 66, "kind": "example", "what": "Harmony: portrait with typography aligned on grid"},
+  {"start": 66, "end": 78, "kind": "example", "what": "Symmetry: speaker poster and text layouts"},
+  {"start": 78, "end": 96, "kind": "example", "what": "Proportion, balance; red chair catalog, Function billboard"},
+  {"start": 96, "end": 108, "kind": "example", "what": "Move!! headline, sculpture and letterforms in motion"},
+  {"start": 108, "end": 114, "kind": "recap", "what": "Typography, color, imagery, layout words circle together"},
+  {"start": 114, "end": 138.39, "kind": "recap", "what": "Magazine cover assembles; collage of earlier elements ends"}
+ ],
+ "first_text_s": 2, "text_cards": 6,
+ "transitions": ["cut", "morph_match", "pan_slide", "wipe_mask"],
+ "camera": ["static", "pan", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 22},
+ "notes": "Continuous kinetic graphic-design collage; principles introduced as big headlines; many micro-cuts early. Beat boundaries approximate."}

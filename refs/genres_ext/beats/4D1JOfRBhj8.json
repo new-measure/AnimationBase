@@ -1,0 +1,18 @@
+{"id": "4D1JOfRBhj8", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "intro", "what": "Near-black frames, faint room, small X mark"},
+  {"start": 16, "end": 48, "kind": "verse", "what": "Sparse single-word stickers pop up scattered: waiting, know"},
+  {"start": 48, "end": 68, "kind": "chorus", "what": "Recurring DREAM and IT badges, never, only"},
+  {"start": 68, "end": 96, "kind": "verse", "what": "Think, U, insane stickers; dim room between words"},
+  {"start": 96, "end": 124, "kind": "chorus", "what": "Full sticker collage flashes, then scattered words"},
+  {"start": 124, "end": 156, "kind": "bridge", "what": "Striped bar shapes pulse with occasional words"},
+  {"start": 156, "end": 192, "kind": "chorus", "what": "Collage builds again, alternating with stripes"},
+  {"start": 192, "end": 216, "kind": "outro", "what": "Complete sticker wall fully lit, colour creeps in"},
+  {"start": 216, "end": 230.67, "kind": "other", "what": "Wall fades, Made by Cauboyz credit"}
+ ],
+ "first_text_s": 16, "text_cards": 0,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "varied", "line_hold_s_typical": 2, "text_style": "mixed"},
+ "notes": "Words appear as stickers that accumulate into a full collage wall revealed in flashes; very dark, song sections are guesses."}

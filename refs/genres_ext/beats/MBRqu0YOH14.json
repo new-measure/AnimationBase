@@ -1,0 +1,19 @@
+{"id": "MBRqu0YOH14", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 42, "kind": "hook", "what": "Cosmos, desert creatures, watching eyes: are we meaningless?"},
+  {"start": 42, "end": 105, "kind": "context", "what": "Cells, human, sun, stars: scale of universe"},
+  {"start": 105, "end": 126, "kind": "data", "what": "Hourglass and time counter: 200 years versus today"},
+  {"start": 126, "end": 182, "kind": "explanation", "what": "Life flourishes then dies; planets, skull, people"},
+  {"start": 182, "end": 203, "kind": "title", "what": "Optimistic Nihilism title over Escher-like stairs"},
+  {"start": 203, "end": 238, "kind": "explanation", "what": "Timeline of everything, last human, shadowy figures"},
+  {"start": 238, "end": 301, "kind": "example", "what": "Everyday joys: flowers, reading, raft on ocean"},
+  {"start": 301, "end": 343, "kind": "recap", "what": "Characters, family, hourglass: make meaning in your life"},
+  {"start": 343, "end": 434, "kind": "cta", "what": "Sponsored ad for Kurzgesagt shop products"},
+  {"start": 434, "end": 445.75, "kind": "cta", "what": "End card: follow us on social media"}
+ ],
+ "first_text_s": 112, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "morph_match", "wipe_mask"],
+ "camera": ["static", "push_in", "zoom_out_reveal", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 9},
+ "notes": "Title card arrives mid-film at ~196 s after long cold open; final ~90 s is a shop ad. Few detected cuts; transitions mostly continuous."}

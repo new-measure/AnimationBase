@@ -1,0 +1,21 @@
+{"id": "Xq4x84xUdpg", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "hook", "what": "Red stripe opener, collage faces of the people"},
+  {"start": 10, "end": 25, "kind": "title", "what": "WE THE PEOPLE letters, The Bill of Rights"},
+  {"start": 25, "end": 35, "kind": "context", "what": "Classroom desk with history textbook, open pages"},
+  {"start": 35, "end": 75, "kind": "context", "what": "Founders, revolution, king, columns: origins of amendments"},
+  {"start": 75, "end": 100, "kind": "explanation", "what": "First Amendment: speech, press, protest collages"},
+  {"start": 100, "end": 120, "kind": "example", "what": "Religious freedom, right to bear arms, city"},
+  {"start": 120, "end": 150, "kind": "explanation", "what": "Third, fourth amendments: soldiers, doors, homes"},
+  {"start": 150, "end": 190, "kind": "explanation", "what": "Search, due process, trials, jury, punishment"},
+  {"start": 190, "end": 205, "kind": "explanation", "what": "Ninth and Tenth amendments, suffrage, crowd"},
+  {"start": 205, "end": 245, "kind": "recap", "what": "Scroll, map of US, voting, activism crowd"},
+  {"start": 245, "end": 255, "kind": "cta", "what": "Live-action mural of collage on building"},
+  {"start": 255, "end": 308.69, "kind": "other", "what": "Credits on black, studio and Higher Ground logos"}
+ ],
+ "first_text_s": 10, "text_cards": 4,
+ "transitions": ["cut", "morph_match", "pan_slide", "push_zoom"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 12},
+ "notes": "Musical collage explainer walking amendments in order; live-action desk frames the animation; ~50 s of credits. Amendment boundaries estimated."}

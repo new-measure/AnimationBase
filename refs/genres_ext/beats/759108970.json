@@ -1,0 +1,22 @@
+{"id": "759108970", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8.17, "kind": "title", "what": "Theos logo animates in on white"},
+  {"start": 8.17, "end": 21.62, "kind": "hook", "what": "Earth from space, zoom into hills and flowers"},
+  {"start": 21.62, "end": 30.79, "kind": "context", "what": "Helicopters over flower field; bees return"},
+  {"start": 30.79, "end": 39, "kind": "question", "what": "Close faces, crowds in conflict and argument"},
+  {"start": 39, "end": 48, "kind": "context", "what": "Lottery balls, big bang burst, solar system"},
+  {"start": 48, "end": 63, "kind": "explanation", "what": "Evolution: animals, early humans, hunting, cave paintings"},
+  {"start": 63, "end": 75, "kind": "explanation", "what": "Modern life: sharing food, brain, writing on screens"},
+  {"start": 75, "end": 93, "kind": "example", "what": "Temple, cosmic hand, holy book: religious worldviews"},
+  {"start": 93, "end": 108, "kind": "example", "what": "Garden of Eden, apples, Newton, seeds in hands"},
+  {"start": 108, "end": 126, "kind": "explanation", "what": "Eye close-up, gallery, varied people and perspectives"},
+  {"start": 126, "end": 138, "kind": "analogy", "what": "Seeds growing into plants, sun and bee"},
+  {"start": 138, "end": 150, "kind": "recap", "what": "Crowd returns, faces, binoculars, plane over earth"},
+  {"start": 150, "end": 178.13, "kind": "other", "what": "Black screen then handwritten end credits"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "morph_match", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 16},
+ "notes": "Painterly essay film on worldviews; imagery drives, no on-screen text; nearly 30 s of credits. Beat meanings inferred without audio."}

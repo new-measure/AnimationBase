@@ -1,0 +1,15 @@
+{"id": "6lp09wSMPeM", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Woman at window; head turns to swirling colourful mind"},
+  {"start": 4, "end": 18, "kind": "context", "what": "Dark line-drawn street, crowds, cafe; sensory overload implied"},
+  {"start": 18, "end": 26, "kind": "explanation", "what": "Close on swirling heads, overwhelmed, hands over head"},
+  {"start": 26, "end": 34, "kind": "explanation", "what": "Colour bursts free; world brightens into colourful street"},
+  {"start": 34, "end": 38, "kind": "data", "what": "Caption: around 1 in 100 in Scotland autistic"},
+  {"start": 38, "end": 40.05, "kind": "cta", "what": "Different minds. One Scotland. website URL"}
+ ],
+ "first_text_s": 34, "text_cards": 2,
+ "transitions": ["cut", "wipe_mask", "morph_match", "pan_slide"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 12},
+ "notes": "Wordless PSA; dark monochrome to colour transformation; single statistic and slogan only in final 6 seconds."}

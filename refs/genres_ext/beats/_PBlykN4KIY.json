@@ -1,0 +1,20 @@
+{"id": "_PBlykN4KIY", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Greek vase, gladiator with tiger"},
+  {"start": 6, "end": 36, "kind": "verse", "what": "Gladiator: heart is pumping, they can say what they want"},
+  {"start": 36, "end": 54, "kind": "pre_chorus", "what": "Swinging like Ali, flag on top, gimme that gold"},
+  {"start": 54, "end": 63, "kind": "chorus", "what": "We're unstoppable full-frame text cards"},
+  {"start": 63, "end": 90, "kind": "verse", "what": "Guitarist spotlight, fuel for, bedroom to stadium"},
+  {"start": 90, "end": 108, "kind": "pre_chorus", "what": "Knocking out bodies, standing on top, keep your silver"},
+  {"start": 108, "end": 117, "kind": "chorus", "what": "Keeping us down impossible, we're unstoppable"},
+  {"start": 117, "end": 144, "kind": "bridge", "what": "Night city, police confrontation, handcuffs"},
+  {"start": 144, "end": 168, "kind": "pre_chorus", "what": "We can be heroes, Ali, keep your silver, gold"},
+  {"start": 168, "end": 171, "kind": "chorus", "what": "We're unstoppable card"},
+  {"start": 171, "end": 191.08, "kind": "outro", "what": "Character portraits, band duo, gladiator"}
+ ],
+ "first_text_s": 9, "text_cards": 6,
+ "transitions": ["cut", "wipe_mask", "morph_match"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "mixed"},
+ "notes": "Flat illustrated vignettes per lyric line; hand-lettered words integrated in scenes, chorus as clean centered cards. Some lines lack visible text."}

@@ -1,0 +1,21 @@
+{"id": "spUNpyF58BY", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 34, "kind": "hook", "what": "Preview: winding graph and center-of-mass frequency plot"},
+  {"start": 34, "end": 51, "kind": "context", "what": "List of applications; pi creature intro"},
+  {"start": 51, "end": 153, "kind": "story", "what": "Sound waves A440, D294 summed into pressure signal"},
+  {"start": 153, "end": 340, "kind": "chart_reveal", "what": "Wind 3-beat signal around circle at varying frequencies"},
+  {"start": 340, "end": 510, "kind": "insight", "what": "Center-of-mass x-coordinate vs frequency spikes at 3"},
+  {"start": 510, "end": 612, "kind": "comparison", "what": "2 Hz + 3 Hz signal; sum of transforms, linearity"},
+  {"start": 612, "end": 714, "kind": "story", "what": "Formula teaser; sound editing; inverse transform"},
+  {"start": 714, "end": 850, "kind": "zoom", "what": "Complex plane, e^{-2πift} rotation explained"},
+  {"start": 850, "end": 1105, "kind": "insight", "what": "Build integral formula; actual Fourier transform scaling"},
+  {"start": 1105, "end": 1139, "kind": "conclusion", "what": "Transform of finite pulse, integration bounds"},
+  {"start": 1139, "end": 1156, "kind": "transition", "what": "Next video: uncertainty principle teaser"},
+  {"start": 1156, "end": 1181.13, "kind": "other", "what": "Supporter credits"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["morph_match", "none_visible", "cut", "fade_dissolve"],
+ "camera": ["static", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["line", "other"], "annotations": true, "source_shown": false},
+ "notes": "Math visualization classed as data story; long continuous winding-graph sequences with live parameter labels; pi creatures as asides."}

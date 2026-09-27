@@ -12,7 +12,7 @@ const LIBS = {
   human: ['src/human.js'],
   // motion-graphics kit (docs/motion_design_spec.md): tokens, measured motion presets, type, UI, cursor
   mg: ['src/lib/theme.js', 'src/lib/motion.js', 'src/lib/type.js', 'src/lib/ui.js', 'src/lib/cursor.js', 'src/lib/shapes.js',
-    'src/lib/fx.js', 'src/lib/camera.js', 'src/lib/transitions.js', 'src/lib/brand.js', 'src/lib/media.js', 'src/lib/audio.js'],
+    'src/lib/fx.js', 'src/lib/camera.js', 'src/lib/transitions.js', 'src/lib/brand.js', 'src/lib/media.js', 'src/lib/audio.js', 'src/lib/chart.js'],
 };
 
 const SCENES = {
@@ -25,6 +25,9 @@ const SCENES = {
   // the kit's model sheets: studio.html?scene=kit&loop=kit_ui (kit_motion, kit_type, kit_shapes, kit_fx, kit_transitions, kit_brand)
   relay_demo: { file: 'src/scenes/relay_demo.js', libs: ['mg'], project: { duration: 20.5, style: 'clean', canvasBg: null, fonts: ['Inter:wght@300;400;500;600'],
     brand: { name: 'Relay', tagline: 'Every tool, one inbox.', cta: 'Get early access', logo: { d: 'M4.5 8.5 H15.5 M12.5 5.5 L15.5 8.5 L12.5 11.5 M19.5 15.5 H8.5 M11.5 12.5 L8.5 15.5 L11.5 18.5' } } } },
+  // a data story (docs/genres/data_story.md): real NOAA data, lib/chart
+  data_story_demo: { file: 'src/scenes/data_story_demo.js', libs: ['mg'], project: { duration: 51, style: 'clean', canvasBg: null, theme: 'dark', fonts: ['Inter:wght@400;500;600'],
+    brand: { accent: '#F2994A' } } },
   // two characters in one frame, through their namespaces (see character() in core.js)
   duo: { file: 'src/scenes/duo.js', libs: ['clawd', 'jolly'], project: { duration: 4, style: 'painted' } },
   // a project folder (projects/<name>/: brief.md, project.js, assets/, scene.js); see projects/README.md

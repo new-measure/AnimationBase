@@ -1,0 +1,20 @@
+{"id": "CAV0XrbEwNc", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "intro", "what": "Dark vignette opens to blank blue card"},
+  {"start": 8, "end": 40, "kind": "chorus", "what": "'I see you driving round town' blue/red alternating cards"},
+  {"start": 40, "end": 52, "kind": "verse", "what": "Yellow cards: can't afford a Ferrari, Xbox line"},
+  {"start": 52, "end": 68, "kind": "pre_chorus", "what": "Orange cards: 'I pity the fool', ooh"},
+  {"start": 68, "end": 100, "kind": "chorus", "what": "Chorus repeats on blue and red cards"},
+  {"start": 100, "end": 112, "kind": "verse", "what": "Green cards: had to borrow, beg and steal"},
+  {"start": 112, "end": 128, "kind": "pre_chorus", "what": "Green 'I pity the fool' and ooh"},
+  {"start": 128, "end": 160, "kind": "chorus", "what": "Chorus third time, blue/red alternation"},
+  {"start": 160, "end": 184, "kind": "bridge", "what": "Yellow 'Why d'you wanna hurt me', green UH! OH!"},
+  {"start": 184, "end": 220, "kind": "chorus", "what": "'I still love you' then final chorus"},
+  {"start": 220, "end": 225.16, "kind": "outro", "what": "'FUCK YOU!' with website URL"}
+ ],
+ "first_text_s": 8, "text_cards": 1,
+ "transitions": ["cut", "pan_slide", "whip_blur"],
+ "camera": ["pan", "static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 6, "text_position": "full_frame", "line_hold_s_typical": 1.5, "text_style": "kinetic"},
+ "notes": "Iconic all-type video: bold condensed words scroll and scale on flat color fields; background color encodes song section."}

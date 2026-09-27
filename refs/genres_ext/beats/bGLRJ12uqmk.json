@@ -1,0 +1,20 @@
+{"id": "bGLRJ12uqmk", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "title", "what": "Washington Post Video logo over district outlines"},
+  {"start": 3, "end": 6, "kind": "title", "what": "Government 101 series card"},
+  {"start": 6, "end": 15, "kind": "context", "what": "Representatives by state map, House seat arc"},
+  {"start": 15, "end": 30, "kind": "map", "what": "US district map colored by party, question mark"},
+  {"start": 30, "end": 48, "kind": "chart_reveal", "what": "Dot grid of red and blue voters"},
+  {"start": 48, "end": 69, "kind": "comparison", "what": "Fig 01: row districts give perfect representation"},
+  {"start": 69, "end": 93, "kind": "comparison", "what": "Fig 02: column districts compact but unfair"},
+  {"start": 93, "end": 108, "kind": "comparison", "what": "Fig 03: twisted districts neither compact nor fair"},
+  {"start": 108, "end": 114, "kind": "title", "what": "GERRYMANDERING word over dot grid"},
+  {"start": 114, "end": 129, "kind": "story", "what": "Elbridge Gerry portrait, 1812 Gerrymander cartoon"},
+  {"start": 129, "end": 161.89, "kind": "map", "what": "Real districts drawn: Maryland, North Carolina, Florida, Texas"}
+ ],
+ "first_text_s": 0, "text_cards": 5,
+ "transitions": ["cut", "morph_match", "push_zoom"],
+ "camera": ["static", "tilt_3d", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["map", "unit/pictogram"], "annotations": true, "source_shown": false},
+ "notes": "Abstract 50-dot model with fig-numbered captions, then history, then real district outlines traced; ends abruptly without conclusion card; tiny credits only."}

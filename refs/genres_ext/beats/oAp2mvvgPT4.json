@@ -1,0 +1,20 @@
+{"id": "oAp2mvvgPT4", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4.79, "kind": "intro", "what": "Black screen opening"},
+  {"start": 4.79, "end": 46.17, "kind": "verse", "what": "Found-signage letters: the, my, touch, awake, day"},
+  {"start": 46.17, "end": 52.46, "kind": "instrumental", "what": "Dark night street fragment"},
+  {"start": 52.46, "end": 68.17, "kind": "verse", "what": "Into the behind, massive"},
+  {"start": 68.17, "end": 88, "kind": "instrumental", "what": "Shattered light shapes, so me, window"},
+  {"start": 88, "end": 120, "kind": "pre_chorus", "what": "Close the, make dumb, having, closer"},
+  {"start": 120, "end": 160.21, "kind": "chorus", "what": "Your something, wake repeated in scattered letters"},
+  {"start": 160.21, "end": 176, "kind": "bridge", "what": "To, another, abstract lit fragments"},
+  {"start": 176, "end": 224, "kind": "chorus", "what": "Every, way repeated across varied letterforms"},
+  {"start": 224, "end": 272, "kind": "verse", "what": "My work, the frequently, more, something"},
+  {"start": 272, "end": 283.17, "kind": "outro", "what": "Fragmented lit building shapes"}
+ ],
+ "first_text_s": 4, "text_cards": 0,
+ "transitions": ["cut", "whip_blur"],
+ "camera": ["static", "handheld", "pan"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 1, "text_position": "center", "line_hold_s_typical": 2, "text_style": "integrated_in_scene"},
+ "notes": "Each lyric word built from letters photographed on real night signage; one word at a time; repetition marks chorus. Sections guessed."}

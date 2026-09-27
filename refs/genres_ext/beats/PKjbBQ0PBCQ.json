@@ -1,0 +1,22 @@
+{"id": "PKjbBQ0PBCQ", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 46, "kind": "hook", "what": "Search results screenshot, thinking emoji: which lock pattern is hardest?"},
+  {"start": 46, "end": 138, "kind": "context", "what": "Rules of Android lock patterns, example patterns"},
+  {"start": 138, "end": 253, "kind": "context", "what": "Formal grid definition, slopes as complexity measure"},
+  {"start": 253, "end": 345, "kind": "story", "what": "Try It Yourself #1, goals, reframed counting problem"},
+  {"start": 345, "end": 529, "kind": "story", "what": "Try #2, trial-and-error search, many candidate patterns"},
+  {"start": 529, "end": 690, "kind": "insight", "what": "2x2 impossible, slopes vs dots by grid size, 'Reality is harsh'"},
+  {"start": 690, "end": 713, "kind": "other", "what": "Try It Yourself #3 card"},
+  {"start": 713, "end": 920, "kind": "chart_reveal", "what": "Euler phi chapter: slope counting, coprime points, growth curve"},
+  {"start": 920, "end": 1173, "kind": "chart_reveal", "what": "Euler phi part 2: dot grid sieve, product formula, pi^2/6"},
+  {"start": 1173, "end": 1311, "kind": "comparison", "what": "Candidate grids, Try #4, grids with fewer slopes than dots"},
+  {"start": 1311, "end": 1403, "kind": "story", "what": "Meme break, stick figure 'done', the formula branches"},
+  {"start": 1403, "end": 1587, "kind": "insight", "what": "Intuition to induction, Try #5, max patterns for 3xodd grids"},
+  {"start": 1587, "end": 1648.83, "kind": "conclusion", "what": "'Found it everywhere!' and algorithm flowchart wrap-up"}
+ ],
+ "first_text_s": 0, "text_cards": 8,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["line", "scatter", "table", "other"], "annotations": true, "source_shown": false},
+ "notes": "Long math-puzzle essay, black/cream slides with dot grids and equations; recurring 'Try It Yourself' cards and bold chapter titles. Coarse 23s step."}

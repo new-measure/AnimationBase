@@ -1,0 +1,20 @@
+{"id": "_DYL2pQX2rk", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "intro", "what": "Dark collage: silhouette head, rainbow swoosh, glitch fragments"},
+  {"start": 16, "end": 28, "kind": "chorus", "what": "'OUT OF CONTROL' stacked glitch type"},
+  {"start": 28, "end": 60, "kind": "verse", "what": "Retro-print women figures, 'misunderstood', river running deep"},
+  {"start": 60, "end": 80, "kind": "verse", "what": "Red cutouts 'up/down', 'we're running', river line"},
+  {"start": 80, "end": 100, "kind": "chorus", "what": "'Surrendering to love' over flowers and faces"},
+  {"start": 100, "end": 132, "kind": "verse", "what": "'Maybe I'm just scared of losing you', spinning spheres"},
+  {"start": 132, "end": 148, "kind": "pre_chorus", "what": "'A sound' repeated, hands, surrender to love"},
+  {"start": 148, "end": 176, "kind": "chorus", "what": "Concentric circles with dancers, 'out of control'"},
+  {"start": 176, "end": 196, "kind": "instrumental", "what": "Blue/pink psychedelic abstract textures, few words"},
+  {"start": 196, "end": 224, "kind": "outro", "what": "Faded pink figures, rainbow swoosh, 'surrender'"},
+  {"start": 224, "end": 226.12, "kind": "other", "what": "Black end frame"}
+ ],
+ "first_text_s": 16, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "wipe_mask", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Risograph-style collage; fragmentary lyrics woven into textures, often partial words. Section labels are uncertain for this remix."}

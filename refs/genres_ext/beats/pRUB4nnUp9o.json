@@ -1,0 +1,20 @@
+{"id": "pRUB4nnUp9o", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "5 steps to get started with Airtable"},
+  {"start": 4, "end": 20, "kind": "overview", "what": "Montage of example bases: tracker, calendar, CRM"},
+  {"start": 20, "end": 36, "kind": "step", "what": "Step 1: create foundation, add a base in workspace"},
+  {"start": 36, "end": 42.25, "kind": "title", "what": "Step 2 card: Add your information"},
+  {"start": 42.25, "end": 92, "kind": "step", "what": "Add records, fields, field types, linked tables"},
+  {"start": 92, "end": 144, "kind": "step", "what": "Step 3: organize with grouping, filters, sorting"},
+  {"start": 144, "end": 184, "kind": "step", "what": "Step 4: visualize with kanban and calendar views"},
+  {"start": 184, "end": 188, "kind": "title", "what": "Step 5 card: Share your new tool"},
+  {"start": 188, "end": 220, "kind": "step", "what": "Invite collaborators, collaborator field, filtered views"},
+  {"start": 220, "end": 228, "kind": "recap", "what": "Checklist of five completed steps"},
+  {"start": 228, "end": 235.15, "kind": "outro", "what": "Airtable logo"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "wipe_mask", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Numbered step cards (only 2 and 5 visible in sheet) segment long screen recordings; checklist recap mirrors intro."}

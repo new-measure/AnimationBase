@@ -1,0 +1,19 @@
+{"id": "8Gv0H-vPoDc", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12.25, "kind": "intro", "what": "#WORDCRIMES hashtag, dictionary pages, 'everyone listen'"},
+  {"start": 12.25, "end": 44, "kind": "verse", "what": "Punctuation characters, quiz sheet, comments; proper way"},
+  {"start": 44, "end": 56.96, "kind": "pre_chorus", "what": "LIT, GOOD bursts, grammar tweet, 'now did'"},
+  {"start": 56.96, "end": 80.33, "kind": "chorus", "what": "You should know when: less/fewer, Word Crimes seal, Moran sign"},
+  {"start": 80.33, "end": 104.88, "kind": "verse", "what": "It's versus its typography, contractions, notebook, espresso"},
+  {"start": 104.88, "end": 144, "kind": "chorus", "what": "Oxford comma, BCRU, never, crime-scene tape, proofreader"},
+  {"start": 144, "end": 176, "kind": "bridge", "what": "Chalkboard drawings: irony, literally, figurative, crowbar"},
+  {"start": 176, "end": 200, "kind": "chorus", "what": "Retro desktop, blog post, 'your prose is', write in"},
+  {"start": 200, "end": 220, "kind": "outro", "what": "Alphabet blocks, punctuation friends, big dictionary"},
+  {"start": 220, "end": 225.12, "kind": "title", "what": "#WORDCRIMES end title and animator credit"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "push_zoom", "pan_slide", "whip_blur"],
+ "camera": ["static", "push_in", "pan", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 2, "text_style": "mixed"},
+ "notes": "Constant typographic variety, each lyric a new visual gag; cuts every ~2 s. Section boundaries estimated from visual motifs, not audio."}

@@ -1,0 +1,15 @@
+{"id": "UatUDnFmNTY", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 38, "kind": "chart_reveal", "what": "CO2 line draws year by year, 1979 to 2014"},
+  {"start": 38, "end": 48, "kind": "zoom", "what": "Axis extends back to 1960s with Mauna Loa record"},
+  {"start": 48, "end": 62, "kind": "zoom", "what": "Time axis zooms out to ice-core data, 1700 onward"},
+  {"start": 62, "end": 84, "kind": "zoom", "what": "Zoom out to 800,000 years of ice-age cycles"},
+  {"start": 84, "end": 85.38, "kind": "insight", "what": "Modern spike towers over all past glacial cycles"},
+  {"start": 85.38, "end": 91.39, "kind": "source", "what": "Contributing institutions and data sources credits"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible", "cut"],
+ "camera": ["zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["line", "scatter"], "annotations": true, "source_shown": true},
+ "notes": "Single continuous chart whose time axis progressively rescales outward; one cut to source credits at the end."}

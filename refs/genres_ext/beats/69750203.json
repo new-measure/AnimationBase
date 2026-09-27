@@ -1,0 +1,20 @@
+{"id": "69750203", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 18, "kind": "hook", "what": "Rotating monochrome globe"},
+  {"start": 18, "end": 24, "kind": "map", "what": "Zoom to Middle East, Iran silhouette"},
+  {"start": 24, "end": 51, "kind": "chart_reveal", "what": "Diamond fills: population, urban/rural, connected and Facebook users"},
+  {"start": 51, "end": 78, "kind": "story", "what": "Eye and ornamental network patterns: surveillance state"},
+  {"start": 78, "end": 96, "kind": "story", "what": "Network hub icons, handcuffs: online activity leads to arrest"},
+  {"start": 96, "end": 108, "kind": "story", "what": "Blogger portrait, octagon cells multiply"},
+  {"start": 108, "end": 135, "kind": "insight", "what": "Dot grid of users filtered between W and B"},
+  {"start": 135, "end": 150, "kind": "insight", "what": "Eye among cells; portrait framed"},
+  {"start": 150, "end": 162, "kind": "conclusion", "what": "Multiple framed portraits on dark background"},
+  {"start": 162, "end": 171, "kind": "map", "what": "Iran shape returns, zoom out to globe"},
+  {"start": 171, "end": 179.18, "kind": "source", "what": "Credits: writers, narrator, music"}
+ ],
+ "first_text_s": 24, "text_cards": 1,
+ "transitions": ["morph_match", "push_zoom", "fade_dissolve", "cut"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["area", "unit/pictogram", "map", "network"], "annotations": true, "source_shown": false},
+ "notes": "Monochrome geometric data story; single diamond reused as proportional area chart; globe bookends; credits only, no data source visible."}

@@ -13,3 +13,11 @@ projects/*/assets/*.wav
 refs/eval/craft/strips/
 refs/eval/craft/stills/
 refs/eval/sheets/
+refs/genres_ext/measure/*/sheets/
+refs/genres_ext/measure/*/strips/
+refs/genres_ext/measure/*/stills/
+refs/genres_ext/measure/lyric_videos/*.feat.npz
+
+# Python bytecode
+__pycache__/
+*.pyc

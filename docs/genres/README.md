@@ -27,6 +27,18 @@ How launch films in each visual family are made, for an agent building one with 
 
 Exact counts per family, with 16 cited representatives each, are in [refs/whatships/genres.md](../../refs/whatships/genres.md).
 
+## Beyond launch films
+
+These are measured the same way, over about 50 curated reference films each (awards, curators, recognised studios),
+in [refs/genres_ext/measured.md](../../refs/genres_ext/measured.md):
+
+| genre | films | length | beat | cuts/min | recipe |
+|---|---|---|---|---|---|
+| Explainer | 50 | 3 min | 16 s | 17 | [explainer.md](explainer.md) |
+| Tutorial | 46 | 4 min | 16 s | 6.5 | [tutorial.md](tutorial.md) |
+| Data story | 43 | 5.5 min | 24 s | 2.7 | [data_story.md](data_story.md) |
+| Lyric video | 48 | 3.75 min | 19 s | 25 | [lyric_video.md](lyric_video.md) |
+
 ## What holds across every family
 
 - **Words on screen are the norm.** 75.7% of all films show text, and 10.9% are dominated by it. The Clawd guide's

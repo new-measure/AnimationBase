@@ -1,0 +1,20 @@
+{"id": "CY8E6N5Nzec", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Oh ohh vocalizing between Marshmello and Anne-Marie sketches"},
+  {"start": 12, "end": 27, "kind": "verse", "what": "We're not lovers, known you since, talking"},
+  {"start": 27, "end": 42, "kind": "pre_chorus", "what": "Don't go look at me with your eyes"},
+  {"start": 42, "end": 72, "kind": "chorus", "what": "Done being polite, 2 6000 times, spell F-R-I-E-N-D"},
+  {"start": 72, "end": 87, "kind": "verse", "what": "Looking insane, 2 in the morning, talking"},
+  {"start": 87, "end": 99, "kind": "pre_chorus", "what": "Don't go look at me, without, you can't"},
+  {"start": 99, "end": 132, "kind": "chorus", "what": "Done being polite, obvious, spelled-out giant letters"},
+  {"start": 132, "end": 150, "kind": "bridge", "what": "Friends, get that inside your head, no no"},
+  {"start": 150, "end": 162, "kind": "pre_chorus", "what": "Don't go look at me, away, you can't"},
+  {"start": 162, "end": 192, "kind": "chorus", "what": "Final chorus: 2, 6000 times, F-R-I-E-N-D"},
+  {"start": 192, "end": 205.57, "kind": "outro", "what": "Ahhh oh vocalizing, fade out"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut", "morph_match"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "center", "line_hold_s_typical": 2, "text_style": "handwritten"},
+ "notes": "Hand-drawn two-character sketches on flat color that change each line; single spelled letters fill frame in chorus."}

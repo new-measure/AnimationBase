@@ -1,0 +1,15 @@
+{"id": "hL5HJKQNPQQ", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Title card beside iPhone: How to use Live Text"},
+  {"start": 4, "end": 15, "kind": "step", "what": "Tap Live Text icon in photo's bottom-right corner"},
+  {"start": 15, "end": 22, "kind": "step", "what": "Interact with highlighted text, zoomed photo"},
+  {"start": 22, "end": 28, "kind": "step", "what": "Tap email link, new message opens"},
+  {"start": 28, "end": 30, "kind": "recap", "what": "Blue card: Interact with text in a photo"},
+  {"start": 30, "end": 35.11, "kind": "outro", "what": "Apple logo on blue"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"steps": 3, "zooms_into_ui": true, "cursor_visible": false, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Very short Apple Support format: phone left, instruction text right, touch indicator; one-line blue recap card then logo."}

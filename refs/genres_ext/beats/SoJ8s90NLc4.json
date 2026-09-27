@@ -1,0 +1,21 @@
+{"id": "SoJ8s90NLc4", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Spinning spiral shadows over singer's face"},
+  {"start": 6, "end": 12, "kind": "title", "what": "PROBLEM word card"},
+  {"start": 12, "end": 30, "kind": "verse", "what": "I want you, even though I can't forgive"},
+  {"start": 30, "end": 42, "kind": "pre_chorus", "what": "Head in the clouds, I should be wiser"},
+  {"start": 42, "end": 60, "kind": "chorus", "what": "One less problem without ya, I got"},
+  {"start": 60, "end": 81, "kind": "verse", "what": "I gotta give up, ever call back, every time"},
+  {"start": 81, "end": 90, "kind": "pre_chorus", "what": "Head in the clouds, and realize that I've"},
+  {"start": 90, "end": 108, "kind": "chorus", "what": "One less problem without ya, I got"},
+  {"start": 108, "end": 144, "kind": "bridge", "what": "Rap verse: what you got, too biggie, million you's"},
+  {"start": 144, "end": 162, "kind": "pre_chorus", "what": "Problem, head in the clouds, shoulders, realize"},
+  {"start": 162, "end": 186, "kind": "chorus", "what": "One less problem without ya repeated"},
+  {"start": 186, "end": 194, "kind": "outro", "what": "I got, Problem final script word"}
+ ],
+ "first_text_s": 6, "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 2, "text_style": "mixed"},
+ "notes": "Black-and-white spiral-shadow portrait footage throughout; lyrics alternate condensed caps and script fonts, placed varied. Rap section labelled bridge."}

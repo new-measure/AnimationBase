@@ -27,6 +27,13 @@ Pick the genre first. It decides the rules that differ, and each one has a recip
 | 3D product and scene | stylised objects (photoreal 3D is out of scope) | [docs/genres/stylised_3d.md](docs/genres/stylised_3d.md) |
 | Footage with overlays | supplied camera footage with type, captions, UI, logos | [docs/genres/footage_overlays.md](docs/genres/footage_overlays.md) |
 | Character cartoon | a painted character acts out a story | [docs/character_guide.md](docs/character_guide.md) |
+| **Beyond launch films:** | | |
+| Explainer | a concept made clear, narrated, one illustrated idea per sentence | [docs/genres/explainer.md](docs/genres/explainer.md) |
+| Tutorial | teach a product task in about 5 steps: zoom, cursor, highlight, result | [docs/genres/tutorial.md](docs/genres/tutorial.md) |
+| Data story | a story told with charts and maps, slow and annotated | [docs/genres/data_story.md](docs/genres/data_story.md) |
+| Lyric video | the lyrics are the picture, timed to the vocals | [docs/genres/lyric_video.md](docs/genres/lyric_video.md) |
+
+The launch-film defaults below (a beat every 5 s, the product in the first second, an end card) are **launch-film** defaults. The four genres beyond launch films have their own measured pacing ([refs/genres_ext/measured.md](refs/genres_ext/measured.md)): data stories hold much longer and cut rarely, lyric videos cut fastest, explainers pace to their narration, and tutorials to their steps. Follow the recipe's numbers where they differ.
 
 Most launch films mix two genres, for example a UI walkthrough that opens type-led and ends on a brand end card. Take each part's rules from its genre.
 
@@ -288,7 +295,7 @@ For character cartoons, see also the failures in [docs/character_guide.md](docs/
 | `src/core.js` | canvas, timing and motion helpers, `paint()`, camera, effects, `glow()`, lettering, render hooks, `character()` |
 | `src/dom.js` | the DOM layer: HTML, CSS and SVG as a second surface, including frame-exact `D.video` |
 | `src/timeline.js` | `shots()` (with `xfade`), `LOOPS`, `brushWipe()` |
-| `src/lib/` | the motion-graphics kit: theme, motion, type, ui, cursor, shapes, fx, camera, transitions, brand, media, audio |
+| `src/lib/` | the motion-graphics kit: theme, motion, type, ui, cursor, shapes, fx, camera, transitions, brand, media, audio, chart |
 | `src/clawd.js`, `src/jolly.js`, `src/human.js` | characters (see [docs/character_guide.md](docs/character_guide.md)) |
 | `projects/<name>/` | a film's brief, `project.js`, `assets/` and `scene.js` ([projects/README.md](projects/README.md)) |
 | `studio.html` | scrub or play a scene: `?scene=name`, `?t=2.5`, `?loop=name`; space plays |
@@ -379,6 +386,14 @@ For launch films, UI and type, build from the kit rather than raw `D.*` calls. L
 - **Examples** (each one idea, not a template):
   - [src/scenes/launch_demo.js](src/scenes/launch_demo.js) (`?scene=launch_demo`, and its `_square`, `_vertical` and `_dark` variants): a 24 s UI walkthrough.
   - [src/scenes/relay_demo.js](src/scenes/relay_demo.js): a 20.5 s brand-and-type film, with particles, a zoom-through, a hub with connectors, a cross-dissolve, word swaps, a grid cover and an end card.
+
+### Charts (data stories)
+
+`Chart.*` in `src/lib/chart.js` builds a chart one piece at a time, as the data-story recipe asks ([docs/genres/data_story.md](docs/genres/data_story.md)). The worked example is `src/scenes/data_story_demo.js`, which uses real NOAA data.
+- **Geometry:** `Chart.frame(box, xDomain, yDomain)` gives the scales. Animate `box` with `Tx.rect` to slide or resize a chart, and everything re-lays out from it.
+- **Build order:** `Chart.axes` (baseline, gridlines, tick labels drawn on), then `Chart.unit` (always name it), then `Chart.line` (grows, with a head dot; `o.area`, `o.segs` recolour stretches) or `Chart.bars` (grow one by one; `o.hi` with `o.hiK` to mute the rest; `o.from(i)` to morph each bar out of another encoding), then `Chart.annotate` (a ring, a leader, the label) and `Chart.span` (a bracketed difference).
+- **Also:** `Chart.units` (pictograms), `Chart.geo` (GeoJSON projected into a box, equirectangular or Mercator) and `Chart.source`.
+- **Use the brief's data,** compute every number on screen from it, and hold the source at the end.
 
 ### Media and sound (supplied footage, recordings, music)
 

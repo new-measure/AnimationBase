@@ -1,0 +1,15 @@
+{"id": "MGxjIBEZvx0", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "intro", "what": "Dylan walks into alley holding stack of cue cards"},
+  {"start": 4, "end": 34, "kind": "verse", "what": "Verse 1 cards: Basement, Pavement, Government, Laid off, Kid"},
+  {"start": 34, "end": 66, "kind": "verse", "what": "Verse 2: Fleet foot, Black soot, Look out, Wind blows"},
+  {"start": 66, "end": 100, "kind": "verse", "what": "Verse 3: Get well, Write braille, Fail, Here they come"},
+  {"start": 100, "end": 126, "kind": "verse", "what": "Verse 4: Get born, Success, Day shift, Scandals, Vandals"},
+  {"start": 126, "end": 135.81, "kind": "outro", "what": "Drops last card, walks off down the alley"}
+ ],
+ "first_text_s": 4, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "center", "line_hold_s_typical": 2, "text_style": "handwritten"},
+ "notes": "Single continuous static take; handwritten cue cards flipped and dropped on keywords only, not full lyrics. Verse split approximate."}

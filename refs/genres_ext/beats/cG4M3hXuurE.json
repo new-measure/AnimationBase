@@ -1,0 +1,20 @@
+{"id": "cG4M3hXuurE", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Dark room, window snow, old man in armchair"},
+  {"start": 12, "end": 28, "kind": "verse", "what": "Turn on the lights, drinking daily, old song by Slade"},
+  {"start": 28, "end": 60, "kind": "verse", "what": "Memory through window: young couple, snow angels"},
+  {"start": 60, "end": 80, "kind": "pre_chorus", "what": "Back to man; radio's playing, heart footprints"},
+  {"start": 80, "end": 104, "kind": "chorus", "what": "When the Christmas bells ring out, couple on blanket"},
+  {"start": 104, "end": 124, "kind": "verse", "what": "Snow fell down, children sing in the street"},
+  {"start": 124, "end": 152, "kind": "pre_chorus", "what": "Close my eyes, snowman family, heart when you left"},
+  {"start": 152, "end": 188, "kind": "chorus", "what": "Christmas bells, mistletoe, back to window and man"},
+  {"start": 188, "end": 224, "kind": "bridge", "what": "Tearful man; family memories, lone blanket"},
+  {"start": 224, "end": 244, "kind": "outro", "what": "Snow blizzard fades to empty room"},
+  {"start": 244, "end": 252.31, "kind": "title", "what": "Credits and Ladybug logo on black"}
+ ],
+ "first_text_s": 12, "text_cards": 0,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "slow",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "integrated_in_scene"},
+ "notes": "Narrative lyric video; serif lyrics fade in/out in scene sky or walls; window framing links present and memory; section labels approximate."}

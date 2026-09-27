@@ -1,0 +1,20 @@
+{"id": "Tn6-PIqc4UM", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 9.96, "kind": "intro", "what": "React logo, JS library, Facebook 2013, TIME cover"},
+  {"start": 9.96, "end": 16.71, "kind": "overview", "what": "Component tree code: Header, Logo, Title, Action"},
+  {"start": 16.71, "end": 30.12, "kind": "step", "what": "What is a component? Just a function returning markup"},
+  {"start": 30.12, "end": 33.46, "kind": "tip", "what": "JSX callout: HTML in JavaScript"},
+  {"start": 33.46, "end": 46.08, "kind": "step", "what": "Props passed to component; it reacts to changes"},
+  {"start": 46.08, "end": 68.92, "kind": "step", "what": "useState hook, read/write, counter button clicks"},
+  {"start": 68.92, "end": 86.5, "kind": "tip", "what": "Awesome-react ecosystem: there's a component for that"},
+  {"start": 86.5, "end": 100.04, "kind": "tip", "what": "Static site, SSR, state management library options"},
+  {"start": 100.04, "end": 110.71, "kind": "tip", "what": "React Native mobile, 40K jobs"},
+  {"start": 110.71, "end": 114.33, "kind": "recap", "what": "React logo and JS library tagline"},
+  {"start": 114.33, "end": 127.76, "kind": "outro", "what": "Comments collage, Fireship logo, channel, thanks for watching"}
+ ],
+ "first_text_s": 2, "text_cards": 8,
+ "transitions": ["cut", "whip_blur"],
+ "camera": ["static"],
+ "pace": "fast",
+ "genre_fields": {"steps": 3, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Rapid code-editor typing plus meme cutaways and bold label stickers; concept explanation more than follow-along steps."}

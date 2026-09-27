@@ -1,0 +1,20 @@
+{"id": "561587283", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Soft colour gradients blooming and shifting"},
+  {"start": 12, "end": 22, "kind": "title", "what": "What Is Color? with Eddie Opara, kinetic type"},
+  {"start": 22, "end": 52, "kind": "explanation", "what": "Geometric colour tunnels, overlapping circles, contrast pairs"},
+  {"start": 52, "end": 58, "kind": "example", "what": "Transit map with colour-coded lines"},
+  {"start": 58, "end": 80, "kind": "explanation", "what": "Red, Yellow, Blue title cards with abstract motifs"},
+  {"start": 80, "end": 92, "kind": "example", "what": "Opara brand identity: glasses, packaging, merchandise"},
+  {"start": 92, "end": 108, "kind": "example", "what": "Icon system built on grid, then coloured"},
+  {"start": 108, "end": 122, "kind": "explanation", "what": "Dot patterns and smiley face with emotional gradients"},
+  {"start": 122, "end": 132, "kind": "explanation", "what": "Colour wheel amid grid of colourful tiles"},
+  {"start": 132, "end": 136, "kind": "recap", "what": "Colour swatch stripes collapse into palette"},
+  {"start": 136, "end": 138.56, "kind": "title", "what": "The End card"}
+ ],
+ "first_text_s": 12, "text_cards": 5,
+ "transitions": ["cut", "morph_match", "wipe_mask", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 26},
+ "notes": "Abstract motion-graphics essay, voiceover presumably; colour-name title cards segment middle; very dense cutting 15-40 s."}

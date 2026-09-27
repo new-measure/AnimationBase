@@ -1,0 +1,21 @@
+{"id": "536512395", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Password field dots become physical 3D beads"},
+  {"start": 8, "end": 16, "kind": "context", "what": "Beads roll along marble-run tracks through checkpoints"},
+  {"start": 16, "end": 24, "kind": "explanation", "what": "Beads sorted in glass sphere, set on pedestal"},
+  {"start": 24, "end": 32, "kind": "example", "what": "Sign-in fields filled with bead passwords"},
+  {"start": 32, "end": 40, "kind": "explanation", "what": "Balls pass through ring scanner, change colour"},
+  {"start": 40, "end": 54, "kind": "explanation", "what": "Password Manager cabinet stores balls; sign-up autofill"},
+  {"start": 54, "end": 66, "kind": "example", "what": "Saved passwords across many sites and windows"},
+  {"start": 66, "end": 74, "kind": "example", "what": "Laptop and phone sign-in, Welcome Elisa"},
+  {"start": 74, "end": 90, "kind": "explanation", "what": "Password checkup warns of compromised password, fixes it"},
+  {"start": 90, "end": 104, "kind": "explanation", "what": "Account protected; beads flow along blue tracks"},
+  {"start": 104, "end": 110, "kind": "recap", "what": "Phone Password Manager and shield lock"},
+  {"start": 110, "end": 118.29, "kind": "cta", "what": "passwords.google.com URL then Google G logo"}
+ ],
+ "first_text_s": 24, "text_cards": 3,
+ "transitions": ["cut", "morph_match", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan", "zoom_out_reveal", "tilt_3d"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 10},
+ "notes": "Abstract 3D product film: password dots as beads is the visual thread; UI text small, mostly wordless; URL end card."}

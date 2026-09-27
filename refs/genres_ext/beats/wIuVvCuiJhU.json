@@ -1,0 +1,21 @@
+{"id": "wIuVvCuiJhU", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 18, "kind": "intro", "what": "Joke certificate, kinetic words, 'no bull' sign"},
+  {"start": 18, "end": 36, "kind": "goal", "what": "Idea card: social media website for cats; memes"},
+  {"start": 36, "end": 54, "kind": "step", "what": "Step 1: user questions mapped into user flow"},
+  {"start": 54, "end": 60, "kind": "title", "what": "Step 2 title card: Wireframing"},
+  {"start": 60, "end": 132, "kind": "step", "what": "Sitemap boxes, paper and digital wireframes, inspiration"},
+  {"start": 132, "end": 150, "kind": "overview", "what": "Big word cards: UX design, UI design, prototyping"},
+  {"start": 150, "end": 276, "kind": "step", "what": "Step 3: consistency, colors, type scale, buttons, style"},
+  {"start": 276, "end": 288, "kind": "title", "what": "Step 4 card: Actually designing; Design principles card"},
+  {"start": 288, "end": 330, "kind": "step", "what": "Hierarchy, balance, contrast before/after; design the pages"},
+  {"start": 330, "end": 360, "kind": "result", "what": "Finished site shown, CTA pop-up, inspiration page"},
+  {"start": 360, "end": 396, "kind": "tip", "what": "Bonus step: tools, Figma, Photoshop, Sketch, prototypes"},
+  {"start": 396, "end": 412.34, "kind": "outro", "what": "Word card listing disciplines, 'more designing', black end"}
+ ],
+ "first_text_s": 0, "text_cards": 14,
+ "transitions": ["cut", "push_zoom", "whip_blur"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Meme-heavy fast cutting with frequent single-word kinetic text cards on black; numbered step title cards structure a comedic course. Step 1/3 boundaries inferred."}

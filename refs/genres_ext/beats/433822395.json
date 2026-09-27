@@ -1,0 +1,17 @@
+{"id": "433822395", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "title", "what": "Airbnb logo, Combating Discrimination"},
+  {"start": 2, "end": 16, "kind": "hook", "what": "Woman walks through doors into welcoming shared spaces"},
+  {"start": 16, "end": 28, "kind": "context", "what": "Finger presses doorbell; rows of doorways with guests"},
+  {"start": 28, "end": 42, "kind": "explanation", "what": "Guest profile photo fragments into collage squares"},
+  {"start": 42, "end": 54, "kind": "explanation", "what": "Mosaic of tiles forms keyhole, instant access"},
+  {"start": 54, "end": 68, "kind": "example", "what": "Profile photos de-emphasised, stacked cards of hosts"},
+  {"start": 68, "end": 86, "kind": "example", "what": "Guest arrives, host welcomes her into home"},
+  {"start": 86, "end": 90.05, "kind": "cta", "what": "Airbnb logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["morph_match", "pan_slide", "cut", "push_zoom"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 9},
+ "notes": "Wordless illustrated story; doors and squares morph between scenes; logo bookends. Meaning inferred from visuals only, no captions visible."}

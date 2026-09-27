@@ -1,0 +1,21 @@
+{"id": "453747527", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Distracted people floating in 3D living room"},
+  {"start": 8, "end": 12, "kind": "title", "what": "RSA Shorts ident"},
+  {"start": 12, "end": 32, "kind": "context", "what": "Pouring attention, person scrolling phone in corridor"},
+  {"start": 32, "end": 48, "kind": "question", "what": "Word ATTENTION floats among clouds"},
+  {"start": 48, "end": 56, "kind": "title", "what": "Handwritten title: The Attention Economy"},
+  {"start": 56, "end": 80, "kind": "explanation", "what": "Scarcity, hourglass, swiping arrows, eyes on screens"},
+  {"start": 80, "end": 124, "kind": "example", "what": "Eyes watch figure; football, ladders, bubbles, TV"},
+  {"start": 124, "end": 152, "kind": "analogy", "what": "Endless staircases and boxes of distraction"},
+  {"start": 152, "end": 188, "kind": "explanation", "what": "Connected world, check-out shopping, location pins"},
+  {"start": 188, "end": 216, "kind": "example", "what": "Controllers, man at computer, overload of media"},
+  {"start": 216, "end": 240, "kind": "recap", "what": "Resistance: NO signs, freedom autonomy lettering"},
+  {"start": 240, "end": 255.36, "kind": "cta", "what": "Spilled cup, RSA ident and URL"}
+ ],
+ "first_text_s": 8, "text_cards": 4,
+ "transitions": ["cut", "morph_match", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 12},
+ "notes": "3D cold open then 2D hand-drawn; title arrives late (~48 s); fluid morphing between loose sketch scenes; beat boundaries approximate."}

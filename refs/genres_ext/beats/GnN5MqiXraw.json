@@ -1,0 +1,22 @@
+{"id": "GnN5MqiXraw", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "intro", "what": "Presenter at desk introduces lesson"},
+  {"start": 5, "end": 10, "kind": "title", "what": "Framer Academy logo card"},
+  {"start": 10, "end": 30, "kind": "overview", "what": "Full Framer interface shown, panels dimmed in turn"},
+  {"start": 30, "end": 50, "kind": "step", "what": "Main menu and toolbar: file, edit, view menus"},
+  {"start": 50, "end": 70, "kind": "step", "what": "Layers panel and Insert menu with sections"},
+  {"start": 70, "end": 100, "kind": "step", "what": "Presenter explains; Text, CMS toolbar items, CMS table"},
+  {"start": 100, "end": 120, "kind": "step", "what": "Actions quick menu: create page, component"},
+  {"start": 120, "end": 170, "kind": "step", "what": "Top bar: project name, collaborators, invite, publish"},
+  {"start": 170, "end": 200, "kind": "step", "what": "Left panel: pages, layers, assets tabs"},
+  {"start": 200, "end": 240, "kind": "step", "what": "Right properties panel for selected layer"},
+  {"start": 240, "end": 285, "kind": "step", "what": "Canvas bottom toolbar, comments, zoom options"},
+  {"start": 285, "end": 305, "kind": "outro", "what": "Presenter wraps, Academy site and community pages"},
+  {"start": 305, "end": 315.79, "kind": "title", "what": "Framer logo end card"}
+ ],
+ "first_text_s": 5, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"steps": 9, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Interface tour alternating talking-head and zoomed UI; spotlight dims inactive regions. Step boundaries approximate at 5 s step."}

@@ -1,0 +1,20 @@
+{"id": "PQHIuFHjfCY", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 18, "kind": "intro", "what": "Live-action: Costello, name cutouts, record placed on turntable"},
+  {"start": 18, "end": 30, "kind": "chorus", "what": "Cut-out words on spinning record: will you walk us uptown"},
+  {"start": 30, "end": 72, "kind": "verse", "what": "Ransom-note lyrics: tears, silence, crossfire, paradise"},
+  {"start": 72, "end": 81, "kind": "chorus", "what": "Will you walk us uptown words scatter"},
+  {"start": 81, "end": 120, "kind": "verse", "what": "Hearts sinking, swallow the earth, feast on flesh"},
+  {"start": 120, "end": 132, "kind": "chorus", "what": "Walk us uptown, then empty spinning record"},
+  {"start": 132, "end": 144, "kind": "verse", "what": "No matter the price, crushed paradise"},
+  {"start": 144, "end": 156, "kind": "chorus", "what": "Walk us uptown refrain"},
+  {"start": 156, "end": 192, "kind": "bridge", "what": "Partly divine, clown, cowards flee, red flag"},
+  {"start": 192, "end": 204, "kind": "instrumental", "what": "Record spins with no words"},
+  {"start": 204, "end": 211.53, "kind": "outro", "what": "Costello tips hat, fade to black"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 6, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "kinetic"},
+ "notes": "Single locked-off turntable shot for nearly entire song; ransom-note paper words pop on per line. Many detected cuts are stop-motion word swaps."}

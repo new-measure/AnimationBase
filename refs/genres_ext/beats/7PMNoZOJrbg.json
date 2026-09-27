@@ -1,0 +1,14 @@
+{"id": "7PMNoZOJrbg", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 1, "kind": "map", "what": "Choropleth of extreme poverty share, final year shown"},
+  {"start": 1, "end": 12, "kind": "map", "what": "Timeline plays from 1977: Asia deep red rising"},
+  {"start": 12, "end": 28, "kind": "map", "what": "Asia fades yellow; poverty concentrates in Africa"},
+  {"start": 28, "end": 38, "kind": "insight", "what": "Final year held: sub-Saharan Africa remains red"},
+  {"start": 38, "end": 48.79, "kind": "other", "what": "Cursor hovers countries showing tooltips on final map"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map"], "annotations": false, "source_shown": true},
+ "notes": "Screen capture of an Our World in Data animated map; single static shot, timeline slider drives all change. Tiny text unreadable."}

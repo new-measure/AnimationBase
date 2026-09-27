@@ -1,0 +1,22 @@
+{"id": "522542250", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "Abstract glossy orbs in rings, morphing shapes"},
+  {"start": 12, "end": 32, "kind": "context", "what": "Isometric block piles and spiral swirl of data"},
+  {"start": 32, "end": 52, "kind": "explanation", "what": "Sorting colorful tokens and dots into groups"},
+  {"start": 52, "end": 56, "kind": "title", "what": "Section label: Unsupervised learning"},
+  {"start": 56, "end": 104, "kind": "example", "what": "Stacked tokens clustered, concentric rings, grouped pods"},
+  {"start": 104, "end": 136, "kind": "explanation", "what": "Tokens pass through pipes, compared and scaled"},
+  {"start": 136, "end": 140, "kind": "title", "what": "Section label: Supervised learning"},
+  {"start": 140, "end": 152, "kind": "example", "what": "Labelled capsules run along track through frame"},
+  {"start": 152, "end": 156, "kind": "title", "what": "Section label: Reinforcement learning"},
+  {"start": 156, "end": 188, "kind": "example", "what": "Agent tokens navigate maze and zigzag paths"},
+  {"start": 188, "end": 252, "kind": "explanation", "what": "Tunnels, diamonds, networks: combining approaches, limits"},
+  {"start": 252, "end": 268, "kind": "recap", "what": "Concentric colored rings expand outward"},
+  {"start": 268, "end": 277.61, "kind": "other", "what": "Credits over concentric rings, TED-Ed logo"}
+ ],
+ "first_text_s": 52, "text_cards": 3,
+ "transitions": ["morph_match", "cut", "wipe_mask", "push_zoom"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 8},
+ "notes": "Fully abstract shape-morph explainer; three tiny section labels structure it; few hard cuts, mostly morphs. Content inferred from labels."}

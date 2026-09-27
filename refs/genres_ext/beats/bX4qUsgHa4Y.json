@@ -1,0 +1,22 @@
+{"id": "bX4qUsgHa4Y", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 24, "kind": "hook", "what": "Paper chart, then presidents' news clips after shootings"},
+  {"start": 24, "end": 48, "kind": "comparison", "what": "Public mass shootings by country, count then rate"},
+  {"start": 48, "end": 72, "kind": "chart_reveal", "what": "Timeline of mass shootings, marker annotates frequency"},
+  {"start": 72, "end": 102, "kind": "context", "what": "Printed photos of Obama addressing shootings"},
+  {"start": 102, "end": 132, "kind": "insight", "what": "Unit grid of daily gun deaths: homicides vs suicides"},
+  {"start": 132, "end": 180, "kind": "comparison", "what": "Suicide rates by country, research papers, victims by gender"},
+  {"start": 180, "end": 228, "kind": "chart_reveal", "what": "Gun deaths over time; homicide by country and race"},
+  {"start": 228, "end": 252, "kind": "comparison", "what": "Burglary rates vs homicide rates by country"},
+  {"start": 252, "end": 294, "kind": "comparison", "what": "Gun deaths vs AIDS, drugs, wars; ownership per country"},
+  {"start": 294, "end": 324, "kind": "comparison", "what": "Gun law checklist table across countries"},
+  {"start": 324, "end": 396, "kind": "insight", "what": "Background checks line; scatter guns vs deaths, states"},
+  {"start": 396, "end": 414, "kind": "conclusion", "what": "Homicide chart recalled; Venn of three gun problems"},
+  {"start": 414, "end": 429.22, "kind": "source", "what": "Vox logo, credits listing footage and sources"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["bar", "line", "scatter", "unit/pictogram", "timeline", "table", "other"], "annotations": true, "source_shown": true},
+ "notes": "Printed charts on cutting mat annotated live with red marker by hand; papers slid in and out; archival news clips as printouts."}

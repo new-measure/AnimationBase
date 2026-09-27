@@ -1,0 +1,22 @@
+{"id": "f6U7YFPrz6Y", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "title", "what": "Here Grows New York title and intro text card"},
+  {"start": 16, "end": 40, "kind": "context", "what": "Satellite view of NYC, five boroughs captioned"},
+  {"start": 40, "end": 96, "kind": "map", "what": "Pre-colonial waterfront, Lenape land, Dutch and English settlement"},
+  {"start": 96, "end": 144, "kind": "map", "what": "Extent of settlement grows on Manhattan tip, population counter"},
+  {"start": 144, "end": 168, "kind": "story", "what": "Commissioners' Plan grid overlaid on Manhattan"},
+  {"start": 168, "end": 280, "kind": "map", "what": "Aqueduct, railroad, ferries, Central Park, bridge; city expands"},
+  {"start": 280, "end": 296, "kind": "chart_reveal", "what": "Population density heatmap with legend"},
+  {"start": 296, "end": 392, "kind": "map", "what": "Elevated rails, subway, manufacturing, highways, urban renewal"},
+  {"start": 392, "end": 408, "kind": "insight", "what": "Density map: Manhattan density down 30 percent since 1910"},
+  {"start": 408, "end": 432, "kind": "map", "what": "Present-day highways and full city footprint"},
+  {"start": 432, "end": 520, "kind": "zoom", "what": "Rewind through time back to wild island"},
+  {"start": 520, "end": 528, "kind": "conclusion", "what": "E.B. White quote on black"},
+  {"start": 528, "end": 537.1, "kind": "source", "what": "Credits and data sources list"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["fade_dissolve", "morph_match", "none_visible"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map", "counter", "timeline"], "annotations": true, "source_shown": true},
+ "notes": "Single continuous map morphing through years with captions and quotes; no cuts detected; closing rewind reverses the whole growth."}

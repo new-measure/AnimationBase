@@ -1,0 +1,16 @@
+{"id": "hMDR6P4FOFg", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 5, "kind": "intro", "what": "Rapid screen montage: quick find adding elements"},
+  {"start": 5, "end": 11, "kind": "goal", "what": "Presenter at desk introduces quick find"},
+  {"start": 11, "end": 14, "kind": "step", "what": "Shortcut callout: Command+E / Control+E opens quick find"},
+  {"start": 14, "end": 16, "kind": "tip", "what": "Presenter comments with mug"},
+  {"start": 16, "end": 18, "kind": "result", "what": "Designer shows inserted heading and content"},
+  {"start": 18, "end": 20, "kind": "outro", "what": "Presenter sips coffee, wry close"},
+  {"start": 20, "end": 23.03, "kind": "title", "what": "Webflow University logo end card"}
+ ],
+ "first_text_s": 11, "text_cards": 1,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 1, "zooms_into_ui": true, "cursor_visible": false, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "23-second micro lesson; cuts every 1-3 s between presenter and zoomed UI; keyboard shortcut card is the core content."}

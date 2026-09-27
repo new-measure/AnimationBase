@@ -1,0 +1,19 @@
+{"id": "Ylq-seLHqKs", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Rapid collage of Stones memorabilia, notebook cover with tongue"},
+  {"start": 12, "end": 36, "kind": "verse", "what": "Notebook pages: hear what I say, going to every disco"},
+  {"start": 36, "end": 48, "kind": "chorus", "what": "Shame on you; crossword spelling SHAME"},
+  {"start": 48, "end": 84, "kind": "verse", "what": "Don't stop the motion, ID card, ain't coming back"},
+  {"start": 84, "end": 120, "kind": "chorus", "what": "Collage: if you don't, no show, if you can't dance too"},
+  {"start": 120, "end": 144, "kind": "instrumental", "what": "Paper guitar, live photos under blue light, SHAME stamps"},
+  {"start": 144, "end": 172, "kind": "verse", "what": "Envelopes, checkered pages, dice letters, matchsticks lyrics"},
+  {"start": 172, "end": 196, "kind": "chorus", "what": "Shaky wig, crossword and collage of shame on you"},
+  {"start": 196, "end": 236, "kind": "outro", "what": "Kaleidoscopic tunnels of SHAME words and band photos"},
+  {"start": 236, "end": 243.95, "kind": "other", "what": "Curtain in stamp frame, closing credit text"}
+ ],
+ "first_text_s": 4, "text_cards": 1,
+ "transitions": ["cut", "pan_slide", "push_zoom", "morph_match"],
+ "camera": ["static", "push_in", "pan", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Scrapbook collage where lyrics appear as cut-out letters, crosswords and handwriting inside notebook pages; stop-motion flicker intro; kaleidoscope outro."}

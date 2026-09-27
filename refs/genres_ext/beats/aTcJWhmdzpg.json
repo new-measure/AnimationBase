@@ -1,0 +1,20 @@
+{"id": "aTcJWhmdzpg", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 11.42, "kind": "intro", "what": "Silver kaleidoscope bodies and hands"},
+  {"start": 11.42, "end": 49.88, "kind": "verse", "what": "Chrome words on black: revere, prayers, no soul"},
+  {"start": 49.88, "end": 68, "kind": "pre_chorus", "what": "Feel warm, bring me back, ablaze and alive"},
+  {"start": 68, "end": 72.08, "kind": "chorus", "what": "DEAD INSIDE title word over mirrored bodies"},
+  {"start": 72.08, "end": 88.29, "kind": "instrumental", "what": "Kaleidoscopic mirrored body imagery"},
+  {"start": 88.29, "end": 120, "kind": "verse", "what": "The sky, crushed pulverised, infinity"},
+  {"start": 120, "end": 144, "kind": "pre_chorus", "what": "Got nothing left, bereft, skin feels warm, ablaze"},
+  {"start": 144, "end": 176, "kind": "instrumental", "what": "Mirrored bodies without text"},
+  {"start": 176, "end": 212, "kind": "bridge", "what": "Hold me please, it's hurting babe, don't leave"},
+  {"start": 212, "end": 248, "kind": "chorus", "what": "Warm, alive, control, no remorse"},
+  {"start": 248, "end": 263.15, "kind": "outro", "what": "Now I'm, symmetrical figures fade to black"}
+ ],
+ "first_text_s": 12, "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve", "morph_match"],
+ "camera": ["static", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 3, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "kinetic"},
+ "notes": "Chrome blocky type scattered across frame alternates with mirrored-body kaleidoscope interludes; text-free instrumental stretches. Sections estimated."}

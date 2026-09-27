@@ -1,0 +1,23 @@
+{"id": "__ABPkb0aF8", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Dev Mode toggle logo title"},
+  {"start": 4, "end": 24, "kind": "overview", "what": "Design file, CSS code, integrations, designer and developer"},
+  {"start": 24, "end": 32, "kind": "goal", "what": "World Peas newsletter design to be built"},
+  {"start": 32, "end": 44, "kind": "step", "what": "Toggle into Dev Mode from design file"},
+  {"start": 44, "end": 56, "kind": "step", "what": "Ready for development sections list"},
+  {"start": 56, "end": 76, "kind": "step", "what": "Inspect layers, measurements, and status"},
+  {"start": 76, "end": 96, "kind": "step", "what": "Compare changes between versions"},
+  {"start": 96, "end": 144, "kind": "step", "what": "Inspect components, code snippets, language options"},
+  {"start": 144, "end": 168, "kind": "step", "what": "Plugins and component playground"},
+  {"start": 168, "end": 180, "kind": "step", "what": "Dev resources links: Storybook, GitHub"},
+  {"start": 180, "end": 228, "kind": "step", "what": "VS Code extension inspects design alongside code"},
+  {"start": 228, "end": 248, "kind": "step", "what": "Notifications and marking sections completed"},
+  {"start": 248, "end": 256, "kind": "recap", "what": "Dev Mode logo with developer cursor"},
+  {"start": 256, "end": 264.36, "kind": "outro", "what": "Figma end card: subscribe, next up"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"steps": 10, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Screen-recording walkthrough framed by green Dev Mode border; animated cursors as characters; step boundaries estimated from UI changes."}

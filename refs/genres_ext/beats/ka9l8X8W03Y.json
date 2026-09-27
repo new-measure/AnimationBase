@@ -1,0 +1,19 @@
+{"id": "ka9l8X8W03Y", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "title", "what": "Car Seat Headrest painted title"},
+  {"start": 3, "end": 21, "kind": "intro", "what": "Hollywood sign, observatory, vortex, spotlight"},
+  {"start": 21, "end": 57, "kind": "verse", "what": "Gas-mask figure: sick of drinking, ads on bus"},
+  {"start": 57, "end": 81, "kind": "verse", "what": "Oppressed by energies, was that a gun, hiss"},
+  {"start": 81, "end": 102, "kind": "chorus", "what": "Scrambled letters resolve: Hollywood makes me wanna puke"},
+  {"start": 102, "end": 126, "kind": "verse", "what": "Faces form faces, take me to palace, clapboard"},
+  {"start": 126, "end": 147, "kind": "bridge", "what": "Spotlights, fear splits like Moses, good and evil"},
+  {"start": 147, "end": 183, "kind": "instrumental", "what": "Figure falls through hills and clouds, screaming face"},
+  {"start": 183, "end": 195, "kind": "chorus", "what": "Dense wall of lyrics: make you famous, puke"},
+  {"start": 195, "end": 202.04, "kind": "outro", "what": "Black screen"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "morph_match", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "handwritten"},
+ "notes": "Boiling hand-painted frames (causing cut detector flood at start); handwritten lyrics placed in scene; chorus as scrambled letter blobs."}

@@ -1,0 +1,21 @@
+{"id": "Ur77lDetI9Q", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 15, "kind": "hook", "what": "Big counters: 3.7BN in 1970 to 8.6BN 2030"},
+  {"start": 15, "end": 24, "kind": "map", "what": "Continents highlighted, growth arrows, Africa and Asia"},
+  {"start": 24, "end": 42, "kind": "comparison", "what": "2020 top countries; India, China, Nigeria compared"},
+  {"start": 42, "end": 54, "kind": "insight", "what": "African fertility: Niger 7 children vs 2.2 average"},
+  {"start": 54, "end": 72, "kind": "chart_reveal", "what": "Ageing population, life expectancy counters by country"},
+  {"start": 72, "end": 84, "kind": "story", "what": "Declining populations; Japan example"},
+  {"start": 84, "end": 99, "kind": "map", "what": "Eastern Europe shrinking, emigration and low births"},
+  {"start": 99, "end": 111, "kind": "context", "what": "Urban tech footage, city skylines"},
+  {"start": 111, "end": 120, "kind": "story", "what": "Elderly dependency seesaw, crowd of babies"},
+  {"start": 120, "end": 126, "kind": "chart_reveal", "what": "2100 pictogram circle shows share of population"},
+  {"start": 126, "end": 147, "kind": "conclusion", "what": "Crowds and opportunity collage, people walking forward"},
+  {"start": 147, "end": 166.35, "kind": "other", "what": "Daily Watch logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 8,
+ "transitions": ["cut", "push_zoom", "pan_slide", "wipe_mask"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["map", "counter", "unit/pictogram", "pie"], "annotations": true, "source_shown": false},
+ "notes": "Map-based with cut-out photo collage; big yellow counters carry data; long 19 s static logo end card."}

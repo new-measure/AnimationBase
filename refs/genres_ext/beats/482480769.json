@@ -1,0 +1,19 @@
+{"id": "482480769", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "question", "what": "Crane assembles geometric question mark"},
+  {"start": 16, "end": 40, "kind": "context", "what": "Dirac equation on blackboard, target, square root of four"},
+  {"start": 40, "end": 72, "kind": "explanation", "what": "Particles and mirrored counterparts, pairs meeting and annihilating"},
+  {"start": 72, "end": 96, "kind": "explanation", "what": "Split screens: electron/positron, quarks versus antiquarks"},
+  {"start": 96, "end": 124, "kind": "context", "what": "Book, atom, cloud-chamber photo: antimatter discovery"},
+  {"start": 124, "end": 152, "kind": "explanation", "what": "Puzzle pieces, question mark, minus and plus assembling"},
+  {"start": 152, "end": 164, "kind": "explanation", "what": "Big Bang burst, pause and rewind icons"},
+  {"start": 164, "end": 200, "kind": "question", "what": "Where did antimatter go? globe, telescope, galaxies, scales"},
+  {"start": 200, "end": 224, "kind": "explanation", "what": "Matter and antimatter particle clouds, imbalance, speeding objects"},
+  {"start": 224, "end": 241.77, "kind": "recap", "what": "Starfield returns to question mark, open mystery"}
+ ],
+ "first_text_s": 20, "text_cards": 0,
+ "transitions": ["cut", "wipe_mask", "morph_match", "pan_slide"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 8},
+ "notes": "Flat geometric icons, frequent split-screen matter/antimatter pairs; opens and closes on question mark. No title text visible; beats inferred from visuals only."}

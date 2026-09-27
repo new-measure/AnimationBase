@@ -1,0 +1,17 @@
+{"id": "554617503", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "hook", "what": "Feynman quote on painterly pink background"},
+  {"start": 10, "end": 26, "kind": "context", "what": "Chip zooms into city roads, highway rising into sky"},
+  {"start": 26, "end": 44, "kind": "explanation", "what": "Golden quantum chandelier in snow, fly through its interior"},
+  {"start": 44, "end": 64, "kind": "example", "what": "Landscapes, growing flower, fields of purple-yellow flowers"},
+  {"start": 64, "end": 78, "kind": "example", "what": "Golden bridge over lavender sea, dewdrop on leaf"},
+  {"start": 78, "end": 90, "kind": "analogy", "what": "Tree at night, glowing network, glacier seascape"},
+  {"start": 90, "end": 100, "kind": "recap", "what": "Road to horizon returns, dissolves into pink strokes"},
+  {"start": 100, "end": 103.02, "kind": "cta", "what": "'Join our quantum computing journey' with URL and logo"}
+ ],
+ "first_text_s": 2, "text_cards": 2,
+ "transitions": ["morph_match", "push_zoom", "fade_dissolve", "cut"],
+ "camera": ["push_in", "pan", "tilt_3d"],
+ "pace": "slow",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 7},
+ "notes": "Wordless painterly flythrough bookended by quote and CTA; scenes flow via continuous camera moves, road motif returns at end. Beat roles are interpretive."}

@@ -1,0 +1,23 @@
+{"id": "8EdxM72EZ94", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 28, "kind": "intro", "what": "Growing 'O', grid lines, play triangle, pink heart"},
+  {"start": 28, "end": 60, "kind": "verse", "what": "Single words on white cards: In, Name, She, called"},
+  {"start": 60, "end": 68, "kind": "chorus", "what": "Giant 'Time' serif letters sweep across grey"},
+  {"start": 68, "end": 92, "kind": "verse", "what": "Words in orange/red quadrants; '4 the very', 'it's June'"},
+  {"start": 92, "end": 108, "kind": "instrumental", "what": "Purple triangles and cream bars pulse"},
+  {"start": 108, "end": 128, "kind": "verse", "what": "Small line text over giant purple letters"},
+  {"start": 128, "end": 136, "kind": "chorus", "what": "Giant 'Time' returns"},
+  {"start": 136, "end": 148, "kind": "verse", "what": "Small text on dark blue: 'But if a night falls'"},
+  {"start": 148, "end": 156, "kind": "chorus", "what": "Tilted giant 'Time' letters"},
+  {"start": 156, "end": 172, "kind": "verse", "what": "White cards: blows up, Some say Man, truly dies, O why?"},
+  {"start": 172, "end": 192, "kind": "chorus", "what": "Handwritten title card, then giant 'Time' again"},
+  {"start": 192, "end": 208, "kind": "verse", "what": "Pink hearts replace letters: hurry, married, Nate"},
+  {"start": 208, "end": 216, "kind": "outro", "what": "Faded 'Time' in grid frame"},
+  {"start": 216, "end": 223.89, "kind": "title", "what": "Handwritten Prince Sign o' the Times card"}
+ ],
+ "first_text_s": 28, "text_cards": 2,
+ "transitions": ["cut", "wipe_mask", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "center", "line_hold_s_typical": 2, "text_style": "kinetic"},
+ "notes": "Recreation of 1987 video: one word per beat, cuts every ~2 s on the beat; recurring giant 'Time' as chorus marker. Section labels approximate."}

@@ -1,0 +1,17 @@
+{"id": "652121209", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Tezos logo extrudes into 3D"},
+  {"start": 6, "end": 12, "kind": "hook", "what": "Logo breaks into cubes, forms voxel chain"},
+  {"start": 12, "end": 24, "kind": "explanation", "what": "Camera glides along block chain, blocks light up"},
+  {"start": 24, "end": 34.33, "kind": "analogy", "what": "Colored cubes open into nested square layers"},
+  {"start": 34.33, "end": 41.71, "kind": "explanation", "what": "Twin nested cubes, then many cubes tumble"},
+  {"start": 41.71, "end": 51.33, "kind": "example", "what": "Grid of varied cubes assembles into a panel"},
+  {"start": 51.33, "end": 65, "kind": "explanation", "what": "Pixel explosion into glowing tunnel of rectangles"},
+  {"start": 65, "end": 70.02, "kind": "cta", "what": "Logo with tagline: Designed to evolve. Built to empower."}
+ ],
+ "first_text_s": 66, "text_cards": 1,
+ "transitions": ["morph_match", "push_zoom", "cut"],
+ "camera": ["tilt_3d", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 7},
+ "notes": "Continuous abstract 3D cube morphs, only four hard cuts; logo bookends; text only at the end. Beat meaning inferred, uncertain."}

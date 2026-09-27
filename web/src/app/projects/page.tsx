@@ -1,13 +1,17 @@
 import { connection } from 'next/server';
 import ProjectList from '@/components/ProjectList';
-import { listProjects } from '@/server/db';
+import { ButtonLink, Page, PageHeader } from '@/components/ui';
+import { Plus } from '@/components/icons';
+import { viewer, visibleProjects } from '@/server/auth';
 
 export default async function Projects() {
   await connection();
+  const projects = await visibleProjects(await viewer(), 100);
   return (
-    <div className="max-w-5xl w-full mx-auto px-4 sm:px-6 py-10">
-      <h1 className="text-2xl font-semibold tracking-tight">Projects</h1>
-      <div className="mt-6"><ProjectList projects={listProjects(100)} /></div>
-    </div>
+    <Page>
+      <PageHeader title="Projects" description={`${projects.length} ${projects.length === 1 ? 'video' : 'videos'}, newest first.`}
+        actions={<ButtonLink href="/" icon={<Plus size={14} />}>New video</ButtonLink>} />
+      <div className="mt-8"><ProjectList projects={projects} /></div>
+    </Page>
   );
 }

@@ -1,0 +1,18 @@
+{"id": "88093956", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "NATS Europe 24 title on black"},
+  {"start": 4, "end": 12, "kind": "hook", "what": "Night earth from space, Europe coming into view"},
+  {"start": 12, "end": 31.54, "kind": "map", "what": "Flight paths light up over Europe through the day"},
+  {"start": 31.54, "end": 42.5, "kind": "zoom", "what": "Atlantic tracks stream into UK airspace"},
+  {"start": 42.5, "end": 54.08, "kind": "map", "what": "Dense UK flight trails, low oblique view"},
+  {"start": 54.08, "end": 69.83, "kind": "zoom", "what": "Close on Heathrow and Gatwick holding patterns, labelled"},
+  {"start": 69.83, "end": 93.46, "kind": "map", "what": "Sweeping over UK and Europe flight density"},
+  {"start": 93.46, "end": 112, "kind": "map", "what": "Pull back to continental Europe night network"},
+  {"start": 112, "end": 119.06, "kind": "conclusion", "what": "Fade to NATS logo, tagline, URL"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["push_in", "pan", "zoom_out_reveal", "tilt_3d"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map", "network"], "annotations": true, "source_shown": false},
+ "notes": "Pure flight-trail globe visualization with slow camera flights; only airport labels annotate; no narration text or stats."}

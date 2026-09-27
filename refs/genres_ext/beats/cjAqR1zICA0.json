@@ -1,0 +1,18 @@
+{"id": "cjAqR1zICA0", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 78, "kind": "hook", "what": "Close-up map views of first 1945 tests: New Mexico, Japan"},
+  {"start": 78, "end": 156, "kind": "map", "what": "World map, month counter ticks; sparse early US, USSR tests"},
+  {"start": 156, "end": 312, "kind": "map", "what": "Test flashes accelerate; per-country counters climb, 1950s-60s"},
+  {"start": 312, "end": 624, "kind": "map", "what": "Steady blasts continue through 1970s-80s, France, China, India"},
+  {"start": 624, "end": 702, "kind": "map", "what": "Tests slow to near stop in 1990s"},
+  {"start": 702, "end": 780, "kind": "comparison", "what": "Counters freeze at totals; each nation's tests replayed"},
+  {"start": 780, "end": 832, "kind": "insight", "what": "All test sites shown as dots accumulating on map"},
+  {"start": 832, "end": 845, "kind": "conclusion", "what": "Map fades; only total dots and 2053 remain"},
+  {"start": 845, "end": 864.15, "kind": "source", "what": "Text card: data sources and artist credit"}
+ ],
+ "first_text_s": 13, "text_cards": 1,
+ "transitions": ["none_visible", "fade_dissolve"],
+ "camera": ["static", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map", "counter"], "annotations": false, "source_shown": true},
+ "notes": "Hashimoto's single-shot map timelapse; one month per second, counters as only text; flashes tiny at 13 s step, so beat splits approximate."}

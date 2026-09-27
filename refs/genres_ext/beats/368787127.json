@@ -1,0 +1,18 @@
+{"id": "368787127", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 24, "kind": "hook", "what": "Character walks while notifications, icons and gadgets pile up"},
+  {"start": 24, "end": 34, "kind": "context", "what": "Pan across screens showing people absorbed in devices"},
+  {"start": 34, "end": 40, "kind": "transition", "what": "Sunburst horizon, papers fly through tunnel"},
+  {"start": 40, "end": 52, "kind": "example", "what": "Mailbox and island scenes: disconnecting from phone"},
+  {"start": 52, "end": 62, "kind": "example", "what": "Person moves from desk to running to relaxing"},
+  {"start": 62, "end": 70, "kind": "example", "what": "Hands around circle, family house with shared devices"},
+  {"start": 70, "end": 72, "kind": "title", "what": "Digital Wellbeing Experiments title card"},
+  {"start": 72, "end": 82, "kind": "explanation", "what": "Browser grid of experiment tiles being filled"},
+  {"start": 82, "end": 88.73, "kind": "cta", "what": "Magnifier reveals URL, Google logo end card"}
+ ],
+ "first_text_s": 70, "text_cards": 3,
+ "transitions": ["cut", "pan_slide", "morph_match", "push_zoom"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 8},
+ "notes": "Wordless illustrated piece; no text until 70 s title; objects morph between vignettes; ends with URL and logo."}

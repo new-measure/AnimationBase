@@ -1,0 +1,23 @@
+{"id": "246294149", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Archival Victorian woman photo"},
+  {"start": 4, "end": 8, "kind": "title", "what": "RSA Shorts ident card"},
+  {"start": 8, "end": 20, "kind": "context", "what": "Round character introduced in yellow room"},
+  {"start": 20, "end": 24, "kind": "title", "what": "Pink card: the myth of responsibility"},
+  {"start": 24, "end": 48, "kind": "question", "what": "Are we responsible? genes, upbringing, influences shown"},
+  {"start": 48, "end": 76, "kind": "explanation", "what": "Chance, dice, prison bars, power and privilege"},
+  {"start": 76, "end": 84, "kind": "example", "what": "Thinkers lineup: Darwin, Spinoza, Nietzsche, Einstein"},
+  {"start": 84, "end": 108, "kind": "analogy", "what": "Magician dealing cards of beliefs and identity"},
+  {"start": 108, "end": 112, "kind": "title", "what": "Pink card: no one is truly blameworthy"},
+  {"start": 112, "end": 144, "kind": "example", "what": "Thief chase, reward poster, poverty inequality corruption"},
+  {"start": 144, "end": 172, "kind": "explanation", "what": "Knight, wheel of fortune labelled inequality, luck"},
+  {"start": 172, "end": 212, "kind": "explanation", "what": "Blame lever, socioeconomic systems, poverty neglect anvil"},
+  {"start": 212, "end": 236, "kind": "recap", "what": "Globe, tug of war, characters reconcile"},
+  {"start": 236, "end": 242, "kind": "cta", "what": "Credits then RSA logo and URL"}
+ ],
+ "first_text_s": 4, "text_cards": 3,
+ "transitions": ["cut", "morph_match", "pan_slide"],
+ "camera": ["static", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 8},
+ "notes": "Flat colour-blocked scenes change background colour per idea; two pink thesis cards punctuate the argument; archival cold open."}

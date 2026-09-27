@@ -1,0 +1,21 @@
+{"id": "goroyZbVdlo", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "title", "what": "Listen Without Prejudice builds word by word, fades"},
+  {"start": 16, "end": 32, "kind": "intro", "what": "Near-black empty frames"},
+  {"start": 32, "end": 72, "kind": "verse", "what": "Days of the open hand, beggars, rich declare poor"},
+  {"start": 72, "end": 92, "kind": "verse", "what": "God stopped keeping score, crept out back door"},
+  {"start": 92, "end": 112, "kind": "pre_chorus", "what": "Hard to love, hanging on to hope, wounded skies"},
+  {"start": 112, "end": 128, "kind": "chorus", "what": "Well maybe we should all be praying for time"},
+  {"start": 128, "end": 148, "kind": "instrumental", "what": "Dark empty frames"},
+  {"start": 148, "end": 192, "kind": "verse", "what": "Hold on to what you can, year of guilty man"},
+  {"start": 192, "end": 208, "kind": "bridge", "what": "God stopped keeping score, he has no children"},
+  {"start": 208, "end": 232, "kind": "pre_chorus", "what": "Hard to love, wounded skies above"},
+  {"start": 232, "end": 256, "kind": "chorus", "what": "So maybe we should all be praying for time"},
+  {"start": 256, "end": 275.92, "kind": "outro", "what": "Text shrinks away, dark frames"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["fade_dissolve"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"words_on_screen_typical": 6, "text_position": "center", "line_hold_s_typical": 4, "text_style": "static_cards"},
+ "notes": "Minimal: small serif lines fading in and out on black, vertical format; no cuts; long empty gaps between lines."}

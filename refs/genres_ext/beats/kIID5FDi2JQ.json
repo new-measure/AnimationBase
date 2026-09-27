@@ -1,0 +1,22 @@
+{"id": "kIID5FDi2JQ", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Vox logo over inflatable globe"},
+  {"start": 6, "end": 40.83, "kind": "hook", "what": "Presenter tries flattening beach-ball globe, it crumples"},
+  {"start": 40.83, "end": 66, "kind": "context", "what": "Gauss theorem, cartographers, orange-peel globe"},
+  {"start": 66, "end": 108, "kind": "map", "what": "Many projections shown, map flurry grid"},
+  {"start": 108, "end": 144, "kind": "story", "what": "Mercator map for navigation, rhumb line angle 45.8"},
+  {"start": 144, "end": 174, "kind": "comparison", "what": "Mercator grid stretch; reality vs Mercator Greenland/Africa"},
+  {"start": 174, "end": 204, "kind": "insight", "what": "Tissot circles show distortion; Gall-Peters debate clip"},
+  {"start": 204, "end": 222, "kind": "comparison", "what": "Gall-Peters vs Mercator Africa sizes"},
+  {"start": 222, "end": 264, "kind": "story", "what": "Archival film: satellites, Cold War maps, draftsman"},
+  {"start": 264, "end": 300, "kind": "map", "what": "Data maps and Google Maps web Mercator zoom"},
+  {"start": 300, "end": 324, "kind": "conclusion", "what": "Winkel Tripel compromise with Tissot circles"},
+  {"start": 324, "end": 336, "kind": "conclusion", "what": "Presenter back with crumpled globe"},
+  {"start": 336, "end": 360.05, "kind": "source", "what": "Credits beside end cards"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "whip_blur", "push_zoom"],
+ "camera": ["handheld", "static", "push_in", "tilt_3d"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["map"], "annotations": true, "source_shown": false},
+ "notes": "Live-action physical demo bookends animated map comparisons; rapid cutting in first minute; Tissot dot overlays carry the data."}

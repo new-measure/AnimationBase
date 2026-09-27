@@ -1,0 +1,19 @@
+{"id": "jqYxyd1iSNk", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "Dark gold tinsel background"},
+  {"start": 3, "end": 30, "kind": "verse", "what": "Lyrics in flour, candy jar, cake hearts, cookie cutters"},
+  {"start": 30, "end": 42, "kind": "pre_chorus", "what": "Rolling pin engraved 'You know that I'm the girl'"},
+  {"start": 42, "end": 69, "kind": "chorus", "what": "'Make it like your birthday' rainbow cake, icing script, gift cake"},
+  {"start": 69, "end": 93, "kind": "verse", "what": "Pop your confetti board, disco-ball cake, icing lines"},
+  {"start": 93, "end": 99, "kind": "pre_chorus", "what": "Glitter 'if you want it all', Hello Kitty cake"},
+  {"start": 99, "end": 144, "kind": "chorus", "what": "Sprinkle letters, burger cake, pink cake piped with lyrics"},
+  {"start": 144, "end": 165, "kind": "bridge", "what": "Birthday suit cake, 'time to bring out the big balloons'"},
+  {"start": 165, "end": 207, "kind": "chorus", "what": "Ribbons, bunting, crayon letters, tiled cake lyrics"},
+  {"start": 207, "end": 215.97, "kind": "outro", "what": "Katy Perry as baker reveals final birthday cake"}
+ ],
+ "first_text_s": 9, "text_cards": 0,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Every lyric written into baked goods and props (flour, icing, sprinkles); artist appears only at very end. Section splits approximate."}

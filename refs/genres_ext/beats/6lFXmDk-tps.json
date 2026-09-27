@@ -1,0 +1,23 @@
+{"id": "6lFXmDk-tps", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 22, "kind": "hook", "what": "Presenter beside falling fertility lines across regions"},
+  {"start": 22, "end": 33, "kind": "map", "what": "World map of countries near one child per woman"},
+  {"start": 33, "end": 66, "kind": "chart_reveal", "what": "Mexico vs US; UN projections overshoot actual births"},
+  {"start": 66, "end": 88, "kind": "context", "what": "Newborn footage, presenter to camera"},
+  {"start": 88, "end": 121, "kind": "comparison", "what": "Ideal vs actual children in four countries"},
+  {"start": 121, "end": 220, "kind": "story", "what": "Presenter on economic consequences, GDP chart, expert cameo"},
+  {"start": 220, "end": 264, "kind": "chart_reveal", "what": "Coupling rate and share of women with children"},
+  {"start": 264, "end": 341, "kind": "insight", "what": "Fewer couples by education, K-shape; housing counterfactual"},
+  {"start": 341, "end": 440, "kind": "story", "what": "City footage, smartphones, research paper abstract"},
+  {"start": 440, "end": 506, "kind": "insight", "what": "Fertility drop timed to smartphone takeoff; less socialising"},
+  {"start": 506, "end": 583, "kind": "comparison", "what": "Political divergence of young men and women"},
+  {"start": 583, "end": 649, "kind": "story", "what": "Presenter and b-roll on screens and isolation"},
+  {"start": 649, "end": 726, "kind": "conclusion", "what": "What can be done? Presenter wraps with b-roll"},
+  {"start": 726, "end": 733.38, "kind": "title", "what": "FT logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["line", "map", "area"], "annotations": true, "source_shown": true},
+ "notes": "Presenter-led FT piece alternating studio talking head, sourced line charts and stock b-roll; charts often share frame with presenter."}

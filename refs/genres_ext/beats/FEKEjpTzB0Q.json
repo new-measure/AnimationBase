@@ -1,0 +1,18 @@
+{"id": "FEKEjpTzB0Q", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Kanye on white, The Good Life graffiti title"},
+  {"start": 12, "end": 32, "kind": "chorus", "what": "Good life, I got to shine, T-Pain"},
+  {"start": 32, "end": 100, "kind": "verse", "what": "Kanye verse: roller coaster, cities, summertime, roll, Lawry's"},
+  {"start": 100, "end": 116, "kind": "chorus", "what": "Crowd, pop-art frames of Kanye and T-Pain"},
+  {"start": 116, "end": 136, "kind": "verse", "what": "Close-ups, Pico, sunglasses lyric doodles"},
+  {"start": 136, "end": 144, "kind": "chorus", "what": "Goodlife homie typographic wall"},
+  {"start": 144, "end": 196, "kind": "verse", "what": "Black background verse: only thing I wish, jackpot, rich"},
+  {"start": 196, "end": 224, "kind": "outro", "what": "Neon Vegas, Paris, casino doodles"},
+  {"start": 224, "end": 229.76, "kind": "outro", "what": "Kanye close-up fades"}
+ ],
+ "first_text_s": 4, "text_cards": 3,
+ "transitions": ["cut", "whip_blur", "wipe_mask"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "mixed"},
+ "notes": "Music video with hand-drawn doodles and sporadic lyric words over B&W live action; not full lyrics; white first half, black second half; sections approximate."}

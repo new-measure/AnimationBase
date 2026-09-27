@@ -1,0 +1,20 @@
+{"id": "HhEm_u61d9s", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "title", "what": "Getting started with Underlord title, prompt box typing"},
+  {"start": 4, "end": 16, "kind": "overview", "what": "Descript editor with video and Underlord chat panel"},
+  {"start": 16, "end": 18, "kind": "title", "what": "Chapter card: Say what you want"},
+  {"start": 18, "end": 38, "kind": "step", "what": "Type requests: shorten script, make video engaging"},
+  {"start": 38, "end": 40, "kind": "title", "what": "Chapter card: Brainstorm"},
+  {"start": 40, "end": 72, "kind": "step", "what": "Chat back and forth about cutdowns, highlight clips"},
+  {"start": 72, "end": 74, "kind": "title", "what": "Chapter card: Iterate to keep going"},
+  {"start": 74, "end": 82, "kind": "step", "what": "Refine background music through follow-up prompts"},
+  {"start": 82, "end": 104, "kind": "result", "what": "Edited video with title card in editor"},
+  {"start": 104, "end": 118, "kind": "step", "what": "Rewrite script prompt; new script with B-roll"},
+  {"start": 118, "end": 122.16, "kind": "outro", "what": "Descript logo on gradient"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"steps": 4, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": false},
+ "notes": "Product tutorial with chapter title cards and running lower-third captions over gradient; cropped zoomed UI panels; blurred frames mark transitions."}

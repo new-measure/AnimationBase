@@ -1,0 +1,15 @@
+{"id": "NibyIWzbua8", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "title", "what": "Quick start tips: Figma Slides Part 1"},
+  {"start": 3, "end": 12, "kind": "step", "what": "1. Find and add templates to your deck"},
+  {"start": 12, "end": 24, "kind": "step", "what": "2. Apply template styles to slides"},
+  {"start": 24, "end": 32, "kind": "step", "what": "3. Remix template colors"},
+  {"start": 32, "end": 36, "kind": "step", "what": "4. Access design mode"},
+  {"start": 36, "end": 36.97, "kind": "outro", "what": "Title card returns"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "pan_slide", "wipe_mask"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 4, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Vertical short; numbered step labels atop UI panel on orange; ~8 s per step; loops to title at end."}

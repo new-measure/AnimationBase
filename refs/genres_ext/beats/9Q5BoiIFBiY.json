@@ -1,0 +1,23 @@
+{"id": "9Q5BoiIFBiY", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 1.58, "kind": "title", "what": "Linear logo on white"},
+  {"start": 1.58, "end": 20.17, "kind": "intro", "what": "Presenter intro intercut with product UI glimpses"},
+  {"start": 20.17, "end": 29.12, "kind": "overview", "what": "Customer logos, presenter frames what Linear is"},
+  {"start": 29.12, "end": 38.46, "kind": "overview", "what": "Cursor graphic, presenter outlines the walkthrough"},
+  {"start": 38.46, "end": 46.08, "kind": "step", "what": "Creating an issue and command menu"},
+  {"start": 46.08, "end": 60, "kind": "step", "what": "Projects list view"},
+  {"start": 60, "end": 84, "kind": "step", "what": "Teams and workflow status settings"},
+  {"start": 84, "end": 92, "kind": "transition", "what": "Loader spinner and cycle icon animation"},
+  {"start": 92, "end": 124, "kind": "step", "what": "Active issues, new issue template, issue detail"},
+  {"start": 124, "end": 144, "kind": "step", "what": "Project roadmap list with health and target dates"},
+  {"start": 144, "end": 204, "kind": "step", "what": "Project overview doc, requirements, updates"},
+  {"start": 204, "end": 224, "kind": "step", "what": "Initiatives grouping projects"},
+  {"start": 224, "end": 236, "kind": "outro", "what": "Presenter wrap-up intercut with projects view"},
+  {"start": 236, "end": 240.67, "kind": "title", "what": "Linear logo end card"}
+ ],
+ "first_text_s": 236, "text_cards": 2,
+ "transitions": ["cut", "push_zoom"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"steps": 7, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Talking-head bookends; long UI screen recording with smooth zooms and highlights; no step titles, step boundaries inferred."}

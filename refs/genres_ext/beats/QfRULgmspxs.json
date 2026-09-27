@@ -1,0 +1,20 @@
+{"id": "QfRULgmspxs", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "overview", "what": "Floating rule cards: auto-apply labels, triage protocols"},
+  {"start": 6, "end": 8, "kind": "title", "what": "Automate Triage in Linear title card"},
+  {"start": 8, "end": 12, "kind": "intro", "what": "Triage inbox list of incoming issues"},
+  {"start": 12, "end": 14, "kind": "title", "what": "Triage Intelligence section card"},
+  {"start": 14, "end": 24, "kind": "step", "what": "Issue gets suggested labels, duplicates, related issues"},
+  {"start": 24, "end": 26, "kind": "title", "what": "Code Intelligence section card"},
+  {"start": 26, "end": 36, "kind": "step", "what": "Agent finds root cause and code references"},
+  {"start": 36, "end": 37, "kind": "title", "what": "Coding session section card"},
+  {"start": 37, "end": 43, "kind": "step", "what": "Agent self-delegates, runs commands, changes files"},
+  {"start": 43, "end": 50, "kind": "result", "what": "PR reviewed and merged, issue moved to Done"},
+  {"start": 50, "end": 54.38, "kind": "outro", "what": "Linear logo fades"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "fade_dissolve", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"steps": 3, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": false},
+ "notes": "Chaptered by plain title cards; product UI zoomed and scrolled with smooth camera moves; only two hard cuts detected."}

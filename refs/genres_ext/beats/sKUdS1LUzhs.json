@@ -1,0 +1,16 @@
+{"id": "sKUdS1LUzhs", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Presenter webcam bubble over Arc window introduces tour"},
+  {"start": 12, "end": 60, "kind": "step", "what": "Sidebar basics: tabs, pinned tabs, favourites"},
+  {"start": 60, "end": 114, "kind": "step", "what": "Sidebar organisation: folders, today tabs, archiving"},
+  {"start": 114, "end": 157, "kind": "step", "what": "Spaces: switching sidebar colour themes and profiles"},
+  {"start": 157, "end": 189, "kind": "step", "what": "Command bar search and actions, zoomed in"},
+  {"start": 189, "end": 192, "kind": "outro", "what": "Presenter closes over command bar"},
+  {"start": 192, "end": 195.44, "kind": "title", "what": "Arc logo end card"}
+ ],
+ "first_text_s": null, "text_cards": 0,
+ "transitions": ["none_visible", "push_zoom", "cut"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"steps": 4, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "One continuous screen recording with circular webcam; frames nearly identical so step boundaries are guesses from sidebar colour changes."}

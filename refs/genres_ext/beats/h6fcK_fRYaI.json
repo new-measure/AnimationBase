@@ -1,0 +1,20 @@
+{"id": "h6fcK_fRYaI", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 21, "kind": "hook", "what": "Night road, car crash aftermath with ambulance"},
+  {"start": 21, "end": 56, "kind": "context", "what": "Protagonist wakes in void, meets cosmic god figure"},
+  {"start": 56, "end": 98, "kind": "explanation", "what": "God explains death, reincarnation; souls and afterlife"},
+  {"start": 98, "end": 133, "kind": "example", "what": "Memories of family left behind, wife and children"},
+  {"start": 133, "end": 196, "kind": "explanation", "what": "Past lives across eras and planets, arcade, cities"},
+  {"start": 196, "end": 259, "kind": "explanation", "what": "Walking together at sunset: universe exists for you"},
+  {"start": 259, "end": 343, "kind": "explanation", "what": "You are every human who ever lived, subway reveal"},
+  {"start": 343, "end": 392, "kind": "example", "what": "Montage: Lincoln, Hitler-era, victims, helpers — all you"},
+  {"start": 392, "end": 441, "kind": "recap", "what": "God cradles protagonist; universe as egg to mature"},
+  {"start": 441, "end": 462, "kind": "title", "what": "Egg of stars, THE EGG title and credits"},
+  {"start": 462, "end": 486.06, "kind": "cta", "what": "Support us, follow-us end card"}
+ ],
+ "first_text_s": 448, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "fade_dissolve", "push_zoom"],
+ "camera": ["static", "push_in", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 8.5},
+ "notes": "Narrated story as dialogue between two recurring characters; title held until the end reveal. 7 s step makes boundaries approximate."}

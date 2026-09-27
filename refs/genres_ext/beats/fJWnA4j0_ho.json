@@ -1,0 +1,18 @@
+{"id": "fJWnA4j0_ho", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 28, "kind": "hook", "what": "Live footage of mug, cardioid light pattern at bottom"},
+  {"start": 28, "end": 144, "kind": "story", "what": "Line Rider puzzle: draw ramp from Here to There"},
+  {"start": 144, "end": 200, "kind": "context", "what": "Curves and families of curves with parameter t"},
+  {"start": 200, "end": 256, "kind": "chart_reveal", "what": "Envelopes: family of lines forms curved envelope"},
+  {"start": 256, "end": 400, "kind": "insight", "what": "The math of envelopes, intersection limit derivation"},
+  {"start": 400, "end": 456, "kind": "insight", "what": "Envelope conditions, calculating envelope step list"},
+  {"start": 456, "end": 536, "kind": "story", "what": "Back to mug: reflected rays in circle form cardioid"},
+  {"start": 536, "end": 560, "kind": "conclusion", "what": "Conclusion card, interactive demos in description"},
+  {"start": 560, "end": 565.36, "kind": "other", "what": "Final live shot of mug, fade to black"}
+ ],
+ "first_text_s": 72, "text_cards": 8,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "handheld"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["line", "other"], "annotations": true, "source_shown": false},
+ "notes": "Math explainer bookended by live mug footage; section header cards (Curves, Envelopes, Conclusion) structure it; no data charts, geometric plots only."}

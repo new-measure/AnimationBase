@@ -1,0 +1,19 @@
+{"id": "89305412", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 40, "kind": "map", "what": "Day 1 midnight to 5am: sparse rides on Manhattan map"},
+  {"start": 40, "end": 70, "kind": "map", "what": "Morning commute swells to ~730 active rides"},
+  {"start": 70, "end": 125, "kind": "map", "what": "Midday plateau around 400 rides"},
+  {"start": 125, "end": 150, "kind": "insight", "what": "Evening peak over 1100 rides, map saturates"},
+  {"start": 150, "end": 180, "kind": "map", "what": "Night decline of rides, day 1 ends"},
+  {"start": 180, "end": 225, "kind": "map", "what": "Day 2 overnight lull, near-empty map"},
+  {"start": 225, "end": 250, "kind": "map", "what": "Day 2 morning peak around 700 rides"},
+  {"start": 250, "end": 305, "kind": "map", "what": "Day 2 midday steady activity"},
+  {"start": 305, "end": 330, "kind": "insight", "what": "Day 2 evening peak ~1117 rides"},
+  {"start": 330, "end": 360, "kind": "conclusion", "what": "Rides taper off towards midnight"}
+ ],
+ "first_text_s": 0, "text_cards": 0,
+ "transitions": ["none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map", "counter", "bar"], "annotations": true, "source_shown": false},
+ "notes": "Single continuous animated map, no cuts; clock, ride counter, member/casual bars and weather/event notes update. Two identical daily cycles."}

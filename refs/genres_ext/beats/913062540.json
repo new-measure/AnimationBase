@@ -1,0 +1,19 @@
+{"id": "913062540", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "hook", "what": "Kinetic text: you've been experimenting, write emails, brainstorm"},
+  {"start": 8, "end": 14, "kind": "transition", "what": "And now the next chapter; Today on black"},
+  {"start": 14, "end": 18, "kind": "title", "what": "Gemini wordmark assembles from particles"},
+  {"start": 18, "end": 26, "kind": "explanation", "what": "Chat UI greeting, it's everything, workspace summary"},
+  {"start": 26, "end": 30, "kind": "transition", "what": "And more; starting with the new"},
+  {"start": 30, "end": 46, "kind": "example", "what": "Phone app demo: social caption for dog photo"},
+  {"start": 46, "end": 54, "kind": "title", "what": "But that's not all; Introducing Gemini Advanced dark"},
+  {"start": 54, "end": 64, "kind": "explanation", "what": "Most capable AI: coding, role play, images"},
+  {"start": 64, "end": 70, "kind": "cta", "what": "Experience Gemini with URL and devices"},
+  {"start": 70, "end": 73.81, "kind": "title", "what": "Light flare to Google G logo"}
+ ],
+ "first_text_s": 0, "text_cards": 12,
+ "transitions": ["cut", "fade_dissolve", "morph_match", "push_zoom"],
+ "camera": ["static", "tilt_3d", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 16},
+ "notes": "Text-led launch film: short kinetic phrases alternate with tilted UI demos; light-to-dark palette shift marks second product reveal."}

@@ -1,0 +1,18 @@
+{"id": "xiiHjrewXNI", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "hook", "what": "1980 recession timeline with archival TV news clips"},
+  {"start": 12, "end": 48, "kind": "chart_reveal", "what": "'Could've been predicted': monthly curve strip across recession timeline"},
+  {"start": 48, "end": 64, "kind": "insight", "what": "Yield curve named, predicted every recession, inverted 2019"},
+  {"start": 64, "end": 88, "kind": "context", "what": "$100 bond explained with characters and maturity timeline"},
+  {"start": 88, "end": 128, "kind": "chart_reveal", "what": "Bond yields as money stacks form normal yield curve"},
+  {"start": 128, "end": 180, "kind": "story", "what": "Storm cloud of recession fears changes bond prices"},
+  {"start": 180, "end": 204, "kind": "insight", "what": "Stacks invert, yield curve flips downward"},
+  {"start": 204, "end": 224, "kind": "conclusion", "what": "August '19 inversion, 'Recession?', historical inversion list"},
+  {"start": 224, "end": 232.45, "kind": "source", "what": "Credits and sources roll"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["pan_slide", "push_zoom", "cut", "morph_match"],
+ "camera": ["pan", "push_in", "static"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["line", "bar", "timeline", "unit/pictogram"], "annotations": true, "source_shown": true},
+ "notes": "Vox style: continuous pan along a timeline, then pictogram bond characters morph into yield-curve line; sources only in end credits."}

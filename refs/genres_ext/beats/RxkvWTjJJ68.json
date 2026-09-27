@@ -1,0 +1,23 @@
+{"id": "RxkvWTjJJ68", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 4.96, "kind": "title", "what": "Singer portrait with September title"},
+  {"start": 4.96, "end": 24, "kind": "verse", "what": "Calendar, dancing in street, phone number, how we began"},
+  {"start": 24, "end": 44, "kind": "verse", "what": "Clock, heart, first kiss, comic panels"},
+  {"start": 44, "end": 60.46, "kind": "pre_chorus", "what": "Never wait for weekend, you're all my strength"},
+  {"start": 60.46, "end": 80, "kind": "pre_chorus", "what": "Smile when I'm angry, love you for the rest"},
+  {"start": 80, "end": 92, "kind": "chorus", "what": "Ooh if you wanted to, wedding photo frame"},
+  {"start": 92, "end": 108, "kind": "verse", "what": "Met your mother, car on country road"},
+  {"start": 108, "end": 136, "kind": "pre_chorus", "what": "Calendar, strength, battle my demons, pressure"},
+  {"start": 136, "end": 148, "kind": "chorus", "what": "Crush never faded, love you rest of my life"},
+  {"start": 148, "end": 164, "kind": "chorus", "what": "If you wanted to, family photo with baby"},
+  {"start": 164, "end": 180, "kind": "bridge", "what": "Singer driving at night, city lights"},
+  {"start": 180, "end": 204, "kind": "pre_chorus", "what": "Walking, pressure, still love, crush never faded"},
+  {"start": 204, "end": 216, "kind": "chorus", "what": "Family portrait, start a family with you"},
+  {"start": 216, "end": 223.7, "kind": "outro", "what": "Back to calendar with photo, fade to black"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["pan_slide", "cut", "fade_dissolve", "whip_blur"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 7, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "integrated_in_scene"},
+ "notes": "Comic-book panels with lyric captions; recurring calendar and photo-frame motifs track story arc across choruses. Sections estimated."}

@@ -1,0 +1,18 @@
+{"id": "CCmTY0PKGDs", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "title", "what": "Globe of ocean currents with Perpetual Ocean title"},
+  {"start": 6, "end": 36, "kind": "map", "what": "Gulf Stream eddies along North America, Atlantic"},
+  {"start": 36, "end": 66, "kind": "map", "what": "Globe rotates to Africa, Agulhas rings, Indian Ocean"},
+  {"start": 66, "end": 90, "kind": "map", "what": "Southeast Asia and Kuroshio current near Japan"},
+  {"start": 90, "end": 123, "kind": "map", "what": "Pacific, equatorial currents, South America coast"},
+  {"start": 123, "end": 150, "kind": "map", "what": "Antarctica then Australia and Southern Ocean"},
+  {"start": 150, "end": 159, "kind": "zoom", "what": "Camera pulls back to full globe"},
+  {"start": 159, "end": 171, "kind": "source", "what": "Credits on globe: NASA Goddard, ECCO2 model data"},
+  {"start": 171, "end": 182.32, "kind": "source", "what": "NASA logo, fade to black"}
+ ],
+ "first_text_s": 3, "text_cards": 1,
+ "transitions": ["none_visible", "fade_dissolve"],
+ "camera": ["pan", "zoom_out_reveal"],
+ "pace": "slow",
+ "genre_fields": {"chart_types": ["map"], "annotations": true, "source_shown": true},
+ "notes": "Single continuous camera tour over animated flow globe; no cuts; only annotation is a small month-year date stamp."}

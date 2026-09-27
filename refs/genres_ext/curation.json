@@ -1,0 +1,24 @@
+{
+  "_what": "Films left out of a genre's statistics, with the reason. They stay in the reference index (index.md); only the measured summaries (measured.md) skip them. Applied by scripts/genres_ext_summary.py.",
+  "exclude": {
+    "data_stories": {
+      "aircAruvnKk": "maths animation (3Blue1Brown), not a story told with data",
+      "spUNpyF58BY": "maths animation (3Blue1Brown)",
+      "fJWnA4j0_ho": "maths animation (3Blue1Brown)",
+      "aVwxzDHniEw": "maths animation (Freya Holmér)",
+      "PKjbBQ0PBCQ": "maths animation",
+      "uh-yRNqLpOg": "maths proof animation",
+      "a-767WnbaCQ": "maths animation"
+    },
+    "tutorials": {
+      "_gBF27M7NHI": "feature teaser, no teaching steps (launch-film genre)",
+      "53KQ2wUZG2s": "product promo, not a how-to",
+      "2TYLsY-FhF8": "showcase of finished sites, no build steps"
+    },
+    "lyric_videos": {
+      "FEKEjpTzB0Q": "music video with only a few lyric words on screen",
+      "sy1dYFGkPUE": "music video with only a few lyric words on screen",
+      "CFA6dEwWOb4": "only a few lyrics appear on screen"
+    }
+  }
+}

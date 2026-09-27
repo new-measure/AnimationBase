@@ -1,0 +1,20 @@
+{"id": "sy1dYFGkPUE", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Man sits in dark club, green light sweep"},
+  {"start": 6, "end": 18, "kind": "intro", "what": "Animated lyric collage, dancing legs, crowd hands"},
+  {"start": 18, "end": 45, "kind": "chorus", "what": "DANCE letters; animated T-shirt graphics begin"},
+  {"start": 45, "end": 63, "kind": "verse", "what": "Always on the run shirts, Beethoven, Mozart prints"},
+  {"start": 63, "end": 78, "kind": "verse", "what": "Lyrics scroll on dark; shirts animate lyrics"},
+  {"start": 78, "end": 96, "kind": "chorus", "what": "ABC, DO letters, shirts pulse"},
+  {"start": 96, "end": 117, "kind": "verse", "what": "Anatomy shirt, pyramids, text-dense shirts"},
+  {"start": 117, "end": 126, "kind": "bridge", "what": "Floating 3D words: Lights, Do the dance"},
+  {"start": 126, "end": 165, "kind": "chorus", "what": "Shirt pairs animate: keyboard, argyle, violin"},
+  {"start": 165, "end": 174, "kind": "outro", "what": "Crowd, dancing legs, lyric collage returns"},
+  {"start": 174, "end": 181.07, "kind": "outro", "what": "Small logo fades on black"}
+ ],
+ "first_text_s": 6, "text_cards": 2,
+ "transitions": ["cut", "fade_dissolve", "pan_slide"],
+ "camera": ["handheld", "static", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "integrated_in_scene"},
+ "notes": "Lyrics and imagery animated on T-shirts in B&W live action; few full-frame word cards; collage bookends; song sections approximate."}

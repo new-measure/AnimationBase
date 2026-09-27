@@ -1,0 +1,22 @@
+{"id": "OksiAQqsAZs", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 3.33, "kind": "title", "what": "Visual Capitalist logo, then 20 Most Populous Cities title"},
+  {"start": 3.33, "end": 14.5, "kind": "hook", "what": "Line-art skylines morph between world cities"},
+  {"start": 14.5, "end": 21.5, "kind": "context", "what": "Tokyo satellite view, population 35 million today"},
+  {"start": 21.5, "end": 45, "kind": "map", "what": "World bubble map of top cities evolving by year"},
+  {"start": 45, "end": 69, "kind": "zoom", "what": "Zoom to South Asia then Africa as ranks shift"},
+  {"start": 69, "end": 72, "kind": "insight", "what": "Lagos, Kinshasa, Dar es Salaam top three"},
+  {"start": 72, "end": 99.54, "kind": "chart_reveal", "what": "Ranked city profiles with growing bar chart"},
+  {"start": 99.54, "end": 108, "kind": "story", "what": "Lagos satellite sprawl 1984 to 2010"},
+  {"start": 108, "end": 114, "kind": "context", "what": "Historical largest cities: Thebes, Beijing"},
+  {"start": 114, "end": 120, "kind": "map", "what": "Africa choropleth of urban population share"},
+  {"start": 120, "end": 126, "kind": "transition", "what": "Skyline grows from low buildings to towers"},
+  {"start": 126, "end": 132, "kind": "conclusion", "what": "Question card: can African cities sustain growth?"},
+  {"start": 132, "end": 146.82, "kind": "other", "what": "Other video promos, watch and subscribe end screen"}
+ ],
+ "first_text_s": 3, "text_cards": 5,
+ "transitions": ["cut", "morph_match", "push_zoom", "wipe_mask"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["map", "bar", "counter", "timeline"], "annotations": true, "source_shown": false},
+ "notes": "Animated bubble map is the spine with running top-3 list; circular photo masks plus bars profile each city; ends on question and promos."}

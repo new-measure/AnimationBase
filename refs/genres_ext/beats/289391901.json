@@ -1,0 +1,22 @@
+{"id": "289391901", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "hook", "what": "White sphere multiplies into ring of beads"},
+  {"start": 2, "end": 5, "kind": "title", "what": "Dieter Rams: Ten Principles for Good Design title"},
+  {"start": 5, "end": 12, "kind": "example", "what": "1: radio product, good design is innovative"},
+  {"start": 12, "end": 17, "kind": "example", "what": "2: shaver, good design makes a product useful"},
+  {"start": 17, "end": 24, "kind": "example", "what": "3: grid of radios, good design is aesthetic"},
+  {"start": 24, "end": 30, "kind": "example", "what": "4: film camera, good design is understandable"},
+  {"start": 30, "end": 36, "kind": "example", "what": "5: orbiting balls then calculator, good design is honest"},
+  {"start": 36, "end": 41, "kind": "example", "what": "6: shelving, good design is unobtrusive"},
+  {"start": 41, "end": 47, "kind": "example", "what": "7: alarm clock, good design is long lasting"},
+  {"start": 47, "end": 54, "kind": "example", "what": "8: hi-fi stack, thorough down to last detail"},
+  {"start": 54, "end": 59, "kind": "example", "what": "9: speakers circle, environmentally friendly"},
+  {"start": 59, "end": 65, "kind": "example", "what": "10: TVs, as little design as possible"},
+  {"start": 65, "end": 70.02, "kind": "title", "what": "Closing title card returns, fades to dark"}
+ ],
+ "first_text_s": 2, "text_cards": 2,
+ "transitions": ["cut", "morph_match", "pan_slide", "fade_dissolve"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 18},
+ "notes": "Numbered list: ten ~6 s product vignettes with typed-on principle caption; bookended by identical title card. Balls motif links scenes."}

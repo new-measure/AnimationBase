@@ -1,0 +1,21 @@
+{"id": "hcY-2Xux2oI", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 4.96, "kind": "intro", "what": "Asana logo animates"},
+  {"start": 4.96, "end": 9.96, "kind": "intro", "what": "Live-action user smiles at laptop; home dashboard"},
+  {"start": 9.96, "end": 27, "kind": "step", "what": "Create project: blank, template, or import spreadsheet"},
+  {"start": 27, "end": 54, "kind": "step", "what": "Add tasks, assignees, due dates, sections"},
+  {"start": 54, "end": 72, "kind": "step", "what": "Set priority, add custom fields, share and customize"},
+  {"start": 72, "end": 93, "kind": "step", "what": "Task detail pane, comments, attachments, collaboration"},
+  {"start": 93, "end": 112.92, "kind": "step", "what": "Forms and rules to automate bug tracking"},
+  {"start": 112.92, "end": 126, "kind": "step", "what": "Dashboard charts and project status update"},
+  {"start": 126, "end": 141, "kind": "step", "what": "Portfolios and company goals overview"},
+  {"start": 141, "end": 168, "kind": "step", "what": "My Tasks, inbox notifications, appreciations; live-action inserts"},
+  {"start": 168, "end": 177, "kind": "tip", "what": "Integrations orbit: Slack, Gmail, Outlook, Drive"},
+  {"start": 177, "end": 188.5, "kind": "outro", "what": "Asana end card: learn more at help.asana.com"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 9, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Polished product-marketing tutorial: stylized mock UI, frequent zoom crops on fields, brief live-action actor inserts, integrations motion graphic."}

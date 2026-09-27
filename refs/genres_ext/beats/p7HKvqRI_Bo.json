@@ -1,0 +1,19 @@
+{"id": "p7HKvqRI_Bo", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 4, "kind": "hook", "what": "Paul Samuelson quote card about boring investing"},
+  {"start": 4, "end": 52, "kind": "context", "what": "1600s Dutch East India Company sells shares, trade routes"},
+  {"start": 52, "end": 76, "kind": "explanation", "what": "Modern stock tickers, exchanges, contracts, trading screens"},
+  {"start": 76, "end": 120, "kind": "example", "what": "Coffee company IPO; buyers bid share price upward"},
+  {"start": 120, "end": 160, "kind": "example", "what": "Ownership slices, customers, bad news drops price"},
+  {"start": 160, "end": 192, "kind": "explanation", "what": "Supply and demand seesaw; news and factors shift value"},
+  {"start": 192, "end": 216, "kind": "data", "what": "Price line charts rise and crash; bubbles, recovery"},
+  {"start": 216, "end": 248, "kind": "explanation", "what": "Algorithms, traders, long-term investors in companies"},
+  {"start": 248, "end": 252, "kind": "recap", "what": "Return to historic trade-route map"},
+  {"start": 252, "end": 269.58, "kind": "cta", "what": "Audible sponsor card and TED-Ed credits"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "wipe_mask", "pan_slide", "push_zoom"],
+ "camera": ["static", "pan", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 12},
+ "notes": "Opens on quote card; recurring coffee-company ticker board scene returns as running example; big word cards (1600s, IPO, $$$) punctuate."}

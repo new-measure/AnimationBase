@@ -1,0 +1,19 @@
+{"id": "Ipv-ULej8Uo", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 2, "kind": "title", "what": "Eagle logo on grey"},
+  {"start": 2, "end": 8, "kind": "context", "what": "Welcome to Eagle Powertrain, integrated E-MTB system"},
+  {"start": 8, "end": 12, "kind": "title", "what": "Get more from your ride with Auto Shift"},
+  {"start": 12, "end": 34, "kind": "explanation", "what": "Motor monitors speed, derailleur shifts automatically, stay focused"},
+  {"start": 34, "end": 42, "kind": "explanation", "what": "Fine tune using AXS Pod controllers or app"},
+  {"start": 42, "end": 48, "kind": "explanation", "what": "Override Auto Shift before upcoming trail feature"},
+  {"start": 48, "end": 54, "kind": "title", "what": "Get more from your ride with Coast Shift"},
+  {"start": 54, "end": 62, "kind": "explanation", "what": "Coast Shift shifts gears without pedaling"},
+  {"start": 62, "end": 74, "kind": "example", "what": "Riding footage: ready when terrain changes abruptly"},
+  {"start": 74, "end": 80.04, "kind": "cta", "what": "Go for Eagle Powertrain, SRAM logo end"}
+ ],
+ "first_text_s": 2, "text_cards": 3,
+ "transitions": ["wipe_mask", "pan_slide", "cut"],
+ "camera": ["static", "push_in", "pan"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 12},
+ "notes": "Kinetic-type product explainer: two feature chapters each introduced by identical lime/black title card; text columns wipe beside product renders."}

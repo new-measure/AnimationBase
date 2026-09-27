@@ -1,0 +1,22 @@
+{"id": "3261363", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 24.71, "kind": "title", "what": "Crisis of Credit crest logo, falling money"},
+  {"start": 24.71, "end": 76.25, "kind": "hook", "what": "Who is affected? Everyone; homeowners, investors, Main vs Wall St"},
+  {"start": 76.25, "end": 112.96, "kind": "context", "what": "Bust.com, 1% interest rates, credit boom"},
+  {"start": 112.96, "end": 190, "kind": "chart_reveal", "what": "Leverage defined; stacked bars show $1,100,000 profit"},
+  {"start": 190, "end": 290, "kind": "story", "what": "Family, mortgage lender, broker, bank chain diagram"},
+  {"start": 290, "end": 360, "kind": "insight", "what": "CDO tranches safe/okay/risky, AAA rating"},
+  {"start": 360, "end": 410, "kind": "story", "what": "Investors buy tranches; lenders run out of borrowers"},
+  {"start": 410, "end": 470, "kind": "insight", "what": "Mortgage plus risk equals subprime lending"},
+  {"start": 470, "end": 540, "kind": "story", "what": "Default ripples through network; houses turn to arrows down"},
+  {"start": 540, "end": 560, "kind": "comparison", "what": "Owe $300,000 vs house worth $90,000; foreclosures"},
+  {"start": 560, "end": 640, "kind": "conclusion", "what": "Network collapses, banks freeze, smoking ruins"},
+  {"start": 640, "end": 650, "kind": "title", "what": "Crest logo returns"},
+  {"start": 650, "end": 670.06, "kind": "source", "what": "Voice credit and crisisofcredit.com"}
+ ],
+ "first_text_s": 0, "text_cards": 6,
+ "transitions": ["morph_match", "pan_slide", "push_zoom", "cut"],
+ "camera": ["pan", "static", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["bar", "network", "unit/pictogram", "counter"], "annotations": true, "source_shown": false},
+ "notes": "Single green palette, continuous flow diagram that accumulates; labels and speech bubbles carry definitions. Few hard cuts."}

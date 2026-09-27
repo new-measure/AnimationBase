@@ -1,0 +1,18 @@
+{"id": "zUAW73rXztA", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 10, "kind": "intro", "what": "Glitchy psychedelic textures, static noise"},
+  {"start": 10, "end": 30, "kind": "verse", "what": "'Bad habit', wait around, addicted, you move you do"},
+  {"start": 30, "end": 40, "kind": "instrumental", "what": "Floating doodle icons on flat color"},
+  {"start": 40, "end": 70, "kind": "chorus", "what": "Drop: pattern character loops, grids, dancing pug"},
+  {"start": 70, "end": 88, "kind": "verse", "what": "Bad habit, 'and I don't want 2', something new"},
+  {"start": 88, "end": 102, "kind": "pre_chorus", "what": "'THINGS THINGS', doodle icons build"},
+  {"start": 102, "end": 128, "kind": "chorus", "what": "Second drop: nuns, deer, pugs, wave grids, dancer"},
+  {"start": 128, "end": 134, "kind": "outro", "what": "'Things', final 'BAD HABIT' with artist"},
+  {"start": 134, "end": 136.65, "kind": "other", "what": "Black end frame"}
+ ],
+ "first_text_s": 10, "text_cards": 2,
+ "transitions": ["cut", "wipe_mask"],
+ "camera": ["static"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 2, "text_position": "full_frame", "line_hold_s_typical": 2, "text_style": "kinetic"},
+ "notes": "Bold 2-word type cards with live-action dancer cutout alternate with wordless doodle-loop drops; very rapid cuts. Section labels approximate."}

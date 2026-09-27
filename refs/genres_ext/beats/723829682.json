@@ -1,0 +1,19 @@
+{"id": "723829682", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 28.58, "kind": "hook", "what": "Painterly color swirl grows into creation, animals appear"},
+  {"start": 28.58, "end": 78, "kind": "context", "what": "Humans in garden, planting, standing under great tree"},
+  {"start": 78, "end": 132, "kind": "explanation", "what": "Fruit taken; world darkens, withers into death and curse"},
+  {"start": 132, "end": 150, "kind": "transition", "what": "Black screen, couple on hill under starry sky"},
+  {"start": 150, "end": 192, "kind": "example", "what": "Swirl reveals Abraham's family, Israel, stone law tablets"},
+  {"start": 192, "end": 228, "kind": "example", "what": "Broken tablets, war and exile; temple burns"},
+  {"start": 228, "end": 282, "kind": "explanation", "what": "Birth of Jesus, ministry, walk into darkness"},
+  {"start": 282, "end": 294, "kind": "explanation", "what": "Cross glowing in tomb, swirl of new life"},
+  {"start": 294, "end": 330, "kind": "recap", "what": "People in renewed garden, planting, blossoming colors"},
+  {"start": 330, "end": 363.67, "kind": "other", "what": "Credits and BibleProject logo over dark swirl"}
+ ],
+ "first_text_s": 336, "text_cards": 0,
+ "transitions": ["morph_match", "wipe_mask", "fade_dissolve", "cut"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 6},
+ "notes": "Swirl motif bookends and links sections; split-panel frames transition scenes; no on-screen text until credits. Narrative guessed from imagery."}

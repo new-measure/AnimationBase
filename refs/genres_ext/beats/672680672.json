@@ -1,0 +1,18 @@
+{"id": "672680672", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "title", "what": "Episode One — Biodiversity card on yellow"},
+  {"start": 3, "end": 27, "kind": "hook", "what": "Rapid montage of flowers, forests, insects: billions of species"},
+  {"start": 27, "end": 54, "kind": "context", "what": "Forest faded grey, 'might not be that far off', loss"},
+  {"start": 54, "end": 60, "kind": "title", "what": "Word Biodiversity on confetti yellow field"},
+  {"start": 60, "end": 111, "kind": "example", "what": "Bees pollinating, penicillin, food, mangroves, reefs: nature's services"},
+  {"start": 111, "end": 132, "kind": "explanation", "what": "Grid of species dots interconnected: what biodiversity means"},
+  {"start": 132, "end": 162, "kind": "cta", "what": "Save the planet: regrowth across landscapes"},
+  {"start": 162, "end": 174, "kind": "recap", "what": "Seedling grows, grey forest recolours"},
+  {"start": 174, "end": 187.43, "kind": "other", "what": "Nature Conservancy logo, credits, illo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 4,
+ "transitions": ["cut", "morph_match", "pan_slide", "push_zoom"],
+ "camera": ["static", "pan", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": false, "scene_changes_per_min": 16},
+ "notes": "Narration-led with serif caption phrases on black; fast cut montage early, forest scene reprised grey then coloured as bookend."}

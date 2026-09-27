@@ -1,0 +1,20 @@
+{"id": "rPFGWVKXxm0", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "title", "what": "Painted THE ROLLING STONES title with guitar grr"},
+  {"start": 12, "end": 36, "kind": "verse", "what": "Dream piloting plane, crash landed Louisiana swamp"},
+  {"start": 36, "end": 44, "kind": "pre_chorus", "what": "Sitting in the dirt, feeling kind of hurt"},
+  {"start": 44, "end": 68, "kind": "chorus", "what": "All I hear is doom and gloom, darkness, light"},
+  {"start": 68, "end": 92, "kind": "verse", "what": "Lost treasure, rich worrying, funky noise"},
+  {"start": 92, "end": 104, "kind": "pre_chorus", "what": "Feeling kind of hurt, doom and gloom"},
+  {"start": 104, "end": 128, "kind": "chorus", "what": "Drums go boom, through the night, dance"},
+  {"start": 128, "end": 144, "kind": "instrumental", "what": "Paint splatters form Stones tongue logo"},
+  {"start": 144, "end": 176, "kind": "verse", "what": "Fracking, kids picking garbage, running out of water"},
+  {"start": 176, "end": 204, "kind": "chorus", "what": "All I hear is doom, darkness, through the night"},
+  {"start": 204, "end": 247.39, "kind": "outro", "what": "Baby won't you dance with me repeated"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["wipe_mask", "pan_slide", "cut"],
+ "camera": ["static", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 5, "text_position": "varied", "line_hold_s_typical": 3, "text_style": "handwritten"},
+ "notes": "Pure typographic video: hand-painted brush lyrics with ink splatters on paper; key words coloured; camera slides between phrases."}

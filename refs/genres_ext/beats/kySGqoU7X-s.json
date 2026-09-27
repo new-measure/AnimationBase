@@ -1,0 +1,21 @@
+{"id": "kySGqoU7X-s", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 18, "kind": "intro", "what": "Example agency site with glowing blob cursor background"},
+  {"start": 18, "end": 24, "kind": "goal", "what": "Blob effect highlighted, source site poppr.be credited"},
+  {"start": 24, "end": 36, "kind": "step", "what": "HTML, CSS, JS panels; blob div styled"},
+  {"start": 36, "end": 57, "kind": "step", "what": "Pointer move JS makes square follow cursor"},
+  {"start": 57, "end": 72, "kind": "overview", "what": "Numbered roadmap from square to blurred blob"},
+  {"start": 72, "end": 90, "kind": "step", "what": "Centering with translate, border radius circle"},
+  {"start": 90, "end": 99, "kind": "step", "what": "Linear gradient fill added"},
+  {"start": 99, "end": 111, "kind": "step", "what": "Rotate keyframes animation"},
+  {"start": 111, "end": 132, "kind": "step", "what": "Smooth follow with animate duration, compare original"},
+  {"start": 132, "end": 147, "kind": "step", "what": "Scale keyframes for wobbly shape"},
+  {"start": 147, "end": 168, "kind": "step", "what": "Blur filter and backdrop overlay layer"},
+  {"start": 168, "end": 179.07, "kind": "outro", "what": "Scrambled text teaser, next effect cards"}
+ ],
+ "first_text_s": 0, "text_cards": 1,
+ "transitions": ["cut", "morph_match", "push_zoom", "pan_slide"],
+ "camera": ["static", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"steps": 8, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": false},
+ "notes": "Code tutorial rebuilt as clean motion graphics: code snippet plus live result, hand-drawn arrow callouts; ends teasing next video."}

@@ -1,0 +1,21 @@
+{"id": "JFpanWNgfQY", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 18.25, "kind": "hook", "what": "Syria map fills with faction leader cutouts"},
+  {"start": 18.25, "end": 31.83, "kind": "story", "what": "Footage: child on oxygen, missile strikes"},
+  {"start": 31.83, "end": 60, "kind": "context", "what": "2011 peaceful protests footage, Assad vs rebels map"},
+  {"start": 60, "end": 96, "kind": "map", "what": "Extremist uprising, Kurds secede on timeline map"},
+  {"start": 96, "end": 144, "kind": "map", "what": "Iran, Hezbollah, Gulf states arrows of support"},
+  {"start": 144, "end": 198, "kind": "story", "what": "USA trains rebels; chemical attack; Obama footage"},
+  {"start": 198, "end": 252, "kind": "map", "what": "Russia vs USA; ISIS rises across Syria-Iraq"},
+  {"start": 252, "end": 324, "kind": "comparison", "what": "US airstrikes, Turkey bombs Kurds, Russia strikes"},
+  {"start": 324, "end": 348, "kind": "map", "what": "Trump elected, fall of Aleppo, Assad uses WMD"},
+  {"start": 348, "end": 384, "kind": "story", "what": "Sarin victims, Vox headline, missile strike footage, ruins"},
+  {"start": 384, "end": 396, "kind": "conclusion", "what": "Full map of actors; rebels vs Assad"},
+  {"start": 396, "end": 405.51, "kind": "source", "what": "Credits and Vox logo"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "pan_slide", "fade_dissolve"],
+ "camera": ["pan", "push_in", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"chart_types": ["map", "timeline"], "annotations": true, "source_shown": true},
+ "notes": "One persistent map with a running timeline strip at bottom; actors added cumulatively; news footage inserted as punctuation."}

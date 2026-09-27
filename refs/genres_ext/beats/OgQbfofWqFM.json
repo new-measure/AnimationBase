@@ -1,0 +1,21 @@
+{"id": "OgQbfofWqFM", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 6, "kind": "intro", "what": "Presenter hook on Raycast AI"},
+  {"start": 6, "end": 30, "kind": "step", "what": "Way 1: Ask AI Anything quick AI queries"},
+  {"start": 30, "end": 54, "kind": "tip", "what": "Web results tweet, presenter commentary, @raycastapp"},
+  {"start": 54, "end": 108, "kind": "step", "what": "Way 2: AI Chat, documents, code, presets"},
+  {"start": 108, "end": 174, "kind": "step", "what": "Way 3: Custom assistants with system instructions"},
+  {"start": 174, "end": 246, "kind": "step", "what": "Way 4: AI Commands, create and edit commands"},
+  {"start": 246, "end": 264, "kind": "step", "what": "Way 5: AI extensions store"},
+  {"start": 264, "end": 378, "kind": "result", "what": "Guest demo with webcam overlay: reminders, code"},
+  {"start": 378, "end": 390, "kind": "transition", "what": "Presenter introduces upcoming features"},
+  {"start": 390, "end": 414, "kind": "tip", "what": "Internal prototype: image input, AI playground"},
+  {"start": 414, "end": 420, "kind": "outro", "what": "Raycast Pro promo card"},
+  {"start": 420, "end": 429.87, "kind": "outro", "what": "Presenter closing remarks"}
+ ],
+ "first_text_s": 6, "text_cards": 6,
+ "transitions": ["cut", "push_zoom", "fade_dissolve"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"steps": 5, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Listicle: numbered blob title cards separate five ways; presenter A-roll intercut with screen captures; guest segment with webcam PiP."}

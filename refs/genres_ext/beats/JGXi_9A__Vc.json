@@ -1,0 +1,21 @@
+{"id": "JGXi_9A__Vc", "genre": "data_stories",
+ "beats": [
+  {"start": 0, "end": 35, "kind": "hook", "what": "Earth icons, age-of-universe bar, layered core, landscape"},
+  {"start": 35, "end": 42, "kind": "title", "what": "Kurzgesagt logo among orbiting icons"},
+  {"start": 42, "end": 112, "kind": "story", "what": "Birth of the sun, young Earth, moon impact"},
+  {"start": 112, "end": 147, "kind": "chart_reveal", "what": "Water on Earth: sphere size, proportional area breakdown"},
+  {"start": 147, "end": 182, "kind": "story", "what": "Crust forms, plate tectonics arrows"},
+  {"start": 182, "end": 210, "kind": "comparison", "what": "Depth scale: Everest, Burj Khalifa, Mariana Trench, crust"},
+  {"start": 210, "end": 266, "kind": "zoom", "what": "Descend through mantle, outer core, inner core"},
+  {"start": 266, "end": 315, "kind": "insight", "what": "Magnetosphere shielding, core dynamo"},
+  {"start": 315, "end": 329, "kind": "chart_reveal", "what": "Atmosphere composition: nitrogen, oxygen, argon area chart"},
+  {"start": 329, "end": 378, "kind": "comparison", "what": "Atmosphere layers scale, stratosphere to exosphere"},
+  {"start": 378, "end": 427, "kind": "conclusion", "what": "Earth's history timeline, recap of epochs circles"},
+  {"start": 427, "end": 441.67, "kind": "other", "what": "Channel thank-you, subscribe and Patreon end card"}
+ ],
+ "first_text_s": 7, "text_cards": 1,
+ "transitions": ["cut", "push_zoom", "pan_slide", "morph_match"],
+ "camera": ["static", "pan", "push_in", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"chart_types": ["area", "bar", "timeline", "other"], "annotations": true, "source_shown": false},
+ "notes": "Continuous vertical scale journey (crust to core, then up to space) with labelled scale markers; early origin story; charts are proportional rectangles."}

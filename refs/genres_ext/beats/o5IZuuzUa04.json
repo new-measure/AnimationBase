@@ -1,0 +1,20 @@
+{"id": "o5IZuuzUa04", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "title", "what": "Badlands landscape, BADLANDS title, Bruce Springsteen"},
+  {"start": 12, "end": 32, "kind": "verse", "what": "Lights out tonight, head-on collision, crossfire"},
+  {"start": 32, "end": 60, "kind": "verse", "what": "I don't give a damn, honey I want"},
+  {"start": 60, "end": 76, "kind": "chorus", "what": "Don't waste time waiting, BADLANDS, as the price"},
+  {"start": 76, "end": 100, "kind": "verse", "what": "Golden fields, back burned, facts learned, straight"},
+  {"start": 100, "end": 124, "kind": "verse", "what": "Rich man king, gas station, I believe"},
+  {"start": 124, "end": 140, "kind": "chorus", "what": "Above these BADLANDS, live it everyday"},
+  {"start": 140, "end": 180, "kind": "instrumental", "what": "Textless drifting landscapes, car driving"},
+  {"start": 180, "end": 204, "kind": "bridge", "what": "Phone booth keypad, ain't no sin, find"},
+  {"start": 204, "end": 228, "kind": "chorus", "what": "BADLANDS repeated, let the broken hearts, keep pushin"},
+  {"start": 228, "end": 241.98, "kind": "outro", "what": "Textless landscape with small red car"}
+ ],
+ "first_text_s": 4, "text_cards": 1,
+ "transitions": ["cut", "fade_dissolve", "push_zoom"],
+ "camera": ["push_in", "pan", "static"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "mixed"},
+ "notes": "Small lower subtitles alternate with full-frame punch words; long textless instrumental middle; cinematic duotone landscapes."}

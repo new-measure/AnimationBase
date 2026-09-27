@@ -1,0 +1,21 @@
+{"id": "DtHpJLKpWrg", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 8, "kind": "title", "what": "3D LET'S DO IT AGAIN title"},
+  {"start": 8, "end": 16, "kind": "intro", "what": "Spinning white vinyl record with red tonearm"},
+  {"start": 16, "end": 32, "kind": "chorus", "what": "I get high on your love, red 3D text in clouds"},
+  {"start": 32, "end": 36, "kind": "chorus", "what": "Stacked repeated LET'S DO IT AGAIN"},
+  {"start": 36, "end": 56, "kind": "verse", "what": "Multilingual phrases, chrome letters, on love with you"},
+  {"start": 56, "end": 100, "kind": "chorus", "what": "I get high on your love, sky and red extrusions"},
+  {"start": 100, "end": 120, "kind": "verse", "what": "Chrome text tunnel, foreign phrases, I wanna get high"},
+  {"start": 120, "end": 152, "kind": "chorus", "what": "White 3D chorus text, red monolith"},
+  {"start": 152, "end": 172, "kind": "bridge", "what": "Giant grey chrome letters tumbling"},
+  {"start": 172, "end": 192, "kind": "chorus", "what": "Everybody gets high ribbon around chrome letters"},
+  {"start": 192, "end": 220, "kind": "outro", "what": "Red multilingual text walls with crawl ticker"},
+  {"start": 220, "end": 230.06, "kind": "outro", "what": "Vinyl record returns, black end"}
+ ],
+ "first_text_s": 0, "text_cards": 2,
+ "transitions": ["cut", "push_zoom", "morph_match"],
+ "camera": ["tilt_3d", "push_in", "pan"],
+ "pace": "fast",
+ "genre_fields": {"words_on_screen_typical": 8, "text_position": "full_frame", "line_hold_s_typical": 4, "text_style": "kinetic"},
+ "notes": "Repetitive dance track; typography fills frame as 3D objects; vinyl bookends. Section labels approximate, repetition makes verse/chorus ambiguous."}

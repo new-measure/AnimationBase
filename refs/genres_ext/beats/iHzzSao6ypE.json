@@ -1,0 +1,20 @@
+{"id": "iHzzSao6ypE", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 16, "kind": "hook", "what": "Cars at traffic light: fundamental problem of traffic"},
+  {"start": 16, "end": 32, "kind": "context", "what": "Gridlock, driver close-up, reaction delay at light"},
+  {"start": 32, "end": 52, "kind": "explanation", "what": "Intersections cause jams; more intersections, more problems"},
+  {"start": 52, "end": 68, "kind": "explanation", "what": "Highways: no stopping means no traffic, merges jam"},
+  {"start": 68, "end": 100, "kind": "example", "what": "Brake event ripples back; phantom jam from chicken"},
+  {"start": 100, "end": 128, "kind": "data", "what": "Ring-road experiment: shockwave forms without cause"},
+  {"start": 128, "end": 152, "kind": "explanation", "what": "Traffic waves growing and dying, instant replay"},
+  {"start": 152, "end": 188, "kind": "explanation", "what": "Keep equal distance, always in middle of gap"},
+  {"start": 188, "end": 212, "kind": "explanation", "what": "Simple solution fails; humans; structurally systematized solution"},
+  {"start": 212, "end": 256, "kind": "example", "what": "Self-driving cars coordinate through intersections"},
+  {"start": 256, "end": 269.72, "kind": "recap", "what": "Back to traffic light; robot taxi, relaxed driver"}
+ ],
+ "first_text_s": 4, "text_cards": 5,
+ "transitions": ["cut", "push_zoom", "pan_slide"],
+ "camera": ["static", "pan", "zoom_out_reveal"],
+ "pace": "medium",
+ "genre_fields": {"presenter_on_screen": true, "recurring_character": true, "scene_changes_per_min": 8},
+ "notes": "CGP Grey style: stick-figure narrator at desk with whiteboard recurs between top-down traffic sims; presenter is animated avatar, not human."}

@@ -1,0 +1,19 @@
+{"id": "DeumyOzKqgI", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 15, "kind": "intro", "what": "Teal gun-barrel iris over Adele's face"},
+  {"start": 15, "end": 30, "kind": "title", "what": "ADELE then SKYFALL title cards on teal"},
+  {"start": 30, "end": 85, "kind": "verse", "what": "Pale misty sky: hold your breath, drowned and dreamt"},
+  {"start": 85, "end": 124, "kind": "chorus", "what": "Fiery amber: let the sky fall, at Skyfall"},
+  {"start": 124, "end": 150, "kind": "verse", "what": "Orange smoke: a thousand miles, take my name"},
+  {"start": 150, "end": 195, "kind": "chorus", "what": "Red then sepia: when it crumbles, stand tall"},
+  {"start": 195, "end": 225, "kind": "bridge", "what": "Dark teal: what you see, keeping me from harm"},
+  {"start": 225, "end": 260, "kind": "chorus", "what": "Dark: we will stand tall, let the sky fall"},
+  {"start": 260, "end": 280, "kind": "outro", "what": "Large SKYFALL title dissolving into teal smoke"},
+  {"start": 280, "end": 289.37, "kind": "other", "what": "Album artwork, available to download now"}
+ ],
+ "first_text_s": 15, "text_cards": 4,
+ "transitions": ["fade_dissolve", "cut"],
+ "camera": ["static", "push_in"],
+ "pace": "slow",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "center", "line_hold_s_typical": 5, "text_style": "static_cards"},
+ "notes": "Minimal spaced caps over slowly drifting smoke; colour grade shifts per section (teal, sky, fire, dark); lyrics fade in/out."}

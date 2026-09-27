@@ -1,0 +1,20 @@
+{"id": "53KQ2wUZG2s", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 3.25, "kind": "intro", "what": "Julius selfie greeting, waves"},
+  {"start": 3.25, "end": 9, "kind": "title", "what": "Arc Boosts title card"},
+  {"start": 9, "end": 22, "kind": "goal", "what": "Scrolling examples of customized websites and instructions"},
+  {"start": 22, "end": 28, "kind": "title", "what": "Arc Boosts title card again"},
+  {"start": 28, "end": 34.96, "kind": "overview", "what": "Color picker restyles pages, Twitter boosted"},
+  {"start": 34.96, "end": 45.08, "kind": "overview", "what": "Code boosts on GitHub, NYT pages"},
+  {"start": 45.08, "end": 50, "kind": "step", "what": "Create a boost menu on Wikipedia"},
+  {"start": 50, "end": 54.75, "kind": "step", "what": "Pick site, open code editor"},
+  {"start": 54.75, "end": 59, "kind": "result", "what": "Edited CSS turns Wikipedia pink"},
+  {"start": 59, "end": 65, "kind": "outro", "what": "Arc Boosts end title"},
+  {"start": 65, "end": 69.54, "kind": "outro", "what": "Arc logo color flashes, Browser Company card"}
+ ],
+ "first_text_s": 3, "text_cards": 3,
+ "transitions": ["cut", "whip_blur", "fade_dissolve"],
+ "camera": ["static", "pan", "handheld"],
+ "pace": "fast",
+ "genre_fields": {"steps": 2, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Product promo more than tutorial; presenter only at start, title card repeated as chapter divider; rapid screen recordings."}

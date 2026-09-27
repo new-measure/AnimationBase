@@ -1,0 +1,22 @@
+{"id": "JQVmkDUkZT4", "genre": "explainers",
+ "beats": [
+  {"start": 0, "end": 18, "kind": "hook", "what": "Bird at mirror; robot-bird asks what are you"},
+  {"start": 18, "end": 48, "kind": "question", "what": "Cells, galaxy, consciousness readout: where are you?"},
+  {"start": 48, "end": 84, "kind": "explanation", "what": "Organs made of cells; bird body taken apart"},
+  {"start": 84, "end": 114, "kind": "analogy", "what": "Still you? Brain transfer thought experiment with birds"},
+  {"start": 114, "end": 138, "kind": "data", "what": "Dead cells counter 254,205,095; cells replaced constantly"},
+  {"start": 138, "end": 186, "kind": "explanation", "what": "Bird aging, cells dying and living inside you"},
+  {"start": 186, "end": 216, "kind": "data", "what": "20 tons of cells over a lifetime"},
+  {"start": 216, "end": 258, "kind": "explanation", "what": "DNA mutations, cells branching, what counts as you"},
+  {"start": 258, "end": 294, "kind": "explanation", "what": "Human genome, 1.5 billion years ago, mitochondrion origin"},
+  {"start": 294, "end": 330, "kind": "explanation", "what": "Machine body, lineage of ancestors, sperm and sun"},
+  {"start": 330, "end": 354, "kind": "recap", "what": "Right versus wrong; birds reconsider identity"},
+  {"start": 354, "end": 372, "kind": "other", "what": "Stick-figure author asks who is you, brain icon"},
+  {"start": 372, "end": 387.47, "kind": "cta", "what": "Bird crowd shouts DO IT! endcard"}
+ ],
+ "first_text_s": 36, "text_cards": 4,
+ "transitions": ["cut", "pan_slide", "push_zoom", "wipe_mask"],
+ "camera": ["static", "push_in", "pan", "zoom_out_reveal"],
+ "pace": "fast",
+ "genre_fields": {"presenter_on_screen": false, "recurring_character": true, "scene_changes_per_min": 9},
+ "notes": "Kurzgesagt-style; recurring black bird anchors philosophical argument; big number cards; split-panel compositions; sponsor-like stick-figure segment near end (uncertain)."}

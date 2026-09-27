@@ -1,0 +1,22 @@
+{"id": "WSBDNlJCwtg", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 31.25, "kind": "intro", "what": "Presenter bubble over illustration introduces the lesson"},
+  {"start": 31.25, "end": 76.04, "kind": "overview", "what": "Slide: Loom recording platforms, Chrome extension vs desktop"},
+  {"start": 76.04, "end": 100, "kind": "step", "what": "Install Loom for Chrome from Web Store"},
+  {"start": 100, "end": 135, "kind": "step", "what": "Open extension recorder menu, choose mode and camera"},
+  {"start": 135, "end": 140.25, "kind": "result", "what": "Example recorded video share page"},
+  {"start": 140.25, "end": 165, "kind": "step", "what": "Recorder settings, choose screen or tab to share"},
+  {"start": 165, "end": 190, "kind": "step", "what": "Countdown, record, camera bubble, finish recording"},
+  {"start": 190, "end": 210, "kind": "step", "what": "Record over document, return to platforms slide"},
+  {"start": 210, "end": 235, "kind": "result", "what": "Video page: share link, privacy, edit options"},
+  {"start": 235, "end": 280, "kind": "step", "what": "Desktop app: download and open recorder on Mac"},
+  {"start": 280, "end": 305, "kind": "step", "what": "Full-cam mode, drawing tool, bubble on desktop"},
+  {"start": 305, "end": 325, "kind": "step", "what": "Record document walkthrough with desktop app"},
+  {"start": 325, "end": 345.37, "kind": "result", "what": "Finished recording opens on share page"}
+ ],
+ "first_text_s": 31.25, "text_cards": 1,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"steps": 9, "zooms_into_ui": false, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "Raw screen recording with webcam bubble throughout; one overview slide revisited mid-video; step borders approximate since UI changes are subtle."}

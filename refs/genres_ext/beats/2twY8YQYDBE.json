@@ -1,0 +1,19 @@
+{"id": "2twY8YQYDBE", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 28, "kind": "intro", "what": "Dark portraits of people with hometown captions"},
+  {"start": 28, "end": 60, "kind": "verse", "what": "Here We Stand stage, Garden of Eden, floating words"},
+  {"start": 60, "end": 80, "kind": "instrumental", "what": "Big word graphic, band performing on stage"},
+  {"start": 80, "end": 116, "kind": "verse", "what": "Statistic cards over faces, scattered lyric words"},
+  {"start": 116, "end": 148, "kind": "verse", "what": "Lyrics projected on singer's face, years ago"},
+  {"start": 148, "end": 180, "kind": "chorus", "what": "Band and chorus crowd, highways, agriculture words"},
+  {"start": 180, "end": 212, "kind": "verse", "what": "Parking lot lyrics, more statistic cards"},
+  {"start": 212, "end": 248, "kind": "bridge", "what": "Band closeups, candy bars, stat cards"},
+  {"start": 248, "end": 261.53, "kind": "outro", "what": "Band wide shot, singer, static noise end"}
+ ],
+ "first_text_s": 4,
+ "text_cards": 9,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 4, "text_position": "varied", "line_hold_s_typical": 4, "text_style": "mixed"},
+ "notes": "Lyrics only intermittently shown, mixed with ironic statistic cards and projected text on faces; song-section labels are guesses from visuals."}

@@ -1,0 +1,21 @@
+{"id": "e9SeJIgWRPk", "genre": "lyric_videos",
+ "beats": [
+  {"start": 0, "end": 12, "kind": "intro", "what": "Black, then live-action girl waking, picking up phone"},
+  {"start": 12, "end": 32, "kind": "verse", "what": "Chat app bubbles with emoji lyrics: I used to bite"},
+  {"start": 32, "end": 56, "kind": "pre_chorus", "what": "Already off the ground; get ready, had enough"},
+  {"start": 56, "end": 80, "kind": "chorus", "what": "Orange/yellow wallpaper chat: eye of the tiger, roar"},
+  {"start": 80, "end": 88, "kind": "other", "what": "Live-action interlude: toilet paper, phone on floor"},
+  {"start": 88, "end": 104, "kind": "verse", "what": "Chat: now I'm floating like a butterfly, from zero"},
+  {"start": 104, "end": 124, "kind": "pre_chorus", "what": "White wallpaper chat: shake the ground, had enough"},
+  {"start": 124, "end": 144, "kind": "chorus", "what": "Yellow chat chorus bubbles"},
+  {"start": 144, "end": 176, "kind": "other", "what": "Live-action phone use: breakfast, treadmill, car; chorus bubbles"},
+  {"start": 176, "end": 188, "kind": "bridge", "what": "Roar emoji spam bubbles"},
+  {"start": 188, "end": 228, "kind": "chorus", "what": "Final chorus chat with live-action cutaways, bath"},
+  {"start": 228, "end": 236.31, "kind": "outro", "what": "Cat footage close"}
+ ],
+ "first_text_s": 12, "text_cards": 0,
+ "transitions": ["cut", "pan_slide"],
+ "camera": ["static", "handheld"],
+ "pace": "medium",
+ "genre_fields": {"words_on_screen_typical": 20, "text_position": "full_frame", "line_hold_s_typical": 4, "text_style": "integrated_in_scene"},
+ "notes": "Lyrics as emoji-laden messaging-app chat that scrolls up; wallpaper colour flags chorus; live-action phone cutaways; multiple lines visible at once."}

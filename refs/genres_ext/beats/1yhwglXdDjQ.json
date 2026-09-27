@@ -1,0 +1,19 @@
+{"id": "1yhwglXdDjQ", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 3, "kind": "intro", "what": "Animated HK77 website example"},
+  {"start": 3, "end": 15, "kind": "intro", "what": "Presenter introduces; example animated product pages"},
+  {"start": 15, "end": 30, "kind": "goal", "what": "Presenter explains why animation matters"},
+  {"start": 30, "end": 36, "kind": "title", "what": "Framer Academy logo sting"},
+  {"start": 36, "end": 66, "kind": "overview", "what": "Examples: text effects, sprite animations, interactions"},
+  {"start": 66, "end": 90, "kind": "step", "what": "Micro-interactions: toggles, hover states examples"},
+  {"start": 90, "end": 105, "kind": "tip", "what": "UX in Motion manifesto article reference"},
+  {"start": 105, "end": 129, "kind": "step", "what": "Components, scroll animations, Framer editor preview"},
+  {"start": 129, "end": 141, "kind": "outro", "what": "Presenter wraps up lesson"},
+  {"start": 141, "end": 150.6, "kind": "title", "what": "Framer logo end card"}
+ ],
+ "first_text_s": 0, "text_cards": 3,
+ "transitions": ["cut", "fade_dissolve"],
+ "camera": ["static", "push_in"],
+ "pace": "fast",
+ "genre_fields": {"steps": 2, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": false, "presenter_on_screen": true},
+ "notes": "More conceptual lesson intro than hands-on: talking head intercut with showcase clips every few seconds; little actual UI walkthrough."}

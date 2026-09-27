@@ -1,0 +1,16 @@
+{"id": "7OrtUkPgHLA", "genre": "tutorials",
+ "beats": [
+  {"start": 0, "end": 45, "kind": "intro", "what": "Presenter to camera explains why grid feels complex"},
+  {"start": 45, "end": 94, "kind": "overview", "what": "Code editor and page: existing grid-column line-number layout"},
+  {"start": 94, "end": 132, "kind": "step", "what": "Rewrite with grid-template-areas and media query"},
+  {"start": 132, "end": 205, "kind": "step", "what": "Compare approaches; strip back to simple columns"},
+  {"start": 205, "end": 265, "kind": "step", "what": "Main-content grid with simple column template"},
+  {"start": 265, "end": 330, "kind": "step", "what": "Add media query to switch columns responsively"},
+  {"start": 330, "end": 357.68, "kind": "result", "what": "Final simple responsive layout, presenter wraps up"}
+ ],
+ "first_text_s": 15, "text_cards": 0,
+ "transitions": ["cut", "none_visible"],
+ "camera": ["static"],
+ "pace": "slow",
+ "genre_fields": {"steps": 4, "zooms_into_ui": true, "cursor_visible": true, "callouts_or_highlights": true, "presenter_on_screen": true},
+ "notes": "Talking-head intro then long screencast with circular webcam overlay; step boundaries uncertain since code frames look alike at sheet resolution."}
